@@ -1,3 +1,9 @@
+/**
+ * @file tinywatch.h
+ * @details This is the main firmware starting point. The code includes functionality for handling Wi-Fi setup, display initialization, and interacting with peripherals like the buzzer, battery, IMU, and RTC.
+ *
+ */
+
 #pragma once
 #include <Arduino.h>
 #include <vector>
