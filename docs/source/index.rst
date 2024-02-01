@@ -14,7 +14,8 @@ Welcome to the documentation for the source code of the TinyWATCH S3 project. Th
    :maxdepth: 2
    :caption: Contents:
 
-   classes/index
+   faces
+   doxygen/index
 
 Indices and tables
 ==================

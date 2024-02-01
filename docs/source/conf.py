@@ -21,17 +21,8 @@ exclude_patterns = []
 # -- Breathe configuration ---------------------------------------------------
 # https://breathe.readthedocs.io/en/latest/quickstart.html
 
-breathe_projects_source = {
-    'tinywatch-s3': ('../../Platform-io-source/src', [
-        'activity.h',
-        'display.h',
-        'tinywatch.h',
-    ]),
-}
+breathe_projects = {"tinywatch-s3": "../../Documentation/xml/"}
 breathe_default_project = 'tinywatch-s3'
-breathe_domain_by_extension = {
-    "h" : "cpp",
-}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

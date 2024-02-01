@@ -12,6 +12,8 @@ jobs:
     - uses: awalsh128/cache-apt-pkgs-action@v1
       with:
         packages: python3-sphinx python3-breathe doxygen
+    #- name: Breathe apidoc
+    #  run: breathe-apidoc --force --members --output-dir docs/source/doxygen Documentation/xml
     - name: Sphinx build
       run: sphinx-build -M html docs/source docs/build
     - uses: actions/upload-pages-artifact@v3
