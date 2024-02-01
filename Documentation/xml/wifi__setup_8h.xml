@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="wifi__setup_8h" kind="file" language="C++">
+    <compoundname>wifi_setup.h</compoundname>
+    <includes refid="display_8h" local="yes">display.h</includes>
+    <includes refid="wifi__common_8h" local="yes">wifi_common.h</includes>
+    <includes local="no">DNSServer.h</includes>
+    <includes local="no">ESPAsyncWebServer.h</includes>
+    <includes local="no">functional</includes>
+    <includedby refid="tinywatch_8cpp" local="yes">src/tinywatch.cpp</includedby>
+    <includedby refid="face___boot_8h" local="yes">src/tw_faces/face_Boot.h</includedby>
+    <includedby refid="wifi__setup_8cpp" local="yes">src/web/wifi_setup.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>Arduino.h</label>
+      </node>
+      <node id="2">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="13">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/web/wifi_setup.h</label>
+        <link refid="wifi__setup_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>DNSServer.h</label>
+      </node>
+      <node id="23">
+        <label>ESPAsyncWebServer.h</label>
+      </node>
+      <node id="10">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="7">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="20">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="21">
+        <label>Tween.h</label>
+      </node>
+      <node id="17">
+        <label>WiFi.h</label>
+      </node>
+      <node id="5">
+        <label>cst816t.h</label>
+      </node>
+      <node id="18">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="19">
+        <label>functional</label>
+      </node>
+      <node id="15">
+        <label>initializer_list</label>
+      </node>
+      <node id="11">
+        <label>json.h</label>
+      </node>
+      <node id="12">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="16">
+        <label>stdint.h</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>src/display.cpp</label>
+        <link refid="display_8cpp"/>
+      </node>
+      <node id="2">
+        <label>src/tinywatch.cpp</label>
+        <link refid="tinywatch_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/tw_faces/face_Boot.cpp</label>
+        <link refid="face___boot_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/tw_faces/face_Boot.h</label>
+        <link refid="face___boot_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/web/wifi_setup.cpp</label>
+        <link refid="wifi__setup_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/web/wifi_setup.h</label>
+        <link refid="wifi__setup_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_wifi_setup" prot="public">WifiSetup</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="wifi__setup_8h_1a8e9196c4b5c9e3a69989756b17c07fb3" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_wifi_setup" kindref="compound">WifiSetup</ref></type>
+        <definition>WifiSetup wifiSetup</definition>
+        <argsstring></argsstring>
+        <name>wifiSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="43" column="18" bodyfile="src/web/wifi_setup.cpp" bodystart="200" bodyend="-1" declfile="src/web/wifi_setup.h" declline="43" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="display_8h" kindref="compound">display.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="wifi__common_8h" kindref="compound">wifi_common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;DNSServer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ESPAsyncWebServer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_wifi_setup" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_wifi_setup" kindref="compound">WifiSetup</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structscan__responder" kindref="compound">scan_responder</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structconnect__responder" kindref="compound">connect_responder</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_wifi_setup_1a503c018bcd0e6b7ea51d86aa3d0d072b" kindref="member">WifiSetup</ref>()<sp/>:<sp/><ref refid="class_wifi_setup_1ae4ae4e6f45d41e27f026a981f3fb7313" kindref="member">webServer</ref>(80)<sp/>{}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_wifi_setup_1ad530b0f74a5b7a542b0180c59c9240dc" kindref="member">wifi_ap_messages</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_wifi_setup_1a5f3af11ae2bdc03c6e11247ae60720c4" kindref="member">wifi_ap_message_color</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1ae556d000e7e2687e8b77a2f9c39fa129" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1a0a49f4ecb83b6ec896d543eee042aaf0" kindref="member">stop</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>restart);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1ab9b501879e3c0a29c852b8b1212e40d5" kindref="member">process</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Successfully<sp/>collected<sp/>and<sp/>validated<sp/>wifi<sp/>creds?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1aa96a820d57c155cdc99642c98c4842cd" kindref="member">is_done</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1ad101af470865816410d313969129600d" kindref="member">done</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_wifi_setup_1a0ec104fbaf50bb2575f1a6d6fe7cd76c" kindref="member">get_ssid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1aa886ee549054e2fa73e26944cb539e7b" kindref="member">ssid</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_wifi_setup_1a2feb0725e32b560b8d39e7ce76c572ba" kindref="member">get_pass</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1a8c2cff3d823467e8c50e593d6380e34d" kindref="member">pass</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1ae59cbb7162edff463ad115d42344416e" kindref="member">update_wifisetup_status</ref>(String<sp/>status,<sp/>uint32_t<sp/>color)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_wifi_setup_1ad530b0f74a5b7a542b0180c59c9240dc" kindref="member">wifi_ap_messages</ref><sp/>=<sp/>status;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_wifi_setup_1a5f3af11ae2bdc03c6e11247ae60720c4" kindref="member">wifi_ap_message_color</ref><sp/>=<sp/>color;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AsyncWebServer<sp/><ref refid="class_wifi_setup_1ae4ae4e6f45d41e27f026a981f3fb7313" kindref="member">webServer</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DNSServer<sp/><ref refid="class_wifi_setup_1ab6fee4a186f7a639d4c649432b19353a" kindref="member">dnsServer</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_wifi_setup_1aa886ee549054e2fa73e26944cb539e7b" kindref="member">ssid</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_wifi_setup_1a8c2cff3d823467e8c50e593d6380e34d" kindref="member">pass</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup_1ad101af470865816410d313969129600d" kindref="member">done</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_wifi_setup" kindref="compound">WifiSetup</ref><sp/><ref refid="wifi__setup_8h_1a8e9196c4b5c9e3a69989756b17c07fb3" kindref="member">wifiSetup</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/web/wifi_setup.h"/>
+  </compounddef>
+</doxygen>

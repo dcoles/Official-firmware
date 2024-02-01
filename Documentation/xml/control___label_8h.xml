@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="control___label_8h" kind="file" language="C++">
+    <compoundname>control_Label.h</compoundname>
+    <includes refid="tw__control_8h" local="yes">tw_controls/tw_control.h</includes>
+    <includedby refid="display_8cpp" local="yes">src/display.cpp</includedby>
+    <includedby refid="control___label_8cpp" local="yes">src/tw_controls/control_Label.cpp</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>Arduino.h</label>
+      </node>
+      <node id="3">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_controls/control_Label.h</label>
+        <link refid="control___label_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="14">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="8">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="21">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="22">
+        <label>Tween.h</label>
+      </node>
+      <node id="18">
+        <label>WiFi.h</label>
+      </node>
+      <node id="6">
+        <label>cst816t.h</label>
+      </node>
+      <node id="19">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="20">
+        <label>functional</label>
+      </node>
+      <node id="16">
+        <label>initializer_list</label>
+      </node>
+      <node id="12">
+        <label>json.h</label>
+      </node>
+      <node id="13">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="17">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/display.cpp</label>
+        <link refid="display_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/tw_controls/control_Label.cpp</label>
+        <link refid="control___label_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/tw_controls/control_Label.h</label>
+        <link refid="control___label_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_control_label" prot="public">ControlLabel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tw__control_8h" kindref="compound">tw_controls/tw_control.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_control_label" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_control_label" kindref="compound">ControlLabel</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtw__control" kindref="compound">tw_control</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_label_1a9029ed6d64a11f0889c762e8da9c50bf" kindref="member">draw</ref>(uint8_t<sp/><ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_label_1aed95a14ddc7e360eb9677ea3da06a8c8" kindref="member">drag</ref>(int16_t<sp/>drag_x,<sp/>int16_t<sp/>drag_y);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_label_1a5918cb4f6e720e8ad891bdf1bdbc2c0b" kindref="member">drag_end</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_label_1a538e2b126ea3c6ae4ea4a6ff7b22888d" kindref="member">click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_label_1a0cfbe8a0206d96b92fa1b52eaa031507" kindref="member">click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_label_1ade616e6b1ae77a476b539841df601c24" kindref="member">click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_control_label_1a012597f32c1a983d6bc57679ee9d2dd4" kindref="member">version</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1.0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_controls/control_Label.h"/>
+  </compounddef>
+</doxygen>

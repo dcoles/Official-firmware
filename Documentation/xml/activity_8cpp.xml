@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="activity_8cpp" kind="file" language="C++">
+    <compoundname>activity.cpp</compoundname>
+    <includes refid="activity_8h" local="yes">activity.h</includes>
+    <includes refid="logging_8h" local="yes">utilities/logging.h</includes>
+    <includes local="no">LittleFS.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>src/activity.cpp</label>
+        <link refid="activity_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>activity.h</label>
+        <link refid="activity_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="7">
+        <label>LittleFS.h</label>
+      </node>
+      <node id="3">
+        <label>json.h</label>
+      </node>
+      <node id="4">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="6">
+        <label>map</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" prot="public" static="no">
+        <type>nlohmann::json</type>
+        <definition>using json =  nlohmann::json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.cpp" line="5" column="1" bodyfile="src/activity.cpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="activity_8cpp_1a777ab509d6a14e7bb654d32bd6b25498" prot="public" static="no" mutable="no">
+        <type><ref refid="class_activity" kindref="compound">Activity</ref></type>
+        <definition>Activity activity</definition>
+        <argsstring></argsstring>
+        <name>activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.cpp" line="124" column="10" bodyfile="src/activity.cpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="activity_8cpp_1adc5533d6469c487085ad3c97478a86a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</definition>
+        <argsstring>(Activity_Data, steps_day, steps_year, imu_day, imu_month, imu_year)</argsstring>
+        <name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name>
+        <param>
+          <type><ref refid="struct_activity___data" kindref="compound">Activity_Data</ref></type>
+        </param>
+        <param>
+          <type>steps_day</type>
+        </param>
+        <param>
+          <type>steps_year</type>
+        </param>
+        <param>
+          <type>imu_day</type>
+        </param>
+        <param>
+          <type>imu_month</type>
+        </param>
+        <param>
+          <type>imu_year</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.cpp" line="7" column="1" declfile="src/activity.cpp" declline="7" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="activity_8h" kindref="compound">activity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logging_8h" kindref="compound">utilities/logging.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;LittleFS.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>=<sp/>nlohmann::json;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="activity_8cpp_1adc5533d6469c487085ad3c97478a86a3" kindref="member">NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</ref>(<ref refid="struct_activity___data" kindref="compound">Activity_Data</ref>,<sp/>steps_day,<sp/>steps_year,<sp/>imu_day,<sp/>imu_month,<sp/>imu_year);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_activity_1a285ded5fb1bb6c7a9a4cc937e9d708e7" kindref="member">Activity::load</ref>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Loading<sp/>activity&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>File<sp/>file<sp/>=<sp/>LittleFS.open(<ref refid="class_activity_1afb1f89c6bbcd9be475e267615e8ab6fa" kindref="member">filename</ref>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file<sp/>||<sp/>file.isDirectory()<sp/>||<sp/>file.size()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>No<sp/>data<sp/>on<sp/>the<sp/>flash<sp/>chip,<sp/>so<sp/>create<sp/>new<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_activity_1af1341ff0d7c81a078f784772e7ffdff1" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;char&gt;<sp/>_data(file.size());</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(file.readBytes(_data.data(),<sp/>_data.size())<sp/>!=<sp/>_data.size())</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>failed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_activity_1af1341ff0d7c81a078f784772e7ffdff1" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>json_data<sp/>=<sp/>json::parse(_data);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>info_println(&quot;Activity_data&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>_data.size();<sp/>i++)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>info_print((char)_data[i]);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>info_println(&quot;&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Convert<sp/>json<sp/>to<sp/>struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kindref="member">data</ref><sp/>=<sp/>json_data.get&lt;<ref refid="struct_activity___data" kindref="compound">Activity_Data</ref>&gt;();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>loaded<sp/>data<sp/>for<sp/>comparison<sp/>on<sp/>next<sp/>save</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kindref="member">data</ref>.<ref refid="struct_activity___data_1a769665f5cf1dc4cba1adc2fa4ee2b156" kindref="member">last_saved_data</ref>.swap(json_data);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(json::exception<sp/>&amp;e)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Activity<sp/>parse<sp/>error:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(e.what());</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_activity_1af1341ff0d7c81a078f784772e7ffdff1" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_activity_1acb1f94f911de9f67eea0d5251417188b" kindref="member">loaded</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_activity_1ae9b6a836963290bb19c016ca07311fe6" kindref="member">Activity::save</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>only<sp/>want<sp/>to<sp/>attempt<sp/><sp/>save<sp/>every<sp/>5<sp/>mins<sp/>unless<sp/>it&apos;s<sp/>a<sp/>forced<sp/>save.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!force<sp/>&amp;&amp;<sp/>millis()<sp/>-<sp/><ref refid="class_activity_1a996870b92eaf75e9e00cdaf244710782" kindref="member">last_save_time</ref><sp/>&lt;<sp/><ref refid="class_activity_1a8048049ce777a64219c3fa110aef72be" kindref="member">max_time_between_saves</ref>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Implicitly<sp/>convert<sp/>struct<sp/>to<sp/>json</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>json_data<sp/>=<sp/><ref refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kindref="member">data</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>data<sp/>is<sp/>the<sp/>same<sp/>as<sp/>the<sp/>last<sp/>data<sp/>we<sp/>saved,<sp/>bail<sp/>out</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(json_data<sp/>==<sp/><ref refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kindref="member">data</ref>.<ref refid="struct_activity___data_1a769665f5cf1dc4cba1adc2fa4ee2b156" kindref="member">last_saved_data</ref>)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_activity_1a996870b92eaf75e9e00cdaf244710782" kindref="member">last_save_time</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>info_println(F(&quot;Activity<sp/>SAVE:<sp/>Saving<sp/>data...&quot;));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>serializedObject<sp/>=<sp/>json_data.dump();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>File<sp/>file<sp/>=<sp/>LittleFS.open(<ref refid="class_activity_1a218a8407a46e4170bb08c1ed97ba03db" kindref="member">tmp_filename</ref>,<sp/>FILE_WRITE);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error_println(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>write<sp/>to<sp/>activity<sp/>file&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>file.print(serializedObject.c_str());</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>LittleFS.rename(<ref refid="class_activity_1a218a8407a46e4170bb08c1ed97ba03db" kindref="member">tmp_filename</ref>,<sp/><ref refid="class_activity_1afb1f89c6bbcd9be475e267615e8ab6fa" kindref="member">filename</ref>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;Activity<sp/>SAVE:<sp/>Saved!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>last<sp/>saved<sp/>data<sp/>for<sp/>comparison<sp/>on<sp/>next<sp/>save</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kindref="member">data</ref>.<ref refid="struct_activity___data_1a769665f5cf1dc4cba1adc2fa4ee2b156" kindref="member">last_saved_data</ref>.swap(json_data);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_activity_1a996870b92eaf75e9e00cdaf244710782" kindref="member">last_save_time</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_activity_1af1341ff0d7c81a078f784772e7ffdff1" kindref="member">Activity::create</ref>()</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Activity<sp/>CREATE:<sp/>Creating<sp/>new<sp/>data...&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kindref="member">data</ref><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_activity_1ae9b6a836963290bb19c016ca07311fe6" kindref="member">save</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_activity_1acb1f94f911de9f67eea0d5251417188b" kindref="member">loaded</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_activity_1a04271bc7ffcf8a5b07e2743f8014d74a" kindref="member">Activity::track_steps</ref>(uint32_t<sp/>steps,<sp/>uint8_t<sp/>day,<sp/>uint8_t<sp/>month,<sp/>uint16_t<sp/>year)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>key<sp/>=<sp/>(year<sp/>*<sp/>100)<sp/>+<sp/>month;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Year:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(year)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;,<sp/>month:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(month)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;,<sp/>day:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(day));</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Key:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(key));</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kindref="member">data</ref>.<ref refid="struct_activity___data_1a82adda9947db86cfd0044eeb84dbad58" kindref="member">steps_day</ref>[key][day<sp/>-<sp/>1]<sp/>+=<sp/>steps;<sp/></highlight><highlight class="comment">//<sp/>day<sp/>is<sp/>1-31,<sp/>but<sp/>array<sp/>is<sp/>0-30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kindref="member">data</ref>.<ref refid="struct_activity___data_1ae7cbe92b51bc44330d1c6ce7e4b55fd7" kindref="member">steps_year</ref>[year]<sp/>+=<sp/>steps;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>data.steps_day<sp/>+=<sp/>steps;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>data.steps_month<sp/>+=<sp/>steps;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>data.steps_year<sp/>+=<sp/>steps;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><ref refid="class_activity" kindref="compound">Activity</ref><sp/><ref refid="activity_8cpp_1a777ab509d6a14e7bb654d32bd6b25498" kindref="member">activity</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/activity.cpp"/>
+  </compounddef>
+</doxygen>

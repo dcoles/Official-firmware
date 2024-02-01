@@ -1,0 +1,1394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="class_activity" kind="class"><name>Activity</name>
+    <member refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" kind="variable"><name>data</name></member>
+    <member refid="class_activity_1acb1f94f911de9f67eea0d5251417188b" kind="variable"><name>loaded</name></member>
+    <member refid="class_activity_1afb1f89c6bbcd9be475e267615e8ab6fa" kind="variable"><name>filename</name></member>
+    <member refid="class_activity_1a218a8407a46e4170bb08c1ed97ba03db" kind="variable"><name>tmp_filename</name></member>
+    <member refid="class_activity_1a8048049ce777a64219c3fa110aef72be" kind="variable"><name>max_time_between_saves</name></member>
+    <member refid="class_activity_1a996870b92eaf75e9e00cdaf244710782" kind="variable"><name>last_save_time</name></member>
+    <member refid="class_activity_1a285ded5fb1bb6c7a9a4cc937e9d708e7" kind="function"><name>load</name></member>
+    <member refid="class_activity_1ae9b6a836963290bb19c016ca07311fe6" kind="function"><name>save</name></member>
+    <member refid="class_activity_1af1341ff0d7c81a078f784772e7ffdff1" kind="function"><name>create</name></member>
+    <member refid="class_activity_1a04271bc7ffcf8a5b07e2743f8014d74a" kind="function"><name>track_steps</name></member>
+  </compound>
+  <compound refid="struct_activity___data" kind="struct"><name>Activity_Data</name>
+    <member refid="struct_activity___data_1a82adda9947db86cfd0044eeb84dbad58" kind="variable"><name>steps_day</name></member>
+    <member refid="struct_activity___data_1ae7cbe92b51bc44330d1c6ce7e4b55fd7" kind="variable"><name>steps_year</name></member>
+    <member refid="struct_activity___data_1a064da4e53737d8230b7623f4742d93d3" kind="variable"><name>imu_day</name></member>
+    <member refid="struct_activity___data_1a67a1c378865c3502d42d4209c97ad893" kind="variable"><name>imu_month</name></member>
+    <member refid="struct_activity___data_1ada7e600fa43457aa1c5c33a89dbf065c" kind="variable"><name>imu_year</name></member>
+    <member refid="struct_activity___data_1a769665f5cf1dc4cba1adc2fa4ee2b156" kind="variable"><name>last_saved_data</name></member>
+  </compound>
+  <compound refid="class_app_compass" kind="class"><name>AppCompass</name>
+    <member refid="class_app_compass_1afae2708d6497676bdf04ba1736f7442f" kind="variable"><name>version</name></member>
+    <member refid="class_app_compass_1aad2e7c1b13d59ac39288af21a442f78d" kind="variable"><name>showingGyro</name></member>
+    <member refid="class_app_compass_1a7805a042dfb6c4567e16bec7d47c5249" kind="variable"><name>number</name></member>
+    <member refid="class_app_compass_1a3579e2c96a5534b151af35752ac09292" kind="variable"><name>angle</name></member>
+    <member refid="class_app_compass_1add6bdfd3ca76572b9f8f7cd63523435c" kind="variable"><name>lx1</name></member>
+    <member refid="class_app_compass_1a46e7bec61bb18264ee0f0e0a46cbcb94" kind="variable"><name>ly1</name></member>
+    <member refid="class_app_compass_1a4bad571b5878a5202c2ec074e449f425" kind="variable"><name>lx2</name></member>
+    <member refid="class_app_compass_1a76dc1f19c3bf4468c528e5f3c1d9bfa9" kind="variable"><name>ly2</name></member>
+    <member refid="class_app_compass_1acf693bb08c96c50bc5e6c485a901913f" kind="variable"><name>lx3</name></member>
+    <member refid="class_app_compass_1ac2f01327ea643802c00a290cfdbc4400" kind="variable"><name>ly3</name></member>
+    <member refid="class_app_compass_1a1d731948d14c66a8cd2ae213584f75cc" kind="variable"><name>lx4</name></member>
+    <member refid="class_app_compass_1ac10924ad46dfb33364fdbccf167b47a0" kind="variable"><name>ly4</name></member>
+    <member refid="class_app_compass_1afa453ff125e1bbaa290f361e7b906d72" kind="variable"><name>n</name></member>
+    <member refid="class_app_compass_1ad36e7d5b3194f5bf77b0b416f0b61283" kind="variable"><name>dt</name></member>
+    <member refid="class_app_compass_1a47f01e5086ac3471288e7c14dded2e66" kind="function"><name>setup</name></member>
+    <member refid="class_app_compass_1a986e77e6e2d11ce4e1e749a214562680" kind="function"><name>pre_start</name></member>
+    <member refid="class_app_compass_1a94e74af29d8ebcc9d7de0879ed94e540" kind="function"><name>draw</name></member>
+    <member refid="class_app_compass_1ab6a82cec74937c780c78d978891de9da" kind="function"><name>draw_icon</name></member>
+    <member refid="class_app_compass_1aca45e38f1e7de29a360fb9e808b9eee5" kind="function"><name>click</name></member>
+    <member refid="class_app_compass_1a2caecbd31379d637afd67fa94dc4ef08" kind="function"><name>click_double</name></member>
+    <member refid="class_app_compass_1a2e1ec53ba887b0340f2441318e2979cf" kind="function"><name>drawCompass</name></member>
+    <member refid="class_app_compass_1ad22a2ab973d0fc837d085828f21d5018" kind="function"><name>getCoord</name></member>
+  </compound>
+  <compound refid="class_app_empty" kind="class"><name>AppEmpty</name>
+    <member refid="class_app_empty_1ad60115aef664ea2566e0c15e007a2681" kind="variable"><name>shutdown_timer</name></member>
+    <member refid="class_app_empty_1a915aa7a6d8ce45995c5630403b872445" kind="function"><name>setup</name></member>
+    <member refid="class_app_empty_1a457272582856a552e875e79b213be20b" kind="function"><name>pre_start</name></member>
+    <member refid="class_app_empty_1ae82c686f34050752af522a5b2c40b71b" kind="function"><name>draw</name></member>
+    <member refid="class_app_empty_1a0ad807e098b4082aa29b91cfb7571347" kind="function"><name>draw_icon</name></member>
+    <member refid="class_app_empty_1ad0e5eaa6c5a50cff1420acc4be1cb5ce" kind="function"><name>click</name></member>
+    <member refid="class_app_empty_1a3069554f19d2fa85bb23b4e1fef5d61c" kind="function"><name>click_double</name></member>
+  </compound>
+  <compound refid="class_app_microphone" kind="class"><name>AppMicrophone</name>
+    <member refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kind="variable"><name>bands</name></member>
+    <member refid="class_app_microphone_1a119f92e336de548a613df0d09316bb58" kind="variable"><name>waveform_size</name></member>
+    <member refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" kind="variable"><name>waveform_data</name></member>
+    <member refid="class_app_microphone_1ac2e9642935dcb3b81c6ad6496a20dfba" kind="variable"><name>waveform_last</name></member>
+    <member refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kind="variable"><name>vReal</name></member>
+    <member refid="class_app_microphone_1ae5a03ca2a43e2dc92c2ea120310b51f1" kind="variable"><name>vImag</name></member>
+    <member refid="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" kind="variable"><name>raw_samples</name></member>
+    <member refid="class_app_microphone_1ad6ad9359a525e9580b29ac76bf25bfb6" kind="variable"><name>signalFrequency</name></member>
+    <member refid="class_app_microphone_1af97d22fc9b62c720226248c07eadb45b" kind="variable"><name>samplingFrequency</name></member>
+    <member refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kind="variable"><name>amplitude</name></member>
+    <member refid="class_app_microphone_1a8e0f9808c9257b6bce4def881cea62ac" kind="variable"><name>I2S_PORT</name></member>
+    <member refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" kind="variable"><name>visual_state</name></member>
+    <member refid="class_app_microphone_1a738624ce044438b9c857004760938569" kind="variable"><name>should_calc</name></member>
+    <member refid="class_app_microphone_1a4cbae7b10fe94971f52a9100cbbdaca8" kind="variable"><name>shutdown_timer</name></member>
+    <member refid="class_app_microphone_1a1de24a6e19e242fa256dba6205f4e514" kind="variable"><name>colors</name></member>
+    <member refid="class_app_microphone_1aa65a29e46628f4c5c7617247c26faddb" kind="variable"><name>colors_dark</name></member>
+    <member refid="class_app_microphone_1a089191cfbf8f22da5b22fcf8b581656b" kind="variable"><name>FFT</name></member>
+    <member refid="class_app_microphone_1a2868dcbeec275ac0c25414d3f51af90d" kind="function"><name>setup</name></member>
+    <member refid="class_app_microphone_1a3374361517cde1ec48c3066180fefd7e" kind="function"><name>pre_start</name></member>
+    <member refid="class_app_microphone_1af062de6d4e4191d30579caa2cba9dd71" kind="function"><name>draw</name></member>
+    <member refid="class_app_microphone_1a4f7c9b8e5e9ac7eacc8e9e228eddfd67" kind="function"><name>draw_icon</name></member>
+    <member refid="class_app_microphone_1a7253960b96e01c8c0b08870f83825399" kind="function"><name>click</name></member>
+    <member refid="class_app_microphone_1a9588f633630342330507570cd10e685b" kind="function"><name>click_double</name></member>
+    <member refid="class_app_microphone_1a1ae20553e83be4534241100eaa56c243" kind="function"><name>do_fft_calcs</name></member>
+    <member refid="class_app_microphone_1af21c9e10dd5f781358eb28606b32c4a3" kind="function"><name>do_waveform_calcs</name></member>
+    <member refid="class_app_microphone_1a78629ec2c830bb67f5d856bc164ab8f2" kind="function"><name>fill_arc</name></member>
+  </compound>
+  <compound refid="class_battery" kind="class"><name>Battery</name>
+    <member refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kind="variable"><name>maxlipo</name></member>
+    <member refid="class_battery_1a3b0dd7d4f3d6eba4238a8ece2eab136b" kind="variable"><name>next_battery_read</name></member>
+    <member refid="class_battery_1a4f32b6bc8bdc311a4e820c3efd0058ab" kind="variable"><name>cached_voltage</name></member>
+    <member refid="class_battery_1ab30e0dbefc7b59c8964ad255d29f5b1d" kind="variable"><name>cached_percent</name></member>
+    <member refid="class_battery_1ae46d60be1e1a600b5df8f69d71b7ad7a" kind="variable"><name>cached_rate</name></member>
+    <member refid="class_battery_1a55b4e3efe26262aa8eac3ec3530029f5" kind="function"><name>init</name></member>
+    <member refid="class_battery_1ad32f36c8463e8a897e4fea56866cb884" kind="function"><name>get_voltage</name></member>
+    <member refid="class_battery_1af1d5f8a733569d9a6791686672816336" kind="function"><name>get_percent</name></member>
+    <member refid="class_battery_1adc6f2427549077e7257359cceeb0fee6" kind="function"><name>get_rate</name></member>
+    <member refid="class_battery_1aa6f82218e92d12c51b69809da77f9c2f" kind="function"><name>set_hibernate</name></member>
+    <member refid="class_battery_1af46eb5cff4dd69248299137cbb141b64" kind="function"><name>get_alert_status</name></member>
+    <member refid="class_battery_1a0c3aac494aa0aecc3f7bbbba2c50fb45" kind="function"><name>clear_alert_status</name></member>
+    <member refid="class_battery_1a206dc8984c3277c091e9d32d75784c2c" kind="function"><name>update_interrupt_values</name></member>
+    <member refid="class_battery_1a1cc90c2c3d0da7b73bfbf21d054334f9" kind="function"><name>is_low</name></member>
+    <member refid="class_battery_1aa329a7aa923893e173b8e85ba1a165a8" kind="function"><name>is_high</name></member>
+    <member refid="class_battery_1a901c5dbf1f0232919e12e8c1cd777e5a" kind="function"><name>update_stats</name></member>
+  </compound>
+  <compound refid="struct_buzzer_note" kind="struct"><name>BuzzerNote</name>
+    <member refid="struct_buzzer_note_1a257480a10e3d30cffeb1955c42cb4a57" kind="variable"><name>freq</name></member>
+    <member refid="struct_buzzer_note_1ababcc68ec3e25727c75fd056a150b6c9" kind="variable"><name>time</name></member>
+  </compound>
+  <compound refid="struct_config" kind="struct"><name>Config</name>
+    <member refid="struct_config_1ae5382eb0018ed9dedc2eb7c0ce79440d" kind="variable"><name>ver</name></member>
+    <member refid="struct_config_1a099a67b516ac62f95fa2f49483721310" kind="variable"><name>first_time</name></member>
+    <member refid="struct_config_1a59ba768cb9953025684758ef37e8ddd8" kind="variable"><name>wifi_start</name></member>
+    <member refid="struct_config_1a804424388e0c9b9c3accceb144e1e4d0" kind="variable"><name>wifi_ssid</name></member>
+    <member refid="struct_config_1abd2cb3697545308259b67c9dc2e75134" kind="variable"><name>wifi_pass</name></member>
+    <member refid="struct_config_1a18da6a55416dac44a9cad77a9fcf5588" kind="variable"><name>mdns_name</name></member>
+    <member refid="struct_config_1a802a0bab3ef7725919ec3318ddb77844" kind="variable"><name>website_darkmode</name></member>
+    <member refid="struct_config_1ad2f32cf7a8977a88bcc0bfcb4fbb3ae8" kind="variable"><name>country</name></member>
+    <member refid="struct_config_1a3db24df2412a86e25506fc58eb71d948" kind="variable"><name>city</name></member>
+    <member refid="struct_config_1a42c1d36660530f571613a4eecff662bb" kind="variable"><name>utc_offset</name></member>
+    <member refid="struct_config_1ad1c996a549e246a1b7140a8f5dee8652" kind="variable"><name>mqtt</name></member>
+    <member refid="struct_config_1a15269eb906e0a0d8d5c54bbe47091fb3" kind="variable"><name>battery</name></member>
+    <member refid="struct_config_1a05e5a4633f656ae92f628b067c05d374" kind="variable"><name>open_weather</name></member>
+    <member refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kind="variable"><name>custom_binary</name></member>
+    <member refid="struct_config_1a1894e37758074791cd77b604d5177701" kind="variable"><name>bl_period_vbus</name></member>
+    <member refid="struct_config_1ad8abd4ef60721bba163ea232b783fc25" kind="variable"><name>bl_period_vbat</name></member>
+    <member refid="struct_config_1a5b5857809cb30257039307e7aea8a7fc" kind="variable"><name>time_24hour</name></member>
+    <member refid="struct_config_1a8489a73fc9d48a23b00dd5a8e7db4eb1" kind="variable"><name>time_dateformat</name></member>
+    <member refid="struct_config_1a6699ffbe0533602cbc8beb3ddb061155" kind="variable"><name>clock_face_index</name></member>
+    <member refid="struct_config_1a518cf08162ace4e56474952c9e173e4f" kind="variable"><name>left_handed</name></member>
+    <member refid="struct_config_1a81edb463c86272b52b8fd5b1c535e226" kind="variable"><name>flipped</name></member>
+    <member refid="struct_config_1ab96058cff80a87107bd72619f96261ed" kind="variable"><name>audio_ui</name></member>
+    <member refid="struct_config_1aa811fa8a4f958fe255c04368233f36ca" kind="variable"><name>audio_alarm</name></member>
+    <member refid="struct_config_1a7ab4a104ef4fb114fd16043977d73235" kind="variable"><name>imu_process_steps</name></member>
+    <member refid="struct_config_1a33bf57aa0d6f7b9b03982e5c2695e5be" kind="variable"><name>imu_process_wrist</name></member>
+    <member refid="struct_config_1ad223c29215eb3925e60cd2540a0736f3" kind="variable"><name>last_saved_data</name></member>
+  </compound>
+  <compound refid="struct_config__battery" kind="struct"><name>Config_battery</name>
+    <member refid="struct_config__battery_1acac7fc228f2297e9a021e1f48e4af561" kind="variable"><name>perc_offset</name></member>
+    <member refid="struct_config__battery_1adac3adaef450ed845278e67195c8958e" kind="variable"><name>low_perc</name></member>
+    <member refid="struct_config__battery_1acae9c3e64244795684f07e19ff4fdafa" kind="variable"><name>low_volt_warn</name></member>
+    <member refid="struct_config__battery_1ae24941bd9fde2d9a92db501c65b21504" kind="variable"><name>low_volt_cutoff</name></member>
+  </compound>
+  <compound refid="struct_config__custom__binary" kind="struct"><name>Config_custom_binary</name>
+    <member refid="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" kind="variable"><name>binary_clockcolour</name></member>
+    <member refid="struct_config__custom__binary_1a4bbec4837d68af7ac1626d325cebbf5c" kind="variable"><name>binary_clockstyle</name></member>
+  </compound>
+  <compound refid="struct_config__mqtt" kind="struct"><name>Config_mqtt</name>
+    <member refid="struct_config__mqtt_1aa5e019f121091decbcc1a2dde4812746" kind="variable"><name>enabled</name></member>
+    <member refid="struct_config__mqtt_1a484429eebf95c1327b9721cbdb54c5f3" kind="variable"><name>broker_ip</name></member>
+    <member refid="struct_config__mqtt_1ad0c41a7187544734111b4f7a69c43ca1" kind="variable"><name>broker_port</name></member>
+    <member refid="struct_config__mqtt_1a55567c71e966a889409bfde1316fad33" kind="variable"><name>username</name></member>
+    <member refid="struct_config__mqtt_1a18b51efe683e422cf540ca6ff5c88cb1" kind="variable"><name>password</name></member>
+    <member refid="struct_config__mqtt_1a041eb4589daa385e497875357289c6b0" kind="variable"><name>device_name</name></member>
+    <member refid="struct_config__mqtt_1a236e6351d75e096abff3f2f39ec58311" kind="variable"><name>topic</name></member>
+  </compound>
+  <compound refid="struct_config__open__weather" kind="struct"><name>Config_open_weather</name>
+    <member refid="struct_config__open__weather_1a826f186975c7c30c21384fa40d47cfa8" kind="variable"><name>poll_frequency</name></member>
+    <member refid="struct_config__open__weather_1a536c1b0f4c62ed18e6d37f5952cad434" kind="variable"><name>api_key</name></member>
+  </compound>
+  <compound refid="structconnect__responder" kind="struct"><name>connect_responder</name>
+    <member refid="structconnect__responder_1adfdd2220dead0500808a007cddc78fd1" kind="variable"><name>server</name></member>
+    <member refid="structconnect__responder_1adc6ac61bb4b28990514ff154305163b9" kind="variable"><name>waiting</name></member>
+    <member refid="structconnect__responder_1aa5e3494c5e22af88802300117142113b" kind="variable"><name>start</name></member>
+    <member refid="structconnect__responder_1a95c331a06e3e1ce748e7f94db1a5b485" kind="variable"><name>response</name></member>
+    <member refid="structconnect__responder_1aebe289d57f760f0495ad623da0878eda" kind="variable"><name>timeout</name></member>
+    <member refid="structconnect__responder_1ae32e5865fd50346c7a21e7cdba02756a" kind="function"><name>connect_responder</name></member>
+    <member refid="structconnect__responder_1a29a9853b45020abce49d6ec4fb4e939c" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_control_button" kind="class"><name>ControlButton</name>
+    <member refid="class_control_button_1af77abdea56150f269706f1ddc130fb15" kind="variable"><name>version</name></member>
+    <member refid="class_control_button_1ad17a7a29d3928f0ae80d4b1589d01a54" kind="function"><name>draw</name></member>
+    <member refid="class_control_button_1ae0a6a5d52ab0a23ee201eb96be6b7e0c" kind="function"><name>drag</name></member>
+    <member refid="class_control_button_1a934b4bd4b7d587a1f83f0aea34371f09" kind="function"><name>drag_end</name></member>
+    <member refid="class_control_button_1a33fc7d608f3e0d61867285fc17de42a1" kind="function"><name>click</name></member>
+    <member refid="class_control_button_1a6258e11dafb069484d530696c9c1e05c" kind="function"><name>click_double</name></member>
+    <member refid="class_control_button_1a60f4115d6fb8bfe26a2ab390d9e6d5cc" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_control_label" kind="class"><name>ControlLabel</name>
+    <member refid="class_control_label_1a012597f32c1a983d6bc57679ee9d2dd4" kind="variable"><name>version</name></member>
+    <member refid="class_control_label_1a9029ed6d64a11f0889c762e8da9c50bf" kind="function"><name>draw</name></member>
+    <member refid="class_control_label_1aed95a14ddc7e360eb9677ea3da06a8c8" kind="function"><name>drag</name></member>
+    <member refid="class_control_label_1a5918cb4f6e720e8ad891bdf1bdbc2c0b" kind="function"><name>drag_end</name></member>
+    <member refid="class_control_label_1a538e2b126ea3c6ae4ea4a6ff7b22888d" kind="function"><name>click</name></member>
+    <member refid="class_control_label_1a0cfbe8a0206d96b92fa1b52eaa031507" kind="function"><name>click_double</name></member>
+    <member refid="class_control_label_1ade616e6b1ae77a476b539841df601c24" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_control_toggle" kind="class"><name>ControlToggle</name>
+    <member refid="class_control_toggle_1adf52cb47d2310ac0fe5f18b5816cd2ba" kind="variable"><name>setting_option</name></member>
+    <member refid="class_control_toggle_1af4e5feca4e0cc68d78cc672fedc6510d" kind="variable"><name>version</name></member>
+    <member refid="class_control_toggle_1a0f74a6098d7a0e5d041d779a6085389c" kind="function"><name>draw</name></member>
+    <member refid="class_control_toggle_1a0a9cbde8c63198f6e66c5dac1e413757" kind="function"><name>drag</name></member>
+    <member refid="class_control_toggle_1a1970b2a6c73f5abd77dfb35bd55b61e5" kind="function"><name>drag_end</name></member>
+    <member refid="class_control_toggle_1a2d402c3ae5959e440ada9c1d05805bc6" kind="function"><name>click</name></member>
+    <member refid="class_control_toggle_1ab584330a4f396b74a4cea7136822e6cc" kind="function"><name>click_double</name></member>
+    <member refid="class_control_toggle_1a96587d838d07da94749a0dcb20842b30" kind="function"><name>click_long</name></member>
+    <member refid="class_control_toggle_1aefa9c39e7a218d38e25eb88cd5ed9255" kind="function"><name>set_data</name></member>
+  </compound>
+  <compound refid="class_control_value" kind="class"><name>ControlValue</name>
+    <member refid="class_control_value_1a6a9d6c462fa669a33481b2b8231cc3b4" kind="variable"><name>setting_option</name></member>
+    <member refid="class_control_value_1a5522a0edb5d66030c33c9c5e6d11bff0" kind="variable"><name>version</name></member>
+    <member refid="class_control_value_1a441871d15a2722e38ad4796a0f3e1f85" kind="variable"><name>state</name></member>
+    <member refid="class_control_value_1a7b22c89c109db132408104d5021abeed" kind="variable"><name>next_click_update</name></member>
+    <member refid="class_control_value_1a3c478a27edd11b5a01f80d666d7e8f3b" kind="variable"><name>value_min</name></member>
+    <member refid="class_control_value_1a0653213aa209bda5be65d06c618e5118" kind="variable"><name>value_max</name></member>
+    <member refid="class_control_value_1a05fd9df6679353c6abb6e68ace6ce36a" kind="variable"><name>value_inc</name></member>
+    <member refid="class_control_value_1a5b362f06f0d628fb14f8f9c9a91e31f3" kind="variable"><name>value</name></member>
+    <member refid="class_control_value_1a88a7773c15e38ee579a91cd98037cd56" kind="variable"><name>val_width</name></member>
+    <member refid="class_control_value_1a285ff8a9096bc9474409b0d775ef1e8e" kind="variable"><name>val_width_half</name></member>
+    <member refid="class_control_value_1a7461d2ae9a4a2c256aa25b6c01213d34" kind="variable"><name>button_left_x</name></member>
+    <member refid="class_control_value_1a7011ec210f9bab16102727bfac8273ae" kind="variable"><name>button_right_x</name></member>
+    <member refid="class_control_value_1a2c7b77efe14792108a53a8444737282f" kind="function"><name>draw</name></member>
+    <member refid="class_control_value_1a9a8817134a5e17aafc0417e1233787ea" kind="function"><name>drag</name></member>
+    <member refid="class_control_value_1ac8c5bdecbf97591ad2b58b3c17085c60" kind="function"><name>drag_end</name></member>
+    <member refid="class_control_value_1abd7df71b2b4fe288f15f06cde5f42fb9" kind="function"><name>click</name></member>
+    <member refid="class_control_value_1abd6f11e27ba572621ed02d16d5ecf60b" kind="function"><name>click_double</name></member>
+    <member refid="class_control_value_1a0096d5ca69136fd0646fbbee4b595e90" kind="function"><name>click_long</name></member>
+    <member refid="class_control_value_1a8806f29a07aa2d4cb1bed11d0f3805fe" kind="function"><name>buttons_check_left</name></member>
+    <member refid="class_control_value_1a590e71ccab9317d5872107f30120d351" kind="function"><name>buttons_check_right</name></member>
+    <member refid="class_control_value_1a940324467f588ce3ff7d735128ebd7d0" kind="function"><name>set_data</name></member>
+  </compound>
+  <compound refid="class_control_value_slider" kind="class"><name>ControlValueSlider</name>
+    <member refid="class_control_value_slider_1aa1d4fb144c558e9d6144dfdb9c6a2c1b" kind="variable"><name>version</name></member>
+    <member refid="class_control_value_slider_1a34ba92aa17f3d3c1f30fd6bbfd47c79e" kind="variable"><name>state</name></member>
+    <member refid="class_control_value_slider_1ad1c7bb345f0cf23bc053a3c4dac84b20" kind="variable"><name>selected</name></member>
+    <member refid="class_control_value_slider_1a64437bb695125f9535bc6a80de2d6764" kind="variable"><name>setting_option</name></member>
+    <member refid="class_control_value_slider_1a9ca7c56f11875b441e56fc92c10246f1" kind="variable"><name>next_click_update</name></member>
+    <member refid="class_control_value_slider_1ac4ebfe0e1d680d2f96afd0ac10f2fe38" kind="variable"><name>value_min</name></member>
+    <member refid="class_control_value_slider_1ab8a515a976addf01c199630da7378e58" kind="variable"><name>value_max</name></member>
+    <member refid="class_control_value_slider_1acc9a73215692563f94cdd096f9a0b9cd" kind="variable"><name>value_step</name></member>
+    <member refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kind="variable"><name>value</name></member>
+    <member refid="class_control_value_slider_1a63264641ce2630ba2c55f0a789223ba5" kind="variable"><name>val_width</name></member>
+    <member refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" kind="variable"><name>val_width_half</name></member>
+    <member refid="class_control_value_slider_1a2cc02d8d18efea067631682978a235a7" kind="variable"><name>arrow_left_x</name></member>
+    <member refid="class_control_value_slider_1aa30350ea8e4af70c5cdb4643a50e3b88" kind="variable"><name>arrow_right_x</name></member>
+    <member refid="class_control_value_slider_1a76615a1295cb9f70acc32a933d0454fd" kind="variable"><name>gradient_bright</name></member>
+    <member refid="class_control_value_slider_1a1e60aaa9981f380b76cad205c0e60996" kind="variable"><name>gradient_dark</name></member>
+    <member refid="class_control_value_slider_1aca6487890f226cebf059e77b4274da91" kind="variable"><name>col_selected</name></member>
+    <member refid="class_control_value_slider_1a32465ca311155d2b5b902a6e2c21707f" kind="variable"><name>col_normal</name></member>
+    <member refid="class_control_value_slider_1a590e97be9555ecb144e419459d09509f" kind="function"><name>draw</name></member>
+    <member refid="class_control_value_slider_1a3159bdf73db50b13efab719486ff2a62" kind="function"><name>drag</name></member>
+    <member refid="class_control_value_slider_1adae535346c324c99ca4352a1dd3cb15f" kind="function"><name>drag_end</name></member>
+    <member refid="class_control_value_slider_1a4325374ff8b5856ad117a1407f4463d7" kind="function"><name>click</name></member>
+    <member refid="class_control_value_slider_1ad06305c39ad2ef09200332997afd7fc8" kind="function"><name>click_double</name></member>
+    <member refid="class_control_value_slider_1aa6ec2012c0c3f7014a6650bbb57a6e69" kind="function"><name>click_long</name></member>
+    <member refid="class_control_value_slider_1a3276fb6a4104e2e7f80717379ae6bd05" kind="function"><name>set_data</name></member>
+  </compound>
+  <compound refid="class_display" kind="class"><name>Display</name>
+    <member refid="class_display_1aa6e23b0987a3eb4e719e3ef7d4c03ba4" kind="variable"><name>width</name></member>
+    <member refid="class_display_1a202b766060c68a78b77dfad3a843853a" kind="variable"><name>height</name></member>
+    <member refid="class_display_1af33ee9b7afad5327be79b09128374e1f" kind="variable"><name>center_x</name></member>
+    <member refid="class_display_1a351b3d7c13b5affef336430dc9267214" kind="variable"><name>center_y</name></member>
+    <member refid="class_display_1aa3261624bc8cd73d34d81ea385f04750" kind="variable"><name>current_face</name></member>
+    <member refid="class_display_1a22cd8fe366166d6b509d6abcd85b4e38" kind="variable"><name>showing_loading_icon</name></member>
+    <member refid="class_display_1a448408d6156e28b5ff72e7e1acee9f13" kind="variable"><name>loading_screen_rotation</name></member>
+    <member refid="class_display_1a3941c647918f2d5265717fc6feab567a" kind="variable"><name>backlight_settings_vbus</name></member>
+    <member refid="class_display_1a595a7c6ec647390bd24ff8901d5d1640" kind="variable"><name>backlight_settings_vbat</name></member>
+    <member refid="class_display_1ad61fa2f4c36cc779ba19615781fb429f" kind="variable"><name>next_loading_rotation</name></member>
+    <member refid="class_display_1a6750a83619ceebd90eddde941ff80cef" kind="variable"><name>last_backlight</name></member>
+    <member refid="class_display_1a12d67c53beb8071d173920ac951c66db" kind="variable"><name>backlight_level</name></member>
+    <member refid="class_display_1a1d98b673935a1137bb4065d07928b01f" kind="variable"><name>backlight_current_val</name></member>
+    <member refid="class_display_1ab23340c6c8da8d6cfc875a63d6040deb" kind="variable"><name>backlight_target_val</name></member>
+    <member refid="class_display_1acd0170143d5ade9302ace985e8ea135a" kind="variable"><name>current_display_state</name></member>
+    <member refid="class_display_1a480b145aebc205f9bb3e8b14873408e4" kind="function"><name>init_screen</name></member>
+    <member refid="class_display_1aac7b4e5817e0ee8190edc18de719a63e" kind="function"><name>createFaces</name></member>
+    <member refid="class_display_1ad48af0dc1afec2a5ef4f4a006c51d0b8" kind="function"><name>set_backlight</name></member>
+    <member refid="class_display_1aee0f9cec1e725d521aa8f22700032143" kind="function"><name>update_current_face</name></member>
+    <member refid="class_display_1a49cf030cfdcea4c5bfd7171017c34787" kind="function"><name>process_touch</name></member>
+    <member refid="class_display_1a6ffb70aaa2581e3c27d3b83c2953d8f5" kind="function"><name>get_backlight_period</name></member>
+    <member refid="class_display_1a6f014bba189b45fafe45481d09217365" kind="function"><name>set_display_state</name></member>
+    <member refid="class_display_1a254008efd4b1d7e0866e633484ca0a13" kind="function"><name>show_loading_icon</name></member>
+    <member refid="class_display_1a1b19b352b32f4bca0ad1830df9126f4d" kind="function"><name>show_watch_from_boot</name></member>
+    <member refid="class_display_1ac49cfd43decf1f706021c5c272c7921c" kind="function"><name>force_save</name></member>
+    <member refid="class_display_1ab1640ce70b9a02569be3b55d79f49bea" kind="function"><name>update_boot_face</name></member>
+    <member refid="class_display_1afd9e13e082264906930ddb4a5336310a" kind="function"><name>adjust_backlight</name></member>
+    <member refid="class_display_1a1f816e384298b259336037b19d11e6ff" kind="function"><name>kill_backlight_task</name></member>
+    <member refid="class_display_1a939450804c1c202b72e7315fe36014fa" kind="function"><name>get_current_backlight_val</name></member>
+    <member refid="class_display_1aa9d8dbdcf00d4a3d3d20a1c0921f0cd6" kind="function"><name>add_clock_face</name></member>
+    <member refid="class_display_1a26781a764df27fb57439de75b65c6cc8" kind="function"><name>cycle_clock_face</name></member>
+    <member refid="class_display_1a854fd1d6738d9ddebce9381466057afd" kind="function"><name>set_current_face</name></member>
+    <member refid="class_display_1a63e06d9bc52ff6c8e83f15ae9c271316" kind="function"><name>set_current_clock_face</name></member>
+    <member refid="class_display_1a37787e248595d7d21724e14bf2718889" kind="function"><name>show_low_battery</name></member>
+    <member refid="class_display_1a806acc6b576d79de9acfaabcd4ef2da7" kind="function"><name>get_current_display_state</name></member>
+    <member refid="class_display_1ad4a051cab5730c70c4797534c9273032" kind="function"><name>fill_arc</name></member>
+    <member refid="class_display_1ae9d889373d1f1d45155cae19cb2770a9" kind="function"><name>update_rotation</name></member>
+  </compound>
+  <compound refid="class_face_app_list" kind="class"><name>FaceAppList</name>
+    <member refid="class_face_app_list_1a12cb46e5d7b4c5e2606d94c5366cbf0a" kind="variable"><name>current_app</name></member>
+    <member refid="class_face_app_list_1a07cffb361f5c8cae6fc1db32f195e4e4" kind="function"><name>setup</name></member>
+    <member refid="class_face_app_list_1a2d2f170343bb08f3141162c93b0d77a6" kind="function"><name>draw</name></member>
+    <member refid="class_face_app_list_1aa4fb280bd9838348bcb1b2e5cf2c52f0" kind="function"><name>click</name></member>
+    <member refid="class_face_app_list_1ab83f4457369fd3670c76cf23ceceb7f7" kind="function"><name>click_double</name></member>
+    <member refid="class_face_app_list_1a7168137ef456c525fea3b65cef1fcb46" kind="function"><name>click_long</name></member>
+    <member refid="class_face_app_list_1ad35c3e688b0dbecfd0b52e1548c78766" kind="function"><name>add_app</name></member>
+    <member refid="class_face_app_list_1a935df2e5ce6722b7d1208425bbd65f7b" kind="function"><name>icon_process_clicks</name></member>
+    <member refid="class_face_app_list_1a461c6ddfc9532689166a3f7fdd3d6439" kind="function"><name>animate_app_in</name></member>
+    <member refid="class_face_app_list_1a3fe897b2d4d6ff06bf8c5f1407943d86" kind="function"><name>close_app</name></member>
+  </compound>
+  <compound refid="class_face_battery_empty" kind="class"><name>FaceBatteryEmpty</name>
+    <member refid="class_face_battery_empty_1a07d7589d673be785866e8386ef1f60ae" kind="function"><name>setup</name></member>
+    <member refid="class_face_battery_empty_1ac0f8990b403c40b52754e5739f5864ec" kind="function"><name>draw</name></member>
+    <member refid="class_face_battery_empty_1a86821a133f250562b17a888d48a87dec" kind="function"><name>click</name></member>
+    <member refid="class_face_battery_empty_1ad46c6ce78cc248e8d97929fd6a275c9a" kind="function"><name>click_double</name></member>
+    <member refid="class_face_battery_empty_1ae9653a7364883ca99ea825e063935e03" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_face_boot" kind="class"><name>FaceBoot</name>
+    <member refid="class_face_boot_1accc01eb44d954bd1b1f2eea32c4768b3" kind="variable"><name>version</name></member>
+    <member refid="class_face_boot_1aadf9f5f080ba63b314f0a27a5c35c6cb" kind="variable"><name>wifi_connection_strings</name></member>
+    <member refid="class_face_boot_1a6c789dcccd98c6f1af3694474f4a462a" kind="variable"><name>wifi_status</name></member>
+    <member refid="class_face_boot_1a81fdd1a39724a48a117ca808f427f9a4" kind="function"><name>setup</name></member>
+    <member refid="class_face_boot_1a00abcad60b42d5b60f37f4435ac25bbf" kind="function"><name>draw</name></member>
+    <member refid="class_face_boot_1a1335cc74141a40c90c4cf209a27b67e5" kind="function"><name>click</name></member>
+    <member refid="class_face_boot_1a9b8e823baec38b536ad863dcbf222359" kind="function"><name>click_double</name></member>
+    <member refid="class_face_boot_1a0ac9baa0c79dbd57124cecbaa9e5a86c" kind="function"><name>click_long</name></member>
+    <member refid="class_face_boot_1a31f1399dfdb30eae0d96dc617db3c0a0" kind="function"><name>wifi_connect_status</name></member>
+    <member refid="class_face_boot_1a44a46fe2faa8de0071bdd6a0755f4fd4" kind="function"><name>update_wifisetup_status</name></member>
+  </compound>
+  <compound refid="class_face_empty" kind="class"><name>FaceEmpty</name>
+    <member refid="class_face_empty_1adfa09005259ab9b6f9687d30b3e05de3" kind="function"><name>setup</name></member>
+    <member refid="class_face_empty_1af694336b9e71e416f2af258b8ecfb061" kind="function"><name>draw</name></member>
+    <member refid="class_face_empty_1a95d6332482bfbaf56ffaeec2cc210015" kind="function"><name>click</name></member>
+    <member refid="class_face_empty_1af29407a07b0ca5c0ac02c429d073aa42" kind="function"><name>click_double</name></member>
+    <member refid="class_face_empty_1a42ae4e1379c64e784bd2577baec728b7" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_face_i_m_u" kind="class"><name>FaceIMU</name>
+    <member refid="class_face_i_m_u_1a913eb3862d7bbf053021339be2525080" kind="variable"><name>version</name></member>
+    <member refid="class_face_i_m_u_1a23fe449360e829d3ff5b52b4f99370b9" kind="variable"><name>showingGyro</name></member>
+    <member refid="class_face_i_m_u_1a911fafdddeb315bf572c75f20b40e150" kind="function"><name>setup</name></member>
+    <member refid="class_face_i_m_u_1a67d7a6ed3a7012077f3f9e25ca4de503" kind="function"><name>draw</name></member>
+    <member refid="class_face_i_m_u_1a010d376890d27a0da87871b0ce6ab93a" kind="function"><name>click</name></member>
+    <member refid="class_face_i_m_u_1a53cc45c5af76291390be6176583ea1e8" kind="function"><name>click_double</name></member>
+    <member refid="class_face_i_m_u_1a1c1c660cf96ecdb1199d841f75455434" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_face_notifications" kind="class"><name>FaceNotifications</name>
+    <member refid="class_face_notifications_1a9bedbd65066467eae8b26fc2abed5af6" kind="variable"><name>version</name></member>
+    <member refid="class_face_notifications_1a350559681dd9c99a78ea0dbb6f9a6f84" kind="variable"><name>message_queue</name></member>
+    <member refid="class_face_notifications_1a2a7617ee84f8cbb749f4199a637a8b99" kind="variable"><name>num_messages</name></member>
+    <member refid="class_face_notifications_1ad30f36fcff0bc5e6611cab8b44b3aaea" kind="function"><name>setup</name></member>
+    <member refid="class_face_notifications_1a38660821481b4caa57a21c14f7615939" kind="function"><name>draw</name></member>
+    <member refid="class_face_notifications_1a23984032ef3e1a73ce1cfdb71cb1230b" kind="function"><name>click</name></member>
+    <member refid="class_face_notifications_1a27dcecf8134aa3c374c2a5546f753f3a" kind="function"><name>click_double</name></member>
+    <member refid="class_face_notifications_1a964e165d7c59b7fd8ce182ca8be8b5e1" kind="function"><name>click_long</name></member>
+    <member refid="class_face_notifications_1a7d185c79ef4ea7a3f066af0de464d5fb" kind="function"><name>add_message</name></member>
+    <member refid="class_face_notifications_1a26b1b8a9a8787d201a7137538f15ac42" kind="function"><name>pop_message</name></member>
+  </compound>
+  <compound refid="class_face_settings" kind="class"><name>FaceSettings</name>
+    <member refid="class_face_settings_1a8a9defc8450eb177739cd504905cfd27" kind="variable"><name>version</name></member>
+    <member refid="class_face_settings_1ac50ae40af802996ad34a4995eb3ccd4a" kind="function"><name>setup</name></member>
+    <member refid="class_face_settings_1a54c6b885cdd8069d92af673251253ee7" kind="function"><name>draw</name></member>
+    <member refid="class_face_settings_1a8644dfa5afb98f79b5c7ee983d65e961" kind="function"><name>click</name></member>
+    <member refid="class_face_settings_1a4448087eadf5b0ac9a083d40a168aee7" kind="function"><name>click_double</name></member>
+    <member refid="class_face_settings_1a3cd130b343d23fd5eb14114afbf9429f" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_face_system" kind="class"><name>FaceSystem</name>
+    <member refid="class_face_system_1a615ab72d36f170c786a00a0af02c49f6" kind="variable"><name>version</name></member>
+    <member refid="class_face_system_1a5faa1ac4dbe4f2d8d94f1ab2c2dd57e8" kind="function"><name>setup</name></member>
+    <member refid="class_face_system_1aab01c12ec84116b0c52f6c96bbb6e73e" kind="function"><name>draw</name></member>
+    <member refid="class_face_system_1a6ba36957d4e3adb095086e42e5c6cd7a" kind="function"><name>click</name></member>
+    <member refid="class_face_system_1af4bf21d429541e09ff04fec12d56c819" kind="function"><name>click_double</name></member>
+    <member refid="class_face_system_1ae899c181fe1253642a5051dfedf5672c" kind="function"><name>click_long</name></member>
+    <member refid="class_face_system_1a28b583e12bc5b1035cd89a78b564b15b" kind="function"><name>add_message</name></member>
+  </compound>
+  <compound refid="class_face_watch___custom_binary" kind="class"><name>FaceWatch_CustomBinary</name>
+    <member refid="class_face_watch___custom_binary_1a5e8b360f7e964b88deb807e9db86229f" kind="variable"><name>version</name></member>
+    <member refid="class_face_watch___custom_binary_1ab0343b414a9013af86303c99478aae4e" kind="variable"><name>on_colors</name></member>
+    <member refid="class_face_watch___custom_binary_1a7b318fa4fce81fa5610baaa957143d6a" kind="variable"><name>off_colors</name></member>
+    <member refid="class_face_watch___custom_binary_1a66d99a4f4dccea64616abb4396e0ac20" kind="variable"><name>months</name></member>
+    <member refid="class_face_watch___custom_binary_1a8a7f16b493648191b7c760ab4458b5e8" kind="variable"><name>show_borders</name></member>
+    <member refid="class_face_watch___custom_binary_1aa10123c0c9a404c385e88d131f11df40" kind="variable"><name>hours</name></member>
+    <member refid="class_face_watch___custom_binary_1ab1a37ac5a58c6a54bedd66465abc3826" kind="variable"><name>mins</name></member>
+    <member refid="class_face_watch___custom_binary_1aff87a4af52e3f0bcda444b3feda8a963" kind="variable"><name>day</name></member>
+    <member refid="class_face_watch___custom_binary_1a477efcf8fbea5ea2158c188161cec971" kind="variable"><name>month</name></member>
+    <member refid="class_face_watch___custom_binary_1a846285ff4f800bc473700d4836e4c029" kind="variable"><name>year</name></member>
+    <member refid="class_face_watch___custom_binary_1a0d030108b5363bfe44cf0ade82c6b377" kind="variable"><name>day_offset</name></member>
+    <member refid="class_face_watch___custom_binary_1afc50a8ddb8202f21237cd46fe24b4673" kind="function"><name>setup</name></member>
+    <member refid="class_face_watch___custom_binary_1aee537cc94752e2dd8c5e9ae764e1b967" kind="function"><name>draw</name></member>
+    <member refid="class_face_watch___custom_binary_1a83011dee6fcaeac45699d095c71a701d" kind="function"><name>click</name></member>
+    <member refid="class_face_watch___custom_binary_1a18f381fbf88de28a97a5a374b30b8cbd" kind="function"><name>click_double</name></member>
+    <member refid="class_face_watch___custom_binary_1a2d71f1bb2517c600c6d17822bf264417" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_face_watch___custom_windows" kind="class"><name>FaceWatch_CustomWindows</name>
+    <member refid="class_face_watch___custom_windows_1aef834d816e711c448448baf1d49623b2" kind="variable"><name>version</name></member>
+    <member refid="class_face_watch___custom_windows_1a16fab51da165caf1cea48a5872f8669a" kind="variable"><name>months</name></member>
+    <member refid="class_face_watch___custom_windows_1a2dfabca6ae67e3014485d73745a2948e" kind="variable"><name>show_borders</name></member>
+    <member refid="class_face_watch___custom_windows_1a61481461dd26fe5a20f50bd8e1d70fdf" kind="variable"><name>hours</name></member>
+    <member refid="class_face_watch___custom_windows_1abeb9d206e8422a2db61bee78f5b58b23" kind="variable"><name>mins</name></member>
+    <member refid="class_face_watch___custom_windows_1a3f60623f6d09712da4dbef94ef3cac72" kind="variable"><name>day</name></member>
+    <member refid="class_face_watch___custom_windows_1ac1e352e7a88350a7a3c4f5fac3c83f77" kind="variable"><name>month</name></member>
+    <member refid="class_face_watch___custom_windows_1ad92f282db3accb0196a85f961cec9b31" kind="variable"><name>year</name></member>
+    <member refid="class_face_watch___custom_windows_1acf76e3d5e59267c8773e00d45e31ef00" kind="variable"><name>day_offset</name></member>
+    <member refid="class_face_watch___custom_windows_1abd52c30d8ad87b813807b12db18b579e" kind="variable"><name>bat_perc</name></member>
+    <member refid="class_face_watch___custom_windows_1ae5d23dd4316979df1ce3af9f385cce2d" kind="variable"><name>cachedTrig</name></member>
+    <member refid="class_face_watch___custom_windows_1ab6eb57fef0b4f3cf30497edab6ef50e2" kind="variable"><name>pos_secs</name></member>
+    <member refid="class_face_watch___custom_windows_1a8603930f988cf51f113a0d1d5b300e86" kind="variable"><name>pos_mins</name></member>
+    <member refid="class_face_watch___custom_windows_1aa5c12c53056842c15e2439b5688d23a6" kind="variable"><name>pos_lo</name></member>
+    <member refid="class_face_watch___custom_windows_1a3e0740487b153eecd78e6b8d4ee6ba15" kind="variable"><name>pos_ro</name></member>
+    <member refid="class_face_watch___custom_windows_1ac8caa37efd69c4da380993a7f9f4c74c" kind="variable"><name>pos_mins_rlo</name></member>
+    <member refid="class_face_watch___custom_windows_1a8e602cbe9ef3a63787800b510af5e696" kind="variable"><name>pos_mins_rro</name></member>
+    <member refid="class_face_watch___custom_windows_1a4d4e8678389263bee847db4bc3b2479e" kind="variable"><name>pos_hours_rlo</name></member>
+    <member refid="class_face_watch___custom_windows_1a178a331baf5c576d2c0f88449f1b4240" kind="variable"><name>pos_hours_rro</name></member>
+    <member refid="class_face_watch___custom_windows_1af02bb86e764411037b84eb463f25354e" kind="variable"><name>pos_hours</name></member>
+    <member refid="class_face_watch___custom_windows_1ab08bb12986b846fd0880b9b52c4065cf" kind="variable"><name>center_x</name></member>
+    <member refid="class_face_watch___custom_windows_1a4bbbc4f16cff58066f2a34eb1c1f292b" kind="variable"><name>center_y</name></member>
+    <member refid="class_face_watch___custom_windows_1a4f404747f27f82aa51fa0030a48257ff" kind="variable"><name>center_y_wtoolbar</name></member>
+    <member refid="class_face_watch___custom_windows_1a9afa0cfc205548f486839c3e3f5a63e8" kind="variable"><name>center_y_ntoolbar</name></member>
+    <member refid="class_face_watch___custom_windows_1aaf962cca3f7112db37d9d151274b92e5" kind="variable"><name>face_radius</name></member>
+    <member refid="class_face_watch___custom_windows_1ae4afdff97055a3746864560198f73b01" kind="variable"><name>show_toolbars</name></member>
+    <member refid="class_face_watch___custom_windows_1a2dc7d78cc037eaf6624ad31b1e1ab5f6" kind="function"><name>setup</name></member>
+    <member refid="class_face_watch___custom_windows_1ae9b4b5161c30d7242751168aabd606de" kind="function"><name>draw</name></member>
+    <member refid="class_face_watch___custom_windows_1a02926ca6e6ceb436b53a9baa5dd0c566" kind="function"><name>click</name></member>
+    <member refid="class_face_watch___custom_windows_1a603282f72632591ef276f88f99503c86" kind="function"><name>click_double</name></member>
+    <member refid="class_face_watch___custom_windows_1a11d52238ad5f2076550be72481e6a003" kind="function"><name>click_long</name></member>
+    <member refid="class_face_watch___custom_windows_1acbe9f4c5c9589be7153cf51fc2d01cfd" kind="function"><name>setup_trig</name></member>
+    <member refid="class_face_watch___custom_windows_1aa3039289556d9e97da1e9273fe3e5cce" kind="function"><name>draw_batteryicon</name></member>
+    <member refid="class_face_watch___custom_windows_1a98190da8e2ad05f548397ac5ab2bc9f1" kind="function"><name>draw_window</name></member>
+    <member refid="class_face_watch___custom_windows_1aae73995896dbe14c397afed6e9872b16" kind="function"><name>draw_window_objects</name></member>
+    <member refid="class_face_watch___custom_windows_1a6189c834eb35491eaf8933430fc344bb" kind="function"><name>draw_hand</name></member>
+  </compound>
+  <compound refid="class_face_watch___default_analog" kind="class"><name>FaceWatch_DefaultAnalog</name>
+    <member refid="class_face_watch___default_analog_1a40f4839a44be26f80e4bde96238733e6" kind="variable"><name>version</name></member>
+    <member refid="class_face_watch___default_analog_1a738d58d186c262505ec6b17becce1581" kind="variable"><name>cachedTrig</name></member>
+    <member refid="class_face_watch___default_analog_1ac99d29256b1fd9081e37021e8cfee074" kind="variable"><name>pos_secs</name></member>
+    <member refid="class_face_watch___default_analog_1af6db804ef5e7301f8ac7829ac195f645" kind="variable"><name>pos_mins</name></member>
+    <member refid="class_face_watch___default_analog_1adf2f5d1695f2646f99c1c195cd6cca62" kind="variable"><name>pos_hours</name></member>
+    <member refid="class_face_watch___default_analog_1a301e025eb473606cc12b1b750f5d6b84" kind="variable"><name>center_x</name></member>
+    <member refid="class_face_watch___default_analog_1a6ba0743bc9e9435917a9236b2e312ae1" kind="variable"><name>center_y</name></member>
+    <member refid="class_face_watch___default_analog_1a753075503a1bce6f66f75d512b8eae10" kind="variable"><name>face_radius</name></member>
+    <member refid="class_face_watch___default_analog_1a5d0ecadf04c235651b607116d9b57fc7" kind="function"><name>setup</name></member>
+    <member refid="class_face_watch___default_analog_1a886d433ac3799b47e40117631e54585e" kind="function"><name>draw</name></member>
+    <member refid="class_face_watch___default_analog_1a3e5a42fba1a91a18d14ee4139ef9339f" kind="function"><name>click</name></member>
+    <member refid="class_face_watch___default_analog_1abc697a506852c2d2d3f89f39a8379dbb" kind="function"><name>click_double</name></member>
+    <member refid="class_face_watch___default_analog_1a4ca384ea16bc28dfdbfe67d4db849efc" kind="function"><name>click_long</name></member>
+    <member refid="class_face_watch___default_analog_1a52587281880332f0e5719f5ffe227f24" kind="function"><name>setup_trig</name></member>
+    <member refid="class_face_watch___default_analog_1ac400f3309f38db503a21962ff53daeef" kind="function"><name>draw_hand</name></member>
+  </compound>
+  <compound refid="class_face_watch___default_digital" kind="class"><name>FaceWatch_DefaultDigital</name>
+    <member refid="class_face_watch___default_digital_1a035c30041c9f4c298f20160f85e360f5" kind="variable"><name>version</name></member>
+    <member refid="class_face_watch___default_digital_1a31dff8f59171367252be8648548bb4e5" kind="function"><name>setup</name></member>
+    <member refid="class_face_watch___default_digital_1a5f2e80e84f738b6ccc33317f650c08d7" kind="function"><name>draw</name></member>
+    <member refid="class_face_watch___default_digital_1a7cde8b1bcb948ca3ded8b949b205cc2f" kind="function"><name>click</name></member>
+    <member refid="class_face_watch___default_digital_1a873c201fec19c08b1d2e670051b0ba9e" kind="function"><name>click_double</name></member>
+    <member refid="class_face_watch___default_digital_1ae4c54aadec13c8b19ac50973bbea3a89" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_face_watch_settings" kind="class"><name>FaceWatchSettings</name>
+    <member refid="class_face_watch_settings_1a96f1e3465aae95ac9bd1e12f7634d184" kind="function"><name>setup</name></member>
+    <member refid="class_face_watch_settings_1a9a615d39bacf11c880898e80de48b8ed" kind="function"><name>draw</name></member>
+    <member refid="class_face_watch_settings_1aeb166bbb4346c8fe65f674aeeb47e855" kind="function"><name>click</name></member>
+    <member refid="class_face_watch_settings_1a77c31e5ddc43d1aa7d553cc1bf2fd4ab" kind="function"><name>click_double</name></member>
+    <member refid="class_face_watch_settings_1af900d7fa21bcd1065e7a30652e4d8271" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_i_m_u" kind="class"><name>IMU</name>
+    <member refid="class_i_m_u_1a9f825d0380ac215cd54beb9986814923" kind="variable"><name>imu_preinit_ok</name></member>
+    <member refid="class_i_m_u_1a74cc5c0e52872c8c3b747b4eb1bf0300" kind="variable"><name>imu_ready</name></member>
+    <member refid="class_i_m_u_1aa47dfb8aea00c0540ab9421d3ed9e669" kind="variable"><name>mag_ready</name></member>
+    <member refid="class_i_m_u_1a9978571d9ee2924c14a697cf014cd33c" kind="variable"><name>imu</name></member>
+    <member refid="class_i_m_u_1aff58b784a845ca84d577c3105d06f87b" kind="variable"><name>mag</name></member>
+    <member refid="class_i_m_u_1ab9e85b331f528c45f076db30a7b8dffc" kind="variable"><name>i2cAddress</name></member>
+    <member refid="class_i_m_u_1a2159cb60e427650470753b956112fcc6" kind="variable"><name>next_imu_read</name></member>
+    <member refid="class_i_m_u_1ab50afec43e72f704287abeca057d1d97" kind="variable"><name>prev_yaw_read</name></member>
+    <member refid="class_i_m_u_1abf1b0887e2f886ba2954037dba7ced47" kind="variable"><name>curr_yaw_read</name></member>
+    <member refid="class_i_m_u_1a719b7715914aad9c086d3c61476038df" kind="variable"><name>hacky_yaw</name></member>
+    <member refid="class_i_m_u_1ac15b1cbc934321067f1d4306312c9990" kind="variable"><name>step_count</name></member>
+    <member refid="class_i_m_u_1a2b21e9b83326b62a4b1b8a0ae92cfc50" kind="variable"><name>movement_activity</name></member>
+    <member refid="class_i_m_u_1a6b426e8f4e6364d948a94848edc056a6" kind="variable"><name>hard_iron</name></member>
+    <member refid="class_i_m_u_1a388b51b2e42ba587cb6f23a39633b404" kind="variable"><name>soft_iron</name></member>
+    <member refid="class_i_m_u_1ac3d0e91d37f0eb267bde18df5826148a" kind="variable"><name>mag_decl</name></member>
+    <member refid="class_i_m_u_1ac226749c0c5ddbc8fa2e7ffe8d9839cf" kind="function"><name>preinit</name></member>
+    <member refid="class_i_m_u_1a3850c006b37efdf08652063673f3b27f" kind="function"><name>init</name></member>
+    <member refid="class_i_m_u_1a40bdeb6e5e40420be3a7a4eeb12c5f43" kind="function"><name>update</name></member>
+    <member refid="class_i_m_u_1afe377e5424d4d78c445e17e7fbfd34da" kind="function"><name>get_accel_x</name></member>
+    <member refid="class_i_m_u_1aacb32471da72093df4a9a5a1d5961ec9" kind="function"><name>get_accel_y</name></member>
+    <member refid="class_i_m_u_1aff081c959c1543d7f98c4a78b24689e8" kind="function"><name>get_accel_z</name></member>
+    <member refid="class_i_m_u_1a20fc171f6bd1e04ce4df6d8c2739451d" kind="function"><name>get_gyro_x</name></member>
+    <member refid="class_i_m_u_1adee1902f0a38fc77a5bf578c547b364e" kind="function"><name>get_gyro_y</name></member>
+    <member refid="class_i_m_u_1a5904bfcc2f243be30aa406daa52ca7f7" kind="function"><name>get_gyro_z</name></member>
+    <member refid="class_i_m_u_1acc55327d10a0bd87b1942b2d30295af9" kind="function"><name>get_pitch</name></member>
+    <member refid="class_i_m_u_1a35abf4c589abb5f162cb6578a90848b6" kind="function"><name>get_roll</name></member>
+    <member refid="class_i_m_u_1ad98004c7e643ff5378a1082e3cc01d79" kind="function"><name>get_yaw</name></member>
+    <member refid="class_i_m_u_1aad28c34e8c92393814a5b318ce2400b6" kind="function"><name>is_looking_at_face</name></member>
+    <member refid="class_i_m_u_1a8284b0593f749a491fd90b51d6602d88" kind="function"><name>set_hibernate</name></member>
+    <member refid="class_i_m_u_1a3868cd48b48ab679cb3e913c35ce0c2f" kind="function"><name>setup_step_counter</name></member>
+    <member refid="class_i_m_u_1a1846a3443df8d20cc689062b3faa0597" kind="function"><name>process_steps</name></member>
+    <member refid="class_i_m_u_1ad0f158e76f7f630650468a7d00f61545" kind="function"><name>process_steps</name></member>
+    <member refid="class_i_m_u_1a849695cd7ed8d5739aa8faeb356bd080" kind="function"><name>get_steps</name></member>
+    <member refid="class_i_m_u_1af4d71d4922328d0dc0562eb7708f79b3" kind="function"><name>get_movement_activity_id</name></member>
+    <member refid="class_i_m_u_1a84727fe4d55b62e92ae77f83c9cf5322" kind="function"><name>get_movement_activity</name></member>
+    <member refid="class_i_m_u_1a0f65224a444493d77866a10e4a605931" kind="function"><name>setup_wake_gesture</name></member>
+    <member refid="class_i_m_u_1a9fe304262319330cf05dafa40d580520" kind="function"><name>process_wrist_gestures</name></member>
+    <member refid="class_i_m_u_1a1316f25b98d8df78dcb7247c31d63aa2" kind="function"><name>persist_step_count</name></member>
+  </compound>
+  <compound refid="class_r_t_c" kind="class"><name>RTC</name>
+    <member refid="class_r_t_c_1a949f751e5b73c834880a00ffec40cedf" kind="variable"><name>time_components</name></member>
+    <member refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kind="variable"><name>rtc</name></member>
+    <member refid="class_r_t_c_1a548196e3f9cdf99fd05a46cc521846f6" kind="variable"><name>requiresNTP</name></member>
+    <member refid="class_r_t_c_1acbde1a4dbc26c6066fa3fb1f7a358032" kind="variable"><name>enabled</name></member>
+    <member refid="class_r_t_c_1ab0b4e674c18c508d4d07a7e2452cc051" kind="variable"><name>interruptPin</name></member>
+    <member refid="class_r_t_c_1aea8434a3279d7440a97fb643dc438507" kind="variable"><name>next_rtc_read</name></member>
+    <member refid="class_r_t_c_1aaf78123b7124b89372f133212553e8dc" kind="variable"><name>cached_day</name></member>
+    <member refid="class_r_t_c_1ae308c53de31d457194a04abad1c70073" kind="variable"><name>cached_month</name></member>
+    <member refid="class_r_t_c_1a3f6a206e98022fdc8dcbe3d74a90482f" kind="variable"><name>cached_year</name></member>
+    <member refid="class_r_t_c_1a57ecd4dca8ffc8d3ea9d95a3598d6945" kind="function"><name>init</name></member>
+    <member refid="class_r_t_c_1a3b631fed4fcb2f02e36f63b3aad53027" kind="function"><name>setup_interrupt</name></member>
+    <member refid="class_r_t_c_1a6f545dc205dc7efda261842c752eabb1" kind="function"><name>check_interrupt</name></member>
+    <member refid="class_r_t_c_1ad29394472da8253f087b68c7a06a054f" kind="function"><name>set_time_from_NTP</name></member>
+    <member refid="class_r_t_c_1ac05ae8a75f785cc467b6917d6ca41a7d" kind="function"><name>set_hourly_alarm</name></member>
+    <member refid="class_r_t_c_1ab07e45af9b2786d5d7ed3c50cfdc0358" kind="function"><name>get_hours_string</name></member>
+    <member refid="class_r_t_c_1abb44b79caae249fd3fc274120b455feb" kind="function"><name>get_mins_string</name></member>
+    <member refid="class_r_t_c_1a7ea88772146ac42e471064856c2cd545" kind="function"><name>get_secs_string</name></member>
+    <member refid="class_r_t_c_1ac94a3b01f03d3907fb98eba11836d98c" kind="function"><name>get_day_date</name></member>
+    <member refid="class_r_t_c_1a4f16eb2b1c0846c618e16dff369b3184" kind="function"><name>get_day_of_week</name></member>
+    <member refid="class_r_t_c_1a4b6f95a607c60c63309826d2fd4db019" kind="function"><name>get_month_date</name></member>
+    <member refid="class_r_t_c_1a624d6291e36c1399ebddbf44d31221f1" kind="function"><name>get_time_string</name></member>
+    <member refid="class_r_t_c_1a584f6a61e435f518e2950206592cda44" kind="function"><name>get_hours</name></member>
+    <member refid="class_r_t_c_1a8f6e476c8f5ccdacbc69da6db5092070" kind="function"><name>get_mins</name></member>
+    <member refid="class_r_t_c_1aee92322b67dd488e3fe77d1045e53d3d" kind="function"><name>get_seconds</name></member>
+    <member refid="class_r_t_c_1a01e24dae34233cf35a5d0c6d8ab52009" kind="function"><name>get_day</name></member>
+    <member refid="class_r_t_c_1ad46b4ccf682c4fc57af1cde874a1dc60" kind="function"><name>get_month</name></member>
+    <member refid="class_r_t_c_1ae8f63503b20d8504e4a4fd2669bcfb27" kind="function"><name>get_year</name></member>
+    <member refid="class_r_t_c_1ac9a7cab8de2329400ba4f6f13588fca9" kind="function"><name>get_step_date</name></member>
+  </compound>
+  <compound refid="structscan__responder" kind="struct"><name>scan_responder</name>
+    <member refid="structscan__responder_1ab39852ca93449396e041f57250463680" kind="variable"><name>server</name></member>
+    <member refid="structscan__responder_1af111328493eb0fe0dbd8fdb1f6122748" kind="variable"><name>waiting</name></member>
+    <member refid="structscan__responder_1a12b7d946d0e54184ee45c5705389712e" kind="variable"><name>response</name></member>
+    <member refid="structscan__responder_1a38368e48da33a6204bf726f94fa498e7" kind="function"><name>scan_responder</name></member>
+    <member refid="structscan__responder_1a10a15f2660b7af41f899919b22b9650f" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_settings" kind="class"><name>Settings</name>
+    <member refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kind="variable"><name>config</name></member>
+    <member refid="class_settings_1a509f772f09ffc6fff7979da55a31a39e" kind="variable"><name>setting_wifi_start</name></member>
+    <member refid="class_settings_1aa42da92c05be487651de3a57ba3a53b0" kind="variable"><name>setting_time_24hour</name></member>
+    <member refid="class_settings_1ab8a0fdb8c98a2f7738995106b522f17d" kind="variable"><name>setting_time_dateformat</name></member>
+    <member refid="class_settings_1ae7292aa2bf29892b83474e794f4d8764" kind="variable"><name>setting_left_handed</name></member>
+    <member refid="class_settings_1a1207215c27f2d0beb3b23115e0001463" kind="variable"><name>setting_flipped</name></member>
+    <member refid="class_settings_1a07f3193633d813269b3495255dc63125" kind="variable"><name>setting_audio_ui</name></member>
+    <member refid="class_settings_1a7b75bfb359b1533477accd5e65601f60" kind="variable"><name>setting_audio_alarm</name></member>
+    <member refid="class_settings_1adb8b7aff516eea8ae61ea171321ec857" kind="variable"><name>filename</name></member>
+    <member refid="class_settings_1a11318b2647ea7d36db2185fc652c2c8a" kind="variable"><name>tmp_filename</name></member>
+    <member refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kind="variable"><name>log</name></member>
+    <member refid="class_settings_1a6b7deab2e703293098334c3bbc60537e" kind="variable"><name>backup_prefix</name></member>
+    <member refid="class_settings_1af893529f9727266e69ab3dd11de07eed" kind="variable"><name>max_backups</name></member>
+    <member refid="class_settings_1ae9cfa0afc12575661b57f107fca803e6" kind="variable"><name>max_time_between_saves</name></member>
+    <member refid="class_settings_1a142b93e70d4701aec73d790d0636003c" kind="variable"><name>last_save_time</name></member>
+    <member refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kind="variable"><name>nvs</name></member>
+    <member refid="class_settings_1a06d1d58938c8fdc7a577e52f9ffda29d" kind="function"><name>load</name></member>
+    <member refid="class_settings_1a00dcb4d9f9a4f7deaee375a545947752" kind="function"><name>save</name></member>
+    <member refid="class_settings_1aa4e5b7dd1bc7037dae326078619852a6" kind="function"><name>backup</name></member>
+    <member refid="class_settings_1aa65b7c45b1ba3a125a818224094d63d4" kind="function"><name>create</name></member>
+    <member refid="class_settings_1a1a20fe3938eafa97da459177007ab050" kind="function"><name>print_file</name></member>
+    <member refid="class_settings_1a3c276563c885a8a30ef340e6e9e6d979" kind="function"><name>has_wifi_creds</name></member>
+    <member refid="class_settings_1a53c5758b55206fe6754ed044a50a41ee" kind="function"><name>has_country_set</name></member>
+    <member refid="class_settings_1afe820637e10449ff29f61ab90f59cc2f" kind="function"><name>update_wifi_credentials</name></member>
+    <member refid="class_settings_1a5ed3552ca49c29b917e5826c799b70d7" kind="function"><name>get_load_status</name></member>
+    <member refid="class_settings_1a00753c3834f8ac98173ed55b06d26477" kind="function"><name>get_save_status</name></member>
+    <member refid="class_settings_1afa3dbfe914fdc12c1f6419836b5294d1" kind="function"><name>backupNumber</name></member>
+    <member refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kind="function"><name>log_to_nvs</name></member>
+  </compound>
+  <compound refid="class_settings_option_bool" kind="class"><name>SettingsOptionBool</name>
+    <member refid="class_settings_option_bool_1a26d43b7c0006c12cee869765d70db071" kind="variable"><name>setting_ref</name></member>
+    <member refid="class_settings_option_bool_1a780cd3cafcca45aac91f5bc470bdb1b2" kind="function"><name>SettingsOptionBool</name></member>
+    <member refid="class_settings_option_bool_1acc530a61661b28b28607b8a22104269e" kind="function"><name>change</name></member>
+    <member refid="class_settings_option_bool_1a7ebcb377ddec6654b6f5b667490c3007" kind="function"><name>get</name></member>
+    <member refid="class_settings_option_bool_1a828f8ada2f3850d277807b79d44bbf41" kind="function"><name>get_str</name></member>
+  </compound>
+  <compound refid="class_settings_option_float" kind="class"><name>SettingsOptionFloat</name>
+    <member refid="class_settings_option_float_1a9906c196d0f0c784de2f20aec5069d53" kind="variable"><name>setting_ref</name></member>
+    <member refid="class_settings_option_float_1a63b06734dd59750beec7c626b37ca81f" kind="variable"><name>value_min</name></member>
+    <member refid="class_settings_option_float_1a3615787f57683af0cae8a37e9d53732c" kind="variable"><name>value_max</name></member>
+    <member refid="class_settings_option_float_1a60895aa021d3aabd6c3b867acfccd3d8" kind="variable"><name>value_step</name></member>
+    <member refid="class_settings_option_float_1aed22e85c2b830151def34a87055dd357" kind="variable"><name>value_wrap</name></member>
+    <member refid="class_settings_option_float_1aaccf73bbfcdd996088fe6e0679b2d807" kind="function"><name>SettingsOptionFloat</name></member>
+    <member refid="class_settings_option_float_1ac45866017f12bfce12d4f5f89679b166" kind="function"><name>change</name></member>
+    <member refid="class_settings_option_float_1a708c3a3312e6bb09594b762893af4928" kind="function"><name>get</name></member>
+    <member refid="class_settings_option_float_1a9db8d2321a1a2b509d5afc1f70f6338f" kind="function"><name>get_str</name></member>
+  </compound>
+  <compound refid="class_settings_option_int" kind="class"><name>SettingsOptionInt</name>
+    <member refid="class_settings_option_int_1a545e1d2e6f875d5bcb3e45ed3e1dd1f7" kind="variable"><name>setting_ref</name></member>
+    <member refid="class_settings_option_int_1a92f46b19925d7f9a109dc4dba00a733e" kind="variable"><name>value_min</name></member>
+    <member refid="class_settings_option_int_1ae572c460c560a32e7d8fd5eb7138bbbc" kind="variable"><name>value_max</name></member>
+    <member refid="class_settings_option_int_1a856b0dee22c4f4ff90e19692211da799" kind="variable"><name>value_step</name></member>
+    <member refid="class_settings_option_int_1a37498070ef5719e25fe917bd2eba025e" kind="variable"><name>value_wrap</name></member>
+    <member refid="class_settings_option_int_1a1ee0846644d37d0664f2bcc8455e00a2" kind="function"><name>SettingsOptionInt</name></member>
+    <member refid="class_settings_option_int_1a7fbd39a9425db40e72b5b76aa5f6115b" kind="function"><name>change</name></member>
+    <member refid="class_settings_option_int_1a953c4eccbc5089485c0a79b6d47b28c2" kind="function"><name>get</name></member>
+    <member refid="class_settings_option_int_1ac8255a7b67a09b6e61d21f5c043e33b9" kind="function"><name>get_str</name></member>
+  </compound>
+  <compound refid="class_settings_option_string" kind="class"><name>SettingsOptionString</name>
+    <member refid="class_settings_option_string_1aac2c6801befc3e1c18f3cc70b6a16696" kind="variable"><name>setting_ref</name></member>
+    <member refid="class_settings_option_string_1a9e679a64a4b1b22c03eaa35e6a7dea5b" kind="function"><name>SettingsOptionString</name></member>
+    <member refid="class_settings_option_string_1a636661d1526c162679c9a846611b58b5" kind="function"><name>change</name></member>
+    <member refid="class_settings_option_string_1a58d4ae6317a71cddfd6ad0f576f00e84" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="class_tiny_w_a_t_c_h" kind="class"><name>TinyWATCH</name>
+    <member refid="class_tiny_w_a_t_c_h_1a1dd77ecfe4df7787f1fce46df043305a" kind="variable"><name>block_update_low_battery</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1af3f1a673303ccb81a7ea8e304fd3b304" kind="variable"><name>low_battery_update_check</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1a439c0df24b0a268b1c1c58b3c778730b" kind="variable"><name>version_firmware</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1a31de99c7e1854294dd7864dd6840baee" kind="variable"><name>version_year</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1aeb44ecae81f3bf26847e1e52f8cfda6c" kind="variable"><name>messages</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1a5ffe6ca8ca904c64994037ce6f518838" kind="function"><name>was_sleeping</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1a4067252dd43ba7790b0d51ebb8e5e064" kind="function"><name>woke_by</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1af40eb68ae6d6d22a5e5dd0295268df4f" kind="function"><name>go_to_sleep</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1ad663ff18437a2cf94b2fbaed03fa11ee" kind="function"><name>vbus_present</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1a4b19b69d59de3d9fc53005a28d59cc81" kind="function"><name>set_cpu_frequency</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" kind="function"><name>log_system_message</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1a48e1a1b6084f3558d73a11d442796edd" kind="function"><name>get_public_ip</name></member>
+    <member refid="class_tiny_w_a_t_c_h_1a24813f09af29a3975a42a406e2c70956" kind="function"><name>get_and_update_utc_settings</name></member>
+  </compound>
+  <compound refid="struct_t_t___time" kind="struct"><name>TT_Time</name>
+    <member refid="struct_t_t___time_1a58d7dc59ff3c0486f045764ee7137c6a" kind="variable"><name>secs</name></member>
+    <member refid="struct_t_t___time_1ae4f59ca0cbaab2fb7ea4910608b5bf69" kind="variable"><name>mins</name></member>
+    <member refid="struct_t_t___time_1a0925903ac104e0965df84d101f61e917" kind="variable"><name>hours</name></member>
+  </compound>
+  <compound refid="classtw__app" kind="class"><name>tw_app</name>
+    <member refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" kind="variable"><name>name</name></member>
+    <member refid="classtw__app_1af0a4b68423257bdeaa3c8ea77635a48f" kind="variable"><name>owner</name></member>
+    <member refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" kind="variable"><name>is_setup</name></member>
+    <member refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kind="variable"><name>canvasid</name></member>
+    <member refid="classtw__app_1a77f9e65c0d5514ea4ed8f0a00e2b2db9" kind="variable"><name>required_cpu_speed</name></member>
+    <member refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" kind="variable"><name>update_period</name></member>
+    <member refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" kind="variable"><name>next_update</name></member>
+    <member refid="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" kind="variable"><name>_x</name></member>
+    <member refid="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" kind="variable"><name>_y</name></member>
+    <member refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kind="variable"><name>icon_width</name></member>
+    <member refid="classtw__app_1a7a8e55b2e1ee1d910b50b0688ae9369b" kind="variable"><name>icon_height</name></member>
+    <member refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" kind="variable"><name>icon_x</name></member>
+    <member refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" kind="variable"><name>icon_y</name></member>
+    <member refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" kind="variable"><name>is_icon_cached</name></member>
+    <member refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kind="variable"><name>icon_sprite</name></member>
+    <member refid="classtw__app_1a415b5f5015e2f10ea3c1e627d58d289f" kind="function"><name>tw_app</name></member>
+    <member refid="classtw__app_1a59f9dd493e97a436ee39365427dd389b" kind="function"><name>~tw_app</name></member>
+    <member refid="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" kind="function"><name>add</name></member>
+    <member refid="classtw__app_1aa8977866b6bc2829b4be921fdbf8d016" kind="function"><name>add</name></member>
+    <member refid="classtw__app_1a49c377582445587b4127d6497bde2a3b" kind="function"><name>click_icon</name></member>
+    <member refid="classtw__app_1a5cf0211251f14dd57c0f575c4ac2ec04" kind="function"><name>set_canvas</name></member>
+    <member refid="classtw__app_1ab1914aae31b736e21441c926a7045854" kind="function"><name>close</name></member>
+    <member refid="classtw__app_1a9210babf07943910c5324c71d0cb4575" kind="function"><name>pre_start</name></member>
+    <member refid="classtw__app_1aac3219a95c9f0b26a6f4226ba2bc9bc2" kind="function"><name>draw</name></member>
+    <member refid="classtw__app_1af52944199ec0fcedf5a0d10dd2b3cda3" kind="function"><name>draw_icon</name></member>
+    <member refid="classtw__app_1aff74b36c204aa2c2064478c3aaff7b85" kind="function"><name>click</name></member>
+    <member refid="classtw__app_1a0ab331b94d4ebfc9210030292e7d36ec" kind="function"><name>click_double</name></member>
+  </compound>
+  <compound refid="classtw__control" kind="class"><name>tw_control</name>
+    <member refid="classtw__control_1aa5866ceadd9ee0a7b62dab42eb0c4d26" kind="typedef"><name>CallbackFunction</name></member>
+    <member refid="classtw__control_1afb4e579aac10eb0681adea2afb85e1a2" kind="variable"><name>name</name></member>
+    <member refid="classtw__control_1a30820a179da2c2be53f4adfc5475bd9a" kind="variable"><name>parent</name></member>
+    <member refid="classtw__control_1a9a0b0641f496916802cba6cf15a9ef28" kind="variable"><name>callbackFunction</name></member>
+    <member refid="classtw__control_1a41871f50ad83775e6e0aa9735ff087f0" kind="variable"><name>value</name></member>
+    <member refid="classtw__control_1a7e3bf4abc01c2d219b9c4d2ae45fc1bc" kind="variable"><name>option1</name></member>
+    <member refid="classtw__control_1a304039dc7cdb6e6a46283bc02398f31f" kind="variable"><name>option2</name></member>
+    <member refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kind="variable"><name>canvasid</name></member>
+    <member refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kind="variable"><name>width</name></member>
+    <member refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kind="variable"><name>height</name></member>
+    <member refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" kind="variable"><name>pos_x</name></member>
+    <member refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" kind="variable"><name>pos_y</name></member>
+    <member refid="classtw__control_1a0260033322fb08209ad94550f26a66ff" kind="variable"><name>padding_x</name></member>
+    <member refid="classtw__control_1ad185794a64b94983b686c1c089c6892e" kind="variable"><name>padding_y</name></member>
+    <member refid="classtw__control_1a4d91050ea99b4c0ae51c2596b7b01d62" kind="variable"><name>requires_redraw</name></member>
+    <member refid="classtw__control_1afe4fb6fb8beb34f76e98dcff6980ea75" kind="variable"><name>can_scroll_x</name></member>
+    <member refid="classtw__control_1ad7666727e24e480111e12317df3e0db4" kind="variable"><name>can_scroll_y</name></member>
+    <member refid="classtw__control_1af5152d03c48c5121ef3517dd96e1c18b" kind="variable"><name>scroll_x</name></member>
+    <member refid="classtw__control_1a4afe73b8ce0719545ae13a1b5166eae1" kind="variable"><name>scroll_y</name></member>
+    <member refid="classtw__control_1a2bac811da9de1d6e647f6ecb802fd9f4" kind="variable"><name>offset_x</name></member>
+    <member refid="classtw__control_1ab6049b218ec56da1cdaa11aecdace054" kind="variable"><name>offset_y</name></member>
+    <member refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kind="variable"><name>adjusted_pos_x</name></member>
+    <member refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kind="variable"><name>adjusted_pos_y</name></member>
+    <member refid="classtw__control_1a45b7cecc9b4d6be7885b00129cf71450" kind="function"><name>create</name></member>
+    <member refid="classtw__control_1a2bd5e84b349d3acd4332e691252e9a4e" kind="function"><name>create</name></member>
+    <member refid="classtw__control_1a92de6ce8244528f528b5b6a06f788702" kind="function"><name>create</name></member>
+    <member refid="classtw__control_1a86c62efb52d0bda09701025bc4c285d7" kind="function"><name>set_callback</name></member>
+    <member refid="classtw__control_1a5d51159f31c6abfb9f6ad074bea39b17" kind="function"><name>set_values</name></member>
+    <member refid="classtw__control_1ac39cf6b57bc14fdba5745f0876aa1ec5" kind="function"><name>set_parent</name></member>
+    <member refid="classtw__control_1a14b56d61053455a8340fa0ef873f8438" kind="function"><name>bounds_check</name></member>
+    <member refid="classtw__control_1a193f3b939571be166616862ef7eaf82c" kind="function"><name>get_height</name></member>
+    <member refid="classtw__control_1af5e22d745769f6ef9483e7a1671ce611" kind="function"><name>get_height_stacked</name></member>
+    <member refid="classtw__control_1af3ff3da8f6fe036da0a826d14fded5d8" kind="function"><name>get_y_min</name></member>
+    <member refid="classtw__control_1a4d687b2b1bd72932e11099373cd13f2f" kind="function"><name>get_y_max</name></member>
+    <member refid="classtw__control_1a05335649c9426198c0d1a39cdd4d7480" kind="function"><name>draw</name></member>
+    <member refid="classtw__control_1ab5bda3919b1d4619d27a9451b0175b1a" kind="function"><name>draw_scroll</name></member>
+    <member refid="classtw__control_1a3e0422bf5201e2664bf3f2beb20627da" kind="function"><name>set_scrollable</name></member>
+    <member refid="classtw__control_1a0cb2d4f0f7f62b27d0c8d25adbf62167" kind="function"><name>can_drag</name></member>
+    <member refid="classtw__control_1aa30d2044da736112cb5af3c2e602085b" kind="function"><name>draw</name></member>
+    <member refid="classtw__control_1a5801ddb432eba15482734b6d4e973d9f" kind="function"><name>drag</name></member>
+    <member refid="classtw__control_1ae8aae1a8761fdcedd86371c27294c2a0" kind="function"><name>drag_end</name></member>
+    <member refid="classtw__control_1ab262e7a645b158adf967a5365a44cc1c" kind="function"><name>click</name></member>
+    <member refid="classtw__control_1aba09793680c70400242c8a7261c923a3" kind="function"><name>click_double</name></member>
+    <member refid="classtw__control_1ad1bd8d58a154843ac26d86afbd1a02a0" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="classtw__face" kind="class"><name>tw_face</name>
+    <member refid="classtw__face_1a7ba26fee4307d4e657f7c6701b9c1481" kind="variable"><name>drag_dir</name></member>
+    <member refid="classtw__face_1ae9b7f7fde655ad5bfee9a4345f9ede3e" kind="variable"><name>name</name></member>
+    <member refid="classtw__face_1ace76516e9533191a6b638c8991fc0393" kind="variable"><name>navigation</name></member>
+    <member refid="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" kind="variable"><name>is_setup</name></member>
+    <member refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kind="variable"><name>canvasid</name></member>
+    <member refid="classtw__face_1adf1eeb08a54b5e8a5f18677961d07f95" kind="variable"><name>update_period</name></member>
+    <member refid="classtw__face_1a138dc7f9a514ab0e6c0b9d4b1f3f87f7" kind="variable"><name>required_cpu_speed</name></member>
+    <member refid="classtw__face_1ae638d9d240228539afc9ab7c033350cd" kind="variable"><name>is_clock_face</name></member>
+    <member refid="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" kind="variable"><name>next_update</name></member>
+    <member refid="classtw__face_1aed33f1d3677f2f858f7f70ec4e8c1b83" kind="variable"><name>next_click_update</name></member>
+    <member refid="classtw__face_1a504abbdbee49cba33dcf60c26ee9ded7" kind="variable"><name>click_hold_start_timer</name></member>
+    <member refid="classtw__face_1ae77610f70ba6b542c37b6c8daca9a929" kind="variable"><name>should_animate</name></member>
+    <member refid="classtw__face_1ac625430f5581b37e391cb4072596b3e0" kind="variable"><name>drag_lock_x</name></member>
+    <member refid="classtw__face_1a1749d6681b444adc5fba9b71ec8715ad" kind="variable"><name>drag_lock_y</name></member>
+    <member refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" kind="variable"><name>is_dragging</name></member>
+    <member refid="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" kind="variable"><name>is_cached</name></member>
+    <member refid="classtw__face_1a76c3857bbb0999a9f30dbc9bc908586c" kind="variable"><name>can_swipe_dir</name></member>
+    <member refid="classtw__face_1ad2e626b2e40b1cff9c6f6be787d3d63d" kind="variable"><name>drag_start_x</name></member>
+    <member refid="classtw__face_1ab627ebcc8244826a39dbc546c154a1e8" kind="variable"><name>drag_start_y</name></member>
+    <member refid="classtw__face_1aa0407f1353c697853c4ded0769c9bd7d" kind="variable"><name>_x</name></member>
+    <member refid="classtw__face_1ad842e61841906d628e1f276954c0b8b6" kind="variable"><name>_y</name></member>
+    <member refid="classtw__face_1a2f130bd11d482e8567aa04b2abde291d" kind="variable"><name>drag_width</name></member>
+    <member refid="classtw__face_1a20698a0b95c187953207dd6aecc9ae88" kind="variable"><name>block_dragging</name></member>
+    <member refid="classtw__face_1a35b743b1503cfe53383c3a60fcaf4623" kind="variable"><name>drag_start_time</name></member>
+    <member refid="classtw__face_1ac452e68cf02a4cf30a5bc5be15c5b65f" kind="variable"><name>can_scroll_x</name></member>
+    <member refid="classtw__face_1ae35d2d9ca985d8f3d89fb215805046ae" kind="variable"><name>can_scroll_y</name></member>
+    <member refid="classtw__face_1ad1b7564d901ad170e5b7df68f04d4716" kind="variable"><name>inertia_x</name></member>
+    <member refid="classtw__face_1a0da244bddaf186eacf0893064007c574" kind="variable"><name>inertia_y</name></member>
+    <member refid="classtw__face_1a6e69452274b3260c49858937ae74661a" kind="variable"><name>scroll_start_y</name></member>
+    <member refid="classtw__face_1aad5763b5ee4c852a8abd58c5bfe663fd" kind="variable"><name>scroll_pos</name></member>
+    <member refid="classtw__face_1afd78ecb56ee6d2adffe8664923e6f9e4" kind="variable"><name>is_scrolling</name></member>
+    <member refid="classtw__face_1afcfc0f769759459c8c7c08872af7317b" kind="variable"><name>selectedControl</name></member>
+    <member refid="classtw__face_1a4c4bf1f0010ed676c9cea26a446610a4" kind="variable"><name>widgets</name></member>
+    <member refid="classtw__face_1a07bec342ccee2dd1cc42fe9b11facee0" kind="variable"><name>controls</name></member>
+    <member refid="classtw__face_1af39f9019c43aad1a0bea58b4b627dba1" kind="function"><name>add</name></member>
+    <member refid="classtw__face_1ac0db8ecb1b318cb67f3f55f3768e558c" kind="function"><name>add</name></member>
+    <member refid="classtw__face_1a6da80e6dcce52fb1799d4e2010f6242a" kind="function"><name>add_clock</name></member>
+    <member refid="classtw__face_1a2879c119587b2a89971de112cc18b7d5" kind="function"><name>add_clock</name></member>
+    <member refid="classtw__face_1a71e89c44b92c94a9993a925724794f27" kind="function"><name>set_navigation</name></member>
+    <member refid="classtw__face_1a62d0e643a009ee6210e2cee44eec5e3a" kind="function"><name>set_single_navigation</name></member>
+    <member refid="classtw__face_1a12b69b4c55d023a2f2357c3a64c05893" kind="function"><name>add_widget</name></member>
+    <member refid="classtw__face_1a0f0e3e893b6edf1f3350b79ea7227cdd" kind="function"><name>widget_process_clicks</name></member>
+    <member refid="classtw__face_1a9940b0b3530fe75b64395b810f08c3d7" kind="function"><name>add_control</name></member>
+    <member refid="classtw__face_1ade738ce0fd0d945b65310b2f6a7686e3" kind="function"><name>control_process_clicks</name></member>
+    <member refid="classtw__face_1af36389ae27fd78c0de22f9ab6f8e15e7" kind="function"><name>is_face_clock_face</name></member>
+    <member refid="classtw__face_1ae7d8400d64f7d59c6e1e9b7eaee12643" kind="function"><name>draw_children</name></member>
+    <member refid="classtw__face_1a33f9a809180158da04ef616d179a7975" kind="function"><name>draw_children_scroll</name></member>
+    <member refid="classtw__face_1a52c708d81bcdab0c127a738089e19b2b" kind="function"><name>get_cpu_speed</name></member>
+    <member refid="classtw__face_1abbc9bfa77cb0ac63e0bcd649e0af07fe" kind="function"><name>drag_begin</name></member>
+    <member refid="classtw__face_1a668367032fcee7476d121c63fdbba622" kind="function"><name>drag</name></member>
+    <member refid="classtw__face_1a933ad36ff2b0994fd2660fc4b0fbeddd" kind="function"><name>drag_end</name></member>
+    <member refid="classtw__face_1aee23261d614d8bd363e69873167a78c5" kind="function"><name>reset_can_swipe_flags</name></member>
+    <member refid="classtw__face_1a3e837ca4c033316f265d8eaddf99acd4" kind="function"><name>check_can_swipe</name></member>
+    <member refid="classtw__face_1a1b261fd794c01335af0e997d20657227" kind="function"><name>prevent_dragging</name></member>
+    <member refid="classtw__face_1aaed17741f1b6c8d092880010e7f1c5d9" kind="function"><name>reset_cache_status</name></member>
+    <member refid="classtw__face_1ac30b95b85f99fa326d343dc788fef5d1" kind="function"><name>is_face_cached</name></member>
+    <member refid="classtw__face_1a4e81eba332cca645993b82544c8ea7d5" kind="function"><name>debug_print</name></member>
+    <member refid="classtw__face_1a3f5fefe28b97beb02e0cd30782580778" kind="function"><name>set_scrollable</name></member>
+    <member refid="classtw__face_1aeef984ad711bc06b4b62a19a255627bc" kind="function"><name>get_widget_height</name></member>
+    <member refid="classtw__face_1ad1c25df1cd9ca801bd5d2c67ee44a156" kind="function"><name>get_control_height</name></member>
+    <member refid="classtw__face_1a39f3df6433aae1052c524f870857e50c" kind="function"><name>find_draggable_control</name></member>
+    <member refid="classtw__face_1ac5a401fc14f372f82330ea72fb619fea" kind="function"><name>setup</name></member>
+    <member refid="classtw__face_1ae9a6cbb84c29adcd16c63475d5a026e8" kind="function"><name>draw</name></member>
+    <member refid="classtw__face_1afaa5182a179ffc2ba1eff93623ff5ab7" kind="function"><name>click</name></member>
+    <member refid="classtw__face_1a99419484d1bacfa2e1e7f5670311a7b8" kind="function"><name>click_double</name></member>
+    <member refid="classtw__face_1ae4dd13600098156e5a4077a32fdbfb07" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="classtw__widget" kind="class"><name>tw_widget</name>
+    <member refid="classtw__widget_1a0c7106059fe14a973221930864a87301" kind="variable"><name>parent</name></member>
+    <member refid="classtw__widget_1a2cc08490e648fb07fce3320b5e30bf32" kind="variable"><name>name</name></member>
+    <member refid="classtw__widget_1ad3d35433170c80cadb47dc5c4d400a54" kind="variable"><name>update_period</name></member>
+    <member refid="classtw__widget_1a0b44159d4ebb7cf2a6f83fa18f21d938" kind="variable"><name>next_update</name></member>
+    <member refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kind="variable"><name>width</name></member>
+    <member refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kind="variable"><name>height</name></member>
+    <member refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kind="variable"><name>pos_x</name></member>
+    <member refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kind="variable"><name>pos_y</name></member>
+    <member refid="classtw__widget_1a1454f31ce925dfb7dd41f427edb808c3" kind="variable"><name>padding_x</name></member>
+    <member refid="classtw__widget_1ad5dececcf61d7adea87112a54b055669" kind="variable"><name>padding_y</name></member>
+    <member refid="classtw__widget_1abbf0c6ed88dbcbde466da308fe25280a" kind="variable"><name>bounds_x</name></member>
+    <member refid="classtw__widget_1a7b3ace09f0b78e703cee368ff9333145" kind="variable"><name>bounds_y</name></member>
+    <member refid="classtw__widget_1a9256a8106c4e5c2f3a79df688399a1b2" kind="function"><name>tw_widget</name></member>
+    <member refid="classtw__widget_1a6a7ee578fc7245c7f1c13c5d14f34613" kind="function"><name>~tw_widget</name></member>
+    <member refid="classtw__widget_1aa8ed9e767718aaf10d38f707c81b1baa" kind="function"><name>create</name></member>
+    <member refid="classtw__widget_1a93fcf490206680ba5b8ad20134686856" kind="function"><name>set_parent</name></member>
+    <member refid="classtw__widget_1a9a5b5f3d971b21e223650b3db33ce53d" kind="function"><name>bounds_check</name></member>
+    <member refid="classtw__widget_1af517be976fc16074e1ae9e2f102fa348" kind="function"><name>get_height</name></member>
+    <member refid="classtw__widget_1a26a1faf7b703bdb1aa569dc93f4d2e62" kind="function"><name>draw</name></member>
+    <member refid="classtw__widget_1a6baf7012213ea3023cc8fc676fb538cf" kind="function"><name>draw</name></member>
+    <member refid="classtw__widget_1ac07d4aa7d44f1afaabde5d61977bc734" kind="function"><name>click</name></member>
+    <member refid="classtw__widget_1ad2f4b8cad406bd95f59afd04765a19d3" kind="function"><name>click_double</name></member>
+    <member refid="classtw__widget_1a0bf4f570d9129b9953fd8df0d6110957" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_web_server" kind="class"><name>WebServer</name>
+    <member refid="class_web_server_1a7f258a6e30591809c0e14b844b2c9e9c" kind="variable"><name>_running</name></member>
+    <member refid="class_web_server_1ade764d699c594cd1eb5c38556fb58937" kind="variable"><name>web_server</name></member>
+    <member refid="class_web_server_1a167caa34716b4c5b58f5e6e48107df77" kind="variable"><name>dns_server</name></member>
+    <member refid="class_web_server_1ad053f4e1808a3c10c7522d0dbbbc031a" kind="function"><name>WebServer</name></member>
+    <member refid="class_web_server_1aa11a807dd663199f91cc3571a22fc936" kind="function"><name>start</name></member>
+    <member refid="class_web_server_1a26b984084ea122ca20cf70324b44aca6" kind="function"><name>start_callback</name></member>
+    <member refid="class_web_server_1a09e0bc35886a3088dec9e459eb99092d" kind="function"><name>stop</name></member>
+    <member refid="class_web_server_1a8513128c907be1e630d22dc3402d2b14" kind="function"><name>process</name></member>
+    <member refid="class_web_server_1ae4afb83030c87b83425f0ca3a6f49b72" kind="function"><name>is_running</name></member>
+    <member refid="class_web_server_1af173220cfa6fb71452ff6fad8a1b5a45" kind="function"><name>processor</name></member>
+  </compound>
+  <compound refid="class_widget_activity_ring" kind="class"><name>WidgetActivityRing</name>
+    <member refid="class_widget_activity_ring_1a55b0a7ca3c092f17961010cc170c2e09" kind="variable"><name>version</name></member>
+    <member refid="class_widget_activity_ring_1a4c194a74459e299f8ef841f9338ea8f5" kind="variable"><name>col_rings</name></member>
+    <member refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kind="variable"><name>radius</name></member>
+    <member refid="class_widget_activity_ring_1a27b0e4193f3a56a96cc1393ee50a64ad" kind="variable"><name>thickness</name></member>
+    <member refid="class_widget_activity_ring_1af0f613708b5a41b7e97b0872bf724a0d" kind="variable"><name>arc_pos</name></member>
+    <member refid="class_widget_activity_ring_1a18a606522e86d5d9fd5f789e21bdda67" kind="function"><name>draw</name></member>
+    <member refid="class_widget_activity_ring_1a8b8175274944401a3e8a52b8cb13051a" kind="function"><name>click</name></member>
+    <member refid="class_widget_activity_ring_1aa0530ea48a9ea658a03afe65301f2fcb" kind="function"><name>click_double</name></member>
+    <member refid="class_widget_activity_ring_1a4e06963b5052466ec74e67b22b338748" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_widget_battery" kind="class"><name>WidgetBattery</name>
+    <member refid="class_widget_battery_1a824f0daa2a1672e32d985788b16ce5db" kind="variable"><name>version</name></member>
+    <member refid="class_widget_battery_1ad23efd1d5e75296e7cb5f8c9451664ae" kind="variable"><name>col_low</name></member>
+    <member refid="class_widget_battery_1a54ff24a8e961b799ef39031429f2229d" kind="variable"><name>col_med</name></member>
+    <member refid="class_widget_battery_1a68897b53bf09e9ba571a0c4004271705" kind="variable"><name>col_high</name></member>
+    <member refid="class_widget_battery_1aca2729892880403dcd9bfbb302ebab8e" kind="variable"><name>col_text</name></member>
+    <member refid="class_widget_battery_1a5212c030e3976230bdf47cc00c07caf5" kind="function"><name>draw</name></member>
+    <member refid="class_widget_battery_1ac32b99a26146f8e1ed92ab990a022f68" kind="function"><name>click</name></member>
+    <member refid="class_widget_battery_1a279d8a20d41b6d4721b4c8d3b272a85e" kind="function"><name>click_double</name></member>
+    <member refid="class_widget_battery_1aded823d22ba40f35ea52efbc1cb8959b" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_widget_e_s_p32" kind="class"><name>WidgetESP32</name>
+    <member refid="class_widget_e_s_p32_1aaee840dadacb8ed5e969e0342b524124" kind="variable"><name>version</name></member>
+    <member refid="class_widget_e_s_p32_1a6420e8f7e42aef16a5991061fb39891f" kind="variable"><name>next_stat_cycle</name></member>
+    <member refid="class_widget_e_s_p32_1abb5b1f07f61c21f9c30ef9a1351154cd" kind="function"><name>draw</name></member>
+    <member refid="class_widget_e_s_p32_1a1dec0dfc96740a60966c831819682b1a" kind="function"><name>click</name></member>
+    <member refid="class_widget_e_s_p32_1a68574ef08ec96de3ed85856e2faad151" kind="function"><name>click_double</name></member>
+    <member refid="class_widget_e_s_p32_1a4d4737fd91443cf9cbeec42775053087" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_widget_message" kind="class"><name>WidgetMessage</name>
+    <member refid="class_widget_message_1a4726a908b0c3dcb43966da0e4965f7c8" kind="variable"><name>version</name></member>
+    <member refid="class_widget_message_1aeb493fa7c92b41633381989ce2b0142f" kind="function"><name>draw</name></member>
+    <member refid="class_widget_message_1acae652149cef16725e9b003b6a1deeda" kind="function"><name>click</name></member>
+    <member refid="class_widget_message_1a27de06859d2973d8887bbeb8746c2904" kind="function"><name>click_double</name></member>
+    <member refid="class_widget_message_1a6d6128f9fcec35b9c377b56b785eea48" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="class_widget_open_weather" kind="class"><name>WidgetOpenWeather</name>
+    <member refid="class_widget_open_weather_1a151d3616546f24c3788cfb9d177b2a67" kind="variable"><name>version</name></member>
+    <member refid="class_widget_open_weather_1a7dabb88202aae2beca41d61692268a23" kind="variable"><name>server_path</name></member>
+    <member refid="class_widget_open_weather_1a87784c33a5bfd2e790a6f6744b3bcb64" kind="variable"><name>next_update</name></member>
+    <member refid="class_widget_open_weather_1a321bcf6eefc774f9569791a4d140b4fb" kind="variable"><name>icons_loaded</name></member>
+    <member refid="class_widget_open_weather_1a5b9de60e8e6edfbad8dc88df67194e83" kind="variable"><name>_temp</name></member>
+    <member refid="class_widget_open_weather_1adc35e898f8015528b7c868555ea5339c" kind="variable"><name>_humidity</name></member>
+    <member refid="class_widget_open_weather_1aef8bacdd08f8cd1a00a0b7f80666dfe2" kind="variable"><name>_icon_name</name></member>
+    <member refid="class_widget_open_weather_1a3ace13083a80530548a823f9a93d2230" kind="variable"><name>_icon_desc</name></member>
+    <member refid="class_widget_open_weather_1a6bd17d132211863116f1d850eab20f9c" kind="variable"><name>stat</name></member>
+    <member refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kind="variable"><name>ow_icons</name></member>
+    <member refid="class_widget_open_weather_1ac08b20e012d1ea886abbbbf7887c7a9c" kind="function"><name>draw</name></member>
+    <member refid="class_widget_open_weather_1a6f96b4752ccacdcf46e927b343274087" kind="function"><name>click</name></member>
+    <member refid="class_widget_open_weather_1abb8557db5f15c3181acf47dc941196f5" kind="function"><name>click_double</name></member>
+    <member refid="class_widget_open_weather_1aa9363bde5964b72ab8eff84c8f61956e" kind="function"><name>click_long</name></member>
+    <member refid="class_widget_open_weather_1aeea1c2e14beb3f5c31b541422f045eef" kind="function"><name>build_server_path</name></member>
+    <member refid="class_widget_open_weather_1a9fd1649e1dfbbc64ee7c712d191cbae0" kind="function"><name>decode_json</name></member>
+    <member refid="class_widget_open_weather_1aac1dff4b3d44e1feaa818ee90b3cdb00" kind="function"><name>load_icons</name></member>
+    <member refid="class_widget_open_weather_1af05c43996e88e21401268b612a5a991c" kind="function"><name>process_weather_data</name></member>
+  </compound>
+  <compound refid="class_widget_wifi" kind="class"><name>WidgetWifi</name>
+    <member refid="class_widget_wifi_1a7c496161cc618fd81595dab8a1b41df2" kind="variable"><name>version</name></member>
+    <member refid="class_widget_wifi_1a33f6abe886de76b70e1228ae94670033" kind="variable"><name>col_off</name></member>
+    <member refid="class_widget_wifi_1ac34ea4de9729e65e67355488f8c5effe" kind="variable"><name>col_on</name></member>
+    <member refid="class_widget_wifi_1ab689d6ae1032be9524b008f0558dbb51" kind="function"><name>draw</name></member>
+    <member refid="class_widget_wifi_1a7ecb63d9c3cfffd5f14120d578f3c604" kind="function"><name>click</name></member>
+    <member refid="class_widget_wifi_1a99dab1a8c10b5bf3a16bc840f3a13725" kind="function"><name>click_double</name></member>
+    <member refid="class_widget_wifi_1a4f316417282267e361ec50637c4cad2f" kind="function"><name>click_long</name></member>
+  </compound>
+  <compound refid="struct_wifi_controller_1_1wifi__callback__item" kind="struct"><name>WifiController::wifi_callback_item</name>
+    <member refid="struct_wifi_controller_1_1wifi__callback__item_1a0138d8330ec10c6eff7d2b85221e6749" kind="variable"><name>success</name></member>
+    <member refid="struct_wifi_controller_1_1wifi__callback__item_1ad9a5c04494a15b29fbb3426c7bd204d1" kind="variable"><name>response</name></member>
+    <member refid="struct_wifi_controller_1_1wifi__callback__item_1a94ddeb7b2457fc6390efee62a23914f4" kind="variable"><name>callback</name></member>
+  </compound>
+  <compound refid="struct_wifi_controller_1_1wifi__task__item" kind="struct"><name>WifiController::wifi_task_item</name>
+    <member refid="struct_wifi_controller_1_1wifi__task__item_1acb013fefced5abc20069fb7a93a971dd" kind="variable"><name>url</name></member>
+    <member refid="struct_wifi_controller_1_1wifi__task__item_1a92ebc73207eb3af87048770f31252698" kind="variable"><name>callback</name></member>
+  </compound>
+  <compound refid="class_wifi_controller" kind="class"><name>WifiController</name>
+    <member refid="class_wifi_controller_1adfcce8908d07132425e3fa158a46b1c4" kind="variable"><name>wifi_blocks_display</name></member>
+    <member refid="class_wifi_controller_1aaefbe3ceb5290e5f1646e5facf8e6a71" kind="variable"><name>wifi_prevent_disconnect</name></member>
+    <member refid="class_wifi_controller_1aa3238d9661f8e518b7b716605146b277" kind="variable"><name>user_config_json</name></member>
+    <member refid="class_wifi_controller_1a8907cec93ee17a880096a1a0abaf70ee" kind="variable"><name>current_state</name></member>
+    <member refid="class_wifi_controller_1a55ff4a772ec6033ca9ca6d7ec284f464" kind="variable"><name>wifi_busy</name></member>
+    <member refid="class_wifi_controller_1adc81e32e09ec1a626fecbb51801ed7d1" kind="variable"><name>next_wifi_loop</name></member>
+    <member refid="class_wifi_controller_1aba115525a8e8010d9fadb4767c0258fd" kind="variable"><name>wifi_task_handler</name></member>
+    <member refid="class_wifi_controller_1aaacdbf59f53cb40005b3f2ab809e4a3d" kind="variable"><name>wifi_task_queue</name></member>
+    <member refid="class_wifi_controller_1aca2bd15ab73f5804072f45a0072b0f40" kind="variable"><name>wifi_callback_queue</name></member>
+    <member refid="class_wifi_controller_1a9fbf445feca9a6544515b01b71229c90" kind="function"><name>WifiController</name></member>
+    <member refid="class_wifi_controller_1a831cde5d91b281d45028c1269f910edd" kind="function"><name>connect</name></member>
+    <member refid="class_wifi_controller_1ae7301a8fcbc41ba7e790b8b746e5a3fb" kind="function"><name>disconnect</name></member>
+    <member refid="class_wifi_controller_1aada0337953ca0d29dacfbc9428c53148" kind="function"><name>is_busy</name></member>
+    <member refid="class_wifi_controller_1a118e8af594d2047fdf4f129a5f1d6e8a" kind="function"><name>kill_controller_task</name></member>
+    <member refid="class_wifi_controller_1a96e90cd040f666d43f0d551fe924d4c1" kind="function"><name>is_connected</name></member>
+    <member refid="class_wifi_controller_1a1e12f839fca953bc23867273119d69a1" kind="function"><name>perform_wifi_request</name></member>
+    <member refid="class_wifi_controller_1aaa9c13a60adf61b89f4b76c04a552ff4" kind="function"><name>add_to_queue</name></member>
+    <member refid="class_wifi_controller_1a3bb9053e0aa89406a3ebf44ab6339b75" kind="function"><name>loop</name></member>
+    <member refid="class_wifi_controller_1af9430908d6e95f9f0747c1527c35f798" kind="function"><name>http_request</name></member>
+    <member refid="class_wifi_controller_1a8e44acf12223458b79b474952f0aff48" kind="function"><name>wifi_task</name></member>
+  </compound>
+  <compound refid="class_wifi_setup" kind="class"><name>WifiSetup</name>
+    <member refid="class_wifi_setup_1ab6ac672ed5c35e7bdeb40dbff50c4175" kind="friend"><name>scan_responder</name></member>
+    <member refid="class_wifi_setup_1a4e8dff3a7c189af51729d25db5330530" kind="friend"><name>connect_responder</name></member>
+    <member refid="class_wifi_setup_1ad530b0f74a5b7a542b0180c59c9240dc" kind="variable"><name>wifi_ap_messages</name></member>
+    <member refid="class_wifi_setup_1a5f3af11ae2bdc03c6e11247ae60720c4" kind="variable"><name>wifi_ap_message_color</name></member>
+    <member refid="class_wifi_setup_1ae4ae4e6f45d41e27f026a981f3fb7313" kind="variable"><name>webServer</name></member>
+    <member refid="class_wifi_setup_1ab6fee4a186f7a639d4c649432b19353a" kind="variable"><name>dnsServer</name></member>
+    <member refid="class_wifi_setup_1aa886ee549054e2fa73e26944cb539e7b" kind="variable"><name>ssid</name></member>
+    <member refid="class_wifi_setup_1a8c2cff3d823467e8c50e593d6380e34d" kind="variable"><name>pass</name></member>
+    <member refid="class_wifi_setup_1ad101af470865816410d313969129600d" kind="variable"><name>done</name></member>
+    <member refid="class_wifi_setup_1a503c018bcd0e6b7ea51d86aa3d0d072b" kind="function"><name>WifiSetup</name></member>
+    <member refid="class_wifi_setup_1ae556d000e7e2687e8b77a2f9c39fa129" kind="function"><name>start</name></member>
+    <member refid="class_wifi_setup_1a0a49f4ecb83b6ec896d543eee042aaf0" kind="function"><name>stop</name></member>
+    <member refid="class_wifi_setup_1ab9b501879e3c0a29c852b8b1212e40d5" kind="function"><name>process</name></member>
+    <member refid="class_wifi_setup_1aa96a820d57c155cdc99642c98c4842cd" kind="function"><name>is_done</name></member>
+    <member refid="class_wifi_setup_1a0ec104fbaf50bb2575f1a6d6fe7cd76c" kind="function"><name>get_ssid</name></member>
+    <member refid="class_wifi_setup_1a2feb0725e32b560b8d39e7ce76c572ba" kind="function"><name>get_pass</name></member>
+    <member refid="class_wifi_setup_1ae59cbb7162edff463ad115d42344416e" kind="function"><name>update_wifisetup_status</name></member>
+  </compound>
+  <compound refid="struct_face_watch___custom_windows_1_1_windows_clock_settings" kind="struct"><name>FaceWatch_CustomWindows::WindowsClockSettings</name>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1aaa76c6fbe2a9f2c8a173b96013bc0e7f" kind="variable"><name>width</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a9d4191c058c314925e87b15bef0cdd92" kind="variable"><name>height</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a786fd2b6d3772f46b699d9f782ec510c" kind="variable"><name>color_background</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ad7414823cdf01e2f45fd0798c339db57" kind="variable"><name>color_borderedge</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a660551fea610183ad02b3c34e7d8dc45" kind="variable"><name>color_titlebar</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a4c0ea4abc7c51067cd18c679c92e86db" kind="variable"><name>color_titletext</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1abd1a0d550ebf6a5ed45dafd316cce144" kind="variable"><name>color_buttonshadow</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1afe56046b307e6717a6be4a89eda106fa" kind="variable"><name>color_buttonhighlight</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a6cd16f94175aa47ca8f9f2a1d88c8cd6" kind="variable"><name>color_displaybkg</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1af8de2d80cf5554c48de3c4c16f50150e" kind="variable"><name>color_menubar</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ac867264b13582d4960c73e9b34675fcb" kind="variable"><name>color_menutext</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ab6f35709ab6a094969085edfaca8cb64" kind="variable"><name>color_hrminhand</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a303a8cecff4aae78af390ba70ecd6577" kind="variable"><name>color_sechand</name></member>
+    <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a1721cbc5c351a18ada9b0cff463eca73" kind="variable"><name>color_hourblock</name></member>
+  </compound>
+  <compound refid="overview_8md" kind="file"><name>overview.md</name>
+  </compound>
+  <compound refid="readme_8md" kind="file"><name>readme.md</name>
+  </compound>
+  <compound refid="activity_8cpp" kind="file"><name>activity.cpp</name>
+    <member refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kind="typedef"><name>json</name></member>
+    <member refid="activity_8cpp_1a777ab509d6a14e7bb654d32bd6b25498" kind="variable"><name>activity</name></member>
+    <member refid="activity_8cpp_1adc5533d6469c487085ad3c97478a86a3" kind="function"><name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name></member>
+  </compound>
+  <compound refid="activity_8h" kind="file"><name>activity.h</name>
+    <member refid="activity_8h_1ab701e3ac61a85b337ec5c1abaad6742d" kind="typedef"><name>json</name></member>
+    <member refid="activity_8h_1a777ab509d6a14e7bb654d32bd6b25498" kind="variable"><name>activity</name></member>
+  </compound>
+  <compound refid="bitmaps__general_8h" kind="file"><name>bitmaps_general.h</name>
+    <member refid="bitmaps__general_8h_1ab8b7c6f6d9f5ff4851e1bf400ab2eeb2" kind="variable"><name>PROGMEM</name></member>
+    <member refid="bitmaps__general_8h_1aa57476cfe9947ae4bd4f62d448c99fec" kind="variable"><name>icon_batteryArray</name></member>
+    <member refid="bitmaps__general_8h_1a523b15e6751759b2478e1e1e8e5261cd" kind="variable"><name>UM_Logo</name></member>
+    <member refid="bitmaps__general_8h_1aa94ea04875f5c437493f6617a7e98c6c" kind="variable"><name>ICON_Weather</name></member>
+    <member refid="bitmaps__general_8h_1aeeb970eff784b65b835a0586e5d33db5" kind="variable"><name>ICON_Battery</name></member>
+  </compound>
+  <compound refid="bitmaps__ow_8h" kind="file"><name>bitmaps_ow.h</name>
+    <member refid="bitmaps__ow_8h_1a08058ad221013639f684f2eb678379c8" kind="variable"><name>PROGMEM</name></member>
+  </compound>
+  <compound refid="display_8cpp" kind="file"><name>display.cpp</name>
+    <member refid="display_8cpp_1a0dca31463a4633b158a8cbf90f8d0102" kind="define"><name>TFT_LED</name></member>
+    <member refid="display_8cpp_1a1227e8fff383dfd2cb1a8ae7b5dea731" kind="define"><name>TP_SDA</name></member>
+    <member refid="display_8cpp_1a93e58aa9fe02d179f756e345fc41ea0e" kind="define"><name>TP_SCL</name></member>
+    <member refid="display_8cpp_1a447e60ef303c8ebabbefd7602eff3d28" kind="define"><name>TP_RST</name></member>
+    <member refid="display_8cpp_1a26182ae5c9476afd14078888fbe71e75" kind="define"><name>TP_IRQ</name></member>
+    <member refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kind="variable"><name>display</name></member>
+    <member refid="display_8cpp_1af93758b0c76e483dbb95d356fb1e5fd8" kind="variable"><name>backlightTaskHandle</name></member>
+    <member refid="display_8cpp_1ac5d2dc3534f30f704fd7529ad0f89ff1" kind="variable"><name>tft</name></member>
+    <member refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kind="variable"><name>canvas</name></member>
+    <member refid="display_8cpp_1a9705b715f506cbfb1cd1791ae2a049c9" kind="variable"><name>loading_screen_canvas</name></member>
+    <member refid="display_8cpp_1a07cc60904f286864bd64c5cd75ea3446" kind="variable"><name>dirNames</name></member>
+    <member refid="display_8cpp_1ae3739741f9886e2a5acfb51d6845f15e" kind="variable"><name>last_finger_move</name></member>
+    <member refid="display_8cpp_1a7521b94ee0818adfd6b61c1e229089ee" kind="variable"><name>last_touch</name></member>
+    <member refid="display_8cpp_1a8bf3065bb1e0b0c494ce8da9312ea413" kind="variable"><name>dbl_touch</name></member>
+    <member refid="display_8cpp_1a208bff72393585def4416a6ff09e0818" kind="variable"><name>drag_rate</name></member>
+    <member refid="display_8cpp_1aa619bed5b36c23065f6b3c1faf8ac31d" kind="variable"><name>deltaX</name></member>
+    <member refid="display_8cpp_1a73ca8a4921ccb094005e774b883df68d" kind="variable"><name>deltaY</name></member>
+    <member refid="display_8cpp_1a042d7b975b4fb1ed770986ec5d5a0f4f" kind="variable"><name>moved_x</name></member>
+    <member refid="display_8cpp_1a04635b916c5f541c33d0d4d7b911e65f" kind="variable"><name>moved_y</name></member>
+    <member refid="display_8cpp_1a9bc6f82da1c320650b515b625b1e75db" kind="variable"><name>startX</name></member>
+    <member refid="display_8cpp_1a6541ed025b15a2836eee707878822c1c" kind="variable"><name>startY</name></member>
+    <member refid="display_8cpp_1aa0b58ff066c020587b279e2ade0ccce9" kind="variable"><name>touchTime</name></member>
+    <member refid="display_8cpp_1a0d3f1758bf7fdcec892f211bf3553d4f" kind="variable"><name>isTouched</name></member>
+    <member refid="display_8cpp_1ae9ce7ec5e04f07a2403c5f921a8f8c35" kind="variable"><name>last_was_click</name></member>
+    <member refid="display_8cpp_1ab0232c5d01608a95c4abba342e841bf7" kind="variable"><name>last_was_long</name></member>
+    <member refid="display_8cpp_1abfd4e658c0e4030cc2d0fe5349ceeaf7" kind="variable"><name>prevent_long_press</name></member>
+    <member refid="display_8cpp_1a9b781fbf6ef760d56b590dc218da4725" kind="variable"><name>clock_faces</name></member>
+    <member refid="display_8cpp_1a4d616f3f1ba10db9668b29337efb6058" kind="function"><name>process_backlight</name></member>
+    <member refid="display_8cpp_1a3d21a6000bc9ebdd20f8376b69d0dee7" kind="function"><name>touchpad</name></member>
+  </compound>
+  <compound refid="display_8h" kind="file"><name>display.h</name>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5" kind="enum"><name>Directions</name></member>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5aba595d8bca8bc5e67c37c0a9d89becfa" kind="enumvalue"><name>UP</name></member>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5aec8379af7490bb9eaaf579cf17876f38" kind="enumvalue"><name>RIGHT</name></member>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5a9b0b4a95b99523966e0e34ffdadac9da" kind="enumvalue"><name>DOWN</name></member>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5adb45120aafd37a973140edee24708065" kind="enumvalue"><name>LEFT</name></member>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5ab03e8ec91b0d074a03df67327675f025" kind="enumvalue"><name>CLICK</name></member>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5a764a96996f79e193d0627e1612f9cade" kind="enumvalue"><name>CLICK_DBL</name></member>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5adfcb136d5d952a22b314f033e7317322" kind="enumvalue"><name>CLICK_LONG</name></member>
+    <member refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5ac157bdf0b85a40d2619cbc8bc1ae5fe2" kind="enumvalue"><name>NONE</name></member>
+    <member refid="display_8h_1ac7066778400fb6bbc6ba0437606c606f" kind="enum"><name>display_states</name></member>
+    <member refid="display_8h_1ac7066778400fb6bbc6ba0437606c606fa3a147bbbb7cd01dc067e6306c965769a" kind="enumvalue"><name>LOADING</name></member>
+    <member refid="display_8h_1ac7066778400fb6bbc6ba0437606c606fa50d1448013c6f17125caee18aa418af7" kind="enumvalue"><name>NORMAL</name></member>
+    <member refid="display_8h_1ac5d2dc3534f30f704fd7529ad0f89ff1" kind="variable"><name>tft</name></member>
+    <member refid="display_8h_1ace9174c9ba98b11c902a8888832df739" kind="variable"><name>canvas</name></member>
+    <member refid="display_8h_1aa5083e8fab8ddaf62944949e251663bb" kind="variable"><name>display</name></member>
+    <member refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kind="function"><name>RGB</name></member>
+  </compound>
+  <compound refid="_clock___digits_8h" kind="file"><name>Clock_Digits.h</name>
+    <member refid="_clock___digits_8h_1a7e13855f9cd431deadde2a91cc5929f7" kind="variable"><name>PROGMEM</name></member>
+    <member refid="_clock___digits_8h_1a1619d78f4d048d4e171342737aa90a30" kind="variable"><name>Clock_Digit_7SEG</name></member>
+  </compound>
+  <compound refid="_roboto___light20_8h" kind="file"><name>Roboto_Light20.h</name>
+    <member refid="_roboto___light20_8h_1ab318f58a06adf80a1401fe4ef721b789" kind="variable"><name>PROGMEM</name></member>
+  </compound>
+  <compound refid="_roboto___medium26_8h" kind="file"><name>Roboto_Medium26.h</name>
+    <member refid="_roboto___medium26_8h_1a358adc22c73d38d90995656f73b89275" kind="variable"><name>PROGMEM</name></member>
+  </compound>
+  <compound refid="_roboto___regular18_8h" kind="file"><name>Roboto_Regular18.h</name>
+    <member refid="_roboto___regular18_8h_1a31176368376418537a0b7d8c2ca931db" kind="variable"><name>PROGMEM</name></member>
+  </compound>
+  <compound refid="_roboto___regular20_8h" kind="file"><name>Roboto_Regular20.h</name>
+    <member refid="_roboto___regular20_8h_1af0928c4c663c1fa02c9ca4dd79c069eb" kind="variable"><name>PROGMEM</name></member>
+  </compound>
+  <compound refid="_roboto___regular22_8h" kind="file"><name>Roboto_Regular22.h</name>
+    <member refid="_roboto___regular22_8h_1a7ab4c63086f4125369942684729e15d7" kind="variable"><name>PROGMEM</name></member>
+  </compound>
+  <compound refid="_roboto___regular26_8h" kind="file"><name>Roboto_Regular26.h</name>
+    <member refid="_roboto___regular26_8h_1a294d631a763445eb5f680dafd4712a75" kind="variable"><name>PROGMEM</name></member>
+  </compound>
+  <compound refid="_roboto_mono___light___all_8h" kind="file"><name>RobotoMono_Light_All.h</name>
+    <member refid="_roboto_mono___light___all_8h_1ab955d5621e80345ec927ba72752b524a" kind="variable"><name>PROGMEM</name></member>
+    <member refid="_roboto_mono___light___all_8h_1a935ae36d79295aa955c2b40bb5978ba1" kind="variable"><name>RobotoMono_Light</name></member>
+  </compound>
+  <compound refid="_roboto_mono___regular___all_8h" kind="file"><name>RobotoMono_Regular_All.h</name>
+    <member refid="_roboto_mono___regular___all_8h_1ab8b7c6f6d9f5ff4851e1bf400ab2eeb2" kind="variable"><name>PROGMEM</name></member>
+    <member refid="_roboto_mono___regular___all_8h_1ab193f2c71e2556ec9f09a73929b32129" kind="variable"><name>RobotoMono_Regular</name></member>
+  </compound>
+  <compound refid="battery_8cpp" kind="file"><name>battery.cpp</name>
+    <member refid="battery_8cpp_1a697016cc25b82087cb0eb8259480cf7c" kind="define"><name>FG_INT</name></member>
+    <member refid="battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" kind="variable"><name>battery</name></member>
+  </compound>
+  <compound refid="battery_8h" kind="file"><name>battery.h</name>
+    <member refid="battery_8h_1a53448d1553b235920b7e5a6c0b2975b0" kind="variable"><name>battery</name></member>
+  </compound>
+  <compound refid="buzzer_8cpp" kind="file"><name>buzzer.cpp</name>
+    <member refid="buzzer_8cpp_1a501cb525811d65adab8440304ded38bc" kind="variable"><name>pwmChannel</name></member>
+    <member refid="buzzer_8cpp_1afa1a29d7cecad138223011407eb05e98" kind="variable"><name>noteQueue</name></member>
+    <member refid="buzzer_8cpp_1a15902271717234b9c94f2b5286ebb016" kind="variable"><name>buzzerTaskHandle</name></member>
+    <member refid="buzzer_8cpp_1ade2c617243fa2ca52c5a51ba5de77524" kind="function"><name>buzzerTask</name></member>
+    <member refid="buzzer_8cpp_1adf775279632314af92e24d9352cf1a2d" kind="function"><name>init_buzzer</name></member>
+    <member refid="buzzer_8cpp_1a9531c132813c8ce3438d1707b5bd2c7d" kind="function"><name>deinit_buzzer</name></member>
+    <member refid="buzzer_8cpp_1a82d3ae6bba9457549d977fa3f4b4fd45" kind="function"><name>queueNotes</name></member>
+    <member refid="buzzer_8cpp_1a715238193f24e1695195dcd80f498583" kind="function"><name>Buzzer</name></member>
+    <member refid="buzzer_8cpp_1aab71e5e9f16e56600e0e1d4416ed673b" kind="function"><name>BuzzerUI</name></member>
+  </compound>
+  <compound refid="buzzer_8h" kind="file"><name>buzzer.h</name>
+    <member refid="buzzer_8h_1adf775279632314af92e24d9352cf1a2d" kind="function"><name>init_buzzer</name></member>
+    <member refid="buzzer_8h_1a9531c132813c8ce3438d1707b5bd2c7d" kind="function"><name>deinit_buzzer</name></member>
+    <member refid="buzzer_8h_1a715238193f24e1695195dcd80f498583" kind="function"><name>Buzzer</name></member>
+    <member refid="buzzer_8h_1aab71e5e9f16e56600e0e1d4416ed673b" kind="function"><name>BuzzerUI</name></member>
+  </compound>
+  <compound refid="imu_8cpp" kind="file"><name>imu.cpp</name>
+    <member refid="imu_8cpp_1a777ab509d6a14e7bb654d32bd6b25498" kind="variable"><name>activity</name></member>
+    <member refid="imu_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kind="variable"><name>rtc</name></member>
+    <member refid="imu_8cpp_1a6a3abff08a03f13fb8fd656e445da555" kind="variable"><name>interrupt_happened</name></member>
+    <member refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kind="variable"><name>imu</name></member>
+    <member refid="imu_8cpp_1a6d83482b479870965b8c91ddd6a92ce4" kind="function"><name>step_interrupt</name></member>
+    <member refid="imu_8cpp_1a78b882d94a88d6838a0108a0f6bd14c6" kind="function"><name>wake_interrupt</name></member>
+  </compound>
+  <compound refid="imu_8h" kind="file"><name>imu.h</name>
+    <member refid="imu_8h_1aef117938149709784881686f0ed77e7f" kind="define"><name>BMI2_INT_PIN1</name></member>
+    <member refid="imu_8h_1a12f855c5edaadb592497d39bf5eb874d" kind="define"><name>BMI2_INT_PIN2</name></member>
+    <member refid="imu_8h_1a047a89b0208974c18d5c49656240616a" kind="variable"><name>imu</name></member>
+  </compound>
+  <compound refid="rtc_8cpp" kind="file"><name>rtc.cpp</name>
+    <member refid="rtc_8cpp_1aeab314524096f5423acf1fe3905b2acf" kind="variable"><name>interruptTriggered</name></member>
+    <member refid="rtc_8cpp_1a6bd950625db0f240acc63a9cb41873f6" kind="variable"><name>ntpServer</name></member>
+    <member refid="rtc_8cpp_1abcb4cacf52bf654a9d5adbbde8893b0d" kind="variable"><name>days</name></member>
+    <member refid="rtc_8cpp_1a1950b74d251f4d30c82a0a0efef490ef" kind="variable"><name>months</name></member>
+    <member refid="rtc_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kind="variable"><name>rtc</name></member>
+    <member refid="rtc_8cpp_1a6a111b83a9cd857fcdf09e1726a0fbba" kind="function"><name>rtcInterrupt</name></member>
+  </compound>
+  <compound refid="rtc_8h" kind="file"><name>rtc.h</name>
+    <member refid="rtc_8h_1afa7e240c7456eaf5ef27ee8be3a23bd4" kind="variable"><name>rtc</name></member>
+  </compound>
+  <compound refid="settings_8cpp" kind="file"><name>settings.cpp</name>
+    <member refid="settings_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kind="typedef"><name>json</name></member>
+    <member refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kind="variable"><name>settings</name></member>
+    <member refid="settings_8cpp_1a75c7b0b8bfa9d19e42da14b65bfe79e6" kind="function"><name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name></member>
+    <member refid="settings_8cpp_1aecf59d0fc2426703ad74fd5a6b15b3d1" kind="function"><name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name></member>
+    <member refid="settings_8cpp_1aabe1e23dbaa4b7c15014395516c69318" kind="function"><name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name></member>
+    <member refid="settings_8cpp_1a708e8194bbe2ececd850e82f6a52391f" kind="function"><name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name></member>
+    <member refid="settings_8cpp_1ac16b045755607a91ad94fe16dd0de087" kind="function"><name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name></member>
+  </compound>
+  <compound refid="settings_8h" kind="file"><name>settings.h</name>
+    <member refid="settings_8h_1ab701e3ac61a85b337ec5c1abaad6742d" kind="typedef"><name>json</name></member>
+    <member refid="settings_8h_1a19276c778f3034b94881cf1f8614dbb2" kind="variable"><name>settings</name></member>
+  </compound>
+  <compound refid="settings__extra_8h" kind="file"><name>settings_extra.h</name>
+  </compound>
+  <compound refid="settings_option_8cpp" kind="file"><name>settingsOption.cpp</name>
+  </compound>
+  <compound refid="settings_option_8h" kind="file"><name>settingsOption.h</name>
+  </compound>
+  <compound refid="tinywatch_8cpp" kind="file"><name>tinywatch.cpp</name>
+    <member refid="tinywatch_8cpp_1ac3bd945aed351a0f079f6470fb241d7f" kind="define"><name>CPU_LOW_FREQ</name></member>
+    <member refid="tinywatch_8cpp_1a8069e117881704c92ab995e1be409f10" kind="define"><name>CPU_HIGH_FREQ</name></member>
+    <member refid="tinywatch_8cpp_1afa904ba4f57505dda78e57cc62a562c1" kind="define"><name>CPU_LOW_FREQ_WIFI</name></member>
+    <member refid="tinywatch_8cpp_1a903e0d21906d34063e471c0e4e16494a" kind="define"><name>CPU_HIGH_FREQ_WIFI</name></member>
+    <member refid="tinywatch_8cpp_1a2e2e7b810a33e8264b513c25d0135d61" kind="define"><name>VBUS_SENSE</name></member>
+    <member refid="tinywatch_8cpp_1a145103118f6d9d1129aa4509cf214a13" kind="define"><name>BUZZER</name></member>
+    <member refid="tinywatch_8cpp_1a6781314b7702028523dc70f4822c99c9" kind="define"><name>PWR_SHUTDOWN</name></member>
+    <member refid="tinywatch_8cpp_1a5cfe65e237d66c978683609af616a2be" kind="define"><name>USER_FLASH_CS</name></member>
+    <member refid="tinywatch_8cpp_1a0dca31463a4633b158a8cbf90f8d0102" kind="define"><name>TFT_LED</name></member>
+    <member refid="tinywatch_8cpp_1a67d70ae327c2fec5e57b92111b8bd56a" kind="define"><name>WAKE_REASON_TOUCH</name></member>
+    <member refid="tinywatch_8cpp_1ab76ed2b9c1a052d967587a6ced61daf6" kind="define"><name>WAKE_REASON_RTC_ALARM</name></member>
+    <member refid="tinywatch_8cpp_1ae9f073009e0c99e2cc6c841c5ec4e6bb" kind="define"><name>WAKE_REASON_FG_ALERT</name></member>
+    <member refid="tinywatch_8cpp_1a9345d1ba744c7e75acd28df823f8f61b" kind="define"><name>WAKE_REASON_BMI270_WRIST</name></member>
+    <member refid="tinywatch_8cpp_1a6998a50535e5978df22144fdac315099" kind="variable"><name>rtc_mem_watch_clock_screen</name></member>
+    <member refid="tinywatch_8cpp_1a82ed0166e163fc3c7afed53c270534c6" kind="variable"><name>rtc_mem_watch_flipped</name></member>
+    <member refid="tinywatch_8cpp_1ad85ac04a5b4c8647ffe609a6e817b48a" kind="variable"><name>rtc_mem_watch_handed</name></member>
+    <member refid="tinywatch_8cpp_1a437b1c89d4217409faacb3cfe1a49a08" kind="variable"><name>tinywatch</name></member>
+    <member refid="tinywatch_8cpp_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
+    <member refid="tinywatch_8cpp_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
+  </compound>
+  <compound refid="tinywatch_8h" kind="file"><name>tinywatch.h</name>
+    <member refid="tinywatch_8h_1ac916bea15062cbaac57b26b727949c05" kind="enum"><name>CPU_SPEED</name></member>
+    <member refid="tinywatch_8h_1ac916bea15062cbaac57b26b727949c05aa8502ac52571d5d4643ff871e183b5d9" kind="enumvalue"><name>CPU_CHANGE_LOW</name></member>
+    <member refid="tinywatch_8h_1ac916bea15062cbaac57b26b727949c05ab357dbd903e52a817c0290e77bdd9d80" kind="enumvalue"><name>CPU_CHANGE_HIGH</name></member>
+    <member refid="tinywatch_8h_1a437b1c89d4217409faacb3cfe1a49a08" kind="variable"><name>tinywatch</name></member>
+  </compound>
+  <compound refid="app___compass_8cpp" kind="file"><name>app_Compass.cpp</name>
+    <member refid="app___compass_8cpp_1ac5a945020d3528355cda82d383676736" kind="define"><name>RAD2DEG</name></member>
+    <member refid="app___compass_8cpp_1a850b2f07a67b73890889e63fb8a49fda" kind="define"><name>BACKGROUND</name></member>
+    <member refid="app___compass_8cpp_1aacf822f91191651baaa6647fee73f81a" kind="define"><name>NEEDLE_L</name></member>
+    <member refid="app___compass_8cpp_1abc2184e8291e243870bd2173d185317b" kind="define"><name>NEEDLE_W</name></member>
+    <member refid="app___compass_8cpp_1ac124251a3e24bc9963bd6414d1a403be" kind="variable"><name>app_compass</name></member>
+  </compound>
+  <compound refid="app___compass_8h" kind="file"><name>app_Compass.h</name>
+    <member refid="app___compass_8h_1ac124251a3e24bc9963bd6414d1a403be" kind="variable"><name>app_compass</name></member>
+  </compound>
+  <compound refid="app___empty_8cpp" kind="file"><name>app_Empty.cpp</name>
+    <member refid="app___empty_8cpp_1ac6e5e0cc4dba4b282b5d7a4a66c365d5" kind="variable"><name>app_empty</name></member>
+  </compound>
+  <compound refid="app___empty_8h" kind="file"><name>app_Empty.h</name>
+    <member refid="app___empty_8h_1ac6e5e0cc4dba4b282b5d7a4a66c365d5" kind="variable"><name>app_empty</name></member>
+  </compound>
+  <compound refid="app___microphone_8cpp" kind="file"><name>app_Microphone.cpp</name>
+    <member refid="app___microphone_8cpp_1a056107b4411455f2d41f9bc59a8c5798" kind="variable"><name>app_microphone</name></member>
+  </compound>
+  <compound refid="app___microphone_8h" kind="file"><name>app_Microphone.h</name>
+    <member refid="app___microphone_8h_1a2712a8369bb0a8c5f4d402b68d8fdd6d" kind="define"><name>SAMPLE_BUFFER_SIZE</name></member>
+    <member refid="app___microphone_8h_1a4b76a0c2859cfd819a343a780070ee2b" kind="define"><name>SAMPLE_RATE</name></member>
+    <member refid="app___microphone_8h_1a2f0de071b79f401bf9b2a169efb80176" kind="define"><name>I2S_MIC_CHANNEL</name></member>
+    <member refid="app___microphone_8h_1a09af3618977e1dce2cf0c5e8c9bfac81" kind="define"><name>I2S_MIC_SERIAL_CLOCK</name></member>
+    <member refid="app___microphone_8h_1a5fa398b87b90a978e876b3c77fe33017" kind="define"><name>I2S_MIC_LEFT_RIGHT_CLOCK</name></member>
+    <member refid="app___microphone_8h_1a3be0b382b79b69929c12b827f1d0e250" kind="define"><name>I2S_MIC_SERIAL_DATA</name></member>
+    <member refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kind="define"><name>BLOCK_SIZE</name></member>
+    <member refid="app___microphone_8h_1af7e8592d0a634bd3642e9fd508ea8022" kind="define"><name>DEG2RAD</name></member>
+    <member refid="app___microphone_8h_1a056107b4411455f2d41f9bc59a8c5798" kind="variable"><name>app_microphone</name></member>
+  </compound>
+  <compound refid="tw__app_8cpp" kind="file"><name>tw_app.cpp</name>
+    <member refid="tw__app_8cpp_1ac5d2dc3534f30f704fd7529ad0f89ff1" kind="variable"><name>tft</name></member>
+    <member refid="tw__app_8cpp_1ace9174c9ba98b11c902a8888832df739" kind="variable"><name>canvas</name></member>
+    <member refid="tw__app_8cpp_1ab93b2eab56233ba92cc0a2d70ed64f2f" kind="variable"><name>apps</name></member>
+  </compound>
+  <compound refid="tw__app_8h" kind="file"><name>tw_app.h</name>
+  </compound>
+  <compound refid="control___button_8cpp" kind="file"><name>control_Button.cpp</name>
+  </compound>
+  <compound refid="control___button_8h" kind="file"><name>control_Button.h</name>
+  </compound>
+  <compound refid="control___label_8cpp" kind="file"><name>control_Label.cpp</name>
+  </compound>
+  <compound refid="control___label_8h" kind="file"><name>control_Label.h</name>
+  </compound>
+  <compound refid="control___toggle_8cpp" kind="file"><name>control_Toggle.cpp</name>
+  </compound>
+  <compound refid="control___toggle_8h" kind="file"><name>control_Toggle.h</name>
+  </compound>
+  <compound refid="control___value_8cpp" kind="file"><name>control_Value.cpp</name>
+  </compound>
+  <compound refid="control___value_8h" kind="file"><name>control_Value.h</name>
+  </compound>
+  <compound refid="control___value_slider_8cpp" kind="file"><name>control_ValueSlider.cpp</name>
+  </compound>
+  <compound refid="control___value_slider_8h" kind="file"><name>control_ValueSlider.h</name>
+  </compound>
+  <compound refid="tw__control_8cpp" kind="file"><name>tw_control.cpp</name>
+  </compound>
+  <compound refid="tw__control_8h" kind="file"><name>tw_control.h</name>
+    <member refid="tw__control_8h_1ac5d2dc3534f30f704fd7529ad0f89ff1" kind="variable"><name>tft</name></member>
+    <member refid="tw__control_8h_1ace9174c9ba98b11c902a8888832df739" kind="variable"><name>canvas</name></member>
+  </compound>
+  <compound refid="face___app_list_8cpp" kind="file"><name>face_AppList.cpp</name>
+    <member refid="face___app_list_8cpp_1aac166f0f753824776d3489c04c4d0461" kind="variable"><name>app_icons</name></member>
+    <member refid="face___app_list_8cpp_1a47fe1eaed6aacb8f4f006ee78a87bd22" kind="variable"><name>face_applist</name></member>
+  </compound>
+  <compound refid="face___app_list_8h" kind="file"><name>face_AppList.h</name>
+    <member refid="face___app_list_8h_1a47fe1eaed6aacb8f4f006ee78a87bd22" kind="variable"><name>face_applist</name></member>
+  </compound>
+  <compound refid="face___battery_empty_8cpp" kind="file"><name>face_BatteryEmpty.cpp</name>
+    <member refid="face___battery_empty_8cpp_1ab70601b917f102ffa60d053074b33828" kind="variable"><name>face_batteryempty</name></member>
+  </compound>
+  <compound refid="face___battery_empty_8h" kind="file"><name>face_BatteryEmpty.h</name>
+    <member refid="face___battery_empty_8h_1ab70601b917f102ffa60d053074b33828" kind="variable"><name>face_batteryempty</name></member>
+  </compound>
+  <compound refid="face___boot_8cpp" kind="file"><name>face_Boot.cpp</name>
+    <member refid="face___boot_8cpp_1af8d4a137dfc1ad40e8aa289060d26955" kind="variable"><name>face_boot</name></member>
+  </compound>
+  <compound refid="face___boot_8h" kind="file"><name>face_Boot.h</name>
+    <member refid="face___boot_8h_1af8d4a137dfc1ad40e8aa289060d26955" kind="variable"><name>face_boot</name></member>
+  </compound>
+  <compound refid="face___empty_8cpp" kind="file"><name>face_Empty.cpp</name>
+    <member refid="face___empty_8cpp_1a1503179aa860d5cfa81505e20c390fe5" kind="variable"><name>face_empty</name></member>
+  </compound>
+  <compound refid="face___empty_8h" kind="file"><name>face_Empty.h</name>
+    <member refid="face___empty_8h_1a1503179aa860d5cfa81505e20c390fe5" kind="variable"><name>face_empty</name></member>
+  </compound>
+  <compound refid="face___i_m_u_8cpp" kind="file"><name>face_IMU.cpp</name>
+    <member refid="face___i_m_u_8cpp_1a79be06b354c16f3b19168f3217acb1bc" kind="variable"><name>face_imu</name></member>
+  </compound>
+  <compound refid="face___i_m_u_8h" kind="file"><name>face_IMU.h</name>
+    <member refid="face___i_m_u_8h_1a79be06b354c16f3b19168f3217acb1bc" kind="variable"><name>face_imu</name></member>
+  </compound>
+  <compound refid="face___notifications_8cpp" kind="file"><name>face_Notifications.cpp</name>
+    <member refid="face___notifications_8cpp_1a27d30cb0ba61259522b40cc07e2cc182" kind="variable"><name>face_notifications</name></member>
+  </compound>
+  <compound refid="face___notifications_8h" kind="file"><name>face_Notifications.h</name>
+    <member refid="face___notifications_8h_1a27d30cb0ba61259522b40cc07e2cc182" kind="variable"><name>face_notifications</name></member>
+  </compound>
+  <compound refid="face___settings_8cpp" kind="file"><name>face_Settings.cpp</name>
+    <member refid="face___settings_8cpp_1a14968eaf99d62df7322b4586d84eb392" kind="variable"><name>face_settings</name></member>
+  </compound>
+  <compound refid="face___settings_8h" kind="file"><name>face_Settings.h</name>
+    <member refid="face___settings_8h_1a14968eaf99d62df7322b4586d84eb392" kind="variable"><name>face_settings</name></member>
+  </compound>
+  <compound refid="face___system_8cpp" kind="file"><name>face_System.cpp</name>
+    <member refid="face___system_8cpp_1a49255f5997d318fffbe2a0ea21b0ab8d" kind="variable"><name>face_system</name></member>
+  </compound>
+  <compound refid="face___system_8h" kind="file"><name>face_System.h</name>
+    <member refid="face___system_8h_1a49255f5997d318fffbe2a0ea21b0ab8d" kind="variable"><name>face_system</name></member>
+  </compound>
+  <compound refid="face___watch___custom_binary_8cpp" kind="file"><name>face_Watch_CustomBinary.cpp</name>
+    <member refid="face___watch___custom_binary_8cpp_1acfb538057421fdf26bb300673f24b443" kind="variable"><name>face_watch_custom_binary</name></member>
+  </compound>
+  <compound refid="face___watch___custom_binary_8h" kind="file"><name>face_Watch_CustomBinary.h</name>
+    <member refid="face___watch___custom_binary_8h_1acfb538057421fdf26bb300673f24b443" kind="variable"><name>face_watch_custom_binary</name></member>
+  </compound>
+  <compound refid="face___watch___custom_windows_8cpp" kind="file"><name>face_Watch_CustomWindows.cpp</name>
+    <member refid="face___watch___custom_windows_8cpp_1a4ed587760ccf562d61fc751adf150e77" kind="variable"><name>face_watch_custom_windows</name></member>
+  </compound>
+  <compound refid="face___watch___custom_windows_8h" kind="file"><name>face_Watch_CustomWindows.h</name>
+    <member refid="face___watch___custom_windows_8h_1a4ed587760ccf562d61fc751adf150e77" kind="variable"><name>face_watch_custom_windows</name></member>
+  </compound>
+  <compound refid="face___watch___default_analog_8cpp" kind="file"><name>face_Watch_DefaultAnalog.cpp</name>
+    <member refid="face___watch___default_analog_8cpp_1ab0919acdbd83e2c14273a65e87d37cd7" kind="variable"><name>face_watch_default_analog</name></member>
+  </compound>
+  <compound refid="face___watch___default_analog_8h" kind="file"><name>face_Watch_DefaultAnalog.h</name>
+    <member refid="face___watch___default_analog_8h_1ab0919acdbd83e2c14273a65e87d37cd7" kind="variable"><name>face_watch_default_analog</name></member>
+  </compound>
+  <compound refid="face___watch___default_digital_8cpp" kind="file"><name>face_Watch_DefaultDigital.cpp</name>
+    <member refid="face___watch___default_digital_8cpp_1a3fbb83119c525d3513ab5ab2e4eb256e" kind="variable"><name>face_watch_default_digital</name></member>
+  </compound>
+  <compound refid="face___watch___default_digital_8h" kind="file"><name>face_Watch_DefaultDigital.h</name>
+    <member refid="face___watch___default_digital_8h_1a3fbb83119c525d3513ab5ab2e4eb256e" kind="variable"><name>face_watch_default_digital</name></member>
+  </compound>
+  <compound refid="face___watch_settings_8cpp" kind="file"><name>face_WatchSettings.cpp</name>
+    <member refid="face___watch_settings_8cpp_1a378952fac46bedfca7392d4949d9c948" kind="variable"><name>face_watchsettings</name></member>
+  </compound>
+  <compound refid="face___watch_settings_8h" kind="file"><name>face_WatchSettings.h</name>
+    <member refid="face___watch_settings_8h_1a378952fac46bedfca7392d4949d9c948" kind="variable"><name>face_watchsettings</name></member>
+  </compound>
+  <compound refid="tw__face_8cpp" kind="file"><name>tw_face.cpp</name>
+    <member refid="tw__face_8cpp_1a04b26ca1703e682a6a9b63bc59203ca1" kind="variable"><name>faces</name></member>
+  </compound>
+  <compound refid="tw__face_8h" kind="file"><name>tw_face.h</name>
+  </compound>
+  <compound refid="tw__widget_8cpp" kind="file"><name>tw_widget.cpp</name>
+    <member refid="tw__widget_8cpp_1ac5d2dc3534f30f704fd7529ad0f89ff1" kind="variable"><name>tft</name></member>
+    <member refid="tw__widget_8cpp_1ace9174c9ba98b11c902a8888832df739" kind="variable"><name>canvas</name></member>
+  </compound>
+  <compound refid="tw__widget_8h" kind="file"><name>tw_widget.h</name>
+  </compound>
+  <compound refid="widget___activity_ring_8cpp" kind="file"><name>widget_ActivityRing.cpp</name>
+  </compound>
+  <compound refid="widget___activity_ring_8h" kind="file"><name>widget_ActivityRing.h</name>
+  </compound>
+  <compound refid="widget___battery_8cpp" kind="file"><name>widget_Battery.cpp</name>
+    <member refid="widget___battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" kind="variable"><name>battery</name></member>
+  </compound>
+  <compound refid="widget___battery_8h" kind="file"><name>widget_Battery.h</name>
+  </compound>
+  <compound refid="widget___e_s_p32_8cpp" kind="file"><name>widget_ESP32.cpp</name>
+  </compound>
+  <compound refid="widget___e_s_p32_8h" kind="file"><name>widget_ESP32.h</name>
+  </compound>
+  <compound refid="widget___message_8cpp" kind="file"><name>widget_Message.cpp</name>
+  </compound>
+  <compound refid="widget___message_8h" kind="file"><name>widget_Message.h</name>
+  </compound>
+  <compound refid="widget___open_weather_8cpp" kind="file"><name>widget_OpenWeather.cpp</name>
+    <member refid="widget___open_weather_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kind="typedef"><name>json</name></member>
+  </compound>
+  <compound refid="widget___open_weather_8h" kind="file"><name>widget_OpenWeather.h</name>
+    <member refid="widget___open_weather_8h_1a440c748ee82af45ecd29475d19378ea9" kind="variable"><name>ow_widget</name></member>
+  </compound>
+  <compound refid="widget___wifi_8cpp" kind="file"><name>widget_Wifi.cpp</name>
+  </compound>
+  <compound refid="widget___wifi_8h" kind="file"><name>widget_Wifi.h</name>
+  </compound>
+  <compound refid="logging_8h" kind="file"><name>logging.h</name>
+    <member refid="logging_8h_1a23d6e5d4b02d152bdfcc6c74c79fbf04" kind="function"><name>debug_print</name></member>
+    <member refid="logging_8h_1afc13323537d79f5a5d7c5ef86b2bd7d9" kind="function"><name>debug_println</name></member>
+    <member refid="logging_8h_1ab7a6f07fba917af585028f7538c4adb5" kind="function"><name>debug_println</name></member>
+    <member refid="logging_8h_1ae608d1e49261838c9bf314303186571a" kind="function"><name>debug_printf</name></member>
+    <member refid="logging_8h_1a63be1ddd08d9d588b1af039a2aa4439e" kind="function"><name>info_print</name></member>
+    <member refid="logging_8h_1a92207dc3fde3c9fd613226e4ffbb0965" kind="function"><name>info_print</name></member>
+    <member refid="logging_8h_1a3e17873879fa97102c5df2f2c3477e22" kind="function"><name>info_println</name></member>
+    <member refid="logging_8h_1ae90f5a1f7818bdda33c7c3f4f4a99086" kind="function"><name>info_println</name></member>
+    <member refid="logging_8h_1a81cf7e31dd09635a52718aeb47ebe457" kind="function"><name>info_println</name></member>
+    <member refid="logging_8h_1ad7644f2a3aaa8c8759b5a63d40823e3e" kind="function"><name>info_printf</name></member>
+    <member refid="logging_8h_1a80332dde884ef35e53c2c525b196c5ad" kind="function"><name>warn_print</name></member>
+    <member refid="logging_8h_1aa2f329f20d33019065c2ecfcc385c1f8" kind="function"><name>warn_println</name></member>
+    <member refid="logging_8h_1a91353fdea1e6e27a69ef667d36f63c03" kind="function"><name>warn_println</name></member>
+    <member refid="logging_8h_1a712407bb5e22a99a0ae3dc3ebb0cab87" kind="function"><name>warn_printf</name></member>
+    <member refid="logging_8h_1aff27f93abbbfca7f523d35e6e81e288b" kind="function"><name>error_print</name></member>
+    <member refid="logging_8h_1a3e357cf6da3071b16898cb433082fed9" kind="function"><name>error_println</name></member>
+    <member refid="logging_8h_1ad83b09e7903858916416088972bafa2f" kind="function"><name>error_println</name></member>
+    <member refid="logging_8h_1a863473109066e672dbe0a9a2ad3224ea" kind="function"><name>error_printf</name></member>
+  </compound>
+  <compound refid="webserver_8cpp" kind="file"><name>webserver.cpp</name>
+    <member refid="webserver_8cpp_1a42e023f2152e493ce112d45863083153" kind="variable"><name>web_server</name></member>
+  </compound>
+  <compound refid="webserver_8h" kind="file"><name>webserver.h</name>
+    <member refid="webserver_8h_1a42e023f2152e493ce112d45863083153" kind="variable"><name>web_server</name></member>
+  </compound>
+  <compound refid="webserver__templates_8h" kind="file"><name>webserver_templates.h</name>
+    <member refid="webserver__templates_8h_1a232427fe84e92c9624e8b1aa6ef568cf" kind="variable"><name>PROGMEM</name></member>
+  </compound>
+  <compound refid="wifi__common_8h" kind="file"><name>wifi_common.h</name>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221" kind="enum"><name>wifi_states</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221aee429d2b18e984f9be3d8a35ab58f77f" kind="enumvalue"><name>BOOT</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221a730b5a71bcc95c60eb6c966810980846" kind="enumvalue"><name>WIFI_SETUP</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221a201ddba77586e039f043f8fe91701890" kind="enumvalue"><name>WIFI_SETUP_STEP_2</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221adb2d951879fa890b05f5a7ced70683c2" kind="enumvalue"><name>WIFI_CONNECTING</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221a7dff20e13d4cccaafe8f5976194ca3c3" kind="enumvalue"><name>WIFI_CONNECTED</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221ad5eea4330187ea7e6e389f00a75172dd" kind="enumvalue"><name>WIFI_DISCONNECTED</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221a3a6cb56aa4c3e8356e4044424001bc91" kind="enumvalue"><name>WIFI_GET_TIME</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221a5263ba2668480d3330c11cf3e6057654" kind="enumvalue"><name>WIFI_DONE</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221a4f5a601f990dda41daaf08c491abda5c" kind="enumvalue"><name>WIFI_ERROR</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221a06f1d05ffd9482944b4bce6ffd024d6d" kind="enumvalue"><name>WIFI_ERROR_NOSSID</name></member>
+    <member refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221a19a354b438db607d43a3ee78a335abcc" kind="enumvalue"><name>WIFI_RESET</name></member>
+  </compound>
+  <compound refid="wifi__controller_8cpp" kind="file"><name>wifi_controller.cpp</name>
+    <member refid="wifi__controller_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kind="typedef"><name>json</name></member>
+    <member refid="wifi__controller_8cpp_1a7a8968b4961f4fc30e36cd5ae8f862ef" kind="variable"><name>wifi_controller</name></member>
+  </compound>
+  <compound refid="wifi__controller_8h" kind="file"><name>wifi_controller.h</name>
+    <member refid="wifi__controller_8h_1ad2bfbde3284b4cbc134036a94997f70b" kind="typedef"><name>_CALLBACK</name></member>
+    <member refid="wifi__controller_8h_1a7a8968b4961f4fc30e36cd5ae8f862ef" kind="variable"><name>wifi_controller</name></member>
+  </compound>
+  <compound refid="wifi__setup_8cpp" kind="file"><name>wifi_setup.cpp</name>
+    <member refid="wifi__setup_8cpp_1a8e9196c4b5c9e3a69989756b17c07fb3" kind="variable"><name>wifiSetup</name></member>
+    <member refid="wifi__setup_8cpp_1a99f2ccc96ad67c6efba907f53474fc90" kind="function"><name>htmlEscape</name></member>
+    <member refid="wifi__setup_8cpp_1adaa94d167463920c843ad391ac744d83" kind="function"><name>isPortalRequest</name></member>
+  </compound>
+  <compound refid="wifi__setup_8h" kind="file"><name>wifi_setup.h</name>
+    <member refid="wifi__setup_8h_1a8e9196c4b5c9e3a69989756b17c07fb3" kind="variable"><name>wifiSetup</name></member>
+  </compound>
+  <compound refid="wifi__setup__templates_8h" kind="file"><name>wifi_setup_templates.h</name>
+    <member refid="wifi__setup__templates_8h_1a63e2fbc827edbf0f739c2a0e37ef257c" kind="variable"><name>startHtml</name></member>
+    <member refid="wifi__setup__templates_8h_1a6ac8c298d5e0ae40550ad6761b67e067" kind="variable"><name>scanningHtml</name></member>
+    <member refid="wifi__setup__templates_8h_1ac4f2ab74319620206bd5b0316872be1d" kind="variable"><name>formHtml</name></member>
+    <member refid="wifi__setup__templates_8h_1aeba175904589e38aad0dfeaa77ce13a0" kind="variable"><name>connectingHtml</name></member>
+    <member refid="wifi__setup__templates_8h_1ac208ec1a16546395f64de061a2e9e90d" kind="variable"><name>footerHtml</name></member>
+    <member refid="wifi__setup__templates_8h_1a3e2ac2f3cf4dd88e14afcdb0b71ad2a6" kind="variable"><name>retryHtml</name></member>
+  </compound>
+  <compound refid="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview" kind="page"><name>md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview</name>
+  </compound>
+  <compound refid="dir_43c31fa016175b2138e8e5b2f004962d" kind="dir"><name>src/bitmaps</name>
+  </compound>
+  <compound refid="dir_f9dfd35b172a0e2036ace76497fb239b" kind="dir"><name>D:/workspace/tinywatch-s3/official-firmware/Documentation</name>
+  </compound>
+  <compound refid="dir_8754a0b74411b33d5cca1a47e4d2c1f1" kind="dir"><name>D:/workspace/tinywatch-s3/official-firmware/Documentation/extra</name>
+  </compound>
+  <compound refid="dir_8e3c181fa28fe565b0555c68e3f734e9" kind="dir"><name>src/fonts</name>
+  </compound>
+  <compound refid="dir_24dc62e63695d5ee5c541e5ae206cad6" kind="dir"><name>src/peripherals</name>
+  </compound>
+  <compound refid="dir_d9ca98df1069deae613c3f937250f331" kind="dir"><name>src/settings</name>
+  </compound>
+  <compound refid="dir_65283e70fc21ac69dbc8164b817a6ba1" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_ae9e8bba4ad487255291a988ba8d3d6d" kind="dir"><name>src/tw_apps</name>
+  </compound>
+  <compound refid="dir_a9400e452aecdc370b2d5acc317afa81" kind="dir"><name>src/tw_controls</name>
+  </compound>
+  <compound refid="dir_092c6e4746471ad3066068ee73bd8774" kind="dir"><name>src/tw_faces</name>
+  </compound>
+  <compound refid="dir_707cef24204d13f07a990d203672c60a" kind="dir"><name>src/tw_widgets</name>
+  </compound>
+  <compound refid="dir_8aa81f031995409db074e0fa1b6f8293" kind="dir"><name>src/utilities</name>
+  </compound>
+  <compound refid="dir_8a01438507db5018a84e6740d62b4428" kind="dir"><name>src/web</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

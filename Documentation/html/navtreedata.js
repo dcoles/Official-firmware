@@ -26,18 +26,18 @@ var NAVTREE =
 [
   [ "TinyWATCH S3", "index.html", [
     [ "Welcome", "index.html", "index" ],
-    [ "Overview", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html", [
-      [ "Contents", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md1", [
-        [ "Faces", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md2", null ],
-        [ "Widgets", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md3", null ],
-        [ "Controls", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md4", null ],
-        [ "Peripherals", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md5", null ],
-        [ "WiFi", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md6", null ],
-        [ "User Settings", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md7", null ]
+    [ "Overview", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html", [
+      [ "Contents", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md1", [
+        [ "Faces", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md2", null ],
+        [ "Widgets", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md3", null ],
+        [ "Controls", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md4", null ],
+        [ "Peripherals", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md5", null ],
+        [ "WiFi", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md6", null ],
+        [ "User Settings", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md7", null ]
       ] ],
-      [ "Coding Style", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md8", null ],
-      [ "Open Source License", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md9", null ],
-      [ "Getting Started", "md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md10", null ]
+      [ "Coding Style", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md8", null ],
+      [ "Open Source License", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md9", null ],
+      [ "Getting Started", "md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md10", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

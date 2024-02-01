@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_tiny_w_a_t_c_h" kind="class" language="C++" prot="public">
+    <compoundname>TinyWATCH</compoundname>
+    <includes local="no">tinywatch.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tiny_w_a_t_c_h_1a1dd77ecfe4df7787f1fce46df043305a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TinyWATCH::block_update_low_battery</definition>
+        <argsstring></argsstring>
+        <name>block_update_low_battery</name>
+        <qualifiedname>TinyWATCH::block_update_low_battery</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="27" column="6" bodyfile="src/tinywatch.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_w_a_t_c_h_1af3f1a673303ccb81a7ea8e304fd3b304" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long TinyWATCH::low_battery_update_check</definition>
+        <argsstring></argsstring>
+        <name>low_battery_update_check</name>
+        <qualifiedname>TinyWATCH::low_battery_update_check</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="28" column="15" bodyfile="src/tinywatch.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_w_a_t_c_h_1a439c0df24b0a268b1c1c58b3c778730b" prot="public" static="no" mutable="no">
+        <type>const String</type>
+        <definition>const String TinyWATCH::version_firmware</definition>
+        <argsstring></argsstring>
+        <name>version_firmware</name>
+        <qualifiedname>TinyWATCH::version_firmware</qualifiedname>
+        <initializer>= &quot;v0.3&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="30" column="14" bodyfile="src/tinywatch.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_w_a_t_c_h_1a31de99c7e1854294dd7864dd6840baee" prot="public" static="no" mutable="no">
+        <type>const String</type>
+        <definition>const String TinyWATCH::version_year</definition>
+        <argsstring></argsstring>
+        <name>version_year</name>
+        <qualifiedname>TinyWATCH::version_year</qualifiedname>
+        <initializer>= &quot;2024&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="31" column="14" bodyfile="src/tinywatch.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tiny_w_a_t_c_h_1aeb44ecae81f3bf26847e1e52f8cfda6c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; String &gt;</type>
+        <definition>std::vector&lt;String&gt; TinyWATCH::messages</definition>
+        <argsstring></argsstring>
+        <name>messages</name>
+        <qualifiedname>TinyWATCH::messages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="33" column="13" bodyfile="src/tinywatch.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tiny_w_a_t_c_h_1a5ffe6ca8ca904c64994037ce6f518838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TinyWATCH::was_sleeping</definition>
+        <argsstring>()</argsstring>
+        <name>was_sleeping</name>
+        <qualifiedname>TinyWATCH::was_sleeping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="20" column="6" bodyfile="src/tinywatch.cpp" bodystart="366" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_w_a_t_c_h_1a4067252dd43ba7790b0d51ebb8e5e064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TinyWATCH::woke_by</definition>
+        <argsstring>()</argsstring>
+        <name>woke_by</name>
+        <qualifiedname>TinyWATCH::woke_by</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="21" column="5" bodyfile="src/tinywatch.cpp" bodystart="368" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_w_a_t_c_h_1af40eb68ae6d6d22a5e5dd0295268df4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TinyWATCH::go_to_sleep</definition>
+        <argsstring>()</argsstring>
+        <name>go_to_sleep</name>
+        <qualifiedname>TinyWATCH::go_to_sleep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="22" column="6" bodyfile="src/tinywatch.cpp" bodystart="380" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_w_a_t_c_h_1ad663ff18437a2cf94b2fbaed03fa11ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TinyWATCH::vbus_present</definition>
+        <argsstring>()</argsstring>
+        <name>vbus_present</name>
+        <qualifiedname>TinyWATCH::vbus_present</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="23" column="6" bodyfile="src/tinywatch.cpp" bodystart="424" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_w_a_t_c_h_1a4b19b69d59de3d9fc53005a28d59cc81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TinyWATCH::set_cpu_frequency</definition>
+        <argsstring>(uint32_t freq, CPU_SPEED speed)</argsstring>
+        <name>set_cpu_frequency</name>
+        <qualifiedname>TinyWATCH::set_cpu_frequency</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type><ref refid="tinywatch_8h_1ac916bea15062cbaac57b26b727949c05" kindref="member">CPU_SPEED</ref></type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="24" column="6" bodyfile="src/tinywatch.cpp" bodystart="341" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TinyWATCH::log_system_message</definition>
+        <argsstring>(String txt)</argsstring>
+        <name>log_system_message</name>
+        <qualifiedname>TinyWATCH::log_system_message</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>txt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="25" column="6" bodyfile="src/tinywatch.cpp" bodystart="431" bodyend="431"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_tiny_w_a_t_c_h_1a48e1a1b6084f3558d73a11d442796edd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TinyWATCH::get_public_ip</definition>
+        <argsstring>(bool success, const String &amp;response)</argsstring>
+        <name>get_public_ip</name>
+        <qualifiedname>TinyWATCH::get_public_ip</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="35" column="13" bodyfile="src/tinywatch.cpp" bodystart="433" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tiny_w_a_t_c_h_1a24813f09af29a3975a42a406e2c70956" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TinyWATCH::get_and_update_utc_settings</definition>
+        <argsstring>(bool success, const String &amp;response)</argsstring>
+        <name>get_and_update_utc_settings</name>
+        <qualifiedname>TinyWATCH::get_and_update_utc_settings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tinywatch.h" line="36" column="13" bodyfile="src/tinywatch.cpp" bodystart="439" bodyend="500"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/tinywatch.h" line="17" column="1" bodyfile="src/tinywatch.h" bodystart="18" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_tiny_w_a_t_c_h_1a1dd77ecfe4df7787f1fce46df043305a" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>block_update_low_battery</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1a24813f09af29a3975a42a406e2c70956" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>get_and_update_utc_settings</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1a48e1a1b6084f3558d73a11d442796edd" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>get_public_ip</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1af40eb68ae6d6d22a5e5dd0295268df4f" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>go_to_sleep</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>log_system_message</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1af3f1a673303ccb81a7ea8e304fd3b304" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>low_battery_update_check</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1aeb44ecae81f3bf26847e1e52f8cfda6c" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>messages</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1a4b19b69d59de3d9fc53005a28d59cc81" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>set_cpu_frequency</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1ad663ff18437a2cf94b2fbaed03fa11ee" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>vbus_present</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1a439c0df24b0a268b1c1c58b3c778730b" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>version_firmware</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1a31de99c7e1854294dd7864dd6840baee" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>version_year</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1a5ffe6ca8ca904c64994037ce6f518838" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>was_sleeping</name></member>
+      <member refid="class_tiny_w_a_t_c_h_1a4067252dd43ba7790b0d51ebb8e5e064" prot="public" virt="non-virtual"><scope>TinyWATCH</scope><name>woke_by</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

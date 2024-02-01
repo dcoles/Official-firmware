@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="control___toggle_8cpp" kind="file" language="C++">
+    <compoundname>control_Toggle.cpp</compoundname>
+    <includes refid="control___toggle_8h" local="yes">tw_controls/control_Toggle.h</includes>
+    <includes refid="_roboto_mono___light___all_8h" local="yes">fonts/RobotoMono_Light_All.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>Arduino.h</label>
+      </node>
+      <node id="8">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>fonts/RobotoMono_Light_All.h</label>
+        <link refid="_roboto_mono___light___all_8h"/>
+      </node>
+      <node id="17">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_controls/control_Toggle.cpp</label>
+        <link refid="control___toggle_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_controls/control_Toggle.h</label>
+        <link refid="control___toggle_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="16">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="12">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="23">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="24">
+        <label>Tween.h</label>
+      </node>
+      <node id="20">
+        <label>WiFi.h</label>
+      </node>
+      <node id="10">
+        <label>cst816t.h</label>
+      </node>
+      <node id="21">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="22">
+        <label>functional</label>
+      </node>
+      <node id="18">
+        <label>initializer_list</label>
+      </node>
+      <node id="5">
+        <label>json.h</label>
+      </node>
+      <node id="15">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="19">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="control___toggle_8h" kindref="compound">tw_controls/control_Toggle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___light___all_8h" kindref="compound">fonts/RobotoMono_Light_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_toggle_1aefa9c39e7a218d38e25eb88cd5ed9255" kindref="member">ControlToggle::set_data</ref>(<ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref><sp/>*sett)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_control_toggle_1adf52cb47d2310ac0fe5f18b5816cd2ba" kindref="member">setting_option</ref><sp/>=<sp/>sett;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__control_1a41871f50ad83775e6e0aa9735ff087f0" kindref="member">value</ref><sp/>=<sp/><ref refid="class_control_toggle_1adf52cb47d2310ac0fe5f18b5816cd2ba" kindref="member">setting_option</ref>-&gt;<ref refid="class_settings_option_bool_1a7ebcb377ddec6654b6f5b667490c3007" kindref="member">get</ref>()<sp/>?<sp/><ref refid="classtw__control_1a304039dc7cdb6e6a46283bc02398f31f" kindref="member">option2</ref><sp/>:<sp/><ref refid="classtw__control_1a7e3bf4abc01c2d219b9c4d2ae45fc1bc" kindref="member">option1</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Disabled<sp/>for<sp/>now,<sp/>but<sp/>the<sp/>plan<sp/>is<sp/>to<sp/>cache<sp/>the<sp/>drawn<sp/>state<sp/>of<sp/>a<sp/>control</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>speed<sp/>up<sp/>redraw<sp/>and<sp/>to<sp/>reduce<sp/>battery<sp/>consumption</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">void<sp/>ControlToggle::draw(uint8_t<sp/>canvasid)</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/>adjusted_pos_x<sp/>=<sp/>pos_x<sp/>+<sp/>offset_x;</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/><sp/>adjusted_pos_y<sp/>=<sp/>pos_y<sp/>+<sp/>offset_y;</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/><sp/>if<sp/>(requires_redraw)</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>requires_redraw<sp/>=<sp/>false;</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.fillSprite(TFT_TRANSPARENT);</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.fillRoundRect(0,<sp/>0,<sp/>width,<sp/>height,<sp/>4,<sp/>RGB(0x22,<sp/>0x22,<sp/>0x22));</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.setFreeFont(RobotoMono_Light[7]);</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.setTextDatum(4);<sp/>//<sp/>Middle,<sp/>Center</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.drawString(name,<sp/>(width/2),<sp/>-10);</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(setting_option-&gt;get())</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.fillRoundRect((width/2)+2,<sp/>2,<sp/>width/2-2,<sp/>height-4,<sp/>4,<sp/>RGB(0x99,<sp/>0xFF,<sp/>0x99));</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.fillRoundRect(2,<sp/>2,<sp/>width/2-2,<sp/>height-4,<sp/>4,<sp/>RGB(0x66,<sp/>0x66,<sp/>0x66));</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.setTextColor(TFT_WHITE,<sp/>RGB(0x22,<sp/>0x22,<sp/>0x22));</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.setFreeFont(RobotoMono_Light[8]);</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>my_sprite.drawString(value,<sp/>(width/2),<sp/>(height/2)<sp/>-2);</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"></highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/>my_sprite.pushToSprite(&amp;canvas[canvasid],<sp/>adjusted_pos_x,<sp/>adjusted_pos_y);</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_toggle_1a0f74a6098d7a0e5d041d779a6085389c" kindref="member">ControlToggle::draw</ref>(uint8_t<sp/>canvasid)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>=<sp/><ref refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" kindref="member">pos_x</ref><sp/>+<sp/><ref refid="classtw__control_1a2bac811da9de1d6e647f6ecb802fd9f4" kindref="member">offset_x</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>=<sp/><ref refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="classtw__control_1ab6049b218ec56da1cdaa11aecdace054" kindref="member">offset_y</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].fillRoundRect(<ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref>,<sp/><ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref>,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref>,<sp/>4,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x22,<sp/>0x22,<sp/>0x22));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Light[7]);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextDatum(4);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawString(<ref refid="classtw__control_1afb4e579aac10eb0681adea2afb85e1a2" kindref="member">name</ref>,<sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>+<sp/>(<ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref><sp/>/<sp/>2),<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>-<sp/>10);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_control_toggle_1adf52cb47d2310ac0fe5f18b5816cd2ba" kindref="member">setting_option</ref>-&gt;<ref refid="class_settings_option_bool_1a7ebcb377ddec6654b6f5b667490c3007" kindref="member">get</ref>())</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].fillRoundRect(<ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>+<sp/>(<ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref><sp/>/<sp/>2)<sp/>+<sp/>2,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>+<sp/>2,<sp/><ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref><sp/>/<sp/>2<sp/>-<sp/>2,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>-<sp/>4,<sp/>4,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x99,<sp/>0xFF,<sp/>0x99));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].fillRoundRect(<ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>+<sp/>2,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>+<sp/>2,<sp/><ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref><sp/>/<sp/>2<sp/>-<sp/>2,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>-<sp/>4,<sp/>4,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x66,<sp/>0x66,<sp/>0x66));</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x22,<sp/>0x22,<sp/>0x22));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Light[8]);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawString(<ref refid="classtw__control_1a41871f50ad83775e6e0aa9735ff087f0" kindref="member">value</ref>,<sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>+<sp/>(<ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref><sp/>/<sp/>2),<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>+<sp/>(<ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>/<sp/>2)<sp/>-<sp/>2);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_toggle_1a0a9cbde8c63198f6e66c5dac1e413757" kindref="member">ControlToggle::drag</ref>(int16_t<sp/>drag_x,<sp/>int16_t<sp/>drag_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_toggle_1a1970b2a6c73f5abd77dfb35bd55b61e5" kindref="member">ControlToggle::drag_end</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_toggle_1a2d402c3ae5959e440ada9c1d05805bc6" kindref="member">ControlToggle::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Did<sp/>we<sp/>click<sp/>within<sp/>the<sp/>bounds<sp/>of<sp/>this<sp/>control?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__control_1a14b56d61053455a8340fa0ef873f8438" kindref="member">bounds_check</ref>(click_pos_x,<sp/>click_pos_y))</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>we<sp/>have<sp/>bound<sp/>a<sp/>SettingOption<sp/>to<sp/>this<sp/>control,<sp/>fire<sp/>the<sp/>change<sp/>method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_control_toggle_1adf52cb47d2310ac0fe5f18b5816cd2ba" kindref="member">setting_option</ref><sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__control_1a41871f50ad83775e6e0aa9735ff087f0" kindref="member">value</ref><sp/>=<sp/><ref refid="class_control_toggle_1adf52cb47d2310ac0fe5f18b5816cd2ba" kindref="member">setting_option</ref>-&gt;<ref refid="class_settings_option_bool_1acc530a61661b28b28607b8a22104269e" kindref="member">change</ref>()<sp/>?<sp/><ref refid="classtw__control_1a304039dc7cdb6e6a46283bc02398f31f" kindref="member">option2</ref><sp/>:<sp/><ref refid="classtw__control_1a7e3bf4abc01c2d219b9c4d2ae45fc1bc" kindref="member">option1</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>we<sp/>have<sp/>assigned<sp/>a<sp/>callback<sp/>on<sp/>this<sp/>control,<sp/>fire<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__control_1a9a0b0641f496916802cba6cf15a9ef28" kindref="member">callbackFunction</ref><sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__control_1a9a0b0641f496916802cba6cf15a9ef28" kindref="member">callbackFunction</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Yes,<sp/>we<sp/>did<sp/>click<sp/>this<sp/>control</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>requires_redraw<sp/>=<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_toggle_1ab584330a4f396b74a4cea7136822e6cc" kindref="member">ControlToggle::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_toggle_1a96587d838d07da94749a0dcb20842b30" kindref="member">ControlToggle::click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_controls/control_Toggle.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_widget_open_weather" kind="class" language="C++" prot="public">
+    <compoundname>WidgetOpenWeather</compoundname>
+    <basecompoundref refid="classtw__widget" prot="public" virt="non-virtual">tw_widget</basecompoundref>
+    <includes local="no">widget_OpenWeather.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_widget_open_weather_1a151d3616546f24c3788cfb9d177b2a67" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WidgetOpenWeather::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>WidgetOpenWeather::version</qualifiedname>
+        <initializer>= &quot;1.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="21" column="8" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1a7dabb88202aae2beca41d61692268a23" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WidgetOpenWeather::server_path</definition>
+        <argsstring></argsstring>
+        <name>server_path</name>
+        <qualifiedname>WidgetOpenWeather::server_path</qualifiedname>
+        <initializer>= &quot;http://api.openweathermap.org/data/2.5/weather?q=&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="22" column="8" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1a87784c33a5bfd2e790a6f6744b3bcb64" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long WidgetOpenWeather::next_update</definition>
+        <argsstring></argsstring>
+        <name>next_update</name>
+        <qualifiedname>WidgetOpenWeather::next_update</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="23" column="15" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1a321bcf6eefc774f9569791a4d140b4fb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WidgetOpenWeather::icons_loaded</definition>
+        <argsstring></argsstring>
+        <name>icons_loaded</name>
+        <qualifiedname>WidgetOpenWeather::icons_loaded</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="25" column="6" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1a5b9de60e8e6edfbad8dc88df67194e83" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t WidgetOpenWeather::_temp</definition>
+        <argsstring></argsstring>
+        <name>_temp</name>
+        <qualifiedname>WidgetOpenWeather::_temp</qualifiedname>
+        <initializer>= -999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="28" column="9" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1adc35e898f8015528b7c868555ea5339c" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t WidgetOpenWeather::_humidity</definition>
+        <argsstring></argsstring>
+        <name>_humidity</name>
+        <qualifiedname>WidgetOpenWeather::_humidity</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="29" column="9" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1aef8bacdd08f8cd1a00a0b7f80666dfe2" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WidgetOpenWeather::_icon_name</definition>
+        <argsstring></argsstring>
+        <name>_icon_name</name>
+        <qualifiedname>WidgetOpenWeather::_icon_name</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="30" column="8" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1a3ace13083a80530548a823f9a93d2230" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WidgetOpenWeather::_icon_desc</definition>
+        <argsstring></argsstring>
+        <name>_icon_desc</name>
+        <qualifiedname>WidgetOpenWeather::_icon_desc</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="31" column="8" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1a6bd17d132211863116f1d850eab20f9c" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t WidgetOpenWeather::stat</definition>
+        <argsstring></argsstring>
+        <name>stat</name>
+        <qualifiedname>WidgetOpenWeather::stat</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="32" column="9" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" prot="private" static="no" mutable="no">
+        <type>std::map&lt; String, const uint16_t * &gt;</type>
+        <definition>std::map&lt;String, const uint16_t *&gt; WidgetOpenWeather::ow_icons</definition>
+        <argsstring></argsstring>
+        <name>ow_icons</name>
+        <qualifiedname>WidgetOpenWeather::ow_icons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="34" column="10" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_widget_open_weather_1ac08b20e012d1ea886abbbbf7887c7a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WidgetOpenWeather::draw</definition>
+        <argsstring>(uint canvasid, uint8_t style_hint=0)</argsstring>
+        <name>draw</name>
+        <qualifiedname>WidgetOpenWeather::draw</qualifiedname>
+        <reimplements refid="classtw__widget_1a6baf7012213ea3023cc8fc676fb538cf">draw</reimplements>
+        <param>
+          <type>uint</type>
+          <declname>canvasid</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>style_hint</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="9" column="6" bodyfile="src/tw_widgets/widget_OpenWeather.cpp" bodystart="73" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_open_weather_1a6f96b4752ccacdcf46e927b343274087" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool WidgetOpenWeather::click</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>WidgetOpenWeather::click</qualifiedname>
+        <reimplements refid="classtw__widget_1ac07d4aa7d44f1afaabde5d61977bc734">click</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="10" column="6" bodyfile="src/tw_widgets/widget_OpenWeather.cpp" bodystart="117" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_open_weather_1abb8557db5f15c3181acf47dc941196f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool WidgetOpenWeather::click_double</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>WidgetOpenWeather::click_double</qualifiedname>
+        <reimplements refid="classtw__widget_1ad2f4b8cad406bd95f59afd04765a19d3">click_double</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="11" column="6" bodyfile="src/tw_widgets/widget_OpenWeather.cpp" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_open_weather_1aa9363bde5964b72ab8eff84c8f61956e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool WidgetOpenWeather::click_long</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_long</name>
+        <qualifiedname>WidgetOpenWeather::click_long</qualifiedname>
+        <reimplements refid="classtw__widget_1a0bf4f570d9129b9953fd8df0d6110957">click_long</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="12" column="6" bodyfile="src/tw_widgets/widget_OpenWeather.cpp" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_open_weather_1aeea1c2e14beb3f5c31b541422f045eef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String WidgetOpenWeather::build_server_path</definition>
+        <argsstring>()</argsstring>
+        <name>build_server_path</name>
+        <qualifiedname>WidgetOpenWeather::build_server_path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="14" column="8" bodyfile="src/tw_widgets/widget_OpenWeather.cpp" bodystart="8" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_open_weather_1a9fd1649e1dfbbc64ee7c712d191cbae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WidgetOpenWeather::decode_json</definition>
+        <argsstring>(String _data)</argsstring>
+        <name>decode_json</name>
+        <qualifiedname>WidgetOpenWeather::decode_json</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="15" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_open_weather_1aac1dff4b3d44e1feaa818ee90b3cdb00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WidgetOpenWeather::load_icons</definition>
+        <argsstring>()</argsstring>
+        <name>load_icons</name>
+        <qualifiedname>WidgetOpenWeather::load_icons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="16" column="6" bodyfile="src/tw_widgets/widget_OpenWeather.cpp" bodystart="17" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_open_weather_1af05c43996e88e21401268b612a5a991c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WidgetOpenWeather::process_weather_data</definition>
+        <argsstring>(bool success, const String &amp;response)</argsstring>
+        <name>process_weather_data</name>
+        <qualifiedname>WidgetOpenWeather::process_weather_data</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.h" line="18" column="6" bodyfile="src/tw_widgets/widget_OpenWeather.cpp" bodystart="42" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WidgetOpenWeather</label>
+        <link refid="class_widget_open_weather"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widget</label>
+        <link refid="classtw__widget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WidgetOpenWeather</label>
+        <link refid="class_widget_open_weather"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widget</label>
+        <link refid="classtw__widget"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_widgets/widget_OpenWeather.h" line="6" column="1" bodyfile="src/tw_widgets/widget_OpenWeather.h" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_widget_open_weather_1adc35e898f8015528b7c868555ea5339c" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>_humidity</name></member>
+      <member refid="class_widget_open_weather_1a3ace13083a80530548a823f9a93d2230" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>_icon_desc</name></member>
+      <member refid="class_widget_open_weather_1aef8bacdd08f8cd1a00a0b7f80666dfe2" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>_icon_name</name></member>
+      <member refid="class_widget_open_weather_1a5b9de60e8e6edfbad8dc88df67194e83" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>_temp</name></member>
+      <member refid="classtw__widget_1a9a5b5f3d971b21e223650b3db33ce53d" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>bounds_check</name></member>
+      <member refid="classtw__widget_1abbf0c6ed88dbcbde466da308fe25280a" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>bounds_x</name></member>
+      <member refid="classtw__widget_1a7b3ace09f0b78e703cee368ff9333145" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>bounds_y</name></member>
+      <member refid="class_widget_open_weather_1aeea1c2e14beb3f5c31b541422f045eef" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>build_server_path</name></member>
+      <member refid="class_widget_open_weather_1a6f96b4752ccacdcf46e927b343274087" prot="public" virt="virtual"><scope>WidgetOpenWeather</scope><name>click</name></member>
+      <member refid="class_widget_open_weather_1abb8557db5f15c3181acf47dc941196f5" prot="public" virt="virtual"><scope>WidgetOpenWeather</scope><name>click_double</name></member>
+      <member refid="class_widget_open_weather_1aa9363bde5964b72ab8eff84c8f61956e" prot="public" virt="virtual"><scope>WidgetOpenWeather</scope><name>click_long</name></member>
+      <member refid="classtw__widget_1aa8ed9e767718aaf10d38f707c81b1baa" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>create</name></member>
+      <member refid="class_widget_open_weather_1a9fd1649e1dfbbc64ee7c712d191cbae0" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>decode_json</name></member>
+      <member refid="class_widget_open_weather_1ac08b20e012d1ea886abbbbf7887c7a9c" prot="public" virt="virtual"><scope>WidgetOpenWeather</scope><name>draw</name></member>
+      <member refid="classtw__widget_1a26a1faf7b703bdb1aa569dc93f4d2e62" prot="public" virt="non-virtual" ambiguityscope="tw_widget::"><scope>WidgetOpenWeather</scope><name>draw</name></member>
+      <member refid="classtw__widget_1af517be976fc16074e1ae9e2f102fa348" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>get_height</name></member>
+      <member refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>height</name></member>
+      <member refid="class_widget_open_weather_1a321bcf6eefc774f9569791a4d140b4fb" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>icons_loaded</name></member>
+      <member refid="class_widget_open_weather_1aac1dff4b3d44e1feaa818ee90b3cdb00" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>load_icons</name></member>
+      <member refid="classtw__widget_1a2cc08490e648fb07fce3320b5e30bf32" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>name</name></member>
+      <member refid="class_widget_open_weather_1a87784c33a5bfd2e790a6f6744b3bcb64" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>next_update</name></member>
+      <member refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>ow_icons</name></member>
+      <member refid="classtw__widget_1a1454f31ce925dfb7dd41f427edb808c3" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>padding_x</name></member>
+      <member refid="classtw__widget_1ad5dececcf61d7adea87112a54b055669" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>padding_y</name></member>
+      <member refid="classtw__widget_1a0c7106059fe14a973221930864a87301" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>parent</name></member>
+      <member refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>pos_x</name></member>
+      <member refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>pos_y</name></member>
+      <member refid="class_widget_open_weather_1af05c43996e88e21401268b612a5a991c" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>process_weather_data</name></member>
+      <member refid="class_widget_open_weather_1a7dabb88202aae2beca41d61692268a23" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>server_path</name></member>
+      <member refid="classtw__widget_1a93fcf490206680ba5b8ad20134686856" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>set_parent</name></member>
+      <member refid="class_widget_open_weather_1a6bd17d132211863116f1d850eab20f9c" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>stat</name></member>
+      <member refid="classtw__widget_1a9256a8106c4e5c2f3a79df688399a1b2" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>tw_widget</name></member>
+      <member refid="classtw__widget_1ad3d35433170c80cadb47dc5c4d400a54" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>update_period</name></member>
+      <member refid="class_widget_open_weather_1a151d3616546f24c3788cfb9d177b2a67" prot="private" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>version</name></member>
+      <member refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" prot="protected" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>width</name></member>
+      <member refid="classtw__widget_1a6a7ee578fc7245c7f1c13c5d14f34613" prot="public" virt="non-virtual"><scope>WidgetOpenWeather</scope><name>~tw_widget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

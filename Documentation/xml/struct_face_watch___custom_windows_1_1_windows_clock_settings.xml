@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_face_watch___custom_windows_1_1_windows_clock_settings" kind="struct" language="C++" prot="private">
+    <compoundname>FaceWatch_CustomWindows::WindowsClockSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1aaa76c6fbe2a9f2c8a173b96013bc0e7f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::width</qualifiedname>
+        <initializer>= display.width - 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="19" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a9d4191c058c314925e87b15bef0cdd92" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::height</qualifiedname>
+        <initializer>= display.height - 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="20" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a786fd2b6d3772f46b699d9f782ec510c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_background</definition>
+        <argsstring></argsstring>
+        <name>color_background</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_background</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xc3, 0xc7, 0xcb)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="21" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ad7414823cdf01e2f45fd0798c339db57" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_borderedge</definition>
+        <argsstring></argsstring>
+        <name>color_borderedge</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_borderedge</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00, 0x00, 0x00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="22" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a660551fea610183ad02b3c34e7d8dc45" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_titlebar</definition>
+        <argsstring></argsstring>
+        <name>color_titlebar</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_titlebar</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00, 0x00, 0xAA)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="23" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a4c0ea4abc7c51067cd18c679c92e86db" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_titletext</definition>
+        <argsstring></argsstring>
+        <name>color_titletext</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_titletext</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xFF, 0xFF, 0xFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="24" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1abd1a0d550ebf6a5ed45dafd316cce144" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_buttonshadow</definition>
+        <argsstring></argsstring>
+        <name>color_buttonshadow</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_buttonshadow</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x86, 0x8A, 0x8E)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="25" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1afe56046b307e6717a6be4a89eda106fa" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_buttonhighlight</definition>
+        <argsstring></argsstring>
+        <name>color_buttonhighlight</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_buttonhighlight</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xFF, 0xFF, 0xFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="26" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a6cd16f94175aa47ca8f9f2a1d88c8cd6" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_displaybkg</definition>
+        <argsstring></argsstring>
+        <name>color_displaybkg</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_displaybkg</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x11, 0x11, 0x11)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="27" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1af8de2d80cf5554c48de3c4c16f50150e" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_menubar</definition>
+        <argsstring></argsstring>
+        <name>color_menubar</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_menubar</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xFF, 0xFF, 0xFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="28" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ac867264b13582d4960c73e9b34675fcb" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_menutext</definition>
+        <argsstring></argsstring>
+        <name>color_menutext</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_menutext</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00, 0x00, 0x00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="29" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ab6f35709ab6a094969085edfaca8cb64" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_hrminhand</definition>
+        <argsstring></argsstring>
+        <name>color_hrminhand</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_hrminhand</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00, 0x00, 0x00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="30" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a303a8cecff4aae78af390ba70ecd6577" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_sechand</definition>
+        <argsstring></argsstring>
+        <name>color_sechand</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_sechand</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x88, 0x88, 0x88)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="31" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a1721cbc5c351a18ada9b0cff463eca73" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::WindowsClockSettings::color_hourblock</definition>
+        <argsstring></argsstring>
+        <name>color_hourblock</name>
+        <qualifiedname>FaceWatch_CustomWindows::WindowsClockSettings::color_hourblock</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(85, 170, 170)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="32" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/tw_faces/face_Watch_CustomWindows.h" line="17" column="1" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="18" bodyend="34"/>
+    <listofallmembers>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a786fd2b6d3772f46b699d9f782ec510c" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_background</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ad7414823cdf01e2f45fd0798c339db57" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_borderedge</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1afe56046b307e6717a6be4a89eda106fa" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_buttonhighlight</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1abd1a0d550ebf6a5ed45dafd316cce144" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_buttonshadow</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a6cd16f94175aa47ca8f9f2a1d88c8cd6" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_displaybkg</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a1721cbc5c351a18ada9b0cff463eca73" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_hourblock</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ab6f35709ab6a094969085edfaca8cb64" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_hrminhand</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1af8de2d80cf5554c48de3c4c16f50150e" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_menubar</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ac867264b13582d4960c73e9b34675fcb" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_menutext</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a303a8cecff4aae78af390ba70ecd6577" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_sechand</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a660551fea610183ad02b3c34e7d8dc45" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_titlebar</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a4c0ea4abc7c51067cd18c679c92e86db" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>color_titletext</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a9d4191c058c314925e87b15bef0cdd92" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>height</name></member>
+      <member refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1aaa76c6fbe2a9f2c8a173b96013bc0e7f" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows::WindowsClockSettings</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

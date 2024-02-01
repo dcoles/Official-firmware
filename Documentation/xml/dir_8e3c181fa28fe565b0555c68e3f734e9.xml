@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_8e3c181fa28fe565b0555c68e3f734e9" kind="dir">
+    <compoundname>src/fonts</compoundname>
+    <innerfile refid="_clock___digits_8h">Clock_Digits.h</innerfile>
+    <innerfile refid="_roboto___light20_8h">Roboto_Light20.h</innerfile>
+    <innerfile refid="_roboto___medium26_8h">Roboto_Medium26.h</innerfile>
+    <innerfile refid="_roboto___regular18_8h">Roboto_Regular18.h</innerfile>
+    <innerfile refid="_roboto___regular20_8h">Roboto_Regular20.h</innerfile>
+    <innerfile refid="_roboto___regular22_8h">Roboto_Regular22.h</innerfile>
+    <innerfile refid="_roboto___regular26_8h">Roboto_Regular26.h</innerfile>
+    <innerfile refid="_roboto_mono___light___all_8h">RobotoMono_Light_All.h</innerfile>
+    <innerfile refid="_roboto_mono___regular___all_8h">RobotoMono_Regular_All.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/fonts/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="settings_8h" kind="file" language="C++">
+    <compoundname>settings.h</compoundname>
+    <includes local="yes">json.h</includes>
+    <includes local="yes">json_conversions.h</includes>
+    <includes refid="settings_option_8h" local="yes">settings/settingsOption.h</includes>
+    <includes refid="settings__extra_8h" local="yes">settings_extra.h</includes>
+    <includes refid="logging_8h" local="yes">utilities/logging.h</includes>
+    <includes local="no">Preferences.h</includes>
+    <includedby refid="display_8cpp" local="yes">src/display.cpp</includedby>
+    <includedby refid="battery_8cpp" local="yes">src/peripherals/battery.cpp</includedby>
+    <includedby refid="buzzer_8cpp" local="yes">src/peripherals/buzzer.cpp</includedby>
+    <includedby refid="settings_8cpp" local="yes">src/settings/settings.cpp</includedby>
+    <includedby refid="settings_option_8cpp" local="yes">src/settings/settingsOption.cpp</includedby>
+    <includedby refid="tinywatch_8cpp" local="yes">src/tinywatch.cpp</includedby>
+    <includedby refid="tw__app_8cpp" local="yes">src/tw_apps/tw_app.cpp</includedby>
+    <includedby refid="face___boot_8cpp" local="yes">src/tw_faces/face_Boot.cpp</includedby>
+    <includedby refid="face___watch___custom_binary_8cpp" local="yes">src/tw_faces/face_Watch_CustomBinary.cpp</includedby>
+    <includedby refid="face___watch___custom_windows_8cpp" local="yes">src/tw_faces/face_Watch_CustomWindows.cpp</includedby>
+    <includedby refid="face___watch___default_analog_8cpp" local="yes">src/tw_faces/face_Watch_DefaultAnalog.cpp</includedby>
+    <includedby refid="face___watch___default_digital_8cpp" local="yes">src/tw_faces/face_Watch_DefaultDigital.cpp</includedby>
+    <includedby refid="widget___activity_ring_8cpp" local="yes">src/tw_widgets/widget_ActivityRing.cpp</includedby>
+    <includedby refid="widget___open_weather_8cpp" local="yes">src/tw_widgets/widget_OpenWeather.cpp</includedby>
+    <includedby refid="webserver_8cpp" local="yes">src/web/webserver.cpp</includedby>
+    <includedby refid="wifi__controller_8cpp" local="yes">src/web/wifi_controller.cpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>src/settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="8">
+        <label>Preferences.h</label>
+      </node>
+      <node id="2">
+        <label>json.h</label>
+      </node>
+      <node id="3">
+        <label>json_conversions.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/display.cpp</label>
+        <link refid="display_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/peripherals/battery.cpp</label>
+        <link refid="battery_8cpp"/>
+      </node>
+      <node id="4">
+        <label>src/peripherals/buzzer.cpp</label>
+        <link refid="buzzer_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/settings/settings.cpp</label>
+        <link refid="settings_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/settings/settingsOption.cpp</label>
+        <link refid="settings_option_8cpp"/>
+      </node>
+      <node id="7">
+        <label>src/tinywatch.cpp</label>
+        <link refid="tinywatch_8cpp"/>
+      </node>
+      <node id="8">
+        <label>src/tw_apps/tw_app.cpp</label>
+        <link refid="tw__app_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/tw_faces/face_Boot.cpp</label>
+        <link refid="face___boot_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/tw_faces/face_Watch_CustomBinary.cpp</label>
+        <link refid="face___watch___custom_binary_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/tw_faces/face_Watch_CustomWindows.cpp</label>
+        <link refid="face___watch___custom_windows_8cpp"/>
+      </node>
+      <node id="12">
+        <label>src/tw_faces/face_Watch_DefaultAnalog.cpp</label>
+        <link refid="face___watch___default_analog_8cpp"/>
+      </node>
+      <node id="13">
+        <label>src/tw_faces/face_Watch_DefaultDigital.cpp</label>
+        <link refid="face___watch___default_digital_8cpp"/>
+      </node>
+      <node id="14">
+        <label>src/tw_widgets/widget_ActivityRing.cpp</label>
+        <link refid="widget___activity_ring_8cpp"/>
+      </node>
+      <node id="15">
+        <label>src/tw_widgets/widget_OpenWeather.cpp</label>
+        <link refid="widget___open_weather_8cpp"/>
+      </node>
+      <node id="16">
+        <label>src/web/webserver.cpp</label>
+        <link refid="webserver_8cpp"/>
+      </node>
+      <node id="17">
+        <label>src/web/wifi_controller.cpp</label>
+        <link refid="wifi__controller_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_config" prot="public">Config</innerclass>
+    <innerclass refid="class_settings" prot="public">Settings</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="settings_8h_1ab701e3ac61a85b337ec5c1abaad6742d" prot="public" static="no">
+        <type>nlohmann::json</type>
+        <definition>using json =  nlohmann::json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="10" column="1" bodyfile="src/settings/settings.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="settings_8h_1a19276c778f3034b94881cf1f8614dbb2" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="105" column="17" bodyfile="src/settings/settings.cpp" bodystart="276" bodyend="-1" declfile="src/settings/settings.h" declline="105" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;json.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;json_conversions.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="settings_option_8h" kindref="compound">settings/settingsOption.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="settings__extra_8h" kindref="compound">settings_extra.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logging_8h" kindref="compound">utilities/logging.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Preferences.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>=<sp/>nlohmann::json;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Save<sp/>data<sp/>struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="struct_config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_config" kindref="compound">Config</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_config_1ae5382eb0018ed9dedc2eb7c0ce79440d" kindref="member">ver</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a099a67b516ac62f95fa2f49483721310" kindref="member">first_time</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a59ba768cb9953025684758ef37e8ddd8" kindref="member">wifi_start</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config_1a804424388e0c9b9c3accceb144e1e4d0" kindref="member">wifi_ssid</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config_1abd2cb3697545308259b67c9dc2e75134" kindref="member">wifi_pass</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config_1a18da6a55416dac44a9cad77a9fcf5588" kindref="member">mdns_name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;tinywatch&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a802a0bab3ef7725919ec3318ddb77844" kindref="member">website_darkmode</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>UTC<sp/>and<sp/>Country<sp/>settings<sp/>-<sp/>country<sp/>needed<sp/>for<sp/>some<sp/>widgets<sp/>like<sp/>Open<sp/>Weather</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config_1ad2f32cf7a8977a88bcc0bfcb4fbb3ae8" kindref="member">country</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config_1a3db24df2412a86e25506fc58eb71d948" kindref="member">city</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="struct_config_1a42c1d36660530f571613a4eecff662bb" kindref="member">utc_offset</ref><sp/>=<sp/>999;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>MQTT<sp/>specific<sp/>settings<sp/>-<sp/>see<sp/>Struct<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_config__mqtt" kindref="compound">Config_mqtt</ref><sp/><ref refid="struct_config_1ad1c996a549e246a1b7140a8f5dee8652" kindref="member">mqtt</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Battery/FG<sp/>specific<sp/>settings<sp/>-<sp/>see<sp/>Struct<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_config__battery" kindref="compound">Config_battery</ref><sp/><ref refid="struct_config_1a15269eb906e0a0d8d5c54bbe47091fb3" kindref="member">battery</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Open<sp/>Weather<sp/>specific<sp/>settings<sp/>-<sp/>see<sp/>Struct<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_config__open__weather" kindref="compound">Config_open_weather</ref><sp/><ref refid="struct_config_1a05e5a4633f656ae92f628b067c05d374" kindref="member">open_weather</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Binary<sp/>Clock<sp/>Face<sp/>specific<sp/>settings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_config__custom__binary" kindref="compound">Config_custom_binary</ref><sp/><ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Display</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="struct_config_1a1894e37758074791cd77b604d5177701" kindref="member">bl_period_vbus</ref><sp/>=<sp/>60000;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="struct_config_1ad8abd4ef60721bba163ea232b783fc25" kindref="member">bl_period_vbat</ref><sp/>=<sp/>30000;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a5b5857809cb30257039307e7aea8a7fc" kindref="member">time_24hour</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a8489a73fc9d48a23b00dd5a8e7db4eb1" kindref="member">time_dateformat</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>False<sp/>-<sp/>DMY,<sp/>True<sp/>-<sp/>MDY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="struct_config_1a6699ffbe0533602cbc8beb3ddb061155" kindref="member">clock_face_index</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Watch</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a518cf08162ace4e56474952c9e173e4f" kindref="member">left_handed</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a81edb463c86272b52b8fd5b1c535e226" kindref="member">flipped</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sound</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1ab96058cff80a87107bd72619f96261ed" kindref="member">audio_ui</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1aa811fa8a4f958fe255c04368233f36ca" kindref="member">audio_alarm</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>IMU</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a7ab4a104ef4fb114fd16043977d73235" kindref="member">imu_process_steps</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config_1a33bf57aa0d6f7b9b03982e5c2695e5be" kindref="member">imu_process_wrist</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="settings_8h_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/><ref refid="struct_config_1ad223c29215eb3925e60cd2540a0736f3" kindref="member">last_saved_data</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="class_settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_settings" kindref="compound">Settings</ref></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_config" kindref="compound">Config</ref><sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a06d1d58938c8fdc7a577e52f9ffda29d" kindref="member">load</ref>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a00dcb4d9f9a4f7deaee375a545947752" kindref="member">save</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1aa4e5b7dd1bc7037dae326078619852a6" kindref="member">backup</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1aa65b7c45b1ba3a125a818224094d63d4" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a1a20fe3938eafa97da459177007ab050" kindref="member">print_file</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a3c276563c885a8a30ef340e6e9e6d979" kindref="member">has_wifi_creds</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a53c5758b55206fe6754ed044a50a41ee" kindref="member">has_country_set</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_settings_1afe820637e10449ff29f61ab90f59cc2f" kindref="member">update_wifi_credentials</ref>(String<sp/>ssid,<sp/>String<sp/>pass);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_settings_1a5ed3552ca49c29b917e5826c799b70d7" kindref="member">get_load_status</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_settings_1a00753c3834f8ac98173ed55b06d26477" kindref="member">get_save_status</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>any<sp/>SettingsOption<sp/>values<sp/>here<sp/>for<sp/>any<sp/>settings<sp/>you<sp/>want<sp/>to<sp/>bind<sp/>with<sp/>a<sp/>tw_Control</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref><sp/><ref refid="class_settings_1a509f772f09ffc6fff7979da55a31a39e" kindref="member">setting_wifi_start</ref>{&amp;<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a59ba768cb9953025684758ef37e8ddd8" kindref="member">wifi_start</ref>};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref><sp/><ref refid="class_settings_1aa42da92c05be487651de3a57ba3a53b0" kindref="member">setting_time_24hour</ref>{&amp;<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a5b5857809cb30257039307e7aea8a7fc" kindref="member">time_24hour</ref>};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref><sp/><ref refid="class_settings_1ab8a0fdb8c98a2f7738995106b522f17d" kindref="member">setting_time_dateformat</ref>{&amp;<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a8489a73fc9d48a23b00dd5a8e7db4eb1" kindref="member">time_dateformat</ref>};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref><sp/><ref refid="class_settings_1ae7292aa2bf29892b83474e794f4d8764" kindref="member">setting_left_handed</ref>{&amp;<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a518cf08162ace4e56474952c9e173e4f" kindref="member">left_handed</ref>};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref><sp/><ref refid="class_settings_1a1207215c27f2d0beb3b23115e0001463" kindref="member">setting_flipped</ref>{&amp;<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a81edb463c86272b52b8fd5b1c535e226" kindref="member">flipped</ref>};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref><sp/><ref refid="class_settings_1a07f3193633d813269b3495255dc63125" kindref="member">setting_audio_ui</ref>{&amp;<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ab96058cff80a87107bd72619f96261ed" kindref="member">audio_ui</ref>};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref><sp/><ref refid="class_settings_1a7b75bfb359b1533477accd5e65601f60" kindref="member">setting_audio_alarm</ref>{&amp;<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1aa811fa8a4f958fe255c04368233f36ca" kindref="member">audio_alarm</ref>};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="class_settings_1adb8b7aff516eea8ae61ea171321ec857" kindref="member">filename</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/settings.json&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="class_settings_1a11318b2647ea7d36db2185fc652c2c8a" kindref="member">tmp_filename</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/tmp_settings.json&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/log.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="class_settings_1a6b7deab2e703293098334c3bbc60537e" kindref="member">backup_prefix</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;settings_back_&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_settings_1af893529f9727266e69ab3dd11de07eed" kindref="member">max_backups</ref><sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_settings_1afa3dbfe914fdc12c1f6419836b5294d1" kindref="member">backupNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_settings_1ae9cfa0afc12575661b57f107fca803e6" kindref="member">max_time_between_saves</ref><sp/>=<sp/>60000;<sp/></highlight><highlight class="comment">//<sp/>every<sp/>1<sp/>min</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a142b93e70d4701aec73d790d0636003c" kindref="member">last_save_time</ref><sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">log_to_nvs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Preferences<sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_settings" kindref="compound">Settings</ref><sp/><ref refid="settings_8h_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/settings/settings.h"/>
+  </compounddef>
+</doxygen>

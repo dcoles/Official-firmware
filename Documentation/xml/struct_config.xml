@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_config" kind="struct" language="C++" prot="public">
+    <compoundname>Config</compoundname>
+    <includes local="no">settings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_config_1ae5382eb0018ed9dedc2eb7c0ce79440d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config::ver</definition>
+        <argsstring></argsstring>
+        <name>ver</name>
+        <qualifiedname>Config::ver</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="15" column="5" bodyfile="src/settings/settings.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a099a67b516ac62f95fa2f49483721310" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::first_time</definition>
+        <argsstring></argsstring>
+        <name>first_time</name>
+        <qualifiedname>Config::first_time</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="16" column="6" bodyfile="src/settings/settings.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a59ba768cb9953025684758ef37e8ddd8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::wifi_start</definition>
+        <argsstring></argsstring>
+        <name>wifi_start</name>
+        <qualifiedname>Config::wifi_start</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="18" column="6" bodyfile="src/settings/settings.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a804424388e0c9b9c3accceb144e1e4d0" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config::wifi_ssid</definition>
+        <argsstring></argsstring>
+        <name>wifi_ssid</name>
+        <qualifiedname>Config::wifi_ssid</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="19" column="8" bodyfile="src/settings/settings.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1abd2cb3697545308259b67c9dc2e75134" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config::wifi_pass</definition>
+        <argsstring></argsstring>
+        <name>wifi_pass</name>
+        <qualifiedname>Config::wifi_pass</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="20" column="8" bodyfile="src/settings/settings.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a18da6a55416dac44a9cad77a9fcf5588" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config::mdns_name</definition>
+        <argsstring></argsstring>
+        <name>mdns_name</name>
+        <qualifiedname>Config::mdns_name</qualifiedname>
+        <initializer>= &quot;tinywatch&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="21" column="8" bodyfile="src/settings/settings.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a802a0bab3ef7725919ec3318ddb77844" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::website_darkmode</definition>
+        <argsstring></argsstring>
+        <name>website_darkmode</name>
+        <qualifiedname>Config::website_darkmode</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="22" column="6" bodyfile="src/settings/settings.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1ad2f32cf7a8977a88bcc0bfcb4fbb3ae8" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config::country</definition>
+        <argsstring></argsstring>
+        <name>country</name>
+        <qualifiedname>Config::country</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="25" column="8" bodyfile="src/settings/settings.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a3db24df2412a86e25506fc58eb71d948" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config::city</definition>
+        <argsstring></argsstring>
+        <name>city</name>
+        <qualifiedname>Config::city</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="26" column="8" bodyfile="src/settings/settings.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a42c1d36660530f571613a4eecff662bb" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t Config::utc_offset</definition>
+        <argsstring></argsstring>
+        <name>utc_offset</name>
+        <qualifiedname>Config::utc_offset</qualifiedname>
+        <initializer>= 999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="27" column="9" bodyfile="src/settings/settings.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1ad1c996a549e246a1b7140a8f5dee8652" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_config__mqtt" kindref="compound">Config_mqtt</ref></type>
+        <definition>Config_mqtt Config::mqtt</definition>
+        <argsstring></argsstring>
+        <name>mqtt</name>
+        <qualifiedname>Config::mqtt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="30" column="13" bodyfile="src/settings/settings.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a15269eb906e0a0d8d5c54bbe47091fb3" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_config__battery" kindref="compound">Config_battery</ref></type>
+        <definition>Config_battery Config::battery</definition>
+        <argsstring></argsstring>
+        <name>battery</name>
+        <qualifiedname>Config::battery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="33" column="16" bodyfile="src/settings/settings.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a05e5a4633f656ae92f628b067c05d374" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_config__open__weather" kindref="compound">Config_open_weather</ref></type>
+        <definition>Config_open_weather Config::open_weather</definition>
+        <argsstring></argsstring>
+        <name>open_weather</name>
+        <qualifiedname>Config::open_weather</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="36" column="21" bodyfile="src/settings/settings.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1ad695ac00b4880f31dd061497c64c4fad" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_config__custom__binary" kindref="compound">Config_custom_binary</ref></type>
+        <definition>Config_custom_binary Config::custom_binary</definition>
+        <argsstring></argsstring>
+        <name>custom_binary</name>
+        <qualifiedname>Config::custom_binary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="39" column="22" bodyfile="src/settings/settings.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a1894e37758074791cd77b604d5177701" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Config::bl_period_vbus</definition>
+        <argsstring></argsstring>
+        <name>bl_period_vbus</name>
+        <qualifiedname>Config::bl_period_vbus</qualifiedname>
+        <initializer>= 60000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="42" column="6" bodyfile="src/settings/settings.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1ad8abd4ef60721bba163ea232b783fc25" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Config::bl_period_vbat</definition>
+        <argsstring></argsstring>
+        <name>bl_period_vbat</name>
+        <qualifiedname>Config::bl_period_vbat</qualifiedname>
+        <initializer>= 30000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="43" column="6" bodyfile="src/settings/settings.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a5b5857809cb30257039307e7aea8a7fc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::time_24hour</definition>
+        <argsstring></argsstring>
+        <name>time_24hour</name>
+        <qualifiedname>Config::time_24hour</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="46" column="6" bodyfile="src/settings/settings.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a8489a73fc9d48a23b00dd5a8e7db4eb1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::time_dateformat</definition>
+        <argsstring></argsstring>
+        <name>time_dateformat</name>
+        <qualifiedname>Config::time_dateformat</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="47" column="6" bodyfile="src/settings/settings.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a6699ffbe0533602cbc8beb3ddb061155" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Config::clock_face_index</definition>
+        <argsstring></argsstring>
+        <name>clock_face_index</name>
+        <qualifiedname>Config::clock_face_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="48" column="9" bodyfile="src/settings/settings.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a518cf08162ace4e56474952c9e173e4f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::left_handed</definition>
+        <argsstring></argsstring>
+        <name>left_handed</name>
+        <qualifiedname>Config::left_handed</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="51" column="6" bodyfile="src/settings/settings.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a81edb463c86272b52b8fd5b1c535e226" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::flipped</definition>
+        <argsstring></argsstring>
+        <name>flipped</name>
+        <qualifiedname>Config::flipped</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="52" column="6" bodyfile="src/settings/settings.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1ab96058cff80a87107bd72619f96261ed" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::audio_ui</definition>
+        <argsstring></argsstring>
+        <name>audio_ui</name>
+        <qualifiedname>Config::audio_ui</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="55" column="6" bodyfile="src/settings/settings.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1aa811fa8a4f958fe255c04368233f36ca" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::audio_alarm</definition>
+        <argsstring></argsstring>
+        <name>audio_alarm</name>
+        <qualifiedname>Config::audio_alarm</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="56" column="6" bodyfile="src/settings/settings.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a7ab4a104ef4fb114fd16043977d73235" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::imu_process_steps</definition>
+        <argsstring></argsstring>
+        <name>imu_process_steps</name>
+        <qualifiedname>Config::imu_process_steps</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="59" column="6" bodyfile="src/settings/settings.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a33bf57aa0d6f7b9b03982e5c2695e5be" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::imu_process_wrist</definition>
+        <argsstring></argsstring>
+        <name>imu_process_wrist</name>
+        <qualifiedname>Config::imu_process_wrist</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="60" column="6" bodyfile="src/settings/settings.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1ad223c29215eb3925e60cd2540a0736f3" prot="public" static="no" mutable="no">
+        <type><ref refid="settings_8h_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref></type>
+        <definition>json Config::last_saved_data</definition>
+        <argsstring></argsstring>
+        <name>last_saved_data</name>
+        <qualifiedname>Config::last_saved_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="62" column="6" bodyfile="src/settings/settings.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Config</label>
+        <link refid="struct_config"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mqtt</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>battery</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>open_weather</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>custom_binary</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Config_battery</label>
+        <link refid="struct_config__battery"/>
+      </node>
+      <node id="5">
+        <label>Config_custom_binary</label>
+        <link refid="struct_config__custom__binary"/>
+      </node>
+      <node id="2">
+        <label>Config_mqtt</label>
+        <link refid="struct_config__mqtt"/>
+      </node>
+      <node id="4">
+        <label>Config_open_weather</label>
+        <link refid="struct_config__open__weather"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/settings/settings.h" line="13" column="1" bodyfile="src/settings/settings.h" bodystart="14" bodyend="63"/>
+    <listofallmembers>
+      <member refid="struct_config_1aa811fa8a4f958fe255c04368233f36ca" prot="public" virt="non-virtual"><scope>Config</scope><name>audio_alarm</name></member>
+      <member refid="struct_config_1ab96058cff80a87107bd72619f96261ed" prot="public" virt="non-virtual"><scope>Config</scope><name>audio_ui</name></member>
+      <member refid="struct_config_1a15269eb906e0a0d8d5c54bbe47091fb3" prot="public" virt="non-virtual"><scope>Config</scope><name>battery</name></member>
+      <member refid="struct_config_1ad8abd4ef60721bba163ea232b783fc25" prot="public" virt="non-virtual"><scope>Config</scope><name>bl_period_vbat</name></member>
+      <member refid="struct_config_1a1894e37758074791cd77b604d5177701" prot="public" virt="non-virtual"><scope>Config</scope><name>bl_period_vbus</name></member>
+      <member refid="struct_config_1a3db24df2412a86e25506fc58eb71d948" prot="public" virt="non-virtual"><scope>Config</scope><name>city</name></member>
+      <member refid="struct_config_1a6699ffbe0533602cbc8beb3ddb061155" prot="public" virt="non-virtual"><scope>Config</scope><name>clock_face_index</name></member>
+      <member refid="struct_config_1ad2f32cf7a8977a88bcc0bfcb4fbb3ae8" prot="public" virt="non-virtual"><scope>Config</scope><name>country</name></member>
+      <member refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" prot="public" virt="non-virtual"><scope>Config</scope><name>custom_binary</name></member>
+      <member refid="struct_config_1a099a67b516ac62f95fa2f49483721310" prot="public" virt="non-virtual"><scope>Config</scope><name>first_time</name></member>
+      <member refid="struct_config_1a81edb463c86272b52b8fd5b1c535e226" prot="public" virt="non-virtual"><scope>Config</scope><name>flipped</name></member>
+      <member refid="struct_config_1a7ab4a104ef4fb114fd16043977d73235" prot="public" virt="non-virtual"><scope>Config</scope><name>imu_process_steps</name></member>
+      <member refid="struct_config_1a33bf57aa0d6f7b9b03982e5c2695e5be" prot="public" virt="non-virtual"><scope>Config</scope><name>imu_process_wrist</name></member>
+      <member refid="struct_config_1ad223c29215eb3925e60cd2540a0736f3" prot="public" virt="non-virtual"><scope>Config</scope><name>last_saved_data</name></member>
+      <member refid="struct_config_1a518cf08162ace4e56474952c9e173e4f" prot="public" virt="non-virtual"><scope>Config</scope><name>left_handed</name></member>
+      <member refid="struct_config_1a18da6a55416dac44a9cad77a9fcf5588" prot="public" virt="non-virtual"><scope>Config</scope><name>mdns_name</name></member>
+      <member refid="struct_config_1ad1c996a549e246a1b7140a8f5dee8652" prot="public" virt="non-virtual"><scope>Config</scope><name>mqtt</name></member>
+      <member refid="struct_config_1a05e5a4633f656ae92f628b067c05d374" prot="public" virt="non-virtual"><scope>Config</scope><name>open_weather</name></member>
+      <member refid="struct_config_1a5b5857809cb30257039307e7aea8a7fc" prot="public" virt="non-virtual"><scope>Config</scope><name>time_24hour</name></member>
+      <member refid="struct_config_1a8489a73fc9d48a23b00dd5a8e7db4eb1" prot="public" virt="non-virtual"><scope>Config</scope><name>time_dateformat</name></member>
+      <member refid="struct_config_1a42c1d36660530f571613a4eecff662bb" prot="public" virt="non-virtual"><scope>Config</scope><name>utc_offset</name></member>
+      <member refid="struct_config_1ae5382eb0018ed9dedc2eb7c0ce79440d" prot="public" virt="non-virtual"><scope>Config</scope><name>ver</name></member>
+      <member refid="struct_config_1a802a0bab3ef7725919ec3318ddb77844" prot="public" virt="non-virtual"><scope>Config</scope><name>website_darkmode</name></member>
+      <member refid="struct_config_1abd2cb3697545308259b67c9dc2e75134" prot="public" virt="non-virtual"><scope>Config</scope><name>wifi_pass</name></member>
+      <member refid="struct_config_1a804424388e0c9b9c3accceb144e1e4d0" prot="public" virt="non-virtual"><scope>Config</scope><name>wifi_ssid</name></member>
+      <member refid="struct_config_1a59ba768cb9953025684758ef37e8ddd8" prot="public" virt="non-virtual"><scope>Config</scope><name>wifi_start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

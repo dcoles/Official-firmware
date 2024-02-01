@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="battery_8cpp" kind="file" language="C++">
+    <compoundname>battery.cpp</compoundname>
+    <includes refid="battery_8h" local="yes">peripherals/battery.h</includes>
+    <includes local="yes">Wire.h</includes>
+    <includes refid="settings_8h" local="yes">settings/settings.h</includes>
+    <includes refid="tinywatch_8h" local="yes">tinywatch.h</includes>
+    <includes refid="logging_8h" local="yes">utilities/logging.h</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>src/peripherals/battery.cpp</label>
+        <link refid="battery_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>peripherals/battery.h</label>
+        <link refid="battery_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>tinywatch.h</label>
+        <link refid="tinywatch_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="12">
+        <label>Preferences.h</label>
+      </node>
+      <node id="3">
+        <label>SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library.h</label>
+      </node>
+      <node id="4">
+        <label>Wire.h</label>
+      </node>
+      <node id="6">
+        <label>json.h</label>
+      </node>
+      <node id="7">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="14">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="battery_8cpp_1a697016cc25b82087cb0eb8259480cf7c" prot="public" static="no">
+        <name>FG_INT</name>
+        <initializer>14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/battery.cpp" line="7" column="9" bodyfile="src/peripherals/battery.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_battery" kindref="compound">Battery</ref></type>
+        <definition>Battery battery</definition>
+        <argsstring></argsstring>
+        <name>battery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/battery.cpp" line="158" column="9" bodyfile="src/peripherals/battery.cpp" bodystart="158" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="battery_8h" kindref="compound">peripherals/battery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Wire.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="settings_8h" kindref="compound">settings/settings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tinywatch_8h" kindref="compound">tinywatch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logging_8h" kindref="compound">utilities/logging.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FG_INT<sp/>14</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a55b4e3efe26262aa8eac3ec3530029f5" kindref="member">Battery::init</ref>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>pinMode(<ref refid="battery_8cpp_1a697016cc25b82087cb0eb8259480cf7c" kindref="member">FG_INT</ref>,<sp/>INPUT);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.setDevice(MAX1704X_MAX17048);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.enableDebugging();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.begin())</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;Couldn&apos;t<sp/>find<sp/>MAX17048?\nMake<sp/>sure<sp/>a<sp/>battery<sp/>is<sp/>plugged<sp/>in!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;Starting<sp/>MAX17048&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Dont<sp/>use<sp/>this<sp/>every<sp/>boot</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>maxlipo.quickStart();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>can<sp/>set<sp/>an<sp/>interrupt<sp/>to<sp/>alert<sp/>when<sp/>the<sp/>battery<sp/>SoC<sp/>gets<sp/>too<sp/>low.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>can<sp/>alert<sp/>at<sp/>anywhere<sp/>between<sp/>1%<sp/>and<sp/>32%:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.setThreshold(25);<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>alert<sp/>threshold<sp/>to<sp/>20%.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(F(</highlight><highlight class="stringliteral">&quot;Battery<sp/>empty<sp/>threshold<sp/>is<sp/>now:<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(<ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getThreshold());</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;%&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Enable<sp/>the<sp/>State<sp/>Of<sp/>Change<sp/>alert</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(F(</highlight><highlight class="stringliteral">&quot;Enabling<sp/>the<sp/>State<sp/>Of<sp/>Change<sp/>alert:<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.enableSOCAlert())</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;success.&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;FAILED!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>high<sp/>voltage<sp/>threshold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.setVALRTMax((</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)4.2);<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>high<sp/>voltage<sp/>threshold<sp/>(Volts)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>and<sp/>print<sp/>the<sp/>high<sp/>voltage<sp/>threshold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(F(</highlight><highlight class="stringliteral">&quot;High<sp/>voltage<sp/>threshold<sp/>is<sp/>now:<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>highVoltage<sp/>=<sp/>((float)<ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getVALRTMax())<sp/>*<sp/>0.02;<sp/></highlight><highlight class="comment">//<sp/>1<sp/>LSb<sp/>is<sp/>20mV.<sp/>Convert<sp/>to<sp/>Volts.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(highVoltage,<sp/>2);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;V&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>low<sp/>voltage<sp/>threshold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.setVALRTMin((</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)3.5);<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>low<sp/>voltage<sp/>threshold<sp/>(Volts)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>and<sp/>print<sp/>the<sp/>low<sp/>voltage<sp/>threshold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(F(</highlight><highlight class="stringliteral">&quot;Low<sp/>voltage<sp/>threshold<sp/>is<sp/>now:<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lowVoltage<sp/>=<sp/>((float)<ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getVALRTMin())<sp/>*<sp/>0.02;<sp/></highlight><highlight class="comment">//<sp/>1<sp/>LSb<sp/>is<sp/>20mV.<sp/>Convert<sp/>to<sp/>Volts.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(lowVoltage,<sp/>2);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;V&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1a901c5dbf1f0232919e12e8c1cd777e5a" kindref="member">update_stats</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1a3b0dd7d4f3d6eba4238a8ece2eab136b" kindref="member">next_battery_read</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a206dc8984c3277c091e9d32d75784c2c" kindref="member">Battery::update_interrupt_values</ref>(uint8_t<sp/>perc,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>low_bat_v)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.setThreshold(constrain(perc,<sp/>1,<sp/>35));<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>alert<sp/>threshold<sp/>from<sp/>user<sp/>settings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(F(</highlight><highlight class="stringliteral">&quot;Battery<sp/>empty<sp/>threshold<sp/>is<sp/>now:<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(<ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getThreshold());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;%&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.setVALRTMin(low_bat_v);<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>low<sp/>voltage<sp/>threshold<sp/>(Volts)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>and<sp/>print<sp/>the<sp/>low<sp/>voltage<sp/>threshold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(F(</highlight><highlight class="stringliteral">&quot;Low<sp/>voltage<sp/>threshold<sp/>is<sp/>now:<sp/>&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lowVoltage<sp/>=<sp/>((float)<ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getVALRTMin())<sp/>*<sp/>0.02;<sp/></highlight><highlight class="comment">//<sp/>1<sp/>LSb<sp/>is<sp/>20mV.<sp/>Convert<sp/>to<sp/>Volts.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(lowVoltage,<sp/>2);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(F(</highlight><highlight class="stringliteral">&quot;V&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>interrupt<sp/>alert<sp/>status<sp/>for<sp/>either<sp/>low<sp/>%<sp/>or<sp/>low<sp/>voltage<sp/>threshold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a1cc90c2c3d0da7b73bfbf21d054334f9" kindref="member">Battery::is_low</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>using_perc)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(using_perc)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.isLow();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.isVoltageLow();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>if<sp/>we<sp/>have<sp/>tiggered<sp/>the<sp/>voltage<sp/>too<sp/>high<sp/>threshold<sp/>(4.2V)<sp/>-<sp/>should<sp/>not<sp/>ever<sp/>happen,<sp/>but<sp/>maybe?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_battery_1aa329a7aa923893e173b8e85ba1a165a8" kindref="member">Battery::is_high</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.isVoltageHigh();<sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_battery_1aa6f82218e92d12c51b69809da77f9c2f" kindref="member">Battery::set_hibernate</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(state)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.enableHibernate();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.disableHibernate();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a901c5dbf1f0232919e12e8c1cd777e5a" kindref="member">Battery::update_stats</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forced)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((millis()<sp/>-<sp/><ref refid="class_battery_1a3b0dd7d4f3d6eba4238a8ece2eab136b" kindref="member">next_battery_read</ref><sp/>&gt;<sp/>500)<sp/>||<sp/>forced)<sp/></highlight><highlight class="comment">//<sp/>we<sp/>only<sp/>read<sp/>the<sp/>IC<sp/>every<sp/>500ms<sp/>unless<sp/>forced</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_battery_1a4f32b6bc8bdc311a4e820c3efd0058ab" kindref="member">cached_voltage</ref><sp/>=<sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getVoltage();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Why<sp/>this<sp/>fudge?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Well,<sp/>the<sp/>FG<sp/>internal<sp/>table<sp/>it<sp/>set<sp/>to<sp/>see<sp/>4.2V<sp/>as<sp/>the<sp/>max<sp/>voltage,<sp/>but<sp/>the<sp/>PMIC<sp/>(battery<sp/>charge<sp/>IC)<sp/>won&apos;t<sp/>charge<sp/>above<sp/>4.1-4.13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>So<sp/>the<sp/>FG<sp/>will<sp/>technically<sp/>never<sp/>reach<sp/>100%,<sp/>so<sp/>will<sp/>never<sp/>show<sp/>the<sp/>battery<sp/>as<sp/>full.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>all<sp/>based<sp/>on<sp/>experimentation,<sp/>and<sp/>I&apos;m<sp/>not<sp/>really<sp/>sure<sp/>what<sp/>else<sp/>to<sp/>do<sp/>here<sp/>-<sp/>it&apos;s<sp/>just<sp/>a<sp/>visual<sp/>tweak<sp/>really<sp/>as</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>charge/depletion<sp/>rate<sp/>still<sp/>shows<sp/>a<sp/>depletion.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_battery_1ab30e0dbefc7b59c8964ad255d29f5b1d" kindref="member">cached_percent</ref><sp/>=<sp/>constrain(<ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getSOC()<sp/>+<sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a15269eb906e0a0d8d5c54bbe47091fb3" kindref="member">battery</ref>.<ref refid="struct_config__battery_1acac7fc228f2297e9a021e1f48e4af561" kindref="member">perc_offset</ref>,<sp/>0.0,<sp/>100.0);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae46d60be1e1a600b5df8f69d71b7ad7a" kindref="member">cached_rate</ref><sp/>=<sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getChangeRate();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_battery_1a3b0dd7d4f3d6eba4238a8ece2eab136b" kindref="member">next_battery_read</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1adc6f2427549077e7257359cceeb0fee6" kindref="member">Battery::get_rate</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forced)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1a901c5dbf1f0232919e12e8c1cd777e5a" kindref="member">update_stats</ref>(forced);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ae46d60be1e1a600b5df8f69d71b7ad7a" kindref="member">cached_rate</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ad32f36c8463e8a897e4fea56866cb884" kindref="member">Battery::get_voltage</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forced)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1a901c5dbf1f0232919e12e8c1cd777e5a" kindref="member">update_stats</ref>(forced);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a4f32b6bc8bdc311a4e820c3efd0058ab" kindref="member">cached_voltage</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1af1d5f8a733569d9a6791686672816336" kindref="member">Battery::get_percent</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forced)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1a901c5dbf1f0232919e12e8c1cd777e5a" kindref="member">update_stats</ref>(forced);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ab30e0dbefc7b59c8964ad255d29f5b1d" kindref="member">cached_percent</ref>;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">uint8_t<sp/><ref refid="class_battery_1af46eb5cff4dd69248299137cbb141b64" kindref="member">Battery::get_alert_status</ref>()</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>status<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((millis()<sp/>-<sp/><ref refid="class_battery_1a3b0dd7d4f3d6eba4238a8ece2eab136b" kindref="member">next_battery_read</ref><sp/>&gt;<sp/>500))</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_battery_1a3b0dd7d4f3d6eba4238a8ece2eab136b" kindref="member">next_battery_read</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>status<sp/>=<sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.getAlert(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(status<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_print(</highlight><highlight class="stringliteral">&quot;BAT<sp/>Alert<sp/>Status:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(status);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a0c3aac494aa0aecc3f7bbbba2c50fb45" kindref="member">Battery::clear_alert_status</ref>()</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>info_print(</highlight><highlight class="stringliteral">&quot;BAT<sp/>Clear<sp/>Alert<sp/>Status<sp/>Bit&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>.clearAlert();</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><ref refid="class_battery" kindref="compound">Battery</ref><sp/><ref refid="battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" kindref="member">battery</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/peripherals/battery.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="widget___battery_8cpp" kind="file" language="C++">
+    <compoundname>widget_Battery.cpp</compoundname>
+    <includes refid="widget___battery_8h" local="yes">tw_widgets/widget_Battery.h</includes>
+    <includes refid="bitmaps__general_8h" local="yes">bitmaps/bitmaps_general.h</includes>
+    <includes refid="_roboto_mono___light___all_8h" local="yes">fonts/RobotoMono_Light_All.h</includes>
+    <includes refid="battery_8h" local="yes">peripherals/battery.h</includes>
+    <includes refid="tinywatch_8h" local="yes">tinywatch.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="24">
+        <label>bitmaps/bitmaps_general.h</label>
+        <link refid="bitmaps__general_8h"/>
+      </node>
+      <node id="4">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>fonts/RobotoMono_Light_All.h</label>
+        <link refid="_roboto_mono___light___all_8h"/>
+      </node>
+      <node id="26">
+        <label>peripherals/battery.h</label>
+        <link refid="battery_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>tinywatch.h</label>
+        <link refid="tinywatch_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_widgets/widget_Battery.cpp</label>
+        <link refid="widget___battery_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widgets/widget_Battery.h</label>
+        <link refid="widget___battery_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="9">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="27">
+        <label>SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="7">
+        <label>cst816t.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="13">
+        <label>json.h</label>
+      </node>
+      <node id="14">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="widget___battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_battery" kindref="compound">Battery</ref></type>
+        <definition>Battery battery</definition>
+        <argsstring></argsstring>
+        <name>battery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_Battery.cpp" line="7" column="16" bodyfile="src/peripherals/battery.cpp" bodystart="158" bodyend="-1" declfile="src/tw_widgets/widget_Battery.cpp" declline="7" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="widget___battery_8h" kindref="compound">tw_widgets/widget_Battery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bitmaps__general_8h" kindref="compound">bitmaps/bitmaps_general.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___light___all_8h" kindref="compound">fonts/RobotoMono_Light_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="battery_8h" kindref="compound">peripherals/battery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tinywatch_8h" kindref="compound">tinywatch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_battery" kindref="compound">Battery</ref><sp/><ref refid="widget___battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" kindref="member">battery</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_widget_battery_1a5212c030e3976230bdf47cc00c07caf5" kindref="member">WidgetBattery::draw</ref>(uint<sp/>canvasid,<sp/>uint8_t<sp/>style_hint)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bat_perc<sp/>=<sp/>(int)<ref refid="battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" kindref="member">battery</ref>.<ref refid="class_battery_1af1d5f8a733569d9a6791686672816336" kindref="member">get_percent</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setFreeFont(RobotoMono_Light[(bat_perc<sp/>&lt;<sp/>100)<sp/>?<sp/>8<sp/>:<sp/>6]);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>col_back<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>col_front<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bat_perc<sp/>&gt;<sp/>80)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col_back<sp/>=<sp/><ref refid="class_widget_battery_1a68897b53bf09e9ba571a0c4004271705" kindref="member">col_high</ref>[0];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col_front<sp/>=<sp/><ref refid="class_widget_battery_1a68897b53bf09e9ba571a0c4004271705" kindref="member">col_high</ref>[1];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bat_perc<sp/>&gt;=<sp/>60)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col_back<sp/>=<sp/><ref refid="class_widget_battery_1a54ff24a8e961b799ef39031429f2229d" kindref="member">col_med</ref>[0];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col_front<sp/>=<sp/><ref refid="class_widget_battery_1a54ff24a8e961b799ef39031429f2229d" kindref="member">col_med</ref>[1];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col_back<sp/>=<sp/><ref refid="class_widget_battery_1ad23efd1d5e75296e7cb5f8c9451664ae" kindref="member">col_low</ref>[0];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col_front<sp/>=<sp/><ref refid="class_widget_battery_1ad23efd1d5e75296e7cb5f8c9451664ae" kindref="member">col_low</ref>[1];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>arc_length<sp/>=<sp/>(360.0<sp/>*<sp/>(bat_perc<sp/>/<sp/>100.0));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bat_perc<sp/>&lt;<sp/>100)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>23,<sp/>23,<sp/>19,<sp/>0,<sp/>360,<sp/>col_back,<sp/>0);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(arc_length<sp/>&lt;=<sp/>180)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>23,<sp/>23,<sp/>19,<sp/>180,<sp/>180<sp/>+<sp/>arc_length,<sp/>col_front,<sp/>0);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>23,<sp/>23,<sp/>19,<sp/>180,<sp/>360,<sp/>col_front,<sp/>0);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>23,<sp/>23,<sp/>19,<sp/>0,<sp/>arc_length<sp/>-<sp/>180,<sp/>col_front,<sp/>0);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="tinywatch_8cpp_1a437b1c89d4217409faacb3cfe1a49a08" kindref="member">tinywatch</ref>.<ref refid="class_tiny_w_a_t_c_h_1ad663ff18437a2cf94b2fbaed03fa11ee" kindref="member">vbus_present</ref>()<sp/>&amp;&amp;<sp/>bat_perc<sp/>&lt;<sp/>98)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setTextColor(<ref refid="class_widget_battery_1aca2729892880403dcd9bfbb302ebab8e" kindref="member">col_text</ref>[1]);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setTextColor(<ref refid="class_widget_battery_1aca2729892880403dcd9bfbb302ebab8e" kindref="member">col_text</ref>[0]);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawString(String((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)bat_perc),<sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>21);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_battery_1ac32b99a26146f8e1ed92ab990a022f68" kindref="member">WidgetBattery::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__widget_1a9a5b5f3d971b21e223650b3db33ce53d" kindref="member">bounds_check</ref>(click_pos_x,<sp/>click_pos_y))</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Battery<sp/>stats?<sp/>Not<sp/>sure<sp/>we<sp/>can<sp/>track<sp/>any&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_battery_1a279d8a20d41b6d4721b4c8d3b272a85e" kindref="member">WidgetBattery::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_battery_1aded823d22ba40f35ea52efbc1cb8959b" kindref="member">WidgetBattery::click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tft.setTextColor(ST77XX_YELLOW);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tft.setCursor(15,<sp/>15);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tft.print(&quot;BAT<sp/>&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tft.print(battery.get_voltage(false),<sp/>2);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tft.print(&quot;V<sp/>&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tft.print(battery.get_percent(false),<sp/>1);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tft.print(&quot;%&quot;);</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/tw_widgets/widget_Battery.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="face___empty_8h" kind="file" language="C++">
+    <compoundname>face_Empty.h</compoundname>
+    <includes refid="tw__face_8h" local="yes">tw_faces/tw_face.h</includes>
+    <includedby refid="face___empty_8cpp" local="yes">src/tw_faces/face_Empty.cpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="4">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_apps/tw_app.h</label>
+        <link refid="tw__app_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_faces/face_Empty.h</label>
+        <link refid="face___empty_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_faces/tw_face.h</label>
+        <link refid="tw__face_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="9">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="7">
+        <label>cst816t.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="13">
+        <label>json.h</label>
+      </node>
+      <node id="14">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="24">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/tw_faces/face_Empty.cpp</label>
+        <link refid="face___empty_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/tw_faces/face_Empty.h</label>
+        <link refid="face___empty_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_face_empty" prot="public">FaceEmpty</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="face___empty_8h_1a1503179aa860d5cfa81505e20c390fe5" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_face_empty" kindref="compound">FaceEmpty</ref></type>
+        <definition>FaceEmpty face_empty</definition>
+        <argsstring></argsstring>
+        <name>face_empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Empty.h" line="18" column="18" bodyfile="src/tw_faces/face_Empty.cpp" bodystart="50" bodyend="-1" declfile="src/tw_faces/face_Empty.h" declline="18" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tw__face_8h" kindref="compound">tw_faces/tw_face.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_face_empty" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_face_empty" kindref="compound">FaceEmpty</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtw__face" kindref="compound">tw_face</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_empty_1adfa09005259ab9b6f9687d30b3e05de3" kindref="member">setup</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_empty_1af694336b9e71e416f2af258b8ecfb061" kindref="member">draw</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_empty_1a95d6332482bfbaf56ffaeec2cc210015" kindref="member">click</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_empty_1af29407a07b0ca5c0ac02c429d073aa42" kindref="member">click_double</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_empty_1a42ae4e1379c64e784bd2577baec728b7" kindref="member">click_long</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_face_empty" kindref="compound">FaceEmpty</ref><sp/><ref refid="face___empty_8h_1a1503179aa860d5cfa81505e20c390fe5" kindref="member">face_empty</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_faces/face_Empty.h"/>
+  </compounddef>
+</doxygen>

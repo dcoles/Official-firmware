@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_config__battery" kind="struct" language="C++" prot="public">
+    <compoundname>Config_battery</compoundname>
+    <includes local="no">settings_extra.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_config__battery_1acac7fc228f2297e9a021e1f48e4af561" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Config_battery::perc_offset</definition>
+        <argsstring></argsstring>
+        <name>perc_offset</name>
+        <qualifiedname>Config_battery::perc_offset</qualifiedname>
+        <initializer>= 7.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="33" column="7" bodyfile="src/settings/settings_extra.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__battery_1adac3adaef450ed845278e67195c8958e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Config_battery::low_perc</definition>
+        <argsstring></argsstring>
+        <name>low_perc</name>
+        <qualifiedname>Config_battery::low_perc</qualifiedname>
+        <initializer>= 25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="36" column="9" bodyfile="src/settings/settings_extra.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__battery_1acae9c3e64244795684f07e19ff4fdafa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Config_battery::low_volt_warn</definition>
+        <argsstring></argsstring>
+        <name>low_volt_warn</name>
+        <qualifiedname>Config_battery::low_volt_warn</qualifiedname>
+        <initializer>= 3.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="38" column="7" bodyfile="src/settings/settings_extra.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__battery_1ae24941bd9fde2d9a92db501c65b21504" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Config_battery::low_volt_cutoff</definition>
+        <argsstring></argsstring>
+        <name>low_volt_cutoff</name>
+        <qualifiedname>Config_battery::low_volt_cutoff</qualifiedname>
+        <initializer>= 3.2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="40" column="7" bodyfile="src/settings/settings_extra.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="class_settings" kindref="compound">Settings</ref> struct for battery configuration. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/settings/settings_extra.h" line="26" column="1" bodyfile="src/settings/settings_extra.h" bodystart="27" bodyend="41"/>
+    <listofallmembers>
+      <member refid="struct_config__battery_1adac3adaef450ed845278e67195c8958e" prot="public" virt="non-virtual"><scope>Config_battery</scope><name>low_perc</name></member>
+      <member refid="struct_config__battery_1ae24941bd9fde2d9a92db501c65b21504" prot="public" virt="non-virtual"><scope>Config_battery</scope><name>low_volt_cutoff</name></member>
+      <member refid="struct_config__battery_1acae9c3e64244795684f07e19ff4fdafa" prot="public" virt="non-virtual"><scope>Config_battery</scope><name>low_volt_warn</name></member>
+      <member refid="struct_config__battery_1acac7fc228f2297e9a021e1f48e4af561" prot="public" virt="non-virtual"><scope>Config_battery</scope><name>perc_offset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

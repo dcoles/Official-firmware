@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="widget___open_weather_8cpp" kind="file" language="C++">
+    <compoundname>widget_OpenWeather.cpp</compoundname>
+    <includes refid="widget___open_weather_8h" local="yes">tw_widgets/widget_OpenWeather.h</includes>
+    <includes refid="bitmaps__ow_8h" local="yes">bitmaps/bitmaps_ow.h</includes>
+    <includes refid="settings_8h" local="yes">settings/settings.h</includes>
+    <includes refid="wifi__controller_8h" local="yes">web/wifi_controller.h</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>Arduino.h</label>
+      </node>
+      <node id="25">
+        <label>bitmaps/bitmaps_ow.h</label>
+        <link refid="bitmaps__ow_8h"/>
+      </node>
+      <node id="6">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_widgets/widget_OpenWeather.cpp</label>
+        <link refid="widget___open_weather_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widgets/widget_OpenWeather.h</label>
+        <link refid="widget___open_weather_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="29">
+        <label>Preferences.h</label>
+      </node>
+      <node id="11">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="9">
+        <label>cst816t.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="3">
+        <label>json.h</label>
+      </node>
+      <node id="4">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="24">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="widget___open_weather_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" prot="public" static="no">
+        <type>nlohmann::json</type>
+        <definition>using json =  nlohmann::json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_OpenWeather.cpp" line="6" column="1" bodyfile="src/tw_widgets/widget_OpenWeather.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="widget___open_weather_8h" kindref="compound">tw_widgets/widget_OpenWeather.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bitmaps__ow_8h" kindref="compound">bitmaps/bitmaps_ow.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="settings_8h" kindref="compound">settings/settings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="wifi__controller_8h" kindref="compound">web/wifi_controller.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>=<sp/>nlohmann::json;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">String<sp/><ref refid="class_widget_open_weather_1aeea1c2e14beb3f5c31b541422f045eef" kindref="member">WidgetOpenWeather::build_server_path</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a3db24df2412a86e25506fc58eb71d948" kindref="member">city</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>||<sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad2f32cf7a8977a88bcc0bfcb4fbb3ae8" kindref="member">country</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>server_path<sp/>+<sp/>settings.config.city<sp/>+<sp/>&quot;,&quot;<sp/>+<sp/>settings.config.country<sp/>+<sp/>&quot;&amp;APPID=&quot;<sp/>+<sp/>settings.config.ow_api_key;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_widget_open_weather_1a7dabb88202aae2beca41d61692268a23" kindref="member">server_path</ref><sp/>+<sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a3db24df2412a86e25506fc58eb71d948" kindref="member">city</ref><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad2f32cf7a8977a88bcc0bfcb4fbb3ae8" kindref="member">country</ref><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;&amp;APPID=&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a05e5a4633f656ae92f628b067c05d374" kindref="member">open_weather</ref>.<ref refid="struct_config__open__weather_1a536c1b0f4c62ed18e6d37f5952cad434" kindref="member">api_key</ref><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;&amp;units=metric&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_widget_open_weather_1aac1dff4b3d44e1feaa818ee90b3cdb00" kindref="member">WidgetOpenWeather::load_icons</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Day<sp/>Icons</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;01d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_01d;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;02d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_02d;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;03d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_03d;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;04d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_04d;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;09d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_09d;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;10d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_10d;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;11d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_11d;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;13d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_13d;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;50d&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_50d;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Night<sp/>Icons</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;01n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_01n;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;02n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_02n;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;03n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_03n;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;04n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_04n;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;09n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_09n;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;10n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_10n;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;11n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_11n;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;13n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_13d;<sp/></highlight><highlight class="comment">//<sp/>same<sp/>as<sp/>day<sp/>icon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[</highlight><highlight class="stringliteral">&quot;50n&quot;</highlight><highlight class="normal">]<sp/>=<sp/>ow_icon_50d;<sp/></highlight><highlight class="comment">//<sp/>same<sp/>as<sp/>day<sp/>icon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_widget_open_weather_1af05c43996e88e21401268b612a5a991c" kindref="member">WidgetOpenWeather::process_weather_data</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>success,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>&amp;response)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a5b9de60e8e6edfbad8dc88df67194e83" kindref="member">_temp</ref><sp/>=<sp/>-999;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>data<sp/>=<sp/>json::parse(response);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>main<sp/>=<sp/>data[</highlight><highlight class="stringliteral">&quot;main&quot;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(main.is_object())</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a5b9de60e8e6edfbad8dc88df67194e83" kindref="member">_temp</ref><sp/>=<sp/>(uint16_t)(main.value(</highlight><highlight class="stringliteral">&quot;temp&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1adc35e898f8015528b7c868555ea5339c" kindref="member">_humidity</ref><sp/>=<sp/>(uint16_t)(main.value(</highlight><highlight class="stringliteral">&quot;humidity&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>weather<sp/>=<sp/>data[</highlight><highlight class="stringliteral">&quot;weather&quot;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(weather.is_array())</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1aef8bacdd08f8cd1a00a0b7f80666dfe2" kindref="member">_icon_name</ref><sp/>=<sp/>weather[0][</highlight><highlight class="stringliteral">&quot;icon&quot;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a3ace13083a80530548a823f9a93d2230" kindref="member">_icon_desc</ref><sp/>=<sp/>weather[0][</highlight><highlight class="stringliteral">&quot;description&quot;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(<ref refid="class_widget_open_weather_1aef8bacdd08f8cd1a00a0b7f80666dfe2" kindref="member">_icon_name</ref><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_widget_open_weather_1a3ace13083a80530548a823f9a93d2230" kindref="member">_icon_desc</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(json::exception<sp/>&amp;e)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;OW<sp/>Json<sp/>parse<sp/>error:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(e.what());</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a87784c33a5bfd2e790a6f6744b3bcb64" kindref="member">next_update</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_widget_open_weather_1ac08b20e012d1ea886abbbbf7887c7a9c" kindref="member">WidgetOpenWeather::draw</ref>(uint<sp/>canvasid,<sp/>uint8_t<sp/>style_hint)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(millis()<sp/>-<sp/><ref refid="class_widget_open_weather_1a87784c33a5bfd2e790a6f6744b3bcb64" kindref="member">next_update</ref><sp/>&gt;<sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a05e5a4633f656ae92f628b067c05d374" kindref="member">open_weather</ref>.<ref refid="struct_config__open__weather_1a826f186975c7c30c21384fa40d47cfa8" kindref="member">poll_frequency</ref><sp/>||<sp/><ref refid="class_widget_open_weather_1a87784c33a5bfd2e790a6f6744b3bcb64" kindref="member">next_update</ref><sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a87784c33a5bfd2e790a6f6744b3bcb64" kindref="member">next_update</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_widget_open_weather_1a321bcf6eefc774f9569791a4d140b4fb" kindref="member">icons_loaded</ref>)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a321bcf6eefc774f9569791a4d140b4fb" kindref="member">icons_loaded</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1aac1dff4b3d44e1feaa818ee90b3cdb00" kindref="member">load_icons</ref>();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a05e5a4633f656ae92f628b067c05d374" kindref="member">open_weather</ref>.<ref refid="struct_config__open__weather_1a536c1b0f4c62ed18e6d37f5952cad434" kindref="member">api_key</ref>.isEmpty())</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>No<sp/>OW<sp/>key<sp/>assigned,<sp/>so<sp/>dont<sp/>display<sp/>anything<sp/>and<sp/>exit.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Let&apos;s<sp/>see<sp/>if<sp/>we<sp/>can<sp/>get<sp/>the<sp/>data<sp/>from<sp/>openweather.org</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>url<sp/>=<sp/><ref refid="class_widget_open_weather_1aeea1c2e14beb3f5c31b541422f045eef" kindref="member">build_server_path</ref>();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!url.isEmpty())</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="wifi__controller_8cpp_1a7a8968b4961f4fc30e36cd5ae8f862ef" kindref="member">wifi_controller</ref>.<ref refid="class_wifi_controller_1aaa9c13a60adf61b89f4b76c04a552ff4" kindref="member">add_to_queue</ref>(url,<sp/>[](</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>success,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>&amp;response)<sp/>{<sp/><ref refid="widget___open_weather_8h_1a440c748ee82af45ecd29475d19378ea9" kindref="member">ow_widget</ref>.<ref refid="class_widget_open_weather_1af05c43996e88e21401268b612a5a991c" kindref="member">process_weather_data</ref>(success,<sp/>response);<sp/>});</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Only<sp/>show<sp/>the<sp/>widget<sp/>visuals<sp/>is<sp/>the<sp/>temp<sp/>has<sp/>been<sp/>set<sp/>(&gt;<sp/>-999)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_widget_open_weather_1a5b9de60e8e6edfbad8dc88df67194e83" kindref="member">_temp</ref><sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].fillRoundRect(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref>,<sp/><ref refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kindref="member">width</ref>,<sp/><ref refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kindref="member">height</ref>,<sp/>8,<sp/>0);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawRoundRect(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref>,<sp/><ref refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kindref="member">width</ref>,<sp/><ref refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kindref="member">height</ref>,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x44,<sp/>0x44,<sp/>0x44));</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setTextColor(<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xAA,<sp/>0xAA,<sp/>0xCC));</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>.count(<ref refid="class_widget_open_weather_1aef8bacdd08f8cd1a00a0b7f80666dfe2" kindref="member">_icon_name</ref>)<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].pushImage(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>+<sp/>(<ref refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kindref="member">width</ref><sp/>/<sp/>2<sp/>-<sp/>36),<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>2,<sp/>72,<sp/>72,<sp/><ref refid="class_widget_open_weather_1a613462263599f2c0a6753439544e149e" kindref="member">ow_icons</ref>[<ref refid="class_widget_open_weather_1aef8bacdd08f8cd1a00a0b7f80666dfe2" kindref="member">_icon_name</ref>]);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setTextDatum(4);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_widget_open_weather_1a6bd17d132211863116f1d850eab20f9c" kindref="member">stat</ref><sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawString(String(<ref refid="class_widget_open_weather_1a5b9de60e8e6edfbad8dc88df67194e83" kindref="member">_temp</ref>)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">,<sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>+<sp/>(<ref refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kindref="member">width</ref><sp/>/<sp/>2),<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>(<ref refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kindref="member">height</ref>)-16);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_widget_open_weather_1a6bd17d132211863116f1d850eab20f9c" kindref="member">stat</ref><sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawString(String(<ref refid="class_widget_open_weather_1adc35e898f8015528b7c868555ea5339c" kindref="member">_humidity</ref>)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;%&quot;</highlight><highlight class="normal">,<sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>+<sp/>(<ref refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kindref="member">width</ref><sp/>/<sp/>2),<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>(<ref refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kindref="member">height</ref>)-16);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_open_weather_1a6f96b4752ccacdcf46e927b343274087" kindref="member">WidgetOpenWeather::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a6bd17d132211863116f1d850eab20f9c" kindref="member">stat</ref>++;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_widget_open_weather_1a6bd17d132211863116f1d850eab20f9c" kindref="member">stat</ref><sp/>==<sp/>2)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_open_weather_1a6bd17d132211863116f1d850eab20f9c" kindref="member">stat</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_open_weather_1abb8557db5f15c3181acf47dc941196f5" kindref="member">WidgetOpenWeather::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_open_weather_1aa9363bde5964b72ab8eff84c8f61956e" kindref="member">WidgetOpenWeather::click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_widgets/widget_OpenWeather.cpp"/>
+  </compounddef>
+</doxygen>

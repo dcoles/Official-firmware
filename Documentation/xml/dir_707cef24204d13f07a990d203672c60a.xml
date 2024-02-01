@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_707cef24204d13f07a990d203672c60a" kind="dir">
+    <compoundname>src/tw_widgets</compoundname>
+    <innerfile refid="tw__widget_8cpp">tw_widget.cpp</innerfile>
+    <innerfile refid="tw__widget_8h">tw_widget.h</innerfile>
+    <innerfile refid="widget___activity_ring_8cpp">widget_ActivityRing.cpp</innerfile>
+    <innerfile refid="widget___activity_ring_8h">widget_ActivityRing.h</innerfile>
+    <innerfile refid="widget___battery_8cpp">widget_Battery.cpp</innerfile>
+    <innerfile refid="widget___battery_8h">widget_Battery.h</innerfile>
+    <innerfile refid="widget___e_s_p32_8cpp">widget_ESP32.cpp</innerfile>
+    <innerfile refid="widget___e_s_p32_8h">widget_ESP32.h</innerfile>
+    <innerfile refid="widget___message_8cpp">widget_Message.cpp</innerfile>
+    <innerfile refid="widget___message_8h">widget_Message.h</innerfile>
+    <innerfile refid="widget___open_weather_8cpp">widget_OpenWeather.cpp</innerfile>
+    <innerfile refid="widget___open_weather_8h">widget_OpenWeather.h</innerfile>
+    <innerfile refid="widget___wifi_8cpp">widget_Wifi.cpp</innerfile>
+    <innerfile refid="widget___wifi_8h">widget_Wifi.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/tw_widgets/"/>
+  </compounddef>
+</doxygen>

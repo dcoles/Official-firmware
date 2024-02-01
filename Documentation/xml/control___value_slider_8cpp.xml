@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="control___value_slider_8cpp" kind="file" language="C++">
+    <compoundname>control_ValueSlider.cpp</compoundname>
+    <includes refid="control___value_slider_8h" local="yes">tw_controls/control_ValueSlider.h</includes>
+    <includes refid="_roboto_mono___light___all_8h" local="yes">fonts/RobotoMono_Light_All.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>Arduino.h</label>
+      </node>
+      <node id="8">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>fonts/RobotoMono_Light_All.h</label>
+        <link refid="_roboto_mono___light___all_8h"/>
+      </node>
+      <node id="17">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_controls/control_ValueSlider.cpp</label>
+        <link refid="control___value_slider_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_controls/control_ValueSlider.h</label>
+        <link refid="control___value_slider_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="16">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="12">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="23">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="24">
+        <label>Tween.h</label>
+      </node>
+      <node id="20">
+        <label>WiFi.h</label>
+      </node>
+      <node id="10">
+        <label>cst816t.h</label>
+      </node>
+      <node id="21">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="22">
+        <label>functional</label>
+      </node>
+      <node id="18">
+        <label>initializer_list</label>
+      </node>
+      <node id="5">
+        <label>json.h</label>
+      </node>
+      <node id="15">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="19">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="control___value_slider_8h" kindref="compound">tw_controls/control_ValueSlider.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___light___all_8h" kindref="compound">fonts/RobotoMono_Light_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_value_slider_1a3276fb6a4104e2e7f80717379ae6bd05" kindref="member">ControlValueSlider::set_data</ref>(<ref refid="class_settings_option_int" kindref="compound">SettingsOptionInt</ref><sp/>*sett)<sp/>{<sp/><ref refid="class_control_value_slider_1a64437bb695125f9535bc6a80de2d6764" kindref="member">setting_option</ref><sp/>=<sp/>sett;<sp/>}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_value_slider_1a590e97be9555ecb144e419459d09509f" kindref="member">ControlValueSlider::draw</ref>(uint<sp/>_canvasid)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref><sp/>=<sp/>_canvasid;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextDatum(4);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>=<sp/><ref refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" kindref="member">pos_x</ref><sp/>+<sp/><ref refid="classtw__control_1a2bac811da9de1d6e647f6ecb802fd9f4" kindref="member">offset_x</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>=<sp/><ref refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="classtw__control_1ab6049b218ec56da1cdaa11aecdace054" kindref="member">offset_y</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1a63264641ce2630ba2c55f0a789223ba5" kindref="member">val_width</ref><sp/>=<sp/>120;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" kindref="member">val_width_half</ref><sp/>=<sp/><ref refid="class_control_value_slider_1a63264641ce2630ba2c55f0a789223ba5" kindref="member">val_width</ref><sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1a2cc02d8d18efea067631682978a235a7" kindref="member">arrow_left_x</ref><sp/>=<sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>-<sp/><ref refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" kindref="member">val_width_half</ref><sp/>+<sp/>16;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1aa30350ea8e4af70c5cdb4643a50e3b88" kindref="member">arrow_right_x</ref><sp/>=<sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>+<sp/><ref refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" kindref="member">val_width_half</ref><sp/>-<sp/>16;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Light[6]);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextColor(<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xff,<sp/>0xc9,<sp/>0x00));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawString(<ref refid="classtw__control_1afb4e579aac10eb0681adea2afb85e1a2" kindref="member">name</ref>,<sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>-<sp/>(<ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>/<sp/>3));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Light[11]);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>canvas[canvasid].fillRoundRect(pos_x-val_width_half,<sp/>pos_y,<sp/>val_width,<sp/>height,<sp/>4,<sp/>RGB(0x22,<sp/>0x22,<sp/>0x22));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>canvas[canvasid].drawSmoothRoundRect(pos_x-val_width_half,<sp/>pos_y,<sp/>4,<sp/>2,<sp/>val_width,<sp/>height,<sp/>RGB(0x66,<sp/>0x66,<sp/>0x66));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].fillRectHGradient(<ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>-<sp/><ref refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" kindref="member">val_width_half</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref>,<sp/><ref refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" kindref="member">val_width_half</ref>,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref>,<sp/><ref refid="class_control_value_slider_1a1e60aaa9981f380b76cad205c0e60996" kindref="member">gradient_dark</ref>,<sp/><ref refid="class_control_value_slider_1a76615a1295cb9f70acc32a933d0454fd" kindref="member">gradient_bright</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].fillRectHGradient(<ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref>,<sp/><ref refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" kindref="member">val_width_half</ref>,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref>,<sp/><ref refid="class_control_value_slider_1a76615a1295cb9f70acc32a933d0454fd" kindref="member">gradient_bright</ref>,<sp/><ref refid="class_control_value_slider_1a1e60aaa9981f380b76cad205c0e60996" kindref="member">gradient_dark</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawRect(<ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>-<sp/><ref refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" kindref="member">val_width_half</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref>,<sp/><ref refid="class_control_value_slider_1a63264641ce2630ba2c55f0a789223ba5" kindref="member">val_width</ref>,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref>,<sp/>(<ref refid="class_control_value_slider_1ad1c7bb345f0cf23bc053a3c4dac84b20" kindref="member">selected</ref><sp/>?<sp/><ref refid="class_control_value_slider_1aca6487890f226cebf059e77b4274da91" kindref="member">col_selected</ref><sp/>:<sp/><ref refid="class_control_value_slider_1a32465ca311155d2b5b902a6e2c21707f" kindref="member">col_normal</ref>));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawNumber(<ref refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kindref="member">value</ref>,<sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>+<sp/>(<ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>/<sp/>2));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Light[9]);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextColor(<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x99,<sp/>0x99,<sp/>0x99));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kindref="member">value</ref><sp/>&gt;<sp/><ref refid="class_control_value_slider_1ac4ebfe0e1d680d2f96afd0ac10f2fe38" kindref="member">value_min</ref>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;&lt;&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_control_value_slider_1a2cc02d8d18efea067631682978a235a7" kindref="member">arrow_left_x</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>+<sp/>(<ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>/<sp/>2));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kindref="member">value</ref><sp/>&lt;<sp/><ref refid="class_control_value_slider_1ab8a515a976addf01c199630da7378e58" kindref="member">value_max</ref>)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_control_value_slider_1aa30350ea8e4af70c5cdb4643a50e3b88" kindref="member">arrow_right_x</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>+<sp/>(<ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>/<sp/>2));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_value_slider_1a3159bdf73db50b13efab719486ff2a62" kindref="member">ControlValueSlider::drag</ref>(int16_t<sp/>drag_x,<sp/>int16_t<sp/>drag_y)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__control_1afe4fb6fb8beb34f76e98dcff6980ea75" kindref="member">can_scroll_x</ref><sp/>&amp;&amp;<sp/>abs(drag_x)<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1ad1c7bb345f0cf23bc053a3c4dac84b20" kindref="member">selected</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(millis()<sp/>-<sp/><ref refid="class_control_value_slider_1a9ca7c56f11875b441e56fc92c10246f1" kindref="member">next_click_update</ref><sp/>&gt;<sp/>(500<sp/>-<sp/>(4<sp/>*<sp/>abs(drag_x))))</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1a9ca7c56f11875b441e56fc92c10246f1" kindref="member">next_click_update</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((drag_x<sp/>&gt;<sp/>10<sp/>&amp;&amp;<sp/><ref refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kindref="member">value</ref><sp/>&lt;=<sp/><ref refid="class_control_value_slider_1ab8a515a976addf01c199630da7378e58" kindref="member">value_max</ref><sp/>-<sp/><ref refid="class_control_value_slider_1acc9a73215692563f94cdd096f9a0b9cd" kindref="member">value_step</ref>)<sp/>||<sp/>(drag_x<sp/>&lt;<sp/>-10<sp/>&amp;&amp;<sp/>value<sp/>&gt;=<sp/><ref refid="class_control_value_slider_1ac4ebfe0e1d680d2f96afd0ac10f2fe38" kindref="member">value_min</ref><sp/>+<sp/><ref refid="class_control_value_slider_1acc9a73215692563f94cdd096f9a0b9cd" kindref="member">value_step</ref>))</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(drag_x<sp/>&gt;<sp/>10)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kindref="member">value</ref><sp/>=<sp/>constrain(<ref refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kindref="member">value</ref><sp/>+<sp/><ref refid="class_control_value_slider_1acc9a73215692563f94cdd096f9a0b9cd" kindref="member">value_step</ref>,<sp/><ref refid="class_control_value_slider_1ac4ebfe0e1d680d2f96afd0ac10f2fe38" kindref="member">value_min</ref>,<sp/><ref refid="class_control_value_slider_1ab8a515a976addf01c199630da7378e58" kindref="member">value_max</ref>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(drag_x<sp/>&lt;<sp/>-10)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kindref="member">value</ref><sp/>=<sp/>constrain(<ref refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" kindref="member">value</ref><sp/>-<sp/><ref refid="class_control_value_slider_1acc9a73215692563f94cdd096f9a0b9cd" kindref="member">value_step</ref>,<sp/><ref refid="class_control_value_slider_1ac4ebfe0e1d680d2f96afd0ac10f2fe38" kindref="member">value_min</ref>,<sp/><ref refid="class_control_value_slider_1ab8a515a976addf01c199630da7378e58" kindref="member">value_max</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_control_value_slider_1a590e97be9555ecb144e419459d09509f" kindref="member">draw</ref>(<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__control_1ad7666727e24e480111e12317df3e0db4" kindref="member">can_scroll_y</ref><sp/>&amp;&amp;<sp/>abs(drag_y)<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Dragging<sp/>Y<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(drag_y));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_value_slider_1adae535346c324c99ca4352a1dd3cb15f" kindref="member">ControlValueSlider::drag_end</ref>()<sp/>{<sp/><ref refid="class_control_value_slider_1ad1c7bb345f0cf23bc053a3c4dac84b20" kindref="member">selected</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_value_slider_1a4325374ff8b5856ad117a1407f4463d7" kindref="member">ControlValueSlider::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_value_slider_1ad06305c39ad2ef09200332997afd7fc8" kindref="member">ControlValueSlider::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_value_slider_1aa6ec2012c0c3f7014a6650bbb57a6e69" kindref="member">ControlValueSlider::click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_controls/control_ValueSlider.cpp"/>
+  </compounddef>
+</doxygen>

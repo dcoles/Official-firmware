@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="face___watch___custom_windows_8h" kind="file" language="C++">
+    <compoundname>face_Watch_CustomWindows.h</compoundname>
+    <includes refid="tw__face_8h" local="yes">tw_faces/tw_face.h</includes>
+    <includedby refid="display_8cpp" local="yes">src/display.cpp</includedby>
+    <includedby refid="face___watch___custom_windows_8cpp" local="yes">src/tw_faces/face_Watch_CustomWindows.cpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="4">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_apps/tw_app.h</label>
+        <link refid="tw__app_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_faces/face_Watch_CustomWindows.h</label>
+        <link refid="face___watch___custom_windows_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_faces/tw_face.h</label>
+        <link refid="tw__face_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="9">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="7">
+        <label>cst816t.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="13">
+        <label>json.h</label>
+      </node>
+      <node id="14">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="24">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/display.cpp</label>
+        <link refid="display_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/tw_faces/face_Watch_CustomWindows.cpp</label>
+        <link refid="face___watch___custom_windows_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/tw_faces/face_Watch_CustomWindows.h</label>
+        <link refid="face___watch___custom_windows_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_face_watch___custom_windows" prot="public">FaceWatch_CustomWindows</innerclass>
+    <innerclass refid="struct_face_watch___custom_windows_1_1_windows_clock_settings" prot="private">FaceWatch_CustomWindows::WindowsClockSettings</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="face___watch___custom_windows_8h_1a4ed587760ccf562d61fc751adf150e77" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_face_watch___custom_windows" kindref="compound">FaceWatch_CustomWindows</ref></type>
+        <definition>FaceWatch_CustomWindows face_watch_custom_windows</definition>
+        <argsstring></argsstring>
+        <name>face_watch_custom_windows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="80" column="32" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="313" bodyend="-1" declfile="src/tw_faces/face_Watch_CustomWindows.h" declline="80" declcolumn="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tw__face_8h" kindref="compound">tw_faces/tw_face.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_face_watch___custom_windows" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_face_watch___custom_windows" kindref="compound">FaceWatch_CustomWindows</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtw__face" kindref="compound">tw_face</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a2dc7d78cc037eaf6624ad31b1e1ab5f6" kindref="member">setup</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1ae9b4b5161c30d7242751168aabd606de" kindref="member">draw</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a02926ca6e6ceb436b53a9baa5dd0c566" kindref="member">click</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a603282f72632591ef276f88f99503c86" kindref="member">click_double</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a11d52238ad5f2076550be72481e6a003" kindref="member">click_long</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_face_watch___custom_windows_1aef834d816e711c448448baf1d49623b2" kindref="member">version</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;3.11&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17" refid="struct_face_watch___custom_windows_1_1_windows_clock_settings" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings" kindref="compound">WindowsClockSettings</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1aaa76c6fbe2a9f2c8a173b96013bc0e7f" kindref="member">width</ref><sp/>=<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1aa6e23b0987a3eb4e719e3ef7d4c03ba4" kindref="member">width</ref><sp/>-<sp/>50;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a9d4191c058c314925e87b15bef0cdd92" kindref="member">height</ref><sp/>=<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref><sp/>-<sp/>50;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a786fd2b6d3772f46b699d9f782ec510c" kindref="member">color_background</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xc3,<sp/>0xc7,<sp/>0xcb);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Light<sp/>Grey</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ad7414823cdf01e2f45fd0798c339db57" kindref="member">color_borderedge</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00,<sp/>0x00,<sp/>0x00);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Black</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a660551fea610183ad02b3c34e7d8dc45" kindref="member">color_titlebar</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00,<sp/>0x00,<sp/>0xAA);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Blue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a4c0ea4abc7c51067cd18c679c92e86db" kindref="member">color_titletext</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xFF,<sp/>0xFF,<sp/>0xFF);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Blue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1abd1a0d550ebf6a5ed45dafd316cce144" kindref="member">color_buttonshadow</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x86,<sp/>0x8A,<sp/>0x8E);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Dark<sp/>Grey</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1afe56046b307e6717a6be4a89eda106fa" kindref="member">color_buttonhighlight</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xFF,<sp/>0xFF,<sp/>0xFF);<sp/></highlight><highlight class="comment">//<sp/>White</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a6cd16f94175aa47ca8f9f2a1d88c8cd6" kindref="member">color_displaybkg</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x11,<sp/>0x11,<sp/>0x11);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Black</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1af8de2d80cf5554c48de3c4c16f50150e" kindref="member">color_menubar</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xFF,<sp/>0xFF,<sp/>0xFF);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Blue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ac867264b13582d4960c73e9b34675fcb" kindref="member">color_menutext</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00,<sp/>0x00,<sp/>0x00);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Blue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1ab6f35709ab6a094969085edfaca8cb64" kindref="member">color_hrminhand</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00,<sp/>0x00,<sp/>0x00);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Black</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a303a8cecff4aae78af390ba70ecd6577" kindref="member">color_sechand</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x88,<sp/>0x88,<sp/>0x88);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Grey</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings_1a1721cbc5c351a18ada9b0cff463eca73" kindref="member">color_hourblock</ref><sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(85,<sp/>170,<sp/>170);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Aqua</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/><ref refid="class_face_watch___custom_windows_1a16fab51da165caf1cea48a5872f8669a" kindref="member">months</ref>[12]<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;JAN&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FEB&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;MAR&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;APR&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;MAY&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;JUN&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;JUL&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;AUG&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;SEP&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;OCT&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;NOV&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;DEC&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Settings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a2dfabca6ae67e3014485d73745a2948e" kindref="member">show_borders</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Kept<sp/>for<sp/>Caching</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_face_watch___custom_windows_1a61481461dd26fe5a20f50bd8e1d70fdf" kindref="member">hours</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_face_watch___custom_windows_1abeb9d206e8422a2db61bee78f5b58b23" kindref="member">mins</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="class_face_watch___custom_windows_1a3f60623f6d09712da4dbef94ef3cac72" kindref="member">day</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="class_face_watch___custom_windows_1ac1e352e7a88350a7a3c4f5fac3c83f77" kindref="member">month</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="class_face_watch___custom_windows_1ad92f282db3accb0196a85f961cec9b31" kindref="member">year</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int8_t<sp/><ref refid="class_face_watch___custom_windows_1acf76e3d5e59267c8773e00d45e31ef00" kindref="member">day_offset</ref><sp/>=<sp/>-16;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1abd52c30d8ad87b813807b12db18b579e" kindref="member">bat_perc</ref><sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Windows<sp/>Clock<sp/>Stuff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1acbe9f4c5c9589be7153cf51fc2d01cfd" kindref="member">setup_trig</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1aa3039289556d9e97da1e9273fe3e5cce" kindref="member">draw_batteryicon</ref>(uint16_t<sp/>x,<sp/>uint16_t<sp/>y,<sp/>WindowsClockSettings<sp/>winclock);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a98190da8e2ad05f548397ac5ab2bc9f1" kindref="member">draw_window</ref>(uint16_t<sp/>x,<sp/>uint16_t<sp/>y,<sp/>uint16_t<sp/>w,<sp/>uint16_t<sp/>h,<sp/>WindowsClockSettings<sp/>winclock);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1aae73995896dbe14c397afed6e9872b16" kindref="member">draw_window_objects</ref>(uint16_t<sp/>x,<sp/>uint16_t<sp/>y,<sp/>uint16_t<sp/>w,<sp/>uint16_t<sp/>h,<sp/>WindowsClockSettings<sp/>winclock);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a6189c834eb35491eaf8933430fc344bb" kindref="member">draw_hand</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y1,<sp/>uint16_t<sp/>color);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1ae5d23dd4316979df1ce3af9f385cce2d" kindref="member">cachedTrig</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1ab6eb57fef0b4f3cf30497edab6ef50e2" kindref="member">pos_secs</ref>[60][2];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a8603930f988cf51f113a0d1d5b300e86" kindref="member">pos_mins</ref>[60][2];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1aa5c12c53056842c15e2439b5688d23a6" kindref="member">pos_lo</ref>[60][2];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a3e0740487b153eecd78e6b8d4ee6ba15" kindref="member">pos_ro</ref>[60][2];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1ac8caa37efd69c4da380993a7f9f4c74c" kindref="member">pos_mins_rlo</ref>[60][2];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a8e602cbe9ef3a63787800b510af5e696" kindref="member">pos_mins_rro</ref>[60][2];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a4d4e8678389263bee847db4bc3b2479e" kindref="member">pos_hours_rlo</ref>[60][2];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a178a331baf5c576d2c0f88449f1b4240" kindref="member">pos_hours_rro</ref>[60][2];</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1af02bb86e764411037b84eb463f25354e" kindref="member">pos_hours</ref>[60][2];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Window<sp/>Positioning</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1ab08bb12986b846fd0880b9b52c4065cf" kindref="member">center_x</ref><sp/>=<sp/>120;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a4bbbc4f16cff58066f2a34eb1c1f292b" kindref="member">center_y</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a4f404747f27f82aa51fa0030a48257ff" kindref="member">center_y_wtoolbar</ref><sp/>=<sp/>157;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clock<sp/>Position<sp/>with<sp/>Toolbar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1a9afa0cfc205548f486839c3e3f5a63e8" kindref="member">center_y_ntoolbar</ref><sp/>=<sp/>137;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clock<sp/>Position<sp/>without<sp/>Toolbar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1aaf962cca3f7112db37d9d151274b92e5" kindref="member">face_radius</ref><sp/>=<sp/>100;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows_1ae4afdff97055a3746864560198f73b01" kindref="member">show_toolbars</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_windows" kindref="compound">FaceWatch_CustomWindows</ref><sp/><ref refid="face___watch___custom_windows_8h_1a4ed587760ccf562d61fc751adf150e77" kindref="member">face_watch_custom_windows</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/tw_faces/face_Watch_CustomWindows.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Welcome</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1mainpage"/>Welcome to the documentation for the source code of the <ref refid="class_tiny_w_a_t_c_h" kindref="compound">TinyWATCH</ref> S3 project. This guide provides insights into the intricacies of the firmware that powers the <ref refid="class_tiny_w_a_t_c_h" kindref="compound">TinyWATCH</ref> S3, offering a deeper understanding of the functionalities and inner workings of the smartwatch.</para>
+<para>This documentation serves as a resource for developers, contributors, and enthusiasts who aim to explore, understand, and potentially contribute to the firmware development of the <ref refid="class_tiny_w_a_t_c_h" kindref="compound">TinyWATCH</ref> S3 project.</para>
+<para>This documentation is a work in progress, and the firmware is in a constant state of change as existing features are refined or re-written, new features are added and well, some features get removed. <linebreak/>
+</para>
+<sect1 id="index_1autotoc_md11">
+<title>Project Overview</title><para><ref refid="class_tiny_w_a_t_c_h" kindref="compound">TinyWATCH</ref> S3 is an ESP32-S3 based open source watch/wearable project designed by Unexpected Maker that delivers a hardware and software platform to either build upon, or to alter to suit a myriad of cases.</para>
+<para>The hardware packs in a lot of features, including a vibrant capacitive touchscreen display, an I2S MEMS Microphone, 6 Axis <ref refid="class_i_m_u" kindref="compound">IMU</ref>, 3 Axis magnetometer, on-board buzzer, battery charging, I2C fuel gauge, secondary SPI Flash for persistent user data plus WiFi and BLE connectivity.</para>
+</sect1>
+<sect1 id="index_1autotoc_md12">
+<title>State Of The Project</title><para>I was hoping to have this firmware further along than what it is now before I opened it up to the community, but it&apos;s where it&apos;s at and it&apos;s time to let it out... I&apos;m not nervous at all, really. maybe.</para>
+<para>There are some obvious missing large ticket items, like WiFi web server-based user settings, and/or BLE connectivity, and some of the peripherals are not fully fleshed out or are not working properly - looking at you Mr Magnetometer!</para>
+<para>Some of the code is more complex than I like and naughtily shares state/functionality across classes, like the face swiping and navigation system, but it does work well.</para>
+<sect2 id="index_1autotoc_md13">
+<title>Documentation</title><para>Not all of the code is documented right now, but it has started, and this Doxygen system will be the base for all future docs.</para>
+</sect2>
+</sect1>
+<sect1 id="index_1autotoc_md14">
+<title>Contributing To The Project</title><para>If you would like to contribute to the firmware (I hope many of you will), please fork the project and have at it.</para>
+<para>I have created a dedicated area on my <ulink url="https://discord.gg/ZUfpFUTbda">Discord Server</ulink> for firmware-related discussions, for those contributing. Please let me know what your Discord username is once you&apos;ve joined my server, and I&apos;ll add you to the channel. </para>
+</sect1>
+    </detaileddescription>
+    <location file="D:/workspace/tinywatch-s3/official-firmware/Documentation/extra/readme.md"/>
+  </compounddef>
+</doxygen>

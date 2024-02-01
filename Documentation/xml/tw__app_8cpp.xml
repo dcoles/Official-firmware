@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="tw__app_8cpp" kind="file" language="C++">
+    <compoundname>tw_app.cpp</compoundname>
+    <includes refid="tw__app_8h" local="yes">tw_apps/tw_app.h</includes>
+    <includes refid="settings_8h" local="yes">settings/settings.h</includes>
+    <includes refid="face___app_list_8h" local="yes">tw_faces/face_AppList.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>Arduino.h</label>
+      </node>
+      <node id="3">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_apps/tw_app.cpp</label>
+        <link refid="tw__app_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_apps/tw_app.h</label>
+        <link refid="tw__app_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>tw_faces/face_AppList.h</label>
+        <link refid="face___app_list_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>tw_faces/tw_face.h</label>
+        <link refid="tw__face_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="14">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="27">
+        <label>Preferences.h</label>
+      </node>
+      <node id="8">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="21">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="22">
+        <label>Tween.h</label>
+      </node>
+      <node id="18">
+        <label>WiFi.h</label>
+      </node>
+      <node id="6">
+        <label>cst816t.h</label>
+      </node>
+      <node id="19">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="20">
+        <label>functional</label>
+      </node>
+      <node id="16">
+        <label>initializer_list</label>
+      </node>
+      <node id="12">
+        <label>json.h</label>
+      </node>
+      <node id="13">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="23">
+        <label>map</label>
+      </node>
+      <node id="17">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tw__app_8cpp_1ac5d2dc3534f30f704fd7529ad0f89ff1" prot="public" static="no" extern="yes" mutable="no">
+        <type>TFT_eSPI</type>
+        <definition>TFT_eSPI tft</definition>
+        <argsstring></argsstring>
+        <name>tft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.cpp" line="5" column="17" bodyfile="src/display.cpp" bodystart="76" bodyend="-1" declfile="src/tw_apps/tw_app.cpp" declline="5" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="tw__app_8cpp_1ace9174c9ba98b11c902a8888832df739" prot="public" static="no" extern="yes" mutable="no">
+        <type>TFT_eSprite</type>
+        <definition>TFT_eSprite canvas[]</definition>
+        <argsstring>[]</argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.cpp" line="6" column="20" bodyfile="src/display.cpp" bodystart="77" bodyend="77" declfile="src/tw_apps/tw_app.cpp" declline="6" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="tw__app_8cpp_1ab93b2eab56233ba92cc0a2d70ed64f2f" prot="public" static="yes" mutable="no">
+        <type>std::map&lt; String, <ref refid="classtw__app" kindref="compound">tw_app</ref> * &gt;</type>
+        <definition>std::map&lt;String, tw_app *&gt; apps</definition>
+        <argsstring></argsstring>
+        <name>apps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.cpp" line="8" column="17" bodyfile="src/tw_apps/tw_app.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tw__app_8h" kindref="compound">tw_apps/tw_app.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="settings_8h" kindref="compound">settings/settings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="face___app_list_8h" kindref="compound">tw_faces/face_AppList.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TFT_eSPI<sp/><ref refid="tw__app_8cpp_1ac5d2dc3534f30f704fd7529ad0f89ff1" kindref="member">tft</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TFT_eSprite<sp/><ref refid="tw__app_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[];</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::map&lt;String,<sp/>tw_app<sp/>*&gt;<sp/>apps;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" kindref="member">tw_app::add</ref>(String<sp/>_name,<sp/>uint16_t<sp/>_update_period,<sp/>uint32_t<sp/>req_cpu_speed)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" kindref="member">name</ref><sp/>=<sp/>_name;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" kindref="member">update_period</ref><sp/>=<sp/>_update_period;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a77f9e65c0d5514ea4ed8f0a00e2b2db9" kindref="member">required_cpu_speed</ref><sp/>=<sp/>req_cpu_speed;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Only<sp/>add<sp/>the<sp/>face<sp/>to<sp/>the<sp/>MAP<sp/>if<sp/>there&apos;s<sp/>no<sp/>key<sp/>for<sp/>this<sp/>name<sp/>already.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(apps.find(<ref refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" kindref="member">name</ref>)<sp/>==<sp/>apps.end())</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>apps[<ref refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" kindref="member">name</ref>]<sp/>=<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error_print(</highlight><highlight class="stringliteral">&quot;ERROR<sp/>ADDING<sp/>APP:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error_print(<ref refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error_println(</highlight><highlight class="stringliteral">&quot;<sp/>already<sp/>exists!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>icons<sp/>(for<sp/>now)<sp/>are<sp/>64x64<sp/>and<sp/>get<sp/>cached<sp/>in<sp/>the<sp/>icon<sp/>sprite,<sp/>so<sp/>only<sp/>ever<sp/>drawn<sp/>once<sp/>to<sp/>save<sp/>power</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>but<sp/>at<sp/>the<sp/>cost<sp/>of<sp/>memory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>important<sp/>if<sp/>we<sp/>are<sp/>going<sp/>to<sp/>have<sp/>a<sp/>face<sp/>of<sp/>scrollable<sp/>app<sp/>icons.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>we<sp/>only<sp/>ever<sp/>have<sp/>a<sp/>single<sp/>non<sp/>scrollable<sp/>page,<sp/>then<sp/>we<sp/>can<sp/>remove<sp/>this<sp/>as<sp/>the<sp/>app<sp/>icon<sp/>face<sp/>itself<sp/>will<sp/>cache<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setSwapBytes(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.createSprite(64,<sp/>64);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" kindref="member">tw_app::add</ref>(String<sp/>_name,<sp/>uint<sp/>_update_period)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Default<sp/>to<sp/>40Mhz<sp/>for<sp/>this<sp/>face</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" kindref="member">add</ref>(_name,<sp/>_update_period,<sp/>40);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__app_1a5cf0211251f14dd57c0f575c4ac2ec04" kindref="member">tw_app::set_canvas</ref>(uint<sp/>_canvasid)<sp/>{<sp/><ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref><sp/>=<sp/>_canvasid;<sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__app_1ab1914aae31b736e21441c926a7045854" kindref="member">tw_app::close</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>save)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(save)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a00dcb4d9f9a4f7deaee375a545947752" kindref="member">save</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="face___app_list_8cpp_1a47fe1eaed6aacb8f4f006ee78a87bd22" kindref="member">face_applist</ref>.<ref refid="class_face_app_list_1a3fe897b2d4d6ff06bf8c5f1407943d86" kindref="member">close_app</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__app_1a49c377582445587b4127d6497bde2a3b" kindref="member">tw_app::click_icon</ref>(int16_t<sp/>click_pos_x,<sp/>int16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((click_pos_x<sp/>&gt;=<sp/><ref refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" kindref="member">icon_x</ref><sp/>&amp;&amp;<sp/>click_pos_x<sp/>&lt;=<sp/><ref refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" kindref="member">icon_x</ref><sp/>+<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref>)<sp/>&amp;&amp;<sp/>(click_pos_y<sp/>&gt;=<sp/><ref refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" kindref="member">icon_y</ref><sp/>&amp;&amp;<sp/>click_pos_y<sp/>&lt;=<sp/><ref refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" kindref="member">icon_y</ref><sp/>+<sp/><ref refid="classtw__app_1a7a8e55b2e1ee1d910b50b0688ae9369b" kindref="member">icon_height</ref>))</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_apps/tw_app.cpp"/>
+  </compounddef>
+</doxygen>

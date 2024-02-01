@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_24dc62e63695d5ee5c541e5ae206cad6" kind="dir">
+    <compoundname>src/peripherals</compoundname>
+    <innerfile refid="battery_8cpp">battery.cpp</innerfile>
+    <innerfile refid="battery_8h">battery.h</innerfile>
+    <innerfile refid="buzzer_8cpp">buzzer.cpp</innerfile>
+    <innerfile refid="buzzer_8h">buzzer.h</innerfile>
+    <innerfile refid="imu_8cpp">imu.cpp</innerfile>
+    <innerfile refid="imu_8h">imu.h</innerfile>
+    <innerfile refid="rtc_8cpp">rtc.cpp</innerfile>
+    <innerfile refid="rtc_8h">rtc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/peripherals/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_wifi_setup" kind="class" language="C++" prot="public">
+    <compoundname>WifiSetup</compoundname>
+    <includes local="no">wifi_setup.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_wifi_setup_1ab6ac672ed5c35e7bdeb40dbff50c4175" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct scan_responder</definition>
+        <argsstring></argsstring>
+        <name>scan_responder</name>
+        <qualifiedname>WifiSetup::scan_responder</qualifiedname>
+        <param>
+          <type><ref refid="structscan__responder" kindref="compound">scan_responder</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="11" column="15" bodyfile="src/web/wifi_setup.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_wifi_setup_1a4e8dff3a7c189af51729d25db5330530" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct connect_responder</definition>
+        <argsstring></argsstring>
+        <name>connect_responder</name>
+        <qualifiedname>WifiSetup::connect_responder</qualifiedname>
+        <param>
+          <type><ref refid="structconnect__responder" kindref="compound">connect_responder</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="12" column="15" bodyfile="src/web/wifi_setup.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_wifi_setup_1ad530b0f74a5b7a542b0180c59c9240dc" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WifiSetup::wifi_ap_messages</definition>
+        <argsstring></argsstring>
+        <name>wifi_ap_messages</name>
+        <qualifiedname>WifiSetup::wifi_ap_messages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="17" column="8" bodyfile="src/web/wifi_setup.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_setup_1a5f3af11ae2bdc03c6e11247ae60720c4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t WifiSetup::wifi_ap_message_color</definition>
+        <argsstring></argsstring>
+        <name>wifi_ap_message_color</name>
+        <qualifiedname>WifiSetup::wifi_ap_message_color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="18" column="10" bodyfile="src/web/wifi_setup.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_wifi_setup_1ae4ae4e6f45d41e27f026a981f3fb7313" prot="private" static="no" mutable="no">
+        <type>AsyncWebServer</type>
+        <definition>AsyncWebServer WifiSetup::webServer</definition>
+        <argsstring></argsstring>
+        <name>webServer</name>
+        <qualifiedname>WifiSetup::webServer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="36" column="16" bodyfile="src/web/wifi_setup.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_setup_1ab6fee4a186f7a639d4c649432b19353a" prot="private" static="no" mutable="no">
+        <type>DNSServer</type>
+        <definition>DNSServer WifiSetup::dnsServer</definition>
+        <argsstring></argsstring>
+        <name>dnsServer</name>
+        <qualifiedname>WifiSetup::dnsServer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="37" column="11" bodyfile="src/web/wifi_setup.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_setup_1aa886ee549054e2fa73e26944cb539e7b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WifiSetup::ssid</definition>
+        <argsstring></argsstring>
+        <name>ssid</name>
+        <qualifiedname>WifiSetup::ssid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="38" column="8" bodyfile="src/web/wifi_setup.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_setup_1a8c2cff3d823467e8c50e593d6380e34d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WifiSetup::pass</definition>
+        <argsstring></argsstring>
+        <name>pass</name>
+        <qualifiedname>WifiSetup::pass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="39" column="8" bodyfile="src/web/wifi_setup.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_setup_1ad101af470865816410d313969129600d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WifiSetup::done</definition>
+        <argsstring></argsstring>
+        <name>done</name>
+        <qualifiedname>WifiSetup::done</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="40" column="6" bodyfile="src/web/wifi_setup.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_wifi_setup_1a503c018bcd0e6b7ea51d86aa3d0d072b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WifiSetup::WifiSetup</definition>
+        <argsstring>()</argsstring>
+        <name>WifiSetup</name>
+        <qualifiedname>WifiSetup::WifiSetup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="15" column="1" bodyfile="src/web/wifi_setup.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_setup_1ae556d000e7e2687e8b77a2f9c39fa129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiSetup::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <qualifiedname>WifiSetup::start</qualifiedname>
+        <briefdescription>
+<para>Start the WiFi AP Hotspot portal that allows users to select their SSID from a scanned list and enter their password. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="20" column="6" bodyfile="src/web/wifi_setup.cpp" bodystart="114" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_setup_1a0a49f4ecb83b6ec896d543eee042aaf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiSetup::stop</definition>
+        <argsstring>(bool restart)</argsstring>
+        <name>stop</name>
+        <qualifiedname>WifiSetup::stop</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>restart</declname>
+        </param>
+        <briefdescription>
+<para>Stop the WiFi Setup Hotspot portal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>restart</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Restart the ESP32 after stopping </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="21" column="6" bodyfile="src/web/wifi_setup.cpp" bodystart="179" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_setup_1ab9b501879e3c0a29c852b8b1212e40d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiSetup::process</definition>
+        <argsstring>()</argsstring>
+        <name>process</name>
+        <qualifiedname>WifiSetup::process</qualifiedname>
+        <briefdescription>
+<para>Call from main loop to handle dns requests. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="22" column="6" bodyfile="src/web/wifi_setup.cpp" bodystart="198" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_setup_1aa96a820d57c155cdc99642c98c4842cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WifiSetup::is_done</definition>
+        <argsstring>() const</argsstring>
+        <name>is_done</name>
+        <qualifiedname>WifiSetup::is_done</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="25" column="6" bodyfile="src/web/wifi_setup.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_setup_1a0ec104fbaf50bb2575f1a6d6fe7cd76c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String WifiSetup::get_ssid</definition>
+        <argsstring>() const</argsstring>
+        <name>get_ssid</name>
+        <qualifiedname>WifiSetup::get_ssid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="26" column="8" bodyfile="src/web/wifi_setup.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_setup_1a2feb0725e32b560b8d39e7ce76c572ba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String WifiSetup::get_pass</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pass</name>
+        <qualifiedname>WifiSetup::get_pass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="27" column="8" bodyfile="src/web/wifi_setup.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_wifi_setup_1ae59cbb7162edff463ad115d42344416e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiSetup::update_wifisetup_status</definition>
+        <argsstring>(String status, uint32_t color)</argsstring>
+        <name>update_wifisetup_status</name>
+        <qualifiedname>WifiSetup::update_wifisetup_status</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.h" line="30" column="6" bodyfile="src/web/wifi_setup.h" bodystart="30" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/web/wifi_setup.h" line="9" column="1" bodyfile="src/web/wifi_setup.h" bodystart="10" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_wifi_setup_1a4e8dff3a7c189af51729d25db5330530" prot="private" virt="non-virtual"><scope>WifiSetup</scope><name>connect_responder</name></member>
+      <member refid="class_wifi_setup_1ab6fee4a186f7a639d4c649432b19353a" prot="private" virt="non-virtual"><scope>WifiSetup</scope><name>dnsServer</name></member>
+      <member refid="class_wifi_setup_1ad101af470865816410d313969129600d" prot="private" virt="non-virtual"><scope>WifiSetup</scope><name>done</name></member>
+      <member refid="class_wifi_setup_1a2feb0725e32b560b8d39e7ce76c572ba" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>get_pass</name></member>
+      <member refid="class_wifi_setup_1a0ec104fbaf50bb2575f1a6d6fe7cd76c" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>get_ssid</name></member>
+      <member refid="class_wifi_setup_1aa96a820d57c155cdc99642c98c4842cd" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>is_done</name></member>
+      <member refid="class_wifi_setup_1a8c2cff3d823467e8c50e593d6380e34d" prot="private" virt="non-virtual"><scope>WifiSetup</scope><name>pass</name></member>
+      <member refid="class_wifi_setup_1ab9b501879e3c0a29c852b8b1212e40d5" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>process</name></member>
+      <member refid="class_wifi_setup_1ab6ac672ed5c35e7bdeb40dbff50c4175" prot="private" virt="non-virtual"><scope>WifiSetup</scope><name>scan_responder</name></member>
+      <member refid="class_wifi_setup_1aa886ee549054e2fa73e26944cb539e7b" prot="private" virt="non-virtual"><scope>WifiSetup</scope><name>ssid</name></member>
+      <member refid="class_wifi_setup_1ae556d000e7e2687e8b77a2f9c39fa129" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>start</name></member>
+      <member refid="class_wifi_setup_1a0a49f4ecb83b6ec896d543eee042aaf0" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>stop</name></member>
+      <member refid="class_wifi_setup_1ae59cbb7162edff463ad115d42344416e" prot="private" virt="non-virtual"><scope>WifiSetup</scope><name>update_wifisetup_status</name></member>
+      <member refid="class_wifi_setup_1ae4ae4e6f45d41e27f026a981f3fb7313" prot="private" virt="non-virtual"><scope>WifiSetup</scope><name>webServer</name></member>
+      <member refid="class_wifi_setup_1a5f3af11ae2bdc03c6e11247ae60720c4" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>wifi_ap_message_color</name></member>
+      <member refid="class_wifi_setup_1ad530b0f74a5b7a542b0180c59c9240dc" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>wifi_ap_messages</name></member>
+      <member refid="class_wifi_setup_1a503c018bcd0e6b7ea51d86aa3d0d072b" prot="public" virt="non-virtual"><scope>WifiSetup</scope><name>WifiSetup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

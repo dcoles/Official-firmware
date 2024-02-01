@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_face_boot" kind="class" language="C++" prot="public">
+    <compoundname>FaceBoot</compoundname>
+    <basecompoundref refid="classtw__face" prot="public" virt="non-virtual">tw_face</basecompoundref>
+    <includes local="no">face_Boot.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_face_boot_1accc01eb44d954bd1b1f2eea32c4768b3" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String FaceBoot::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>FaceBoot::version</qualifiedname>
+        <initializer>= &quot;1.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="19" column="8" bodyfile="src/tw_faces/face_Boot.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_boot_1aadf9f5f080ba63b314f0a27a5c35c6cb" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String FaceBoot::wifi_connection_strings[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>wifi_connection_strings</name>
+        <qualifiedname>FaceBoot::wifi_connection_strings</qualifiedname>
+        <initializer>= {&quot;BOOT&quot;, &quot;AP MODE&quot;, &quot;CONNECTING&quot;, &quot;UPDATING TIME&quot;, &quot;DONE&quot;, &quot;ERROR, RETRY...&quot;, &quot;RESET&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="20" column="8" bodyfile="src/tw_faces/face_Boot.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_boot_1a6c789dcccd98c6f1af3694474f4a462a" prot="private" static="no" mutable="no">
+        <type><ref refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221" kindref="member">wifi_states</ref></type>
+        <definition>wifi_states FaceBoot::wifi_status</definition>
+        <argsstring></argsstring>
+        <name>wifi_status</name>
+        <qualifiedname>FaceBoot::wifi_status</qualifiedname>
+        <initializer>= <ref refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221aee429d2b18e984f9be3d8a35ab58f77f" kindref="member">BOOT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="21" column="13" bodyfile="src/tw_faces/face_Boot.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_face_boot_1a81fdd1a39724a48a117ca808f427f9a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FaceBoot::setup</definition>
+        <argsstring>(void)</argsstring>
+        <name>setup</name>
+        <qualifiedname>FaceBoot::setup</qualifiedname>
+        <reimplements refid="classtw__face_1ac5a401fc14f372f82330ea72fb619fea">setup</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="9" column="6" bodyfile="src/tw_faces/face_Boot.cpp" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_boot_1a00abcad60b42d5b60f37f4435ac25bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FaceBoot::draw</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>draw</name>
+        <qualifiedname>FaceBoot::draw</qualifiedname>
+        <reimplements refid="classtw__face_1ae9a6cbb84c29adcd16c63475d5a026e8">draw</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="10" column="6" bodyfile="src/tw_faces/face_Boot.cpp" bodystart="18" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_boot_1a1335cc74141a40c90c4cf209a27b67e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool FaceBoot::click</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>FaceBoot::click</qualifiedname>
+        <reimplements refid="classtw__face_1afaa5182a179ffc2ba1eff93623ff5ab7">click</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="11" column="6" bodyfile="src/tw_faces/face_Boot.cpp" bodystart="125" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_boot_1a9b8e823baec38b536ad863dcbf222359" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool FaceBoot::click_double</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>FaceBoot::click_double</qualifiedname>
+        <reimplements refid="classtw__face_1a99419484d1bacfa2e1e7f5670311a7b8">click_double</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="12" column="6" bodyfile="src/tw_faces/face_Boot.cpp" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_boot_1a0ac9baa0c79dbd57124cecbaa9e5a86c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool FaceBoot::click_long</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click_long</name>
+        <qualifiedname>FaceBoot::click_long</qualifiedname>
+        <reimplements refid="classtw__face_1ae4dd13600098156e5a4077a32fdbfb07">click_long</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="13" column="6" bodyfile="src/tw_faces/face_Boot.cpp" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_boot_1a31f1399dfdb30eae0d96dc617db3c0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FaceBoot::wifi_connect_status</definition>
+        <argsstring>(wifi_states status)</argsstring>
+        <name>wifi_connect_status</name>
+        <qualifiedname>FaceBoot::wifi_connect_status</qualifiedname>
+        <param>
+          <type><ref refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221" kindref="member">wifi_states</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="15" column="6" bodyfile="src/tw_faces/face_Boot.cpp" bodystart="141" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_boot_1a44a46fe2faa8de0071bdd6a0755f4fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FaceBoot::update_wifisetup_status</definition>
+        <argsstring>(String txt, uint32_t color)</argsstring>
+        <name>update_wifisetup_status</name>
+        <qualifiedname>FaceBoot::update_wifisetup_status</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>txt</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Boot.h" line="16" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FaceBoot</label>
+        <link refid="class_face_boot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FaceBoot</label>
+        <link refid="class_face_boot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_faces/face_Boot.h" line="6" column="1" bodyfile="src/tw_faces/face_Boot.h" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classtw__face_1aa0407f1353c697853c4ded0769c9bd7d" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>_x</name></member>
+      <member refid="classtw__face_1ad842e61841906d628e1f276954c0b8b6" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>_y</name></member>
+      <member refid="classtw__face_1af39f9019c43aad1a0bea58b4b627dba1" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>add</name></member>
+      <member refid="classtw__face_1ac0db8ecb1b318cb67f3f55f3768e558c" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>add</name></member>
+      <member refid="classtw__face_1a6da80e6dcce52fb1799d4e2010f6242a" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>add_clock</name></member>
+      <member refid="classtw__face_1a2879c119587b2a89971de112cc18b7d5" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>add_clock</name></member>
+      <member refid="classtw__face_1a9940b0b3530fe75b64395b810f08c3d7" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>add_control</name></member>
+      <member refid="classtw__face_1a12b69b4c55d023a2f2357c3a64c05893" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>add_widget</name></member>
+      <member refid="classtw__face_1a20698a0b95c187953207dd6aecc9ae88" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>block_dragging</name></member>
+      <member refid="classtw__face_1ac452e68cf02a4cf30a5bc5be15c5b65f" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>can_scroll_x</name></member>
+      <member refid="classtw__face_1ae35d2d9ca985d8f3d89fb215805046ae" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>can_scroll_y</name></member>
+      <member refid="classtw__face_1a76c3857bbb0999a9f30dbc9bc908586c" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>can_swipe_dir</name></member>
+      <member refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>canvasid</name></member>
+      <member refid="classtw__face_1a3e837ca4c033316f265d8eaddf99acd4" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>check_can_swipe</name></member>
+      <member refid="class_face_boot_1a1335cc74141a40c90c4cf209a27b67e5" prot="public" virt="virtual"><scope>FaceBoot</scope><name>click</name></member>
+      <member refid="class_face_boot_1a9b8e823baec38b536ad863dcbf222359" prot="public" virt="virtual"><scope>FaceBoot</scope><name>click_double</name></member>
+      <member refid="classtw__face_1a504abbdbee49cba33dcf60c26ee9ded7" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>click_hold_start_timer</name></member>
+      <member refid="class_face_boot_1a0ac9baa0c79dbd57124cecbaa9e5a86c" prot="public" virt="virtual"><scope>FaceBoot</scope><name>click_long</name></member>
+      <member refid="classtw__face_1ade738ce0fd0d945b65310b2f6a7686e3" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>control_process_clicks</name></member>
+      <member refid="classtw__face_1a07bec342ccee2dd1cc42fe9b11facee0" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>controls</name></member>
+      <member refid="classtw__face_1a4e81eba332cca645993b82544c8ea7d5" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>debug_print</name></member>
+      <member refid="classtw__face_1a668367032fcee7476d121c63fdbba622" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>drag</name></member>
+      <member refid="classtw__face_1abbc9bfa77cb0ac63e0bcd649e0af07fe" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>drag_begin</name></member>
+      <member refid="classtw__face_1a7ba26fee4307d4e657f7c6701b9c1481" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>drag_dir</name></member>
+      <member refid="classtw__face_1a933ad36ff2b0994fd2660fc4b0fbeddd" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>drag_end</name></member>
+      <member refid="classtw__face_1ac625430f5581b37e391cb4072596b3e0" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>drag_lock_x</name></member>
+      <member refid="classtw__face_1a1749d6681b444adc5fba9b71ec8715ad" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>drag_lock_y</name></member>
+      <member refid="classtw__face_1a35b743b1503cfe53383c3a60fcaf4623" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>drag_start_time</name></member>
+      <member refid="classtw__face_1ad2e626b2e40b1cff9c6f6be787d3d63d" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>drag_start_x</name></member>
+      <member refid="classtw__face_1ab627ebcc8244826a39dbc546c154a1e8" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>drag_start_y</name></member>
+      <member refid="classtw__face_1a2f130bd11d482e8567aa04b2abde291d" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>drag_width</name></member>
+      <member refid="class_face_boot_1a00abcad60b42d5b60f37f4435ac25bbf" prot="public" virt="virtual"><scope>FaceBoot</scope><name>draw</name></member>
+      <member refid="classtw__face_1ae7d8400d64f7d59c6e1e9b7eaee12643" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>draw_children</name></member>
+      <member refid="classtw__face_1a33f9a809180158da04ef616d179a7975" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>draw_children_scroll</name></member>
+      <member refid="classtw__face_1a39f3df6433aae1052c524f870857e50c" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>find_draggable_control</name></member>
+      <member refid="classtw__face_1ad1c25df1cd9ca801bd5d2c67ee44a156" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>get_control_height</name></member>
+      <member refid="classtw__face_1a52c708d81bcdab0c127a738089e19b2b" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>get_cpu_speed</name></member>
+      <member refid="classtw__face_1aeef984ad711bc06b4b62a19a255627bc" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>get_widget_height</name></member>
+      <member refid="classtw__face_1ad1b7564d901ad170e5b7df68f04d4716" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>inertia_x</name></member>
+      <member refid="classtw__face_1a0da244bddaf186eacf0893064007c574" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>inertia_y</name></member>
+      <member refid="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>is_cached</name></member>
+      <member refid="classtw__face_1ae638d9d240228539afc9ab7c033350cd" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>is_clock_face</name></member>
+      <member refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>is_dragging</name></member>
+      <member refid="classtw__face_1ac30b95b85f99fa326d343dc788fef5d1" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>is_face_cached</name></member>
+      <member refid="classtw__face_1af36389ae27fd78c0de22f9ab6f8e15e7" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>is_face_clock_face</name></member>
+      <member refid="classtw__face_1afd78ecb56ee6d2adffe8664923e6f9e4" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>is_scrolling</name></member>
+      <member refid="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>is_setup</name></member>
+      <member refid="classtw__face_1ae9b7f7fde655ad5bfee9a4345f9ede3e" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>name</name></member>
+      <member refid="classtw__face_1ace76516e9533191a6b638c8991fc0393" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>navigation</name></member>
+      <member refid="classtw__face_1aed33f1d3677f2f858f7f70ec4e8c1b83" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>next_click_update</name></member>
+      <member refid="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>next_update</name></member>
+      <member refid="classtw__face_1a1b261fd794c01335af0e997d20657227" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>prevent_dragging</name></member>
+      <member refid="classtw__face_1a138dc7f9a514ab0e6c0b9d4b1f3f87f7" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>required_cpu_speed</name></member>
+      <member refid="classtw__face_1aaed17741f1b6c8d092880010e7f1c5d9" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>reset_cache_status</name></member>
+      <member refid="classtw__face_1aee23261d614d8bd363e69873167a78c5" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>reset_can_swipe_flags</name></member>
+      <member refid="classtw__face_1aad5763b5ee4c852a8abd58c5bfe663fd" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>scroll_pos</name></member>
+      <member refid="classtw__face_1a6e69452274b3260c49858937ae74661a" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>scroll_start_y</name></member>
+      <member refid="classtw__face_1afcfc0f769759459c8c7c08872af7317b" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>selectedControl</name></member>
+      <member refid="classtw__face_1a71e89c44b92c94a9993a925724794f27" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>set_navigation</name></member>
+      <member refid="classtw__face_1a3f5fefe28b97beb02e0cd30782580778" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>set_scrollable</name></member>
+      <member refid="classtw__face_1a62d0e643a009ee6210e2cee44eec5e3a" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>set_single_navigation</name></member>
+      <member refid="class_face_boot_1a81fdd1a39724a48a117ca808f427f9a4" prot="public" virt="virtual"><scope>FaceBoot</scope><name>setup</name></member>
+      <member refid="classtw__face_1ae77610f70ba6b542c37b6c8daca9a929" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>should_animate</name></member>
+      <member refid="classtw__face_1adf1eeb08a54b5e8a5f18677961d07f95" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>update_period</name></member>
+      <member refid="class_face_boot_1a44a46fe2faa8de0071bdd6a0755f4fd4" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>update_wifisetup_status</name></member>
+      <member refid="class_face_boot_1accc01eb44d954bd1b1f2eea32c4768b3" prot="private" virt="non-virtual"><scope>FaceBoot</scope><name>version</name></member>
+      <member refid="classtw__face_1a0f0e3e893b6edf1f3350b79ea7227cdd" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>widget_process_clicks</name></member>
+      <member refid="classtw__face_1a4c4bf1f0010ed676c9cea26a446610a4" prot="protected" virt="non-virtual"><scope>FaceBoot</scope><name>widgets</name></member>
+      <member refid="class_face_boot_1a31f1399dfdb30eae0d96dc617db3c0a0" prot="public" virt="non-virtual"><scope>FaceBoot</scope><name>wifi_connect_status</name></member>
+      <member refid="class_face_boot_1aadf9f5f080ba63b314f0a27a5c35c6cb" prot="private" virt="non-virtual"><scope>FaceBoot</scope><name>wifi_connection_strings</name></member>
+      <member refid="class_face_boot_1a6c789dcccd98c6f1af3694474f4a462a" prot="private" virt="non-virtual"><scope>FaceBoot</scope><name>wifi_status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

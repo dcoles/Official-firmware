@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="widget___activity_ring_8cpp" kind="file" language="C++">
+    <compoundname>widget_ActivityRing.cpp</compoundname>
+    <includes refid="widget___activity_ring_8h" local="yes">tw_widgets/widget_ActivityRing.h</includes>
+    <includes refid="activity_8h" local="yes">activity.h</includes>
+    <includes refid="bitmaps__general_8h" local="yes">bitmaps/bitmaps_general.h</includes>
+    <includes refid="_roboto_mono___light___all_8h" local="yes">fonts/RobotoMono_Light_All.h</includes>
+    <includes refid="imu_8h" local="yes">peripherals/imu.h</includes>
+    <includes refid="rtc_8h" local="yes">peripherals/rtc.h</includes>
+    <includes refid="settings_8h" local="yes">settings/settings.h</includes>
+    <includes refid="tinywatch_8h" local="yes">tinywatch.h</includes>
+    <incdepgraph>
+      <node id="30">
+        <label>Adafruit_MMC56x3.h</label>
+      </node>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="24">
+        <label>activity.h</label>
+        <link refid="activity_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>bitmaps/bitmaps_general.h</label>
+        <link refid="bitmaps__general_8h"/>
+      </node>
+      <node id="4">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>fonts/RobotoMono_Light_All.h</label>
+        <link refid="_roboto_mono___light___all_8h"/>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>peripherals/imu.h</label>
+        <link refid="imu_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>tinywatch.h</label>
+        <link refid="tinywatch_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_widgets/widget_ActivityRing.cpp</label>
+        <link refid="widget___activity_ring_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widgets/widget_ActivityRing.h</label>
+        <link refid="widget___activity_ring_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="34">
+        <label>Preferences.h</label>
+      </node>
+      <node id="9">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="29">
+        <label>SparkFun_BMI270_Arduino_Library.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="7">
+        <label>cst816t.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="13">
+        <label>json.h</label>
+      </node>
+      <node id="14">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="25">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="widget___activity_ring_8h" kindref="compound">tw_widgets/widget_ActivityRing.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="activity_8h" kindref="compound">activity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bitmaps__general_8h" kindref="compound">bitmaps/bitmaps_general.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___light___all_8h" kindref="compound">fonts/RobotoMono_Light_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="imu_8h" kindref="compound">peripherals/imu.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rtc_8h" kindref="compound">peripherals/rtc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="settings_8h" kindref="compound">settings/settings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tinywatch_8h" kindref="compound">tinywatch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_widget_activity_ring_1a18a606522e86d5d9fd5f789e21bdda67" kindref="member">WidgetActivityRing::draw</ref>(uint<sp/>canvasid,<sp/>uint8_t<sp/>style_hint)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a7ab4a104ef4fb114fd16043977d73235" kindref="member">imu_process_steps</ref>)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>day,<sp/>month,<sp/>year;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="imu_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kindref="member">rtc</ref>.<ref refid="class_r_t_c_1ac9a7cab8de2329400ba4f6f13588fca9" kindref="member">get_step_date</ref>(day,<sp/>month,<sp/>year);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>steps<sp/>=<sp/><ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1a849695cd7ed8d5739aa8faeb356bd080" kindref="member">get_steps</ref>(day,<sp/>month,<sp/>year);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>movement<sp/>=<sp/><ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1af4d71d4922328d0dc0562eb7708f79b3" kindref="member">get_movement_activity_id</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="activity_8cpp_1a777ab509d6a14e7bb654d32bd6b25498" kindref="member">activity</ref>.<ref refid="class_activity_1acb1f94f911de9f67eea0d5251417188b" kindref="member">loaded</ref><sp/>||<sp/>day<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref><sp/>-<sp/><ref refid="class_widget_activity_ring_1a27b0e4193f3a56a96cc1393ee50a64ad" kindref="member">thickness</ref>,<sp/>0,<sp/>360,<sp/><ref refid="class_widget_activity_ring_1a4c194a74459e299f8ef841f9338ea8f5" kindref="member">col_rings</ref>[0],<sp/>0);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref><sp/>-<sp/><ref refid="class_widget_activity_ring_1a27b0e4193f3a56a96cc1393ee50a64ad" kindref="member">thickness</ref>,<sp/><ref refid="class_widget_activity_ring_1af0f613708b5a41b7e97b0872bf724a0d" kindref="member">arc_pos</ref>,<sp/><ref refid="class_widget_activity_ring_1af0f613708b5a41b7e97b0872bf724a0d" kindref="member">arc_pos</ref><sp/>+<sp/>60,<sp/><ref refid="class_widget_activity_ring_1a4c194a74459e299f8ef841f9338ea8f5" kindref="member">col_rings</ref>[1],<sp/>0);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setTextColor(<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x88,<sp/>0x88,<sp/>0x88));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setFreeFont(RobotoMono_Light[6]);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawString(</highlight><highlight class="stringliteral">&quot;STEPS&quot;</highlight><highlight class="normal">,<sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_widget_activity_ring_1af0f613708b5a41b7e97b0872bf724a0d" kindref="member">arc_pos</ref><sp/>+=<sp/>60;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setFreeFont(RobotoMono_Light[(steps<sp/>&lt;<sp/>100)<sp/>?<sp/>8<sp/>:<sp/>6]);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>ring_color<sp/>=<sp/><ref refid="class_widget_activity_ring_1a4c194a74459e299f8ef841f9338ea8f5" kindref="member">col_rings</ref>[movement];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(style_hint<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref><sp/>-<sp/><ref refid="class_widget_activity_ring_1a27b0e4193f3a56a96cc1393ee50a64ad" kindref="member">thickness</ref>,<sp/>0,<sp/>360,<sp/><ref refid="class_widget_activity_ring_1a4c194a74459e299f8ef841f9338ea8f5" kindref="member">col_rings</ref>[movement],<sp/>0);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothRoundRect(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>-<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref>,<sp/><ref refid="class_widget_activity_ring_1a27b0e4193f3a56a96cc1393ee50a64ad" kindref="member">thickness</ref>,<sp/><ref refid="class_widget_activity_ring_1a27b0e4193f3a56a96cc1393ee50a64ad" kindref="member">thickness</ref><sp/>-<sp/>2,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref><sp/>*<sp/>2,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref><sp/>*<sp/>2,<sp/><ref refid="class_widget_activity_ring_1a4c194a74459e299f8ef841f9338ea8f5" kindref="member">col_rings</ref>[movement],<sp/>0);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setTextColor(<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xff,<sp/>0xff,<sp/>0xff));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawNumber(steps,<sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>+<sp/>1,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref><sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>,<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref><sp/>-<sp/><ref refid="class_widget_activity_ring_1a27b0e4193f3a56a96cc1393ee50a64ad" kindref="member">thickness</ref>,<sp/>0,<sp/>360,<sp/><ref refid="class_widget_activity_ring_1a4c194a74459e299f8ef841f9338ea8f5" kindref="member">col_rings</ref>[0],<sp/>0);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setFreeFont(RobotoMono_Light[8]);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setTextColor(<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x99,<sp/>0x99,<sp/>0x99));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawString(</highlight><highlight class="stringliteral">&quot;-&quot;</highlight><highlight class="normal">,<sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="class_widget_activity_ring_1a11aae478692971d3b082a434cacdcb41" kindref="member">radius</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_activity_ring_1a8b8175274944401a3e8a52b8cb13051a" kindref="member">WidgetActivityRing::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__widget_1a9a5b5f3d971b21e223650b3db33ce53d" kindref="member">bounds_check</ref>(click_pos_x,<sp/>click_pos_y))</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Show<sp/>activity<sp/>face&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_activity_ring_1aa0530ea48a9ea658a03afe65301f2fcb" kindref="member">WidgetActivityRing::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_activity_ring_1a4e06963b5052466ec74e67b22b338748" kindref="member">WidgetActivityRing::click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_widgets/widget_ActivityRing.cpp"/>
+  </compounddef>
+</doxygen>

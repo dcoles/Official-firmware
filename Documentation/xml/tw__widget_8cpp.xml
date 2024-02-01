@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="tw__widget_8cpp" kind="file" language="C++">
+    <compoundname>tw_widget.cpp</compoundname>
+    <includes refid="tw__widget_8h" local="yes">tw_widgets/tw_widget.h</includes>
+    <includes refid="display_8h" local="yes">display.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>Arduino.h</label>
+      </node>
+      <node id="3">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_widgets/tw_widget.cpp</label>
+        <link refid="tw__widget_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="14">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="8">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="21">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="22">
+        <label>Tween.h</label>
+      </node>
+      <node id="18">
+        <label>WiFi.h</label>
+      </node>
+      <node id="6">
+        <label>cst816t.h</label>
+      </node>
+      <node id="19">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="20">
+        <label>functional</label>
+      </node>
+      <node id="16">
+        <label>initializer_list</label>
+      </node>
+      <node id="12">
+        <label>json.h</label>
+      </node>
+      <node id="13">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="17">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tw__widget_8cpp_1ac5d2dc3534f30f704fd7529ad0f89ff1" prot="public" static="no" extern="yes" mutable="no">
+        <type>TFT_eSPI</type>
+        <definition>TFT_eSPI tft</definition>
+        <argsstring></argsstring>
+        <name>tft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/tw_widget.cpp" line="15" column="17" bodyfile="src/display.cpp" bodystart="76" bodyend="-1" declfile="src/tw_widgets/tw_widget.cpp" declline="15" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="tw__widget_8cpp_1ace9174c9ba98b11c902a8888832df739" prot="public" static="no" extern="yes" mutable="no">
+        <type>TFT_eSprite</type>
+        <definition>TFT_eSprite canvas[]</definition>
+        <argsstring>[]</argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/tw_widget.cpp" line="16" column="20" bodyfile="src/display.cpp" bodystart="77" bodyend="77" declfile="src/tw_widgets/tw_widget.cpp" declline="16" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>TW Widgets are self-contained interactive apps designed for reuse across different watch faces. They can perform logic, connectivity tasks, and display specific information.</para>
+<para>An example of a widget could be a weather app that connects to OpenWeather, downloads information, and displays it on the watch face.</para>
+<para>Clicking on the widget could switch between showing the current temperature, humidity, chance of rain, etc.</para>
+<para>A <computeroutput>Widget</computeroutput> differs from a <computeroutput>Control</computeroutput> in that a control is a single-use interactive item bound to a setting or callback on a specific face. You can place the same widget on multiple faces, each in a different location. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tw__widget_8h" kindref="compound">tw_widgets/tw_widget.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="display_8h" kindref="compound">display.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TFT_eSPI<sp/><ref refid="tw__widget_8cpp_1ac5d2dc3534f30f704fd7529ad0f89ff1" kindref="member">tft</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TFT_eSprite<sp/><ref refid="tw__widget_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtw__face" kindref="compound">tw_face</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1aa8ed9e767718aaf10d38f707c81b1baa" kindref="member">tw_widget::create</ref>(String<sp/>_name,<sp/>uint<sp/>_pos_x,<sp/>uint<sp/>_pos_y,<sp/>uint<sp/>_width,<sp/>uint<sp/>_height,<sp/>uint<sp/>_update_period)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1a2cc08490e648fb07fce3320b5e30bf32" kindref="member">name</ref><sp/>=<sp/>_name;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1ad3d35433170c80cadb47dc5c4d400a54" kindref="member">update_period</ref><sp/>=<sp/>_update_period;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>=<sp/>_pos_x;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>=<sp/>_pos_y;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kindref="member">width</ref><sp/>=<sp/>_width;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kindref="member">height</ref><sp/>=<sp/>_height;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1abbf0c6ed88dbcbde466da308fe25280a" kindref="member">bounds_x</ref>[0]<sp/>=<sp/>constrain(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>-<sp/>(int16_t)<ref refid="classtw__widget_1a1454f31ce925dfb7dd41f427edb808c3" kindref="member">padding_x</ref>,<sp/>0,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1aa6e23b0987a3eb4e719e3ef7d4c03ba4" kindref="member">width</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1abbf0c6ed88dbcbde466da308fe25280a" kindref="member">bounds_x</ref>[1]<sp/>=<sp/>constrain(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>+<sp/><ref refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kindref="member">width</ref><sp/>+<sp/><ref refid="classtw__widget_1a1454f31ce925dfb7dd41f427edb808c3" kindref="member">padding_x</ref>,<sp/>0,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1aa6e23b0987a3eb4e719e3ef7d4c03ba4" kindref="member">width</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1a7b3ace09f0b78e703cee368ff9333145" kindref="member">bounds_y</ref>[0]<sp/>=<sp/>constrain(<ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>-<sp/>(int16_t)<ref refid="classtw__widget_1ad5dececcf61d7adea87112a54b055669" kindref="member">padding_y</ref>,<sp/>0,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1a7b3ace09f0b78e703cee368ff9333145" kindref="member">bounds_y</ref>[1]<sp/>=<sp/>constrain(<ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kindref="member">height</ref><sp/>+<sp/><ref refid="classtw__widget_1ad5dececcf61d7adea87112a54b055669" kindref="member">padding_y</ref>,<sp/>0,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a93fcf490206680ba5b8ad20134686856" kindref="member">tw_widget::set_parent</ref>(<ref refid="classtw__face" kindref="compound">tw_face</ref><sp/>*_parent)<sp/>{<sp/><ref refid="classtw__widget_1a0c7106059fe14a973221930864a87301" kindref="member">parent</ref><sp/>=<sp/>_parent;<sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a9a5b5f3d971b21e223650b3db33ce53d" kindref="member">tw_widget::bounds_check</ref>(int16_t<sp/>click_pos_x,<sp/>int16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>in_x<sp/>=<sp/>(click_pos_x<sp/>&gt;=<sp/><ref refid="classtw__widget_1abbf0c6ed88dbcbde466da308fe25280a" kindref="member">bounds_x</ref>[0]<sp/>&amp;&amp;<sp/>click_pos_x<sp/>&lt;=<sp/><ref refid="classtw__widget_1abbf0c6ed88dbcbde466da308fe25280a" kindref="member">bounds_x</ref>[1]);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>in_y<sp/>=<sp/>(click_pos_y<sp/>&gt;=<sp/><ref refid="classtw__widget_1a7b3ace09f0b78e703cee368ff9333145" kindref="member">bounds_y</ref>[0]<sp/>&amp;&amp;<sp/>click_pos_y<sp/>&lt;=<sp/><ref refid="classtw__widget_1a7b3ace09f0b78e703cee368ff9333145" kindref="member">bounds_y</ref>[1]);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(in_x<sp/>&amp;&amp;<sp/>in_y);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">uint<sp/><ref refid="classtw__widget_1af517be976fc16074e1ae9e2f102fa348" kindref="member">tw_widget::get_height</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kindref="member">height</ref><sp/>+<sp/><ref refid="classtw__widget_1ad5dececcf61d7adea87112a54b055669" kindref="member">padding_y</ref>);<sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a26a1faf7b703bdb1aa569dc93f4d2e62" kindref="member">tw_widget::draw</ref>(uint8_t<sp/><ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>,<sp/>int16_t<sp/>_pos_x,<sp/>int16_t<sp/>_pos_y,<sp/>uint8_t<sp/>style_hint)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>=<sp/>_pos_x;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>=<sp/>_pos_y;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1a26a1faf7b703bdb1aa569dc93f4d2e62" kindref="member">draw</ref>(canvasid,<sp/>style_hint);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_widgets/tw_widget.cpp"/>
+  </compounddef>
+</doxygen>

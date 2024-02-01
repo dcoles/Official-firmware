@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_a9400e452aecdc370b2d5acc317afa81" kind="dir">
+    <compoundname>src/tw_controls</compoundname>
+    <innerfile refid="control___button_8cpp">control_Button.cpp</innerfile>
+    <innerfile refid="control___button_8h">control_Button.h</innerfile>
+    <innerfile refid="control___label_8cpp">control_Label.cpp</innerfile>
+    <innerfile refid="control___label_8h">control_Label.h</innerfile>
+    <innerfile refid="control___toggle_8cpp">control_Toggle.cpp</innerfile>
+    <innerfile refid="control___toggle_8h">control_Toggle.h</innerfile>
+    <innerfile refid="control___value_8cpp">control_Value.cpp</innerfile>
+    <innerfile refid="control___value_8h">control_Value.h</innerfile>
+    <innerfile refid="control___value_slider_8cpp">control_ValueSlider.cpp</innerfile>
+    <innerfile refid="control___value_slider_8h">control_ValueSlider.h</innerfile>
+    <innerfile refid="tw__control_8cpp">tw_control.cpp</innerfile>
+    <innerfile refid="tw__control_8h">tw_control.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/tw_controls/"/>
+  </compounddef>
+</doxygen>

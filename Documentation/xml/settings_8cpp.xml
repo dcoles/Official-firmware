@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="settings_8cpp" kind="file" language="C++">
+    <compoundname>settings.cpp</compoundname>
+    <includes refid="settings_8h" local="yes">settings/settings.h</includes>
+    <includes refid="tinywatch_8h" local="yes">tinywatch.h</includes>
+    <includes local="no">LittleFS.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>src/settings/settings.cpp</label>
+        <link refid="settings_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>tinywatch.h</label>
+        <link refid="tinywatch_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="12">
+        <label>LittleFS.h</label>
+      </node>
+      <node id="9">
+        <label>Preferences.h</label>
+      </node>
+      <node id="3">
+        <label>json.h</label>
+      </node>
+      <node id="4">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="settings_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" prot="public" static="no">
+        <type>nlohmann::json</type>
+        <definition>using json =  nlohmann::json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.cpp" line="5" column="1" bodyfile="src/settings/settings.cpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.cpp" line="276" column="10" bodyfile="src/settings/settings.cpp" bodystart="276" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="settings_8cpp_1a75c7b0b8bfa9d19e42da14b65bfe79e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</definition>
+        <argsstring>(Config_mqtt, enabled, broker_ip, broker_port, username, password, device_name, topic)</argsstring>
+        <name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name>
+        <param>
+          <type><ref refid="struct_config__mqtt" kindref="compound">Config_mqtt</ref></type>
+        </param>
+        <param>
+          <type>enabled</type>
+        </param>
+        <param>
+          <type>broker_ip</type>
+        </param>
+        <param>
+          <type>broker_port</type>
+        </param>
+        <param>
+          <type>username</type>
+        </param>
+        <param>
+          <type>password</type>
+        </param>
+        <param>
+          <type>device_name</type>
+        </param>
+        <param>
+          <type>topic</type>
+        </param>
+        <briefdescription>
+<para>Construct a new nlohmann define type non intrusive with default object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>All settings you want to be serialised and deserialised with JSON and stored in user flash need to be added here. This has a HARD (NOT CHANGEABLE) LIMIT of 64 items </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.cpp" line="13" column="1" declfile="src/settings/settings.cpp" declline="13" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="settings_8cpp_1aecf59d0fc2426703ad74fd5a6b15b3d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</definition>
+        <argsstring>(Config_battery, perc_offset, low_perc, low_volt_warn, low_volt_cutoff)</argsstring>
+        <name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name>
+        <param>
+          <type><ref refid="struct_config__battery" kindref="compound">Config_battery</ref></type>
+        </param>
+        <param>
+          <type>perc_offset</type>
+        </param>
+        <param>
+          <type>low_perc</type>
+        </param>
+        <param>
+          <type>low_volt_warn</type>
+        </param>
+        <param>
+          <type>low_volt_cutoff</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.cpp" line="15" column="1" declfile="src/settings/settings.cpp" declline="15" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="settings_8cpp_1aabe1e23dbaa4b7c15014395516c69318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</definition>
+        <argsstring>(Config_open_weather, api_key, poll_frequency)</argsstring>
+        <name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name>
+        <param>
+          <type><ref refid="struct_config__open__weather" kindref="compound">Config_open_weather</ref></type>
+        </param>
+        <param>
+          <type>api_key</type>
+        </param>
+        <param>
+          <type>poll_frequency</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.cpp" line="17" column="1" declfile="src/settings/settings.cpp" declline="17" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="settings_8cpp_1a708e8194bbe2ececd850e82f6a52391f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</definition>
+        <argsstring>(Config_custom_binary, binary_clockcolour, binary_clockstyle)</argsstring>
+        <name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name>
+        <param>
+          <type><ref refid="struct_config__custom__binary" kindref="compound">Config_custom_binary</ref></type>
+        </param>
+        <param>
+          <type>binary_clockcolour</type>
+        </param>
+        <param>
+          <type>binary_clockstyle</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.cpp" line="19" column="1" declfile="src/settings/settings.cpp" declline="19" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="settings_8cpp_1ac16b045755607a91ad94fe16dd0de087" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</definition>
+        <argsstring>(Config, wifi_start, wifi_ssid, wifi_pass, mdns_name, website_darkmode, mqtt, battery, open_weather, city, country, utc_offset, bl_period_vbus, bl_period_vbat, time_24hour, time_dateformat, clock_face_index, left_handed, flipped, audio_ui, audio_alarm, imu_process_steps, imu_process_wrist)</argsstring>
+        <name>NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</name>
+        <param>
+          <type><ref refid="struct_config" kindref="compound">Config</ref></type>
+        </param>
+        <param>
+          <type>wifi_start</type>
+        </param>
+        <param>
+          <type>wifi_ssid</type>
+        </param>
+        <param>
+          <type>wifi_pass</type>
+        </param>
+        <param>
+          <type>mdns_name</type>
+        </param>
+        <param>
+          <type>website_darkmode</type>
+        </param>
+        <param>
+          <type>mqtt</type>
+        </param>
+        <param>
+          <type><ref refid="battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" kindref="member">battery</ref></type>
+        </param>
+        <param>
+          <type>open_weather</type>
+        </param>
+        <param>
+          <type>city</type>
+        </param>
+        <param>
+          <type>country</type>
+        </param>
+        <param>
+          <type>utc_offset</type>
+        </param>
+        <param>
+          <type>bl_period_vbus</type>
+        </param>
+        <param>
+          <type>bl_period_vbat</type>
+        </param>
+        <param>
+          <type>time_24hour</type>
+        </param>
+        <param>
+          <type>time_dateformat</type>
+        </param>
+        <param>
+          <type>clock_face_index</type>
+        </param>
+        <param>
+          <type>left_handed</type>
+        </param>
+        <param>
+          <type>flipped</type>
+        </param>
+        <param>
+          <type>audio_ui</type>
+        </param>
+        <param>
+          <type>audio_alarm</type>
+        </param>
+        <param>
+          <type>imu_process_steps</type>
+        </param>
+        <param>
+          <type>imu_process_wrist</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.cpp" line="21" column="1" declfile="src/settings/settings.cpp" declline="21" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="settings_8h" kindref="compound">settings/settings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tinywatch_8h" kindref="compound">tinywatch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;LittleFS.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>=<sp/>nlohmann::json;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="settings_8cpp_1a75c7b0b8bfa9d19e42da14b65bfe79e6" kindref="member">NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</ref>(<ref refid="struct_config__mqtt" kindref="compound">Config_mqtt</ref>,<sp/>enabled,<sp/>broker_ip,<sp/>broker_port,<sp/>username,<sp/>password,<sp/>device_name,<sp/>topic);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="settings_8cpp_1a75c7b0b8bfa9d19e42da14b65bfe79e6" kindref="member">NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</ref>(<ref refid="struct_config__battery" kindref="compound">Config_battery</ref>,<sp/>perc_offset,<sp/>low_perc,<sp/>low_volt_warn,<sp/>low_volt_cutoff);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="settings_8cpp_1a75c7b0b8bfa9d19e42da14b65bfe79e6" kindref="member">NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</ref>(<ref refid="struct_config__open__weather" kindref="compound">Config_open_weather</ref>,<sp/>api_key,<sp/>poll_frequency);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="settings_8cpp_1a75c7b0b8bfa9d19e42da14b65bfe79e6" kindref="member">NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</ref>(<ref refid="struct_config__custom__binary" kindref="compound">Config_custom_binary</ref>,<sp/>binary_clockcolour,<sp/>binary_clockstyle);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="settings_8cpp_1a75c7b0b8bfa9d19e42da14b65bfe79e6" kindref="member">NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT</ref>(<ref refid="struct_config" kindref="compound">Config</ref>,<sp/>wifi_start,<sp/>wifi_ssid,<sp/>wifi_pass,<sp/>mdns_name,<sp/>website_darkmode,<sp/>mqtt,<sp/><ref refid="battery_8cpp_1a53448d1553b235920b7e5a6c0b2975b0" kindref="member">battery</ref>,<sp/>open_weather,<sp/>city,<sp/>country,<sp/>utc_offset,<sp/>bl_period_vbus,<sp/>bl_period_vbat,<sp/>time_24hour,<sp/>time_dateformat,<sp/>clock_face_index,<sp/>left_handed,<sp/>flipped,<sp/>audio_ui,<sp/>audio_alarm,<sp/>imu_process_steps,<sp/>imu_process_wrist);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">Settings::log_to_nvs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*log)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.begin(</highlight><highlight class="stringliteral">&quot;flash_log&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.putString(key,<sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.end();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a3c276563c885a8a30ef340e6e9e6d979" kindref="member">Settings::has_wifi_creds</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>//<sp/><sp/>info_printf(&quot;SSID<sp/>%s,<sp/>PASS<sp/>%s\n&quot;,<sp/>config.wifi_ssid,<sp/>config.wifi_pass);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a804424388e0c9b9c3accceb144e1e4d0" kindref="member">wifi_ssid</ref>.isEmpty()<sp/>&amp;&amp;<sp/>!<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1abd2cb3697545308259b67c9dc2e75134" kindref="member">wifi_pass</ref>.isEmpty();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a53c5758b55206fe6754ed044a50a41ee" kindref="member">Settings::has_country_set</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad2f32cf7a8977a88bcc0bfcb4fbb3ae8" kindref="member">country</ref>.isEmpty();<sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_settings_1afe820637e10449ff29f61ab90f59cc2f" kindref="member">Settings::update_wifi_credentials</ref>(String<sp/>ssid,<sp/>String<sp/>pass)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1a804424388e0c9b9c3accceb144e1e4d0" kindref="member">wifi_ssid</ref><sp/>=<sp/>ssid;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1abd2cb3697545308259b67c9dc2e75134" kindref="member">wifi_pass</ref><sp/>=<sp/>pass;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a00dcb4d9f9a4f7deaee375a545947752" kindref="member">save</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">String<sp/><ref refid="class_settings_1a5ed3552ca49c29b917e5826c799b70d7" kindref="member">Settings::get_load_status</ref>()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.begin(</highlight><highlight class="stringliteral">&quot;flash_log&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref><sp/>=<sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.getString(</highlight><highlight class="stringliteral">&quot;load_status&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;load_nada&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.end();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">String<sp/><ref refid="class_settings_1a00753c3834f8ac98173ed55b06d26477" kindref="member">Settings::get_save_status</ref>()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.begin(</highlight><highlight class="stringliteral">&quot;flash_log&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref><sp/>=<sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.getString(</highlight><highlight class="stringliteral">&quot;save_status&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;save_nada&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" kindref="member">nvs</ref>.end();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a06d1d58938c8fdc7a577e52f9ffda29d" kindref="member">Settings::load</ref>()</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Loading<sp/>settings&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>File<sp/>file<sp/>=<sp/>LittleFS.open(<ref refid="class_settings_1adb8b7aff516eea8ae61ea171321ec857" kindref="member">filename</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file<sp/>||<sp/>file.isDirectory()<sp/>||<sp/>file.size()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>No<sp/>data<sp/>on<sp/>the<sp/>flash<sp/>chip,<sp/>so<sp/>create<sp/>new<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="tinywatch_8cpp_1a437b1c89d4217409faacb3cfe1a49a08" kindref="member">tinywatch</ref>.<ref refid="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" kindref="member">log_system_message</ref>(</highlight><highlight class="stringliteral">&quot;No<sp/>data<sp/>on<sp/>flash&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1aa65b7c45b1ba3a125a818224094d63d4" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">log_to_nvs</ref>(</highlight><highlight class="stringliteral">&quot;load_status&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;no<sp/>file&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;char&gt;<sp/>_data(file.size());</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>data_bytes_read<sp/>=<sp/>file.readBytes(_data.data(),<sp/>_data.size());</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data_bytes_read<sp/>!=<sp/>_data.size())</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>failed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="tinywatch_8cpp_1a437b1c89d4217409faacb3cfe1a49a08" kindref="member">tinywatch</ref>.<ref refid="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" kindref="member">log_system_message</ref>(</highlight><highlight class="stringliteral">&quot;Reading<sp/>data<sp/>failed&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;bad<sp/>read<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(file.size())<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)data_bytes_read);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">log_to_nvs</ref>(</highlight><highlight class="stringliteral">&quot;load_status&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" kindref="member">log</ref>.c_str());</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1aa65b7c45b1ba3a125a818224094d63d4" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>json_data<sp/>=<sp/>json::parse(_data);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Convert<sp/>json<sp/>to<sp/>struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref><sp/>=<sp/>json_data.get&lt;<ref refid="struct_config" kindref="compound">Config</ref>&gt;();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>loaded<sp/>data<sp/>for<sp/>comparison<sp/>on<sp/>next<sp/>save</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad223c29215eb3925e60cd2540a0736f3" kindref="member">last_saved_data</ref>.swap(json_data);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(json::exception<sp/>&amp;e)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Settings<sp/>parse<sp/>error:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(e.what());</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="tinywatch_8cpp_1a437b1c89d4217409faacb3cfe1a49a08" kindref="member">tinywatch</ref>.<ref refid="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" kindref="member">log_system_message</ref>(</highlight><highlight class="stringliteral">&quot;JSON<sp/>parse<sp/>error<sp/>on<sp/>read&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1aa65b7c45b1ba3a125a818224094d63d4" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">log_to_nvs</ref>(</highlight><highlight class="stringliteral">&quot;load_status&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;bad<sp/>json<sp/>parse&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Return<sp/>the<sp/>number<sp/>from<sp/>a<sp/>string<sp/>in<sp/>the<sp/>format<sp/>&quot;settings_back_N.json&quot;<sp/>for<sp/>N&gt;0<sp/>or<sp/>0<sp/>if<sp/>wrong<sp/>format</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_settings_1afa3dbfe914fdc12c1f6419836b5294d1" kindref="member">Settings::backupNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>filename)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_settings_1adb8b7aff516eea8ae61ea171321ec857" kindref="member">filename</ref>.startsWith(<ref refid="class_settings_1a6b7deab2e703293098334c3bbc60537e" kindref="member">backup_prefix</ref>)<sp/>||<sp/>!<ref refid="class_settings_1adb8b7aff516eea8ae61ea171321ec857" kindref="member">filename</ref>.endsWith(</highlight><highlight class="stringliteral">&quot;.json&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>toInt()<sp/>returns<sp/>zero<sp/>if<sp/>not<sp/>a<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_settings_1adb8b7aff516eea8ae61ea171321ec857" kindref="member">filename</ref>.substring(strlen(<ref refid="class_settings_1a6b7deab2e703293098334c3bbc60537e" kindref="member">backup_prefix</ref>)).toInt();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>Reimplement<sp/>settings<sp/>backup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1aa4e5b7dd1bc7037dae326078619852a6" kindref="member">Settings::backup</ref>()</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Find<sp/>the<sp/>backup<sp/>file<sp/>with<sp/>the<sp/>highest<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>highestBackup<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>File<sp/>rootDir<sp/>=<sp/>SD.open(&quot;/&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>while<sp/>(true)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>File<sp/>file<sp/>=<sp/>rootDir.openNextFile();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(!file)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>break;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>highestBackup<sp/>=<sp/>max(highestBackup,<sp/>backupNumber(file.name()));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>file.close();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>//<sp/>Delete<sp/>older<sp/>files<sp/>to<sp/>satisfy<sp/>max_backups</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>rootDir.rewindDirectory();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>while<sp/>(true)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>File<sp/>file<sp/>=<sp/>rootDir.openNextFile();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(!file)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>break;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>long<sp/>num<sp/>=<sp/>backupNumber(file.name());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(num<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>num<sp/>&lt;=<sp/>highestBackup<sp/>+<sp/>1<sp/>-<sp/>max_backups)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>info_printf(&quot;Remove<sp/>old<sp/>backup<sp/>%s\n&quot;,<sp/>file.name());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Removing<sp/>an<sp/>open<sp/>file<sp/>might<sp/>be<sp/>bad.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>We<sp/>close<sp/>it<sp/>before<sp/>removing,<sp/>making<sp/>sure<sp/>to<sp/>take<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>path<sp/>as<sp/>will<sp/>be<sp/>free&apos;d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>path<sp/>=<sp/>file.path();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>SD.remove(path);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>file.close();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>rootDir.close();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>SD.rename(filename,<sp/>&quot;/&quot;<sp/>+<sp/>String(backup_prefix)<sp/>+<sp/>String(highestBackup<sp/>+<sp/>1)<sp/>+<sp/>&quot;.json&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a00dcb4d9f9a4f7deaee375a545947752" kindref="member">Settings::save</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>only<sp/>want<sp/>to<sp/>attempt<sp/><sp/>save<sp/>every<sp/>1<sp/>min<sp/>unless<sp/>it&apos;s<sp/>a<sp/>forced<sp/>save.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!force<sp/>&amp;&amp;<sp/>millis()<sp/>-<sp/><ref refid="class_settings_1a142b93e70d4701aec73d790d0636003c" kindref="member">last_save_time</ref><sp/>&lt;<sp/><ref refid="class_settings_1ae9cfa0afc12575661b57f107fca803e6" kindref="member">max_time_between_saves</ref>)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Implicitly<sp/>convert<sp/>struct<sp/>to<sp/>json</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="activity_8cpp_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>data<sp/>=<sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>data<sp/>is<sp/>the<sp/>same<sp/>as<sp/>the<sp/>last<sp/>data<sp/>we<sp/>saved,<sp/>bail<sp/>out</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data<sp/>==<sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad223c29215eb3925e60cd2540a0736f3" kindref="member">last_saved_data</ref>)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1a142b93e70d4701aec73d790d0636003c" kindref="member">last_save_time</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Backup<sp/>the<sp/>settings<sp/>file<sp/>before<sp/>we<sp/>save<sp/>new<sp/>settings!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>backup();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>info_println(F(&quot;Settings<sp/>SAVE:<sp/>Saving<sp/>data...&quot;));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>serializedObject<sp/>=<sp/>data.dump();</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>info_print(&quot;Data<sp/>Length:<sp/>&quot;+String(serializedObject.length())+&quot;-&gt;<sp/>&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>info_println(serializedObject);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>File<sp/>file<sp/>=<sp/>LittleFS.open(<ref refid="class_settings_1a11318b2647ea7d36db2185fc652c2c8a" kindref="member">tmp_filename</ref>,<sp/>FILE_WRITE);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file)</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error_println(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>write<sp/>to<sp/>settings<sp/>file&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="tinywatch_8cpp_1a437b1c89d4217409faacb3cfe1a49a08" kindref="member">tinywatch</ref>.<ref refid="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" kindref="member">log_system_message</ref>(</highlight><highlight class="stringliteral">&quot;Write<sp/>settings<sp/>failed&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">log_to_nvs</ref>(</highlight><highlight class="stringliteral">&quot;save_status&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>open<sp/>for<sp/>write&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>file.print(serializedObject.c_str());</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">log_to_nvs</ref>(</highlight><highlight class="stringliteral">&quot;save_status&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;data<sp/>written&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">log_to_nvs</ref>(</highlight><highlight class="stringliteral">&quot;save_status&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;file<sp/>closed&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>LittleFS.rename(<ref refid="class_settings_1a11318b2647ea7d36db2185fc652c2c8a" kindref="member">tmp_filename</ref>,<sp/><ref refid="class_settings_1adb8b7aff516eea8ae61ea171321ec857" kindref="member">filename</ref>);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a77482d4930cb4f700856c02ccc528785" kindref="member">log_to_nvs</ref>(</highlight><highlight class="stringliteral">&quot;save_status&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;file<sp/>renamed&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Settings<sp/>SAVE:<sp/>Saved!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="tinywatch_8cpp_1a437b1c89d4217409faacb3cfe1a49a08" kindref="member">tinywatch</ref>.<ref refid="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" kindref="member">log_system_message</ref>(</highlight><highlight class="stringliteral">&quot;Settings<sp/>saved&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>last<sp/>saved<sp/>data<sp/>for<sp/>comparison<sp/>on<sp/>next<sp/>save</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad223c29215eb3925e60cd2540a0736f3" kindref="member">last_saved_data</ref>.swap(data);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a142b93e70d4701aec73d790d0636003c" kindref="member">last_save_time</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_settings_1aa65b7c45b1ba3a125a818224094d63d4" kindref="member">Settings::create</ref>()</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Settings<sp/>CREATE:<sp/>Creating<sp/>new<sp/>data...&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="tinywatch_8cpp_1a437b1c89d4217409faacb3cfe1a49a08" kindref="member">tinywatch</ref>.<ref refid="class_tiny_w_a_t_c_h_1aa7d0c5282f91c98b88fb52af50ec204d" kindref="member">log_system_message</ref>(</highlight><highlight class="stringliteral">&quot;created<sp/>new<sp/>settings&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_settings_1a00dcb4d9f9a4f7deaee375a545947752" kindref="member">save</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_settings_1a1a20fe3938eafa97da459177007ab050" kindref="member">Settings::print_file</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/>info_println(</highlight><highlight class="stringliteral">&quot;]<sp/>Done!&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><ref refid="class_settings" kindref="compound">Settings</ref><sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/settings/settings.cpp"/>
+  </compounddef>
+</doxygen>

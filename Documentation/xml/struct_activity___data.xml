@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_activity___data" kind="struct" language="C++" prot="public">
+    <compoundname>Activity_Data</compoundname>
+    <includes local="no">activity.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_activity___data_1a82adda9947db86cfd0044eeb84dbad58" prot="public" static="no" mutable="no">
+        <type>std::map&lt; uint32_t, std::array&lt; uint32_t, 31 &gt; &gt;</type>
+        <definition>std::map&lt;uint32_t, std::array&lt;uint32_t, 31&gt; &gt; Activity_Data::steps_day</definition>
+        <argsstring></argsstring>
+        <name>steps_day</name>
+        <qualifiedname>Activity_Data::steps_day</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="14" column="10" bodyfile="src/activity.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_activity___data_1ae7cbe92b51bc44330d1c6ce7e4b55fd7" prot="public" static="no" mutable="no">
+        <type>std::map&lt; uint32_t, uint32_t &gt;</type>
+        <definition>std::map&lt;uint32_t, uint32_t&gt; Activity_Data::steps_year</definition>
+        <argsstring></argsstring>
+        <name>steps_year</name>
+        <qualifiedname>Activity_Data::steps_year</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="15" column="10" bodyfile="src/activity.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_activity___data_1a064da4e53737d8230b7623f4742d93d3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Activity_Data::imu_day</definition>
+        <argsstring></argsstring>
+        <name>imu_day</name>
+        <qualifiedname>Activity_Data::imu_day</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="17" column="9" bodyfile="src/activity.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_activity___data_1a67a1c378865c3502d42d4209c97ad893" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Activity_Data::imu_month</definition>
+        <argsstring></argsstring>
+        <name>imu_month</name>
+        <qualifiedname>Activity_Data::imu_month</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="18" column="9" bodyfile="src/activity.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_activity___data_1ada7e600fa43457aa1c5c33a89dbf065c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Activity_Data::imu_year</definition>
+        <argsstring></argsstring>
+        <name>imu_year</name>
+        <qualifiedname>Activity_Data::imu_year</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="19" column="9" bodyfile="src/activity.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_activity___data_1a769665f5cf1dc4cba1adc2fa4ee2b156" prot="public" static="no" mutable="no">
+        <type><ref refid="activity_8h_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref></type>
+        <definition>json Activity_Data::last_saved_data</definition>
+        <argsstring></argsstring>
+        <name>last_saved_data</name>
+        <qualifiedname>Activity_Data::last_saved_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="21" column="6" bodyfile="src/activity.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/activity.h" line="11" column="1" bodyfile="src/activity.h" bodystart="12" bodyend="22"/>
+    <listofallmembers>
+      <member refid="struct_activity___data_1a064da4e53737d8230b7623f4742d93d3" prot="public" virt="non-virtual"><scope>Activity_Data</scope><name>imu_day</name></member>
+      <member refid="struct_activity___data_1a67a1c378865c3502d42d4209c97ad893" prot="public" virt="non-virtual"><scope>Activity_Data</scope><name>imu_month</name></member>
+      <member refid="struct_activity___data_1ada7e600fa43457aa1c5c33a89dbf065c" prot="public" virt="non-virtual"><scope>Activity_Data</scope><name>imu_year</name></member>
+      <member refid="struct_activity___data_1a769665f5cf1dc4cba1adc2fa4ee2b156" prot="public" virt="non-virtual"><scope>Activity_Data</scope><name>last_saved_data</name></member>
+      <member refid="struct_activity___data_1a82adda9947db86cfd0044eeb84dbad58" prot="public" virt="non-virtual"><scope>Activity_Data</scope><name>steps_day</name></member>
+      <member refid="struct_activity___data_1ae7cbe92b51bc44330d1c6ce7e4b55fd7" prot="public" virt="non-virtual"><scope>Activity_Data</scope><name>steps_year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

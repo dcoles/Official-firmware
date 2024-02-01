@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="battery_8h" kind="file" language="C++">
+    <compoundname>battery.h</compoundname>
+    <includes local="no">SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library.h</includes>
+    <includedby refid="display_8cpp" local="yes">src/display.cpp</includedby>
+    <includedby refid="battery_8cpp" local="yes">src/peripherals/battery.cpp</includedby>
+    <includedby refid="tinywatch_8cpp" local="yes">src/tinywatch.cpp</includedby>
+    <includedby refid="face___battery_empty_8cpp" local="yes">src/tw_faces/face_BatteryEmpty.cpp</includedby>
+    <includedby refid="face___watch___custom_binary_8cpp" local="yes">src/tw_faces/face_Watch_CustomBinary.cpp</includedby>
+    <includedby refid="face___watch___custom_windows_8cpp" local="yes">src/tw_faces/face_Watch_CustomWindows.cpp</includedby>
+    <includedby refid="face___watch___default_analog_8cpp" local="yes">src/tw_faces/face_Watch_DefaultAnalog.cpp</includedby>
+    <includedby refid="face___watch___default_digital_8cpp" local="yes">src/tw_faces/face_Watch_DefaultDigital.cpp</includedby>
+    <includedby refid="widget___battery_8cpp" local="yes">src/tw_widgets/widget_Battery.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>src/peripherals/battery.h</label>
+        <link refid="battery_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/display.cpp</label>
+        <link refid="display_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/peripherals/battery.cpp</label>
+        <link refid="battery_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/peripherals/battery.h</label>
+        <link refid="battery_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/tinywatch.cpp</label>
+        <link refid="tinywatch_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/tw_faces/face_BatteryEmpty.cpp</label>
+        <link refid="face___battery_empty_8cpp"/>
+      </node>
+      <node id="6">
+        <label>src/tw_faces/face_Watch_CustomBinary.cpp</label>
+        <link refid="face___watch___custom_binary_8cpp"/>
+      </node>
+      <node id="7">
+        <label>src/tw_faces/face_Watch_CustomWindows.cpp</label>
+        <link refid="face___watch___custom_windows_8cpp"/>
+      </node>
+      <node id="8">
+        <label>src/tw_faces/face_Watch_DefaultAnalog.cpp</label>
+        <link refid="face___watch___default_analog_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/tw_faces/face_Watch_DefaultDigital.cpp</label>
+        <link refid="face___watch___default_digital_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/tw_widgets/widget_Battery.cpp</label>
+        <link refid="widget___battery_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_battery" prot="public">Battery</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="battery_8h_1a53448d1553b235920b7e5a6c0b2975b0" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_battery" kindref="compound">Battery</ref></type>
+        <definition>Battery battery</definition>
+        <argsstring></argsstring>
+        <name>battery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/battery.h" line="29" column="16" bodyfile="src/peripherals/battery.cpp" bodystart="158" bodyend="-1" declfile="src/peripherals/battery.h" declline="29" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_battery" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_battery" kindref="compound">Battery</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a55b4e3efe26262aa8eac3ec3530029f5" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ad32f36c8463e8a897e4fea56866cb884" kindref="member">get_voltage</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forced);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1af1d5f8a733569d9a6791686672816336" kindref="member">get_percent</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forced);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1adc6f2427549077e7257359cceeb0fee6" kindref="member">get_rate</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forced);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_battery_1aa6f82218e92d12c51b69809da77f9c2f" kindref="member">set_hibernate</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="class_battery_1af46eb5cff4dd69248299137cbb141b64" kindref="member">get_alert_status</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a0c3aac494aa0aecc3f7bbbba2c50fb45" kindref="member">clear_alert_status</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a206dc8984c3277c091e9d32d75784c2c" kindref="member">update_interrupt_values</ref>(uint8_t<sp/>perc,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>low_bat);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a1cc90c2c3d0da7b73bfbf21d054334f9" kindref="member">is_low</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>using_perc);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_battery_1aa329a7aa923893e173b8e85ba1a165a8" kindref="member">is_high</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SFE_MAX1704X<sp/><ref refid="class_battery_1ae1b8df5681abe3fdb5a9ad6511954c65" kindref="member">maxlipo</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a3b0dd7d4f3d6eba4238a8ece2eab136b" kindref="member">next_battery_read</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a4f32b6bc8bdc311a4e820c3efd0058ab" kindref="member">cached_voltage</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ab30e0dbefc7b59c8964ad255d29f5b1d" kindref="member">cached_percent</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_battery_1ae46d60be1e1a600b5df8f69d71b7ad7a" kindref="member">cached_rate</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_battery_1a901c5dbf1f0232919e12e8c1cd777e5a" kindref="member">update_stats</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forced);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_battery" kindref="compound">Battery</ref><sp/><ref refid="battery_8h_1a53448d1553b235920b7e5a6c0b2975b0" kindref="member">battery</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/peripherals/battery.h"/>
+  </compounddef>
+</doxygen>

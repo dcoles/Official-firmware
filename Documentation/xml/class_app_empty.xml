@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_app_empty" kind="class" language="C++" prot="public">
+    <compoundname>AppEmpty</compoundname>
+    <basecompoundref refid="classtw__app" prot="public" virt="non-virtual">tw_app</basecompoundref>
+    <includes local="no">app_Empty.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_app_empty_1ad60115aef664ea2566e0c15e007a2681" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long AppEmpty::shutdown_timer</definition>
+        <argsstring></argsstring>
+        <name>shutdown_timer</name>
+        <qualifiedname>AppEmpty::shutdown_timer</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Empty.h" line="19" column="15" bodyfile="src/tw_apps/app_Empty.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_empty_1a915aa7a6d8ce45995c5630403b872445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppEmpty::setup</definition>
+        <argsstring>(void)</argsstring>
+        <name>setup</name>
+        <qualifiedname>AppEmpty::setup</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Called the first time an app is opened. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Put any one off setup code in here </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Empty.h" line="9" column="6" bodyfile="src/tw_apps/app_Empty.cpp" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_empty_1a457272582856a552e875e79b213be20b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppEmpty::pre_start</definition>
+        <argsstring>(void)</argsstring>
+        <name>pre_start</name>
+        <qualifiedname>AppEmpty::pre_start</qualifiedname>
+        <reimplements refid="classtw__app_1a9210babf07943910c5324c71d0cb4575">pre_start</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Put anything in here that you want to have run every time the app is opened. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is not the same as <ref refid="class_app_empty_1a915aa7a6d8ce45995c5630403b872445" kindref="member">setup()</ref> above that only ever gets called the first time the app opens </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Empty.h" line="10" column="6" bodyfile="src/tw_apps/app_Empty.cpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_empty_1ae82c686f34050752af522a5b2c40b71b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppEmpty::draw</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>draw</name>
+        <qualifiedname>AppEmpty::draw</qualifiedname>
+        <reimplements refid="classtw__app_1aac3219a95c9f0b26a6f4226ba2bc9bc2">draw</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+<para>Usual draw code that draws the apps content, like a face draw it&apos;s content. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Empty.h" line="11" column="6" bodyfile="src/tw_apps/app_Empty.cpp" bodystart="60" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_empty_1a0ad807e098b4082aa29b91cfb7571347" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppEmpty::draw_icon</definition>
+        <argsstring>(uint8_t canvasid, int16_t _pos_x, int16_t _pos_y, uint8_t style_hint)</argsstring>
+        <name>draw_icon</name>
+        <qualifiedname>AppEmpty::draw_icon</qualifiedname>
+        <reimplements refid="classtw__app_1af52944199ec0fcedf5a0d10dd2b3cda3">draw_icon</reimplements>
+        <param>
+          <type>uint8_t</type>
+          <declname>canvasid</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>_pos_y</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>style_hint</declname>
+        </param>
+        <briefdescription>
+<para>Draw the icon that gets shown on the app menu face. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Icons are 64x64 with rounded corners as per the code below, but the inner content can be anything that represents the app well <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>canvasid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style_hint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Empty.h" line="12" column="6" bodyfile="src/tw_apps/app_Empty.cpp" bodystart="37" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_empty_1ad0e5eaa6c5a50cff1420acc4be1cb5ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool AppEmpty::click</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>AppEmpty::click</qualifiedname>
+        <reimplements refid="classtw__app_1aff74b36c204aa2c2064478c3aaff7b85">click</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+<para>Did we click on the app? If so, where? </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>click_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>click_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Empty.h" line="13" column="6" bodyfile="src/tw_apps/app_Empty.cpp" bodystart="103" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_empty_1a3069554f19d2fa85bb23b4e1fef5d61c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool AppEmpty::click_double</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>AppEmpty::click_double</qualifiedname>
+        <reimplements refid="classtw__app_1a0ab331b94d4ebfc9210030292e7d36ec">click_double</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+<para>Did we double click on the app? If so, where? </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>click_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>click_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Empty.h" line="14" column="6" bodyfile="src/tw_apps/app_Empty.cpp" bodystart="118" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AppEmpty</label>
+        <link refid="class_app_empty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_app</label>
+        <link refid="classtw__app"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AppEmpty</label>
+        <link refid="class_app_empty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_app</label>
+        <link refid="classtw__app"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_apps/app_Empty.h" line="5" column="1" bodyfile="src/tw_apps/app_Empty.h" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>_x</name></member>
+      <member refid="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>_y</name></member>
+      <member refid="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>add</name></member>
+      <member refid="classtw__app_1aa8977866b6bc2829b4be921fdbf8d016" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>add</name></member>
+      <member refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>canvasid</name></member>
+      <member refid="class_app_empty_1ad0e5eaa6c5a50cff1420acc4be1cb5ce" prot="public" virt="virtual"><scope>AppEmpty</scope><name>click</name></member>
+      <member refid="class_app_empty_1a3069554f19d2fa85bb23b4e1fef5d61c" prot="public" virt="virtual"><scope>AppEmpty</scope><name>click_double</name></member>
+      <member refid="classtw__app_1a49c377582445587b4127d6497bde2a3b" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>click_icon</name></member>
+      <member refid="classtw__app_1ab1914aae31b736e21441c926a7045854" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>close</name></member>
+      <member refid="class_app_empty_1ae82c686f34050752af522a5b2c40b71b" prot="public" virt="virtual"><scope>AppEmpty</scope><name>draw</name></member>
+      <member refid="class_app_empty_1a0ad807e098b4082aa29b91cfb7571347" prot="public" virt="virtual"><scope>AppEmpty</scope><name>draw_icon</name></member>
+      <member refid="classtw__app_1a7a8e55b2e1ee1d910b50b0688ae9369b" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>icon_height</name></member>
+      <member refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>icon_sprite</name></member>
+      <member refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>icon_width</name></member>
+      <member refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>icon_x</name></member>
+      <member refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>icon_y</name></member>
+      <member refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>is_icon_cached</name></member>
+      <member refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>is_setup</name></member>
+      <member refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>name</name></member>
+      <member refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>next_update</name></member>
+      <member refid="classtw__app_1af0a4b68423257bdeaa3c8ea77635a48f" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>owner</name></member>
+      <member refid="class_app_empty_1a457272582856a552e875e79b213be20b" prot="public" virt="virtual"><scope>AppEmpty</scope><name>pre_start</name></member>
+      <member refid="classtw__app_1a77f9e65c0d5514ea4ed8f0a00e2b2db9" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>required_cpu_speed</name></member>
+      <member refid="classtw__app_1a5cf0211251f14dd57c0f575c4ac2ec04" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>set_canvas</name></member>
+      <member refid="class_app_empty_1a915aa7a6d8ce45995c5630403b872445" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>setup</name></member>
+      <member refid="class_app_empty_1ad60115aef664ea2566e0c15e007a2681" prot="private" virt="non-virtual"><scope>AppEmpty</scope><name>shutdown_timer</name></member>
+      <member refid="classtw__app_1a415b5f5015e2f10ea3c1e627d58d289f" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>tw_app</name></member>
+      <member refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" prot="protected" virt="non-virtual"><scope>AppEmpty</scope><name>update_period</name></member>
+      <member refid="classtw__app_1a59f9dd493e97a436ee39365427dd389b" prot="public" virt="non-virtual"><scope>AppEmpty</scope><name>~tw_app</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

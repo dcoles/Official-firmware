@@ -1,0 +1,1565 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classtw__face" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tw_face</compoundname>
+    <derivedcompoundref refid="class_face_app_list" prot="public" virt="non-virtual">FaceAppList</derivedcompoundref>
+    <derivedcompoundref refid="class_face_battery_empty" prot="public" virt="non-virtual">FaceBatteryEmpty</derivedcompoundref>
+    <derivedcompoundref refid="class_face_boot" prot="public" virt="non-virtual">FaceBoot</derivedcompoundref>
+    <derivedcompoundref refid="class_face_empty" prot="public" virt="non-virtual">FaceEmpty</derivedcompoundref>
+    <derivedcompoundref refid="class_face_i_m_u" prot="public" virt="non-virtual">FaceIMU</derivedcompoundref>
+    <derivedcompoundref refid="class_face_notifications" prot="public" virt="non-virtual">FaceNotifications</derivedcompoundref>
+    <derivedcompoundref refid="class_face_settings" prot="public" virt="non-virtual">FaceSettings</derivedcompoundref>
+    <derivedcompoundref refid="class_face_system" prot="public" virt="non-virtual">FaceSystem</derivedcompoundref>
+    <derivedcompoundref refid="class_face_watch_settings" prot="public" virt="non-virtual">FaceWatchSettings</derivedcompoundref>
+    <derivedcompoundref refid="class_face_watch___custom_binary" prot="public" virt="non-virtual">FaceWatch_CustomBinary</derivedcompoundref>
+    <derivedcompoundref refid="class_face_watch___custom_windows" prot="public" virt="non-virtual">FaceWatch_CustomWindows</derivedcompoundref>
+    <derivedcompoundref refid="class_face_watch___default_analog" prot="public" virt="non-virtual">FaceWatch_DefaultAnalog</derivedcompoundref>
+    <derivedcompoundref refid="class_face_watch___default_digital" prot="public" virt="non-virtual">FaceWatch_DefaultDigital</derivedcompoundref>
+    <includes local="no">tw_face.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtw__face_1a7ba26fee4307d4e657f7c6701b9c1481" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tw_face::drag_dir</definition>
+        <argsstring></argsstring>
+        <name>drag_dir</name>
+        <qualifiedname>tw_face::drag_dir</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="33" column="5" bodyfile="src/tw_faces/tw_face.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ae9b7f7fde655ad5bfee9a4345f9ede3e" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String tw_face::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>tw_face::name</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="51" column="8" bodyfile="src/tw_faces/tw_face.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ace76516e9533191a6b638c8991fc0393" prot="public" static="no" mutable="no">
+        <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+        <definition>tw_face* tw_face::navigation[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>navigation</name>
+        <qualifiedname>tw_face::navigation</qualifiedname>
+        <initializer>= {nullptr, nullptr, nullptr, nullptr}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="60" column="9" bodyfile="src/tw_faces/tw_face.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::is_setup</definition>
+        <argsstring></argsstring>
+        <name>is_setup</name>
+        <qualifiedname>tw_face::is_setup</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="63" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t tw_face::canvasid</definition>
+        <argsstring></argsstring>
+        <name>canvasid</name>
+        <qualifiedname>tw_face::canvasid</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="64" column="9" bodyfile="src/tw_faces/tw_face.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1adf1eeb08a54b5e8a5f18677961d07f95" prot="protected" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t tw_face::update_period</definition>
+        <argsstring></argsstring>
+        <name>update_period</name>
+        <qualifiedname>tw_face::update_period</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="65" column="10" bodyfile="src/tw_faces/tw_face.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a138dc7f9a514ab0e6c0b9d4b1f3f87f7" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t tw_face::required_cpu_speed</definition>
+        <argsstring></argsstring>
+        <name>required_cpu_speed</name>
+        <qualifiedname>tw_face::required_cpu_speed</qualifiedname>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="66" column="9" bodyfile="src/tw_faces/tw_face.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ae638d9d240228539afc9ab7c033350cd" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::is_clock_face</definition>
+        <argsstring></argsstring>
+        <name>is_clock_face</name>
+        <qualifiedname>tw_face::is_clock_face</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="67" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long tw_face::next_update</definition>
+        <argsstring></argsstring>
+        <name>next_update</name>
+        <qualifiedname>tw_face::next_update</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="68" column="15" bodyfile="src/tw_faces/tw_face.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1aed33f1d3677f2f858f7f70ec4e8c1b83" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long tw_face::next_click_update</definition>
+        <argsstring></argsstring>
+        <name>next_click_update</name>
+        <qualifiedname>tw_face::next_click_update</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="69" column="15" bodyfile="src/tw_faces/tw_face.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a504abbdbee49cba33dcf60c26ee9ded7" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long tw_face::click_hold_start_timer</definition>
+        <argsstring></argsstring>
+        <name>click_hold_start_timer</name>
+        <qualifiedname>tw_face::click_hold_start_timer</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="70" column="15" bodyfile="src/tw_faces/tw_face.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ae77610f70ba6b542c37b6c8daca9a929" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::should_animate</definition>
+        <argsstring></argsstring>
+        <name>should_animate</name>
+        <qualifiedname>tw_face::should_animate</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="71" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ac625430f5581b37e391cb4072596b3e0" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::drag_lock_x</definition>
+        <argsstring></argsstring>
+        <name>drag_lock_x</name>
+        <qualifiedname>tw_face::drag_lock_x</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="72" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a1749d6681b444adc5fba9b71ec8715ad" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::drag_lock_y</definition>
+        <argsstring></argsstring>
+        <name>drag_lock_y</name>
+        <qualifiedname>tw_face::drag_lock_y</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="73" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::is_dragging</definition>
+        <argsstring></argsstring>
+        <name>is_dragging</name>
+        <qualifiedname>tw_face::is_dragging</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="74" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::is_cached</definition>
+        <argsstring></argsstring>
+        <name>is_cached</name>
+        <qualifiedname>tw_face::is_cached</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="75" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a76c3857bbb0999a9f30dbc9bc908586c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::can_swipe_dir[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>can_swipe_dir</name>
+        <qualifiedname>tw_face::can_swipe_dir</qualifiedname>
+        <initializer>= {false, false, false, false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="76" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ad2e626b2e40b1cff9c6f6be787d3d63d" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_face::drag_start_x</definition>
+        <argsstring></argsstring>
+        <name>drag_start_x</name>
+        <qualifiedname>tw_face::drag_start_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="77" column="9" bodyfile="src/tw_faces/tw_face.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ab627ebcc8244826a39dbc546c154a1e8" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_face::drag_start_y</definition>
+        <argsstring></argsstring>
+        <name>drag_start_y</name>
+        <qualifiedname>tw_face::drag_start_y</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="78" column="9" bodyfile="src/tw_faces/tw_face.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1aa0407f1353c697853c4ded0769c9bd7d" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_face::_x</definition>
+        <argsstring></argsstring>
+        <name>_x</name>
+        <qualifiedname>tw_face::_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="79" column="9" bodyfile="src/tw_faces/tw_face.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ad842e61841906d628e1f276954c0b8b6" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_face::_y</definition>
+        <argsstring></argsstring>
+        <name>_y</name>
+        <qualifiedname>tw_face::_y</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="80" column="9" bodyfile="src/tw_faces/tw_face.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a2f130bd11d482e8567aa04b2abde291d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tw_face::drag_width</definition>
+        <argsstring></argsstring>
+        <name>drag_width</name>
+        <qualifiedname>tw_face::drag_width</qualifiedname>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="81" column="5" bodyfile="src/tw_faces/tw_face.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a20698a0b95c187953207dd6aecc9ae88" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::block_dragging</definition>
+        <argsstring></argsstring>
+        <name>block_dragging</name>
+        <qualifiedname>tw_face::block_dragging</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="82" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a35b743b1503cfe53383c3a60fcaf4623" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long tw_face::drag_start_time</definition>
+        <argsstring></argsstring>
+        <name>drag_start_time</name>
+        <qualifiedname>tw_face::drag_start_time</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="84" column="15" bodyfile="src/tw_faces/tw_face.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ac452e68cf02a4cf30a5bc5be15c5b65f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::can_scroll_x</definition>
+        <argsstring></argsstring>
+        <name>can_scroll_x</name>
+        <qualifiedname>tw_face::can_scroll_x</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="87" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ae35d2d9ca985d8f3d89fb215805046ae" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::can_scroll_y</definition>
+        <argsstring></argsstring>
+        <name>can_scroll_y</name>
+        <qualifiedname>tw_face::can_scroll_y</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="88" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1ad1b7564d901ad170e5b7df68f04d4716" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float tw_face::inertia_x</definition>
+        <argsstring></argsstring>
+        <name>inertia_x</name>
+        <qualifiedname>tw_face::inertia_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="89" column="7" bodyfile="src/tw_faces/tw_face.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a0da244bddaf186eacf0893064007c574" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float tw_face::inertia_y</definition>
+        <argsstring></argsstring>
+        <name>inertia_y</name>
+        <qualifiedname>tw_face::inertia_y</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="90" column="7" bodyfile="src/tw_faces/tw_face.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a6e69452274b3260c49858937ae74661a" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_face::scroll_start_y</definition>
+        <argsstring></argsstring>
+        <name>scroll_start_y</name>
+        <qualifiedname>tw_face::scroll_start_y</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="91" column="9" bodyfile="src/tw_faces/tw_face.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1aad5763b5ee4c852a8abd58c5bfe663fd" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float tw_face::scroll_pos</definition>
+        <argsstring></argsstring>
+        <name>scroll_pos</name>
+        <qualifiedname>tw_face::scroll_pos</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="92" column="7" bodyfile="src/tw_faces/tw_face.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1afd78ecb56ee6d2adffe8664923e6f9e4" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_face::is_scrolling</definition>
+        <argsstring></argsstring>
+        <name>is_scrolling</name>
+        <qualifiedname>tw_face::is_scrolling</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="93" column="6" bodyfile="src/tw_faces/tw_face.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1afcfc0f769759459c8c7c08872af7317b" prot="protected" static="no" mutable="no">
+        <type><ref refid="classtw__control" kindref="compound">tw_control</ref> *</type>
+        <definition>tw_control* tw_face::selectedControl</definition>
+        <argsstring></argsstring>
+        <name>selectedControl</name>
+        <qualifiedname>tw_face::selectedControl</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="96" column="12" bodyfile="src/tw_faces/tw_face.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a4c4bf1f0010ed676c9cea26a446610a4" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classtw__widget" kindref="compound">tw_widget</ref> * &gt;</type>
+        <definition>std::vector&lt;tw_widget *&gt; tw_face::widgets</definition>
+        <argsstring></argsstring>
+        <name>widgets</name>
+        <qualifiedname>tw_face::widgets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="98" column="13" bodyfile="src/tw_faces/tw_face.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__face_1a07bec342ccee2dd1cc42fe9b11facee0" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classtw__control" kindref="compound">tw_control</ref> * &gt;</type>
+        <definition>std::vector&lt;tw_control *&gt; tw_face::controls</definition>
+        <argsstring></argsstring>
+        <name>controls</name>
+        <qualifiedname>tw_face::controls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="99" column="13" bodyfile="src/tw_faces/tw_face.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtw__face_1af39f9019c43aad1a0bea58b4b627dba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::add</definition>
+        <argsstring>(String _name, uint16_t _update_period, uint32_t req_cpu_speed)</argsstring>
+        <name>add</name>
+        <qualifiedname>tw_face::add</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>_update_period</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>req_cpu_speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="12" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="16" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1ac0db8ecb1b318cb67f3f55f3768e558c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::add</definition>
+        <argsstring>(String _name, uint _update_period)</argsstring>
+        <name>add</name>
+        <qualifiedname>tw_face::add</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_update_period</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="13" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a6da80e6dcce52fb1799d4e2010f6242a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::add_clock</definition>
+        <argsstring>(String _name, uint16_t _update_period, uint32_t req_cpu_speed)</argsstring>
+        <name>add_clock</name>
+        <qualifiedname>tw_face::add_clock</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>_update_period</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>req_cpu_speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="14" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="41" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a2879c119587b2a89971de112cc18b7d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::add_clock</definition>
+        <argsstring>(String _name, uint _update_period)</argsstring>
+        <name>add_clock</name>
+        <qualifiedname>tw_face::add_clock</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_update_period</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="15" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a71e89c44b92c94a9993a925724794f27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::set_navigation</definition>
+        <argsstring>(tw_face *l, tw_face *r, tw_face *u, tw_face *d)</argsstring>
+        <name>set_navigation</name>
+        <qualifiedname>tw_face::set_navigation</qualifiedname>
+        <param>
+          <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="16" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="495" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a62d0e643a009ee6210e2cee44eec5e3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::set_single_navigation</definition>
+        <argsstring>(Directions dir, tw_face *face)</argsstring>
+        <name>set_single_navigation</name>
+        <qualifiedname>tw_face::set_single_navigation</qualifiedname>
+        <param>
+          <type><ref refid="display_8h_1a04f362029ec2a624fbcb7a30b20ff5f5" kindref="member">Directions</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+          <declname>face</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="17" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="503" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a12b69b4c55d023a2f2357c3a64c05893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::add_widget</definition>
+        <argsstring>(tw_widget *widget)</argsstring>
+        <name>add_widget</name>
+        <qualifiedname>tw_face::add_widget</qualifiedname>
+        <param>
+          <type><ref refid="classtw__widget" kindref="compound">tw_widget</ref> *</type>
+          <declname>widget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="19" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="526" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a0f0e3e893b6edf1f3350b79ea7227cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tw_face::widget_process_clicks</definition>
+        <argsstring>(int16_t click_pos_x, int16_t click_pos_y)</argsstring>
+        <name>widget_process_clicks</name>
+        <qualifiedname>tw_face::widget_process_clicks</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="20" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="535" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a9940b0b3530fe75b64395b810f08c3d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::add_control</definition>
+        <argsstring>(tw_control *control)</argsstring>
+        <name>add_control</name>
+        <qualifiedname>tw_face::add_control</qualifiedname>
+        <param>
+          <type><ref refid="classtw__control" kindref="compound">tw_control</ref> *</type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="21" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="549" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1ade738ce0fd0d945b65310b2f6a7686e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tw_face::control_process_clicks</definition>
+        <argsstring>(int16_t click_pos_x, int16_t click_pos_y)</argsstring>
+        <name>control_process_clicks</name>
+        <qualifiedname>tw_face::control_process_clicks</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="22" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="558" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1af36389ae27fd78c0de22f9ab6f8e15e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tw_face::is_face_clock_face</definition>
+        <argsstring>()</argsstring>
+        <name>is_face_clock_face</name>
+        <qualifiedname>tw_face::is_face_clock_face</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="23" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1ae7d8400d64f7d59c6e1e9b7eaee12643" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::draw_children</definition>
+        <argsstring>(bool stacked, int16_t stacked_y_start, uint8_t style_hint=0)</argsstring>
+        <name>draw_children</name>
+        <qualifiedname>tw_face::draw_children</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>stacked</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>stacked_y_start</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>style_hint</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="25" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="451" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a33f9a809180158da04ef616d179a7975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::draw_children_scroll</definition>
+        <argsstring>(int16_t offset_x, int16_t offset_y)</argsstring>
+        <name>draw_children_scroll</name>
+        <qualifiedname>tw_face::draw_children_scroll</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>offset_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>offset_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="26" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="482" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a52c708d81bcdab0c127a738089e19b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t tw_face::get_cpu_speed</definition>
+        <argsstring>()</argsstring>
+        <name>get_cpu_speed</name>
+        <qualifiedname>tw_face::get_cpu_speed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="27" column="10" bodyfile="src/tw_faces/tw_face.cpp" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1abbc9bfa77cb0ac63e0bcd649e0af07fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::drag_begin</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>drag_begin</name>
+        <qualifiedname>tw_face::drag_begin</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+<para>Called on the face to notify it there was a finger down event on the face. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>At this stage we don&apos;t know if this is a click, or the intent is to drag the face to a new one</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="30" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="134" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a668367032fcee7476d121c63fdbba622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::drag</definition>
+        <argsstring>(int16_t drag_x, int16_t drag_y, int16_t pos_x, int16_t pos_y, int16_t t_pos_x, int16_t t_pos_y, bool current_face)</argsstring>
+        <name>drag</name>
+        <qualifiedname>tw_face::drag</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>drag_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>drag_y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>t_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>t_pos_y</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>current_face</declname>
+        </param>
+        <briefdescription>
+<para>Notifies teh face that the user is dragging their finder on the screen an passes in a bunch of info for the method to calculate exactly what the users intent is, which is quite complicated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Clicks are now handled outside of the face (in <ref refid="display_8cpp" kindref="compound">display.cpp</ref>) so what we try to determine here is if the user intends to swipe teh face to a new one, and what options there are to do that fom this faces navigation options.</para>
+<para>When a face is being dragged or swiped to a new face, as it&apos;s moving, the face is also responsible to moving the adjacent face.</para>
+<para>My plan is to clean this all up/optimise/refine this - eventually</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>drag_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>drag_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_face</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="31" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="169" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a933ad36ff2b0994fd2660fc4b0fbeddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tw_face::drag_end</definition>
+        <argsstring>(int16_t drag_x, int16_t drag_y, bool current_face, int16_t distance, int16_t t_pos_x, int16_t t_pos_y, int16_t last_dir_x, int16_t last_dir_y)</argsstring>
+        <name>drag_end</name>
+        <qualifiedname>tw_face::drag_end</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>drag_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>drag_y</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>current_face</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>t_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>t_pos_y</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>last_dir_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>last_dir_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="32" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="307" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1aee23261d614d8bd363e69873167a78c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::reset_can_swipe_flags</definition>
+        <argsstring>()</argsstring>
+        <name>reset_can_swipe_flags</name>
+        <qualifiedname>tw_face::reset_can_swipe_flags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="34" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a3e837ca4c033316f265d8eaddf99acd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tw_face::check_can_swipe</definition>
+        <argsstring>()</argsstring>
+        <name>check_can_swipe</name>
+        <qualifiedname>tw_face::check_can_swipe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="35" column="5" bodyfile="src/tw_faces/tw_face.cpp" bodystart="78" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a1b261fd794c01335af0e997d20657227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::prevent_dragging</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>prevent_dragging</name>
+        <qualifiedname>tw_face::prevent_dragging</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+<para>Prevent dragging the face - Used for apps that cant be dragged. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="36" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1aaed17741f1b6c8d092880010e7f1c5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::reset_cache_status</definition>
+        <argsstring>()</argsstring>
+        <name>reset_cache_status</name>
+        <qualifiedname>tw_face::reset_cache_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="39" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="622" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1ac30b95b85f99fa326d343dc788fef5d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tw_face::is_face_cached</definition>
+        <argsstring>()</argsstring>
+        <name>is_face_cached</name>
+        <qualifiedname>tw_face::is_face_cached</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="40" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="619" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a4e81eba332cca645993b82544c8ea7d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::debug_print</definition>
+        <argsstring>()</argsstring>
+        <name>debug_print</name>
+        <qualifiedname>tw_face::debug_print</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="41" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="607" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a3f5fefe28b97beb02e0cd30782580778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_face::set_scrollable</definition>
+        <argsstring>(bool scroll_x, bool scroll_y)</argsstring>
+        <name>set_scrollable</name>
+        <qualifiedname>tw_face::set_scrollable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>scroll_x</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>scroll_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="44" column="6" bodyfile="src/tw_faces/tw_face.cpp" bodystart="572" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1aeef984ad711bc06b4b62a19a255627bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t tw_face::get_widget_height</definition>
+        <argsstring>()</argsstring>
+        <name>get_widget_height</name>
+        <qualifiedname>tw_face::get_widget_height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="45" column="10" bodyfile="src/tw_faces/tw_face.cpp" bodystart="579" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1ad1c25df1cd9ca801bd5d2c67ee44a156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t tw_face::get_control_height</definition>
+        <argsstring>()</argsstring>
+        <name>get_control_height</name>
+        <qualifiedname>tw_face::get_control_height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="46" column="10" bodyfile="src/tw_faces/tw_face.cpp" bodystart="589" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a39f3df6433aae1052c524f870857e50c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtw__control" kindref="compound">tw_control</ref> *</type>
+        <definition>tw_control * tw_face::find_draggable_control</definition>
+        <argsstring>(int16_t click_pos_x, int16_t click_pos_y)</argsstring>
+        <name>find_draggable_control</name>
+        <qualifiedname>tw_face::find_draggable_control</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+<para>Searches through all of the controls added to the face to see if any are &quot;draggable&quot; and if so returns the control. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>click_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>click_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tw_control* </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="49" column="12" bodyfile="src/tw_faces/tw_face.cpp" bodystart="109" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1ac5a401fc14f372f82330ea72fb619fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tw_face::setup</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>setup</name>
+        <qualifiedname>tw_face::setup</qualifiedname>
+        <reimplementedby refid="class_face_app_list_1a07cffb361f5c8cae6fc1db32f195e4e4">setup</reimplementedby>
+        <reimplementedby refid="class_face_battery_empty_1a07d7589d673be785866e8386ef1f60ae">setup</reimplementedby>
+        <reimplementedby refid="class_face_boot_1a81fdd1a39724a48a117ca808f427f9a4">setup</reimplementedby>
+        <reimplementedby refid="class_face_empty_1adfa09005259ab9b6f9687d30b3e05de3">setup</reimplementedby>
+        <reimplementedby refid="class_face_i_m_u_1a911fafdddeb315bf572c75f20b40e150">setup</reimplementedby>
+        <reimplementedby refid="class_face_notifications_1ad30f36fcff0bc5e6611cab8b44b3aaea">setup</reimplementedby>
+        <reimplementedby refid="class_face_settings_1ac50ae40af802996ad34a4995eb3ccd4a">setup</reimplementedby>
+        <reimplementedby refid="class_face_system_1a5faa1ac4dbe4f2d8d94f1ab2c2dd57e8">setup</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_binary_1afc50a8ddb8202f21237cd46fe24b4673">setup</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_windows_1a2dc7d78cc037eaf6624ad31b1e1ab5f6">setup</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_analog_1a5d0ecadf04c235651b607116d9b57fc7">setup</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_digital_1a31dff8f59171367252be8648548bb4e5">setup</reimplementedby>
+        <reimplementedby refid="class_face_watch_settings_1a96f1e3465aae95ac9bd1e12f7634d184">setup</reimplementedby>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="54" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1ae9a6cbb84c29adcd16c63475d5a026e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tw_face::draw</definition>
+        <argsstring>(bool force)=0</argsstring>
+        <name>draw</name>
+        <qualifiedname>tw_face::draw</qualifiedname>
+        <reimplementedby refid="class_face_app_list_1a2d2f170343bb08f3141162c93b0d77a6">draw</reimplementedby>
+        <reimplementedby refid="class_face_battery_empty_1ac0f8990b403c40b52754e5739f5864ec">draw</reimplementedby>
+        <reimplementedby refid="class_face_boot_1a00abcad60b42d5b60f37f4435ac25bbf">draw</reimplementedby>
+        <reimplementedby refid="class_face_empty_1af694336b9e71e416f2af258b8ecfb061">draw</reimplementedby>
+        <reimplementedby refid="class_face_i_m_u_1a67d7a6ed3a7012077f3f9e25ca4de503">draw</reimplementedby>
+        <reimplementedby refid="class_face_notifications_1a38660821481b4caa57a21c14f7615939">draw</reimplementedby>
+        <reimplementedby refid="class_face_settings_1a54c6b885cdd8069d92af673251253ee7">draw</reimplementedby>
+        <reimplementedby refid="class_face_system_1aab01c12ec84116b0c52f6c96bbb6e73e">draw</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_binary_1aee537cc94752e2dd8c5e9ae764e1b967">draw</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_windows_1ae9b4b5161c30d7242751168aabd606de">draw</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_analog_1a886d433ac3799b47e40117631e54585e">draw</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_digital_1a5f2e80e84f738b6ccc33317f650c08d7">draw</reimplementedby>
+        <reimplementedby refid="class_face_watch_settings_1a9a615d39bacf11c880898e80de48b8ed">draw</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="55" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1afaa5182a179ffc2ba1eff93623ff5ab7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tw_face::click</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>tw_face::click</qualifiedname>
+        <reimplementedby refid="class_face_app_list_1aa4fb280bd9838348bcb1b2e5cf2c52f0">click</reimplementedby>
+        <reimplementedby refid="class_face_battery_empty_1a86821a133f250562b17a888d48a87dec">click</reimplementedby>
+        <reimplementedby refid="class_face_boot_1a1335cc74141a40c90c4cf209a27b67e5">click</reimplementedby>
+        <reimplementedby refid="class_face_empty_1a95d6332482bfbaf56ffaeec2cc210015">click</reimplementedby>
+        <reimplementedby refid="class_face_i_m_u_1a010d376890d27a0da87871b0ce6ab93a">click</reimplementedby>
+        <reimplementedby refid="class_face_notifications_1a23984032ef3e1a73ce1cfdb71cb1230b">click</reimplementedby>
+        <reimplementedby refid="class_face_settings_1a8644dfa5afb98f79b5c7ee983d65e961">click</reimplementedby>
+        <reimplementedby refid="class_face_system_1a6ba36957d4e3adb095086e42e5c6cd7a">click</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_binary_1a83011dee6fcaeac45699d095c71a701d">click</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_windows_1a02926ca6e6ceb436b53a9baa5dd0c566">click</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_analog_1a3e5a42fba1a91a18d14ee4139ef9339f">click</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_digital_1a7cde8b1bcb948ca3ded8b949b205cc2f">click</reimplementedby>
+        <reimplementedby refid="class_face_watch_settings_1aeb166bbb4346c8fe65f674aeeb47e855">click</reimplementedby>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="56" column="14" bodyfile="src/tw_faces/tw_face.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1a99419484d1bacfa2e1e7f5670311a7b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tw_face::click_double</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>tw_face::click_double</qualifiedname>
+        <reimplementedby refid="class_face_app_list_1ab83f4457369fd3670c76cf23ceceb7f7">click_double</reimplementedby>
+        <reimplementedby refid="class_face_battery_empty_1ad46c6ce78cc248e8d97929fd6a275c9a">click_double</reimplementedby>
+        <reimplementedby refid="class_face_boot_1a9b8e823baec38b536ad863dcbf222359">click_double</reimplementedby>
+        <reimplementedby refid="class_face_empty_1af29407a07b0ca5c0ac02c429d073aa42">click_double</reimplementedby>
+        <reimplementedby refid="class_face_i_m_u_1a53cc45c5af76291390be6176583ea1e8">click_double</reimplementedby>
+        <reimplementedby refid="class_face_notifications_1a27dcecf8134aa3c374c2a5546f753f3a">click_double</reimplementedby>
+        <reimplementedby refid="class_face_settings_1a4448087eadf5b0ac9a083d40a168aee7">click_double</reimplementedby>
+        <reimplementedby refid="class_face_system_1af4bf21d429541e09ff04fec12d56c819">click_double</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_binary_1a18f381fbf88de28a97a5a374b30b8cbd">click_double</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_windows_1a603282f72632591ef276f88f99503c86">click_double</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_analog_1abc697a506852c2d2d3f89f39a8379dbb">click_double</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_digital_1a873c201fec19c08b1d2e670051b0ba9e">click_double</reimplementedby>
+        <reimplementedby refid="class_face_watch_settings_1a77c31e5ddc43d1aa7d553cc1bf2fd4ab">click_double</reimplementedby>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="57" column="14" bodyfile="src/tw_faces/tw_face.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__face_1ae4dd13600098156e5a4077a32fdbfb07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tw_face::click_long</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click_long</name>
+        <qualifiedname>tw_face::click_long</qualifiedname>
+        <reimplementedby refid="class_face_app_list_1a7168137ef456c525fea3b65cef1fcb46">click_long</reimplementedby>
+        <reimplementedby refid="class_face_battery_empty_1ae9653a7364883ca99ea825e063935e03">click_long</reimplementedby>
+        <reimplementedby refid="class_face_boot_1a0ac9baa0c79dbd57124cecbaa9e5a86c">click_long</reimplementedby>
+        <reimplementedby refid="class_face_empty_1a42ae4e1379c64e784bd2577baec728b7">click_long</reimplementedby>
+        <reimplementedby refid="class_face_i_m_u_1a1c1c660cf96ecdb1199d841f75455434">click_long</reimplementedby>
+        <reimplementedby refid="class_face_notifications_1a964e165d7c59b7fd8ce182ca8be8b5e1">click_long</reimplementedby>
+        <reimplementedby refid="class_face_settings_1a3cd130b343d23fd5eb14114afbf9429f">click_long</reimplementedby>
+        <reimplementedby refid="class_face_system_1ae899c181fe1253642a5051dfedf5672c">click_long</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_binary_1a2d71f1bb2517c600c6d17822bf264417">click_long</reimplementedby>
+        <reimplementedby refid="class_face_watch___custom_windows_1a11d52238ad5f2076550be72481e6a003">click_long</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_analog_1a4ca384ea16bc28dfdbfe67d4db849efc">click_long</reimplementedby>
+        <reimplementedby refid="class_face_watch___default_digital_1ae4c54aadec13c8b19ac50973bbea3a89">click_long</reimplementedby>
+        <reimplementedby refid="class_face_watch_settings_1af900d7fa21bcd1065e7a30652e4d8271">click_long</reimplementedby>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/tw_face.h" line="58" column="14" bodyfile="src/tw_faces/tw_face.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FaceAppList</label>
+        <link refid="class_face_app_list"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FaceBatteryEmpty</label>
+        <link refid="class_face_battery_empty"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FaceBoot</label>
+        <link refid="class_face_boot"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FaceEmpty</label>
+        <link refid="class_face_empty"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>FaceIMU</label>
+        <link refid="class_face_i_m_u"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>FaceNotifications</label>
+        <link refid="class_face_notifications"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>FaceSettings</label>
+        <link refid="class_face_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>FaceSystem</label>
+        <link refid="class_face_system"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>FaceWatchSettings</label>
+        <link refid="class_face_watch_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>FaceWatch_CustomBinary</label>
+        <link refid="class_face_watch___custom_binary"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>FaceWatch_CustomWindows</label>
+        <link refid="class_face_watch___custom_windows"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>FaceWatch_DefaultAnalog</label>
+        <link refid="class_face_watch___default_analog"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>FaceWatch_DefaultDigital</label>
+        <link refid="class_face_watch___default_digital"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_faces/tw_face.h" line="9" column="1" bodyfile="src/tw_faces/tw_face.h" bodystart="10" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classtw__face_1aa0407f1353c697853c4ded0769c9bd7d" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>_x</name></member>
+      <member refid="classtw__face_1ad842e61841906d628e1f276954c0b8b6" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>_y</name></member>
+      <member refid="classtw__face_1af39f9019c43aad1a0bea58b4b627dba1" prot="public" virt="non-virtual"><scope>tw_face</scope><name>add</name></member>
+      <member refid="classtw__face_1ac0db8ecb1b318cb67f3f55f3768e558c" prot="public" virt="non-virtual"><scope>tw_face</scope><name>add</name></member>
+      <member refid="classtw__face_1a6da80e6dcce52fb1799d4e2010f6242a" prot="public" virt="non-virtual"><scope>tw_face</scope><name>add_clock</name></member>
+      <member refid="classtw__face_1a2879c119587b2a89971de112cc18b7d5" prot="public" virt="non-virtual"><scope>tw_face</scope><name>add_clock</name></member>
+      <member refid="classtw__face_1a9940b0b3530fe75b64395b810f08c3d7" prot="public" virt="non-virtual"><scope>tw_face</scope><name>add_control</name></member>
+      <member refid="classtw__face_1a12b69b4c55d023a2f2357c3a64c05893" prot="public" virt="non-virtual"><scope>tw_face</scope><name>add_widget</name></member>
+      <member refid="classtw__face_1a20698a0b95c187953207dd6aecc9ae88" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>block_dragging</name></member>
+      <member refid="classtw__face_1ac452e68cf02a4cf30a5bc5be15c5b65f" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>can_scroll_x</name></member>
+      <member refid="classtw__face_1ae35d2d9ca985d8f3d89fb215805046ae" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>can_scroll_y</name></member>
+      <member refid="classtw__face_1a76c3857bbb0999a9f30dbc9bc908586c" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>can_swipe_dir</name></member>
+      <member refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>canvasid</name></member>
+      <member refid="classtw__face_1a3e837ca4c033316f265d8eaddf99acd4" prot="public" virt="non-virtual"><scope>tw_face</scope><name>check_can_swipe</name></member>
+      <member refid="classtw__face_1afaa5182a179ffc2ba1eff93623ff5ab7" prot="public" virt="virtual"><scope>tw_face</scope><name>click</name></member>
+      <member refid="classtw__face_1a99419484d1bacfa2e1e7f5670311a7b8" prot="public" virt="virtual"><scope>tw_face</scope><name>click_double</name></member>
+      <member refid="classtw__face_1a504abbdbee49cba33dcf60c26ee9ded7" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>click_hold_start_timer</name></member>
+      <member refid="classtw__face_1ae4dd13600098156e5a4077a32fdbfb07" prot="public" virt="virtual"><scope>tw_face</scope><name>click_long</name></member>
+      <member refid="classtw__face_1ade738ce0fd0d945b65310b2f6a7686e3" prot="public" virt="non-virtual"><scope>tw_face</scope><name>control_process_clicks</name></member>
+      <member refid="classtw__face_1a07bec342ccee2dd1cc42fe9b11facee0" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>controls</name></member>
+      <member refid="classtw__face_1a4e81eba332cca645993b82544c8ea7d5" prot="public" virt="non-virtual"><scope>tw_face</scope><name>debug_print</name></member>
+      <member refid="classtw__face_1a668367032fcee7476d121c63fdbba622" prot="public" virt="non-virtual"><scope>tw_face</scope><name>drag</name></member>
+      <member refid="classtw__face_1abbc9bfa77cb0ac63e0bcd649e0af07fe" prot="public" virt="non-virtual"><scope>tw_face</scope><name>drag_begin</name></member>
+      <member refid="classtw__face_1a7ba26fee4307d4e657f7c6701b9c1481" prot="public" virt="non-virtual"><scope>tw_face</scope><name>drag_dir</name></member>
+      <member refid="classtw__face_1a933ad36ff2b0994fd2660fc4b0fbeddd" prot="public" virt="non-virtual"><scope>tw_face</scope><name>drag_end</name></member>
+      <member refid="classtw__face_1ac625430f5581b37e391cb4072596b3e0" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>drag_lock_x</name></member>
+      <member refid="classtw__face_1a1749d6681b444adc5fba9b71ec8715ad" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>drag_lock_y</name></member>
+      <member refid="classtw__face_1a35b743b1503cfe53383c3a60fcaf4623" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>drag_start_time</name></member>
+      <member refid="classtw__face_1ad2e626b2e40b1cff9c6f6be787d3d63d" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>drag_start_x</name></member>
+      <member refid="classtw__face_1ab627ebcc8244826a39dbc546c154a1e8" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>drag_start_y</name></member>
+      <member refid="classtw__face_1a2f130bd11d482e8567aa04b2abde291d" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>drag_width</name></member>
+      <member refid="classtw__face_1ae9a6cbb84c29adcd16c63475d5a026e8" prot="public" virt="pure-virtual"><scope>tw_face</scope><name>draw</name></member>
+      <member refid="classtw__face_1ae7d8400d64f7d59c6e1e9b7eaee12643" prot="public" virt="non-virtual"><scope>tw_face</scope><name>draw_children</name></member>
+      <member refid="classtw__face_1a33f9a809180158da04ef616d179a7975" prot="public" virt="non-virtual"><scope>tw_face</scope><name>draw_children_scroll</name></member>
+      <member refid="classtw__face_1a39f3df6433aae1052c524f870857e50c" prot="public" virt="non-virtual"><scope>tw_face</scope><name>find_draggable_control</name></member>
+      <member refid="classtw__face_1ad1c25df1cd9ca801bd5d2c67ee44a156" prot="public" virt="non-virtual"><scope>tw_face</scope><name>get_control_height</name></member>
+      <member refid="classtw__face_1a52c708d81bcdab0c127a738089e19b2b" prot="public" virt="non-virtual"><scope>tw_face</scope><name>get_cpu_speed</name></member>
+      <member refid="classtw__face_1aeef984ad711bc06b4b62a19a255627bc" prot="public" virt="non-virtual"><scope>tw_face</scope><name>get_widget_height</name></member>
+      <member refid="classtw__face_1ad1b7564d901ad170e5b7df68f04d4716" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>inertia_x</name></member>
+      <member refid="classtw__face_1a0da244bddaf186eacf0893064007c574" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>inertia_y</name></member>
+      <member refid="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>is_cached</name></member>
+      <member refid="classtw__face_1ae638d9d240228539afc9ab7c033350cd" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>is_clock_face</name></member>
+      <member refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>is_dragging</name></member>
+      <member refid="classtw__face_1ac30b95b85f99fa326d343dc788fef5d1" prot="public" virt="non-virtual"><scope>tw_face</scope><name>is_face_cached</name></member>
+      <member refid="classtw__face_1af36389ae27fd78c0de22f9ab6f8e15e7" prot="public" virt="non-virtual"><scope>tw_face</scope><name>is_face_clock_face</name></member>
+      <member refid="classtw__face_1afd78ecb56ee6d2adffe8664923e6f9e4" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>is_scrolling</name></member>
+      <member refid="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>is_setup</name></member>
+      <member refid="classtw__face_1ae9b7f7fde655ad5bfee9a4345f9ede3e" prot="public" virt="non-virtual"><scope>tw_face</scope><name>name</name></member>
+      <member refid="classtw__face_1ace76516e9533191a6b638c8991fc0393" prot="public" virt="non-virtual"><scope>tw_face</scope><name>navigation</name></member>
+      <member refid="classtw__face_1aed33f1d3677f2f858f7f70ec4e8c1b83" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>next_click_update</name></member>
+      <member refid="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>next_update</name></member>
+      <member refid="classtw__face_1a1b261fd794c01335af0e997d20657227" prot="public" virt="non-virtual"><scope>tw_face</scope><name>prevent_dragging</name></member>
+      <member refid="classtw__face_1a138dc7f9a514ab0e6c0b9d4b1f3f87f7" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>required_cpu_speed</name></member>
+      <member refid="classtw__face_1aaed17741f1b6c8d092880010e7f1c5d9" prot="public" virt="non-virtual"><scope>tw_face</scope><name>reset_cache_status</name></member>
+      <member refid="classtw__face_1aee23261d614d8bd363e69873167a78c5" prot="public" virt="non-virtual"><scope>tw_face</scope><name>reset_can_swipe_flags</name></member>
+      <member refid="classtw__face_1aad5763b5ee4c852a8abd58c5bfe663fd" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>scroll_pos</name></member>
+      <member refid="classtw__face_1a6e69452274b3260c49858937ae74661a" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>scroll_start_y</name></member>
+      <member refid="classtw__face_1afcfc0f769759459c8c7c08872af7317b" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>selectedControl</name></member>
+      <member refid="classtw__face_1a71e89c44b92c94a9993a925724794f27" prot="public" virt="non-virtual"><scope>tw_face</scope><name>set_navigation</name></member>
+      <member refid="classtw__face_1a3f5fefe28b97beb02e0cd30782580778" prot="public" virt="non-virtual"><scope>tw_face</scope><name>set_scrollable</name></member>
+      <member refid="classtw__face_1a62d0e643a009ee6210e2cee44eec5e3a" prot="public" virt="non-virtual"><scope>tw_face</scope><name>set_single_navigation</name></member>
+      <member refid="classtw__face_1ac5a401fc14f372f82330ea72fb619fea" prot="public" virt="pure-virtual"><scope>tw_face</scope><name>setup</name></member>
+      <member refid="classtw__face_1ae77610f70ba6b542c37b6c8daca9a929" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>should_animate</name></member>
+      <member refid="classtw__face_1adf1eeb08a54b5e8a5f18677961d07f95" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>update_period</name></member>
+      <member refid="classtw__face_1a0f0e3e893b6edf1f3350b79ea7227cdd" prot="public" virt="non-virtual"><scope>tw_face</scope><name>widget_process_clicks</name></member>
+      <member refid="classtw__face_1a4c4bf1f0010ed676c9cea26a446610a4" prot="protected" virt="non-virtual"><scope>tw_face</scope><name>widgets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

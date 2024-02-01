@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_8a01438507db5018a84e6740d62b4428" kind="dir">
+    <compoundname>src/web</compoundname>
+    <innerfile refid="webserver_8cpp">webserver.cpp</innerfile>
+    <innerfile refid="webserver_8h">webserver.h</innerfile>
+    <innerfile refid="webserver__templates_8h">webserver_templates.h</innerfile>
+    <innerfile refid="wifi__common_8h">wifi_common.h</innerfile>
+    <innerfile refid="wifi__controller_8cpp">wifi_controller.cpp</innerfile>
+    <innerfile refid="wifi__controller_8h">wifi_controller.h</innerfile>
+    <innerfile refid="wifi__setup_8cpp">wifi_setup.cpp</innerfile>
+    <innerfile refid="wifi__setup_8h">wifi_setup.h</innerfile>
+    <innerfile refid="wifi__setup__templates_8h">wifi_setup_templates.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/web/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="widget___wifi_8cpp" kind="file" language="C++">
+    <compoundname>widget_Wifi.cpp</compoundname>
+    <includes refid="widget___wifi_8h" local="yes">tw_widgets/widget_Wifi.h</includes>
+    <includes refid="bitmaps__general_8h" local="yes">bitmaps/bitmaps_general.h</includes>
+    <includes refid="_roboto_mono___light___all_8h" local="yes">fonts/RobotoMono_Light_All.h</includes>
+    <includes refid="webserver_8h" local="yes">web/webserver.h</includes>
+    <includes local="yes">wifi.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="24">
+        <label>bitmaps/bitmaps_general.h</label>
+        <link refid="bitmaps__general_8h"/>
+      </node>
+      <node id="4">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>fonts/RobotoMono_Light_All.h</label>
+        <link refid="_roboto_mono___light___all_8h"/>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_widgets/widget_Wifi.cpp</label>
+        <link refid="widget___wifi_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widgets/widget_Wifi.h</label>
+        <link refid="widget___wifi_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="26">
+        <label>web/webserver.h</label>
+        <link refid="webserver_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>DNSServer.h</label>
+      </node>
+      <node id="28">
+        <label>ESPAsyncWebServer.h</label>
+      </node>
+      <node id="29">
+        <label>ESPmDNS.h</label>
+      </node>
+      <node id="12">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="9">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="7">
+        <label>cst816t.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="13">
+        <label>json.h</label>
+      </node>
+      <node id="14">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="30">
+        <label>wifi.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="widget___wifi_8h" kindref="compound">tw_widgets/widget_Wifi.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bitmaps__general_8h" kindref="compound">bitmaps/bitmaps_general.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___light___all_8h" kindref="compound">fonts/RobotoMono_Light_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="webserver_8h" kindref="compound">web/webserver.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;wifi.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_widget_wifi_1ab689d6ae1032be9524b008f0558dbb51" kindref="member">WidgetWifi::draw</ref>(uint<sp/>canvasid,<sp/>uint8_t<sp/>style_hint)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(WiFi.status()<sp/>==<sp/>WL_CONNECTED)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].fillSmoothRoundRect(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref>,<sp/>130,<sp/>14,<sp/>6,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x33,<sp/>0x33,<sp/>0x33));</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].setFreeFont(RobotoMono_Light[6]);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawString(WiFi.localIP().toString(),<sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>+<sp/>70,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>5);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].fillSmoothCircle(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>23,<sp/>18,<sp/>0);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].pushImage(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>-<sp/>16,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>8,<sp/>32,<sp/>32,<sp/>icon_wifi_on);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>23,<sp/>23,<sp/>19,<sp/>0,<sp/>360,<sp/><ref refid="class_widget_wifi_1ac34ea4de9729e65e67355488f8c5effe" kindref="member">col_on</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].pushImage(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>-<sp/>16,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>8,<sp/>32,<sp/>32,<sp/>icon_wifi_off);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(style_hint<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothArc(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>+<sp/>23,<sp/>23,<sp/>19,<sp/>0,<sp/>360,<sp/><ref refid="class_widget_wifi_1a33f6abe886de76b70e1228ae94670033" kindref="member">col_off</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[canvasid].drawSmoothRoundRect(<ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>-<sp/>23,<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref>,<sp/>5,<sp/>1,<sp/>46,<sp/>46,<sp/><ref refid="class_widget_wifi_1a33f6abe886de76b70e1228ae94670033" kindref="member">col_off</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_wifi_1a7ecb63d9c3cfffd5f14120d578f3c604" kindref="member">WidgetWifi::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__widget_1a9a5b5f3d971b21e223650b3db33ce53d" kindref="member">bounds_check</ref>(click_pos_x,<sp/>click_pos_y))</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="webserver_8cpp_1a42e023f2152e493ce112d45863083153" kindref="member">web_server</ref>.<ref refid="class_web_server_1ae4afb83030c87b83425f0ca3a6f49b72" kindref="member">is_running</ref>())</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="webserver_8cpp_1a42e023f2152e493ce112d45863083153" kindref="member">web_server</ref>.<ref refid="class_web_server_1aa11a807dd663199f91cc3571a22fc936" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="webserver_8cpp_1a42e023f2152e493ce112d45863083153" kindref="member">web_server</ref>.<ref refid="class_web_server_1a09e0bc35886a3088dec9e459eb99092d" kindref="member">stop</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_wifi_1a99dab1a8c10b5bf3a16bc840f3a13725" kindref="member">WidgetWifi::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_widget_wifi_1a4f316417282267e361ec50637c4cad2f" kindref="member">WidgetWifi::click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_widgets/widget_Wifi.cpp"/>
+  </compounddef>
+</doxygen>

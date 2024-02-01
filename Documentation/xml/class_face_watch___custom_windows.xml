@@ -1,0 +1,787 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_face_watch___custom_windows" kind="class" language="C++" prot="public">
+    <compoundname>FaceWatch_CustomWindows</compoundname>
+    <basecompoundref refid="classtw__face" prot="public" virt="non-virtual">tw_face</basecompoundref>
+    <includes local="no">face_Watch_CustomWindows.h</includes>
+    <innerclass refid="struct_face_watch___custom_windows_1_1_windows_clock_settings" prot="private">FaceWatch_CustomWindows::WindowsClockSettings</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1aef834d816e711c448448baf1d49623b2" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String FaceWatch_CustomWindows::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>FaceWatch_CustomWindows::version</qualifiedname>
+        <initializer>= &quot;3.11&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="15" column="8" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a16fab51da165caf1cea48a5872f8669a" prot="private" static="no" mutable="no">
+        <type>const String</type>
+        <definition>const String FaceWatch_CustomWindows::months[12]</definition>
+        <argsstring>[12]</argsstring>
+        <name>months</name>
+        <qualifiedname>FaceWatch_CustomWindows::months</qualifiedname>
+        <initializer>= {&quot;JAN&quot;, &quot;FEB&quot;, &quot;MAR&quot;, &quot;APR&quot;, &quot;MAY&quot;, &quot;JUN&quot;, &quot;JUL&quot;, &quot;AUG&quot;, &quot;SEP&quot;, &quot;OCT&quot;, &quot;NOV&quot;, &quot;DEC&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="38" column="14" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a2dfabca6ae67e3014485d73745a2948e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FaceWatch_CustomWindows::show_borders</definition>
+        <argsstring></argsstring>
+        <name>show_borders</name>
+        <qualifiedname>FaceWatch_CustomWindows::show_borders</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="41" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a61481461dd26fe5a20f50bd8e1d70fdf" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t FaceWatch_CustomWindows::hours</definition>
+        <argsstring></argsstring>
+        <name>hours</name>
+        <qualifiedname>FaceWatch_CustomWindows::hours</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="44" column="9" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1abeb9d206e8422a2db61bee78f5b58b23" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t FaceWatch_CustomWindows::mins</definition>
+        <argsstring></argsstring>
+        <name>mins</name>
+        <qualifiedname>FaceWatch_CustomWindows::mins</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="45" column="9" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a3f60623f6d09712da4dbef94ef3cac72" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::day</definition>
+        <argsstring></argsstring>
+        <name>day</name>
+        <qualifiedname>FaceWatch_CustomWindows::day</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="46" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1ac1e352e7a88350a7a3c4f5fac3c83f77" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::month</definition>
+        <argsstring></argsstring>
+        <name>month</name>
+        <qualifiedname>FaceWatch_CustomWindows::month</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="47" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1ad92f282db3accb0196a85f961cec9b31" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t FaceWatch_CustomWindows::year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <qualifiedname>FaceWatch_CustomWindows::year</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="48" column="10" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1acf76e3d5e59267c8773e00d45e31ef00" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t FaceWatch_CustomWindows::day_offset</definition>
+        <argsstring></argsstring>
+        <name>day_offset</name>
+        <qualifiedname>FaceWatch_CustomWindows::day_offset</qualifiedname>
+        <initializer>= -16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="49" column="8" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1abd52c30d8ad87b813807b12db18b579e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::bat_perc</definition>
+        <argsstring></argsstring>
+        <name>bat_perc</name>
+        <qualifiedname>FaceWatch_CustomWindows::bat_perc</qualifiedname>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="50" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1ae5d23dd4316979df1ce3af9f385cce2d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FaceWatch_CustomWindows::cachedTrig</definition>
+        <argsstring></argsstring>
+        <name>cachedTrig</name>
+        <qualifiedname>FaceWatch_CustomWindows::cachedTrig</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="58" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1ab6eb57fef0b4f3cf30497edab6ef50e2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_secs[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_secs</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_secs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="59" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a8603930f988cf51f113a0d1d5b300e86" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_mins[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_mins</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_mins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="60" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1aa5c12c53056842c15e2439b5688d23a6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_lo[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_lo</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_lo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="61" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a3e0740487b153eecd78e6b8d4ee6ba15" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_ro[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_ro</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_ro</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="62" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1ac8caa37efd69c4da380993a7f9f4c74c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_mins_rlo[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_mins_rlo</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_mins_rlo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="63" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a8e602cbe9ef3a63787800b510af5e696" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_mins_rro[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_mins_rro</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_mins_rro</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="64" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a4d4e8678389263bee847db4bc3b2479e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_hours_rlo[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_hours_rlo</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_hours_rlo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="65" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a178a331baf5c576d2c0f88449f1b4240" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_hours_rro[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_hours_rro</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_hours_rro</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="66" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1af02bb86e764411037b84eb463f25354e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::pos_hours[60][2]</definition>
+        <argsstring>[60][2]</argsstring>
+        <name>pos_hours</name>
+        <qualifiedname>FaceWatch_CustomWindows::pos_hours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="67" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1ab08bb12986b846fd0880b9b52c4065cf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FaceWatch_CustomWindows::center_x</definition>
+        <argsstring></argsstring>
+        <name>center_x</name>
+        <qualifiedname>FaceWatch_CustomWindows::center_x</qualifiedname>
+        <initializer>= 120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="70" column="5" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a4bbbc4f16cff58066f2a34eb1c1f292b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FaceWatch_CustomWindows::center_y</definition>
+        <argsstring></argsstring>
+        <name>center_y</name>
+        <qualifiedname>FaceWatch_CustomWindows::center_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="71" column="5" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a4f404747f27f82aa51fa0030a48257ff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FaceWatch_CustomWindows::center_y_wtoolbar</definition>
+        <argsstring></argsstring>
+        <name>center_y_wtoolbar</name>
+        <qualifiedname>FaceWatch_CustomWindows::center_y_wtoolbar</qualifiedname>
+        <initializer>= 157</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="72" column="5" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1a9afa0cfc205548f486839c3e3f5a63e8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FaceWatch_CustomWindows::center_y_ntoolbar</definition>
+        <argsstring></argsstring>
+        <name>center_y_ntoolbar</name>
+        <qualifiedname>FaceWatch_CustomWindows::center_y_ntoolbar</qualifiedname>
+        <initializer>= 137</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="73" column="5" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1aaf962cca3f7112db37d9d151274b92e5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FaceWatch_CustomWindows::face_radius</definition>
+        <argsstring></argsstring>
+        <name>face_radius</name>
+        <qualifiedname>FaceWatch_CustomWindows::face_radius</qualifiedname>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="75" column="7" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_face_watch___custom_windows_1ae4afdff97055a3746864560198f73b01" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FaceWatch_CustomWindows::show_toolbars</definition>
+        <argsstring></argsstring>
+        <name>show_toolbars</name>
+        <qualifiedname>FaceWatch_CustomWindows::show_toolbars</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="77" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_face_watch___custom_windows_1a2dc7d78cc037eaf6624ad31b1e1ab5f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FaceWatch_CustomWindows::setup</definition>
+        <argsstring>(void)</argsstring>
+        <name>setup</name>
+        <qualifiedname>FaceWatch_CustomWindows::setup</qualifiedname>
+        <reimplements refid="classtw__face_1ac5a401fc14f372f82330ea72fb619fea">setup</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="8" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_watch___custom_windows_1ae9b4b5161c30d7242751168aabd606de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FaceWatch_CustomWindows::draw</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>draw</name>
+        <qualifiedname>FaceWatch_CustomWindows::draw</qualifiedname>
+        <reimplements refid="classtw__face_1ae9a6cbb84c29adcd16c63475d5a026e8">draw</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="9" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="155" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_watch___custom_windows_1a02926ca6e6ceb436b53a9baa5dd0c566" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool FaceWatch_CustomWindows::click</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>FaceWatch_CustomWindows::click</qualifiedname>
+        <reimplements refid="classtw__face_1afaa5182a179ffc2ba1eff93623ff5ab7">click</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="10" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="288" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_watch___custom_windows_1a603282f72632591ef276f88f99503c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool FaceWatch_CustomWindows::click_double</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>FaceWatch_CustomWindows::click_double</qualifiedname>
+        <reimplements refid="classtw__face_1a99419484d1bacfa2e1e7f5670311a7b8">click_double</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="11" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="297" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_watch___custom_windows_1a11d52238ad5f2076550be72481e6a003" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool FaceWatch_CustomWindows::click_long</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click_long</name>
+        <qualifiedname>FaceWatch_CustomWindows::click_long</qualifiedname>
+        <reimplements refid="classtw__face_1ae4dd13600098156e5a4077a32fdbfb07">click_long</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="12" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="306" bodyend="311"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_face_watch___custom_windows_1acbe9f4c5c9589be7153cf51fc2d01cfd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FaceWatch_CustomWindows::setup_trig</definition>
+        <argsstring>(void)</argsstring>
+        <name>setup_trig</name>
+        <qualifiedname>FaceWatch_CustomWindows::setup_trig</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="53" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="19" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_watch___custom_windows_1aa3039289556d9e97da1e9273fe3e5cce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FaceWatch_CustomWindows::draw_batteryicon</definition>
+        <argsstring>(uint16_t x, uint16_t y, WindowsClockSettings winclock)</argsstring>
+        <name>draw_batteryicon</name>
+        <qualifiedname>FaceWatch_CustomWindows::draw_batteryicon</qualifiedname>
+        <param>
+          <type>uint16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings" kindref="compound">WindowsClockSettings</ref></type>
+          <declname>winclock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="54" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="67" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_watch___custom_windows_1a98190da8e2ad05f548397ac5ab2bc9f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FaceWatch_CustomWindows::draw_window</definition>
+        <argsstring>(uint16_t x, uint16_t y, uint16_t w, uint16_t h, WindowsClockSettings winclock)</argsstring>
+        <name>draw_window</name>
+        <qualifiedname>FaceWatch_CustomWindows::draw_window</qualifiedname>
+        <param>
+          <type>uint16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings" kindref="compound">WindowsClockSettings</ref></type>
+          <declname>winclock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="55" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="93" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_watch___custom_windows_1aae73995896dbe14c397afed6e9872b16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FaceWatch_CustomWindows::draw_window_objects</definition>
+        <argsstring>(uint16_t x, uint16_t y, uint16_t w, uint16_t h, WindowsClockSettings winclock)</argsstring>
+        <name>draw_window_objects</name>
+        <qualifiedname>FaceWatch_CustomWindows::draw_window_objects</qualifiedname>
+        <param>
+          <type>uint16_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_face_watch___custom_windows_1_1_windows_clock_settings" kindref="compound">WindowsClockSettings</ref></type>
+          <declname>winclock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="56" column="6" bodyfile="src/tw_faces/face_Watch_CustomWindows.cpp" bodystart="112" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_face_watch___custom_windows_1a6189c834eb35491eaf8933430fc344bb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FaceWatch_CustomWindows::draw_hand</definition>
+        <argsstring>(int x, int y, int x1, int y1, uint16_t color)</argsstring>
+        <name>draw_hand</name>
+        <qualifiedname>FaceWatch_CustomWindows::draw_hand</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomWindows.h" line="57" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FaceWatch_CustomWindows</label>
+        <link refid="class_face_watch___custom_windows"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FaceWatch_CustomWindows</label>
+        <link refid="class_face_watch___custom_windows"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_faces/face_Watch_CustomWindows.h" line="5" column="1" bodyfile="src/tw_faces/face_Watch_CustomWindows.h" bodystart="6" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classtw__face_1aa0407f1353c697853c4ded0769c9bd7d" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>_x</name></member>
+      <member refid="classtw__face_1ad842e61841906d628e1f276954c0b8b6" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>_y</name></member>
+      <member refid="classtw__face_1af39f9019c43aad1a0bea58b4b627dba1" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>add</name></member>
+      <member refid="classtw__face_1ac0db8ecb1b318cb67f3f55f3768e558c" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>add</name></member>
+      <member refid="classtw__face_1a6da80e6dcce52fb1799d4e2010f6242a" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>add_clock</name></member>
+      <member refid="classtw__face_1a2879c119587b2a89971de112cc18b7d5" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>add_clock</name></member>
+      <member refid="classtw__face_1a9940b0b3530fe75b64395b810f08c3d7" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>add_control</name></member>
+      <member refid="classtw__face_1a12b69b4c55d023a2f2357c3a64c05893" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>add_widget</name></member>
+      <member refid="class_face_watch___custom_windows_1abd52c30d8ad87b813807b12db18b579e" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>bat_perc</name></member>
+      <member refid="classtw__face_1a20698a0b95c187953207dd6aecc9ae88" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>block_dragging</name></member>
+      <member refid="class_face_watch___custom_windows_1ae5d23dd4316979df1ce3af9f385cce2d" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>cachedTrig</name></member>
+      <member refid="classtw__face_1ac452e68cf02a4cf30a5bc5be15c5b65f" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>can_scroll_x</name></member>
+      <member refid="classtw__face_1ae35d2d9ca985d8f3d89fb215805046ae" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>can_scroll_y</name></member>
+      <member refid="classtw__face_1a76c3857bbb0999a9f30dbc9bc908586c" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>can_swipe_dir</name></member>
+      <member refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>canvasid</name></member>
+      <member refid="class_face_watch___custom_windows_1ab08bb12986b846fd0880b9b52c4065cf" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>center_x</name></member>
+      <member refid="class_face_watch___custom_windows_1a4bbbc4f16cff58066f2a34eb1c1f292b" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>center_y</name></member>
+      <member refid="class_face_watch___custom_windows_1a9afa0cfc205548f486839c3e3f5a63e8" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>center_y_ntoolbar</name></member>
+      <member refid="class_face_watch___custom_windows_1a4f404747f27f82aa51fa0030a48257ff" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>center_y_wtoolbar</name></member>
+      <member refid="classtw__face_1a3e837ca4c033316f265d8eaddf99acd4" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>check_can_swipe</name></member>
+      <member refid="class_face_watch___custom_windows_1a02926ca6e6ceb436b53a9baa5dd0c566" prot="public" virt="virtual"><scope>FaceWatch_CustomWindows</scope><name>click</name></member>
+      <member refid="class_face_watch___custom_windows_1a603282f72632591ef276f88f99503c86" prot="public" virt="virtual"><scope>FaceWatch_CustomWindows</scope><name>click_double</name></member>
+      <member refid="classtw__face_1a504abbdbee49cba33dcf60c26ee9ded7" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>click_hold_start_timer</name></member>
+      <member refid="class_face_watch___custom_windows_1a11d52238ad5f2076550be72481e6a003" prot="public" virt="virtual"><scope>FaceWatch_CustomWindows</scope><name>click_long</name></member>
+      <member refid="classtw__face_1ade738ce0fd0d945b65310b2f6a7686e3" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>control_process_clicks</name></member>
+      <member refid="classtw__face_1a07bec342ccee2dd1cc42fe9b11facee0" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>controls</name></member>
+      <member refid="class_face_watch___custom_windows_1a3f60623f6d09712da4dbef94ef3cac72" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>day</name></member>
+      <member refid="class_face_watch___custom_windows_1acf76e3d5e59267c8773e00d45e31ef00" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>day_offset</name></member>
+      <member refid="classtw__face_1a4e81eba332cca645993b82544c8ea7d5" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>debug_print</name></member>
+      <member refid="classtw__face_1a668367032fcee7476d121c63fdbba622" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag</name></member>
+      <member refid="classtw__face_1abbc9bfa77cb0ac63e0bcd649e0af07fe" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_begin</name></member>
+      <member refid="classtw__face_1a7ba26fee4307d4e657f7c6701b9c1481" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_dir</name></member>
+      <member refid="classtw__face_1a933ad36ff2b0994fd2660fc4b0fbeddd" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_end</name></member>
+      <member refid="classtw__face_1ac625430f5581b37e391cb4072596b3e0" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_lock_x</name></member>
+      <member refid="classtw__face_1a1749d6681b444adc5fba9b71ec8715ad" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_lock_y</name></member>
+      <member refid="classtw__face_1a35b743b1503cfe53383c3a60fcaf4623" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_start_time</name></member>
+      <member refid="classtw__face_1ad2e626b2e40b1cff9c6f6be787d3d63d" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_start_x</name></member>
+      <member refid="classtw__face_1ab627ebcc8244826a39dbc546c154a1e8" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_start_y</name></member>
+      <member refid="classtw__face_1a2f130bd11d482e8567aa04b2abde291d" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>drag_width</name></member>
+      <member refid="class_face_watch___custom_windows_1ae9b4b5161c30d7242751168aabd606de" prot="public" virt="virtual"><scope>FaceWatch_CustomWindows</scope><name>draw</name></member>
+      <member refid="class_face_watch___custom_windows_1aa3039289556d9e97da1e9273fe3e5cce" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>draw_batteryicon</name></member>
+      <member refid="classtw__face_1ae7d8400d64f7d59c6e1e9b7eaee12643" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>draw_children</name></member>
+      <member refid="classtw__face_1a33f9a809180158da04ef616d179a7975" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>draw_children_scroll</name></member>
+      <member refid="class_face_watch___custom_windows_1a6189c834eb35491eaf8933430fc344bb" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>draw_hand</name></member>
+      <member refid="class_face_watch___custom_windows_1a98190da8e2ad05f548397ac5ab2bc9f1" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>draw_window</name></member>
+      <member refid="class_face_watch___custom_windows_1aae73995896dbe14c397afed6e9872b16" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>draw_window_objects</name></member>
+      <member refid="class_face_watch___custom_windows_1aaf962cca3f7112db37d9d151274b92e5" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>face_radius</name></member>
+      <member refid="classtw__face_1a39f3df6433aae1052c524f870857e50c" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>find_draggable_control</name></member>
+      <member refid="classtw__face_1ad1c25df1cd9ca801bd5d2c67ee44a156" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>get_control_height</name></member>
+      <member refid="classtw__face_1a52c708d81bcdab0c127a738089e19b2b" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>get_cpu_speed</name></member>
+      <member refid="classtw__face_1aeef984ad711bc06b4b62a19a255627bc" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>get_widget_height</name></member>
+      <member refid="class_face_watch___custom_windows_1a61481461dd26fe5a20f50bd8e1d70fdf" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>hours</name></member>
+      <member refid="classtw__face_1ad1b7564d901ad170e5b7df68f04d4716" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>inertia_x</name></member>
+      <member refid="classtw__face_1a0da244bddaf186eacf0893064007c574" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>inertia_y</name></member>
+      <member refid="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>is_cached</name></member>
+      <member refid="classtw__face_1ae638d9d240228539afc9ab7c033350cd" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>is_clock_face</name></member>
+      <member refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>is_dragging</name></member>
+      <member refid="classtw__face_1ac30b95b85f99fa326d343dc788fef5d1" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>is_face_cached</name></member>
+      <member refid="classtw__face_1af36389ae27fd78c0de22f9ab6f8e15e7" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>is_face_clock_face</name></member>
+      <member refid="classtw__face_1afd78ecb56ee6d2adffe8664923e6f9e4" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>is_scrolling</name></member>
+      <member refid="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>is_setup</name></member>
+      <member refid="class_face_watch___custom_windows_1abeb9d206e8422a2db61bee78f5b58b23" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>mins</name></member>
+      <member refid="class_face_watch___custom_windows_1ac1e352e7a88350a7a3c4f5fac3c83f77" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>month</name></member>
+      <member refid="class_face_watch___custom_windows_1a16fab51da165caf1cea48a5872f8669a" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>months</name></member>
+      <member refid="classtw__face_1ae9b7f7fde655ad5bfee9a4345f9ede3e" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>name</name></member>
+      <member refid="classtw__face_1ace76516e9533191a6b638c8991fc0393" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>navigation</name></member>
+      <member refid="classtw__face_1aed33f1d3677f2f858f7f70ec4e8c1b83" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>next_click_update</name></member>
+      <member refid="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>next_update</name></member>
+      <member refid="class_face_watch___custom_windows_1af02bb86e764411037b84eb463f25354e" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_hours</name></member>
+      <member refid="class_face_watch___custom_windows_1a4d4e8678389263bee847db4bc3b2479e" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_hours_rlo</name></member>
+      <member refid="class_face_watch___custom_windows_1a178a331baf5c576d2c0f88449f1b4240" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_hours_rro</name></member>
+      <member refid="class_face_watch___custom_windows_1aa5c12c53056842c15e2439b5688d23a6" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_lo</name></member>
+      <member refid="class_face_watch___custom_windows_1a8603930f988cf51f113a0d1d5b300e86" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_mins</name></member>
+      <member refid="class_face_watch___custom_windows_1ac8caa37efd69c4da380993a7f9f4c74c" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_mins_rlo</name></member>
+      <member refid="class_face_watch___custom_windows_1a8e602cbe9ef3a63787800b510af5e696" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_mins_rro</name></member>
+      <member refid="class_face_watch___custom_windows_1a3e0740487b153eecd78e6b8d4ee6ba15" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_ro</name></member>
+      <member refid="class_face_watch___custom_windows_1ab6eb57fef0b4f3cf30497edab6ef50e2" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>pos_secs</name></member>
+      <member refid="classtw__face_1a1b261fd794c01335af0e997d20657227" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>prevent_dragging</name></member>
+      <member refid="classtw__face_1a138dc7f9a514ab0e6c0b9d4b1f3f87f7" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>required_cpu_speed</name></member>
+      <member refid="classtw__face_1aaed17741f1b6c8d092880010e7f1c5d9" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>reset_cache_status</name></member>
+      <member refid="classtw__face_1aee23261d614d8bd363e69873167a78c5" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>reset_can_swipe_flags</name></member>
+      <member refid="classtw__face_1aad5763b5ee4c852a8abd58c5bfe663fd" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>scroll_pos</name></member>
+      <member refid="classtw__face_1a6e69452274b3260c49858937ae74661a" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>scroll_start_y</name></member>
+      <member refid="classtw__face_1afcfc0f769759459c8c7c08872af7317b" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>selectedControl</name></member>
+      <member refid="classtw__face_1a71e89c44b92c94a9993a925724794f27" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>set_navigation</name></member>
+      <member refid="classtw__face_1a3f5fefe28b97beb02e0cd30782580778" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>set_scrollable</name></member>
+      <member refid="classtw__face_1a62d0e643a009ee6210e2cee44eec5e3a" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>set_single_navigation</name></member>
+      <member refid="class_face_watch___custom_windows_1a2dc7d78cc037eaf6624ad31b1e1ab5f6" prot="public" virt="virtual"><scope>FaceWatch_CustomWindows</scope><name>setup</name></member>
+      <member refid="class_face_watch___custom_windows_1acbe9f4c5c9589be7153cf51fc2d01cfd" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>setup_trig</name></member>
+      <member refid="classtw__face_1ae77610f70ba6b542c37b6c8daca9a929" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>should_animate</name></member>
+      <member refid="class_face_watch___custom_windows_1a2dfabca6ae67e3014485d73745a2948e" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>show_borders</name></member>
+      <member refid="class_face_watch___custom_windows_1ae4afdff97055a3746864560198f73b01" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>show_toolbars</name></member>
+      <member refid="classtw__face_1adf1eeb08a54b5e8a5f18677961d07f95" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>update_period</name></member>
+      <member refid="class_face_watch___custom_windows_1aef834d816e711c448448baf1d49623b2" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>version</name></member>
+      <member refid="classtw__face_1a0f0e3e893b6edf1f3350b79ea7227cdd" prot="public" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>widget_process_clicks</name></member>
+      <member refid="classtw__face_1a4c4bf1f0010ed676c9cea26a446610a4" prot="protected" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>widgets</name></member>
+      <member refid="class_face_watch___custom_windows_1ad92f282db3accb0196a85f961cec9b31" prot="private" virt="non-virtual"><scope>FaceWatch_CustomWindows</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

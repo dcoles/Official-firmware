@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="tw__widget_8h" kind="file" language="C++">
+    <compoundname>tw_widget.h</compoundname>
+    <includes refid="display_8h" local="yes">display.h</includes>
+    <includedby refid="display_8cpp" local="yes">src/display.cpp</includedby>
+    <includedby refid="tw__face_8h" local="yes">src/tw_faces/tw_face.h</includedby>
+    <includedby refid="tw__widget_8cpp" local="yes">src/tw_widgets/tw_widget.cpp</includedby>
+    <includedby refid="widget___activity_ring_8h" local="yes">src/tw_widgets/widget_ActivityRing.h</includedby>
+    <includedby refid="widget___battery_8h" local="yes">src/tw_widgets/widget_Battery.h</includedby>
+    <includedby refid="widget___e_s_p32_8h" local="yes">src/tw_widgets/widget_ESP32.h</includedby>
+    <includedby refid="widget___message_8h" local="yes">src/tw_widgets/widget_Message.h</includedby>
+    <includedby refid="widget___open_weather_8h" local="yes">src/tw_widgets/widget_OpenWeather.h</includedby>
+    <includedby refid="widget___wifi_8h" local="yes">src/tw_widgets/widget_Wifi.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>Arduino.h</label>
+      </node>
+      <node id="2">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="13">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="7">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="20">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="21">
+        <label>Tween.h</label>
+      </node>
+      <node id="17">
+        <label>WiFi.h</label>
+      </node>
+      <node id="5">
+        <label>cst816t.h</label>
+      </node>
+      <node id="18">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="19">
+        <label>functional</label>
+      </node>
+      <node id="15">
+        <label>initializer_list</label>
+      </node>
+      <node id="11">
+        <label>json.h</label>
+      </node>
+      <node id="12">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="16">
+        <label>stdint.h</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/display.cpp</label>
+        <link refid="display_8cpp"/>
+      </node>
+      <node id="16">
+        <label>src/tinywatch.cpp</label>
+        <link refid="tinywatch_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/tw_apps/tw_app.cpp</label>
+        <link refid="tw__app_8cpp"/>
+      </node>
+      <node id="6">
+        <label>src/tw_faces/face_AppList.cpp</label>
+        <link refid="face___app_list_8cpp"/>
+      </node>
+      <node id="4">
+        <label>src/tw_faces/face_AppList.h</label>
+        <link refid="face___app_list_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>src/tw_faces/face_BatteryEmpty.cpp</label>
+        <link refid="face___battery_empty_8cpp"/>
+      </node>
+      <node id="7">
+        <label>src/tw_faces/face_BatteryEmpty.h</label>
+        <link refid="face___battery_empty_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>src/tw_faces/face_Boot.cpp</label>
+        <link refid="face___boot_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/tw_faces/face_Boot.h</label>
+        <link refid="face___boot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>src/tw_faces/face_Empty.cpp</label>
+        <link refid="face___empty_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/tw_faces/face_Empty.h</label>
+        <link refid="face___empty_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>src/tw_faces/face_IMU.cpp</label>
+        <link refid="face___i_m_u_8cpp"/>
+      </node>
+      <node id="13">
+        <label>src/tw_faces/face_IMU.h</label>
+        <link refid="face___i_m_u_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>src/tw_faces/face_Notifications.cpp</label>
+        <link refid="face___notifications_8cpp"/>
+      </node>
+      <node id="15">
+        <label>src/tw_faces/face_Notifications.h</label>
+        <link refid="face___notifications_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>src/tw_faces/face_Settings.cpp</label>
+        <link refid="face___settings_8cpp"/>
+      </node>
+      <node id="18">
+        <label>src/tw_faces/face_Settings.h</label>
+        <link refid="face___settings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>src/tw_faces/face_System.cpp</label>
+        <link refid="face___system_8cpp"/>
+      </node>
+      <node id="20">
+        <label>src/tw_faces/face_System.h</label>
+        <link refid="face___system_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>src/tw_faces/face_WatchSettings.cpp</label>
+        <link refid="face___watch_settings_8cpp"/>
+      </node>
+      <node id="22">
+        <label>src/tw_faces/face_WatchSettings.h</label>
+        <link refid="face___watch_settings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>src/tw_faces/face_Watch_CustomBinary.cpp</label>
+        <link refid="face___watch___custom_binary_8cpp"/>
+      </node>
+      <node id="24">
+        <label>src/tw_faces/face_Watch_CustomBinary.h</label>
+        <link refid="face___watch___custom_binary_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>src/tw_faces/face_Watch_CustomWindows.cpp</label>
+        <link refid="face___watch___custom_windows_8cpp"/>
+      </node>
+      <node id="26">
+        <label>src/tw_faces/face_Watch_CustomWindows.h</label>
+        <link refid="face___watch___custom_windows_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>src/tw_faces/face_Watch_DefaultAnalog.cpp</label>
+        <link refid="face___watch___default_analog_8cpp"/>
+      </node>
+      <node id="28">
+        <label>src/tw_faces/face_Watch_DefaultAnalog.h</label>
+        <link refid="face___watch___default_analog_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>src/tw_faces/face_Watch_DefaultDigital.cpp</label>
+        <link refid="face___watch___default_digital_8cpp"/>
+      </node>
+      <node id="30">
+        <label>src/tw_faces/face_Watch_DefaultDigital.h</label>
+        <link refid="face___watch___default_digital_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>src/tw_faces/tw_face.cpp</label>
+        <link refid="tw__face_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/tw_faces/tw_face.h</label>
+        <link refid="tw__face_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>src/tw_widgets/tw_widget.cpp</label>
+        <link refid="tw__widget_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>src/tw_widgets/widget_ActivityRing.cpp</label>
+        <link refid="widget___activity_ring_8cpp"/>
+      </node>
+      <node id="34">
+        <label>src/tw_widgets/widget_ActivityRing.h</label>
+        <link refid="widget___activity_ring_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>src/tw_widgets/widget_Battery.cpp</label>
+        <link refid="widget___battery_8cpp"/>
+      </node>
+      <node id="36">
+        <label>src/tw_widgets/widget_Battery.h</label>
+        <link refid="widget___battery_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>src/tw_widgets/widget_ESP32.cpp</label>
+        <link refid="widget___e_s_p32_8cpp"/>
+      </node>
+      <node id="38">
+        <label>src/tw_widgets/widget_ESP32.h</label>
+        <link refid="widget___e_s_p32_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>src/tw_widgets/widget_Message.cpp</label>
+        <link refid="widget___message_8cpp"/>
+      </node>
+      <node id="40">
+        <label>src/tw_widgets/widget_Message.h</label>
+        <link refid="widget___message_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>src/tw_widgets/widget_OpenWeather.cpp</label>
+        <link refid="widget___open_weather_8cpp"/>
+      </node>
+      <node id="42">
+        <label>src/tw_widgets/widget_OpenWeather.h</label>
+        <link refid="widget___open_weather_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>src/tw_widgets/widget_Wifi.cpp</label>
+        <link refid="widget___wifi_8cpp"/>
+      </node>
+      <node id="44">
+        <label>src/tw_widgets/widget_Wifi.h</label>
+        <link refid="widget___wifi_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classtw__widget" prot="public">tw_widget</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="display_8h" kindref="compound">display.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtw__face" kindref="compound">tw_face</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classtw__widget" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtw__widget" kindref="compound">tw_widget</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1a9256a8106c4e5c2f3a79df688399a1b2" kindref="member">tw_widget</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__widget_1a6a7ee578fc7245c7f1c13c5d14f34613" kindref="member">~tw_widget</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1aa8ed9e767718aaf10d38f707c81b1baa" kindref="member">create</ref>(String<sp/>_name,<sp/>uint<sp/>_pos_x,<sp/>uint<sp/>_pos_y,<sp/>uint<sp/>_width,<sp/>uint<sp/>_height,<sp/>uint<sp/>_update_period);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a93fcf490206680ba5b8ad20134686856" kindref="member">set_parent</ref>(<ref refid="classtw__face" kindref="compound">tw_face</ref><sp/>*_parent);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a9a5b5f3d971b21e223650b3db33ce53d" kindref="member">bounds_check</ref>(int16_t<sp/>click_pos_x,<sp/>int16_t<sp/>click_pos_y);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__widget_1af517be976fc16074e1ae9e2f102fa348" kindref="member">get_height</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a26a1faf7b703bdb1aa569dc93f4d2e62" kindref="member">draw</ref>(uint8_t<sp/>canvasid,<sp/>int16_t<sp/>_pos_x,<sp/>int16_t<sp/>_pos_y,<sp/>uint8_t<sp/>style_hint);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a26a1faf7b703bdb1aa569dc93f4d2e62" kindref="member">draw</ref>(uint<sp/>canvasid,<sp/>uint8_t<sp/>style_hint)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1ac07d4aa7d44f1afaabde5d61977bc734" kindref="member">click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1ad2f4b8cad406bd95f59afd04765a19d3" kindref="member">click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a0bf4f570d9129b9953fd8df0d6110957" kindref="member">click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face" kindref="compound">tw_face</ref><sp/>*<ref refid="classtw__widget_1a0c7106059fe14a973221930864a87301" kindref="member">parent</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classtw__widget_1a2cc08490e648fb07fce3320b5e30bf32" kindref="member">name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classtw__widget_1ad3d35433170c80cadb47dc5c4d400a54" kindref="member">update_period</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classtw__widget_1a0b44159d4ebb7cf2a6f83fa18f21d938" kindref="member">next_update</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" kindref="member">width</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" kindref="member">height</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" kindref="member">pos_x</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" kindref="member">pos_y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__widget_1a1454f31ce925dfb7dd41f427edb808c3" kindref="member">padding_x</ref><sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__widget_1ad5dececcf61d7adea87112a54b055669" kindref="member">padding_y</ref><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classtw__widget_1abbf0c6ed88dbcbde466da308fe25280a" kindref="member">bounds_x</ref>[2]<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classtw__widget_1a7b3ace09f0b78e703cee368ff9333145" kindref="member">bounds_y</ref>[2]<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_widgets/tw_widget.h"/>
+  </compounddef>
+</doxygen>

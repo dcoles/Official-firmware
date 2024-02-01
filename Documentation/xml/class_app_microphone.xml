@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_app_microphone" kind="class" language="C++" prot="public">
+    <compoundname>AppMicrophone</compoundname>
+    <basecompoundref refid="classtw__app" prot="public" virt="non-virtual">tw_app</basecompoundref>
+    <includes local="no">app_Microphone.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppMicrophone::bands[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>bands</name>
+        <qualifiedname>AppMicrophone::bands</qualifiedname>
+        <initializer>= {0, 0, 0, 0, 0, 0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="36" column="5" bodyfile="src/tw_apps/app_Microphone.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a119f92e336de548a613df0d09316bb58" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AppMicrophone::waveform_size</definition>
+        <argsstring></argsstring>
+        <name>waveform_size</name>
+        <qualifiedname>AppMicrophone::waveform_size</qualifiedname>
+        <initializer>= 120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="37" column="9" bodyfile="src/tw_apps/app_Microphone.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t AppMicrophone::waveform_data[200]</definition>
+        <argsstring>[200]</argsstring>
+        <name>waveform_data</name>
+        <qualifiedname>AppMicrophone::waveform_data</qualifiedname>
+        <initializer>= {0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="38" column="9" bodyfile="src/tw_apps/app_Microphone.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1ac2e9642935dcb3b81c6ad6496a20dfba" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t AppMicrophone::waveform_last</definition>
+        <argsstring></argsstring>
+        <name>waveform_last</name>
+        <qualifiedname>AppMicrophone::waveform_last</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="39" column="9" bodyfile="src/tw_apps/app_Microphone.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double AppMicrophone::vReal[BLOCK_SIZE]</definition>
+        <argsstring>[BLOCK_SIZE]</argsstring>
+        <name>vReal</name>
+        <qualifiedname>AppMicrophone::vReal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="41" column="8" bodyfile="src/tw_apps/app_Microphone.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1ae5a03ca2a43e2dc92c2ea120310b51f1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double AppMicrophone::vImag[BLOCK_SIZE]</definition>
+        <argsstring>[BLOCK_SIZE]</argsstring>
+        <name>vImag</name>
+        <qualifiedname>AppMicrophone::vImag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="42" column="8" bodyfile="src/tw_apps/app_Microphone.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" prot="private" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t AppMicrophone::raw_samples[BLOCK_SIZE]</definition>
+        <argsstring>[BLOCK_SIZE]</argsstring>
+        <name>raw_samples</name>
+        <qualifiedname>AppMicrophone::raw_samples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="43" column="9" bodyfile="src/tw_apps/app_Microphone.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1ad6ad9359a525e9580b29ac76bf25bfb6" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double AppMicrophone::signalFrequency</definition>
+        <argsstring></argsstring>
+        <name>signalFrequency</name>
+        <qualifiedname>AppMicrophone::signalFrequency</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="45" column="14" bodyfile="src/tw_apps/app_Microphone.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1af97d22fc9b62c720226248c07eadb45b" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double AppMicrophone::samplingFrequency</definition>
+        <argsstring></argsstring>
+        <name>samplingFrequency</name>
+        <qualifiedname>AppMicrophone::samplingFrequency</qualifiedname>
+        <initializer>= 10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="46" column="14" bodyfile="src/tw_apps/app_Microphone.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" prot="private" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t AppMicrophone::amplitude</definition>
+        <argsstring></argsstring>
+        <name>amplitude</name>
+        <qualifiedname>AppMicrophone::amplitude</qualifiedname>
+        <initializer>= 150</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="47" column="15" bodyfile="src/tw_apps/app_Microphone.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a8e0f9808c9257b6bce4def881cea62ac" prot="private" static="no" mutable="no">
+        <type>const i2s_port_t</type>
+        <definition>const i2s_port_t AppMicrophone::I2S_PORT</definition>
+        <argsstring></argsstring>
+        <name>I2S_PORT</name>
+        <qualifiedname>AppMicrophone::I2S_PORT</qualifiedname>
+        <initializer>= I2S_NUM_0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="49" column="18" bodyfile="src/tw_apps/app_Microphone.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t AppMicrophone::visual_state</definition>
+        <argsstring></argsstring>
+        <name>visual_state</name>
+        <qualifiedname>AppMicrophone::visual_state</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="51" column="9" bodyfile="src/tw_apps/app_Microphone.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a738624ce044438b9c857004760938569" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AppMicrophone::should_calc</definition>
+        <argsstring></argsstring>
+        <name>should_calc</name>
+        <qualifiedname>AppMicrophone::should_calc</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="53" column="6" bodyfile="src/tw_apps/app_Microphone.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a4cbae7b10fe94971f52a9100cbbdaca8" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long AppMicrophone::shutdown_timer</definition>
+        <argsstring></argsstring>
+        <name>shutdown_timer</name>
+        <qualifiedname>AppMicrophone::shutdown_timer</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="55" column="15" bodyfile="src/tw_apps/app_Microphone.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a1de24a6e19e242fa256dba6205f4e514" prot="private" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t AppMicrophone::colors[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>colors</name>
+        <qualifiedname>AppMicrophone::colors</qualifiedname>
+        <initializer>= {
+			<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(255, 0, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(255, 128, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(255, 255, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(128, 255, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 255, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 255, 128), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 255, 255), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 128, 255), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 0, 255),
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="57" column="16" bodyfile="src/tw_apps/app_Microphone.h" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1aa65a29e46628f4c5c7617247c26faddb" prot="private" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t AppMicrophone::colors_dark[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>colors_dark</name>
+        <qualifiedname>AppMicrophone::colors_dark</qualifiedname>
+        <initializer>= {
+			<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(128, 0, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(128, 64, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(128, 128, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(64, 128, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 128, 0), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 128, 64), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 128, 128), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 64, 128), <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0, 0, 128),
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="61" column="16" bodyfile="src/tw_apps/app_Microphone.h" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_microphone_1a089191cfbf8f22da5b22fcf8b581656b" prot="private" static="no" mutable="no">
+        <type>arduinoFFT</type>
+        <definition>arduinoFFT AppMicrophone::FFT</definition>
+        <argsstring></argsstring>
+        <name>FFT</name>
+        <qualifiedname>AppMicrophone::FFT</qualifiedname>
+        <initializer>= arduinoFFT()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="64" column="12" bodyfile="src/tw_apps/app_Microphone.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_microphone_1a2868dcbeec275ac0c25414d3f51af90d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppMicrophone::setup</definition>
+        <argsstring>(void)</argsstring>
+        <name>setup</name>
+        <qualifiedname>AppMicrophone::setup</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Called the first time an app is opened. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Put any one off setup code in here </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="23" column="6" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="12" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_microphone_1a3374361517cde1ec48c3066180fefd7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppMicrophone::pre_start</definition>
+        <argsstring>(void)</argsstring>
+        <name>pre_start</name>
+        <qualifiedname>AppMicrophone::pre_start</qualifiedname>
+        <reimplements refid="classtw__app_1a9210babf07943910c5324c71d0cb4575">pre_start</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Put anything in here that you want to have run every time the app is opened. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is not the same as <ref refid="class_app_microphone_1a2868dcbeec275ac0c25414d3f51af90d" kindref="member">setup()</ref> above that only ever gets called the first time the app opens </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="24" column="6" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_microphone_1af062de6d4e4191d30579caa2cba9dd71" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppMicrophone::draw</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>draw</name>
+        <qualifiedname>AppMicrophone::draw</qualifiedname>
+        <reimplements refid="classtw__app_1aac3219a95c9f0b26a6f4226ba2bc9bc2">draw</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+<para>Usual draw code that draws the apps content, like a face draw it&apos;s content. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="25" column="6" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="84" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_microphone_1a4f7c9b8e5e9ac7eacc8e9e228eddfd67" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppMicrophone::draw_icon</definition>
+        <argsstring>(uint8_t canvasid, int16_t _pos_x, int16_t _pos_y, uint8_t style_hint)</argsstring>
+        <name>draw_icon</name>
+        <qualifiedname>AppMicrophone::draw_icon</qualifiedname>
+        <reimplements refid="classtw__app_1af52944199ec0fcedf5a0d10dd2b3cda3">draw_icon</reimplements>
+        <param>
+          <type>uint8_t</type>
+          <declname>canvasid</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>_pos_y</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>style_hint</declname>
+        </param>
+        <briefdescription>
+<para>Draw the icon that gets shown on the app menu face. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Icons are 64x64 with rounded corners as per the code below, but the inner content can be anything that represents the app well <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>canvasid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style_hint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="26" column="6" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="61" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_microphone_1a7253960b96e01c8c0b08870f83825399" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool AppMicrophone::click</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>AppMicrophone::click</qualifiedname>
+        <reimplements refid="classtw__app_1aff74b36c204aa2c2064478c3aaff7b85">click</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+<para>Did we click on the app? If so, where? </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>click_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>click_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="27" column="6" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="169" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_microphone_1a9588f633630342330507570cd10e685b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool AppMicrophone::click_double</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>AppMicrophone::click_double</qualifiedname>
+        <reimplements refid="classtw__app_1a0ab331b94d4ebfc9210030292e7d36ec">click_double</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+<para>Did we double click on the app? If so, where? </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>click_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>click_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="28" column="6" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_microphone_1a1ae20553e83be4534241100eaa56c243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppMicrophone::do_fft_calcs</definition>
+        <argsstring>()</argsstring>
+        <name>do_fft_calcs</name>
+        <qualifiedname>AppMicrophone::do_fft_calcs</qualifiedname>
+        <briefdescription>
+<para>Calculate the FFT stuff to use to display the VU meter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="31" column="6" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="192" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_microphone_1af21c9e10dd5f781358eb28606b32c4a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppMicrophone::do_waveform_calcs</definition>
+        <argsstring>()</argsstring>
+        <name>do_waveform_calcs</name>
+        <qualifiedname>AppMicrophone::do_waveform_calcs</qualifiedname>
+        <briefdescription>
+<para>Calculate the waveform data to display various waveforms. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="32" column="6" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="242" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_microphone_1a78629ec2c830bb67f5d856bc164ab8f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppMicrophone::fill_arc</definition>
+        <argsstring>(int x, int y, int start_angle, int seg_count, int rx, int ry, int w, unsigned int colour)</argsstring>
+        <name>fill_arc</name>
+        <qualifiedname>AppMicrophone::fill_arc</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_angle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seg_count</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.h" line="33" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AppMicrophone</label>
+        <link refid="class_app_microphone"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_app</label>
+        <link refid="classtw__app"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AppMicrophone</label>
+        <link refid="class_app_microphone"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_app</label>
+        <link refid="classtw__app"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_apps/app_Microphone.h" line="19" column="1" bodyfile="src/tw_apps/app_Microphone.h" bodystart="20" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>_x</name></member>
+      <member refid="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>_y</name></member>
+      <member refid="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>add</name></member>
+      <member refid="classtw__app_1aa8977866b6bc2829b4be921fdbf8d016" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>add</name></member>
+      <member refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>amplitude</name></member>
+      <member refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>bands</name></member>
+      <member refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>canvasid</name></member>
+      <member refid="class_app_microphone_1a7253960b96e01c8c0b08870f83825399" prot="public" virt="virtual"><scope>AppMicrophone</scope><name>click</name></member>
+      <member refid="class_app_microphone_1a9588f633630342330507570cd10e685b" prot="public" virt="virtual"><scope>AppMicrophone</scope><name>click_double</name></member>
+      <member refid="classtw__app_1a49c377582445587b4127d6497bde2a3b" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>click_icon</name></member>
+      <member refid="classtw__app_1ab1914aae31b736e21441c926a7045854" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>close</name></member>
+      <member refid="class_app_microphone_1a1de24a6e19e242fa256dba6205f4e514" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>colors</name></member>
+      <member refid="class_app_microphone_1aa65a29e46628f4c5c7617247c26faddb" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>colors_dark</name></member>
+      <member refid="class_app_microphone_1a1ae20553e83be4534241100eaa56c243" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>do_fft_calcs</name></member>
+      <member refid="class_app_microphone_1af21c9e10dd5f781358eb28606b32c4a3" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>do_waveform_calcs</name></member>
+      <member refid="class_app_microphone_1af062de6d4e4191d30579caa2cba9dd71" prot="public" virt="virtual"><scope>AppMicrophone</scope><name>draw</name></member>
+      <member refid="class_app_microphone_1a4f7c9b8e5e9ac7eacc8e9e228eddfd67" prot="public" virt="virtual"><scope>AppMicrophone</scope><name>draw_icon</name></member>
+      <member refid="class_app_microphone_1a089191cfbf8f22da5b22fcf8b581656b" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>FFT</name></member>
+      <member refid="class_app_microphone_1a78629ec2c830bb67f5d856bc164ab8f2" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>fill_arc</name></member>
+      <member refid="class_app_microphone_1a8e0f9808c9257b6bce4def881cea62ac" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>I2S_PORT</name></member>
+      <member refid="classtw__app_1a7a8e55b2e1ee1d910b50b0688ae9369b" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>icon_height</name></member>
+      <member refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>icon_sprite</name></member>
+      <member refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>icon_width</name></member>
+      <member refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>icon_x</name></member>
+      <member refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>icon_y</name></member>
+      <member refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>is_icon_cached</name></member>
+      <member refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>is_setup</name></member>
+      <member refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>name</name></member>
+      <member refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>next_update</name></member>
+      <member refid="classtw__app_1af0a4b68423257bdeaa3c8ea77635a48f" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>owner</name></member>
+      <member refid="class_app_microphone_1a3374361517cde1ec48c3066180fefd7e" prot="public" virt="virtual"><scope>AppMicrophone</scope><name>pre_start</name></member>
+      <member refid="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>raw_samples</name></member>
+      <member refid="classtw__app_1a77f9e65c0d5514ea4ed8f0a00e2b2db9" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>required_cpu_speed</name></member>
+      <member refid="class_app_microphone_1af97d22fc9b62c720226248c07eadb45b" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>samplingFrequency</name></member>
+      <member refid="classtw__app_1a5cf0211251f14dd57c0f575c4ac2ec04" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>set_canvas</name></member>
+      <member refid="class_app_microphone_1a2868dcbeec275ac0c25414d3f51af90d" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>setup</name></member>
+      <member refid="class_app_microphone_1a738624ce044438b9c857004760938569" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>should_calc</name></member>
+      <member refid="class_app_microphone_1a4cbae7b10fe94971f52a9100cbbdaca8" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>shutdown_timer</name></member>
+      <member refid="class_app_microphone_1ad6ad9359a525e9580b29ac76bf25bfb6" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>signalFrequency</name></member>
+      <member refid="classtw__app_1a415b5f5015e2f10ea3c1e627d58d289f" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>tw_app</name></member>
+      <member refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" prot="protected" virt="non-virtual"><scope>AppMicrophone</scope><name>update_period</name></member>
+      <member refid="class_app_microphone_1ae5a03ca2a43e2dc92c2ea120310b51f1" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>vImag</name></member>
+      <member refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>visual_state</name></member>
+      <member refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>vReal</name></member>
+      <member refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>waveform_data</name></member>
+      <member refid="class_app_microphone_1ac2e9642935dcb3b81c6ad6496a20dfba" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>waveform_last</name></member>
+      <member refid="class_app_microphone_1a119f92e336de548a613df0d09316bb58" prot="private" virt="non-virtual"><scope>AppMicrophone</scope><name>waveform_size</name></member>
+      <member refid="classtw__app_1a59f9dd493e97a436ee39365427dd389b" prot="public" virt="non-virtual"><scope>AppMicrophone</scope><name>~tw_app</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

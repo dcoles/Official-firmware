@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="webserver_8h" kind="file" language="C++">
+    <compoundname>webserver.h</compoundname>
+    <includes refid="wifi__common_8h" local="yes">wifi_common.h</includes>
+    <includes local="no">Arduino.h</includes>
+    <includes local="no">DNSServer.h</includes>
+    <includes local="no">ESPAsyncWebServer.h</includes>
+    <includes local="no">ESPmDNS.h</includes>
+    <includes local="no">HTTPClient.h</includes>
+    <includes local="no">WiFi.h</includes>
+    <includedby refid="tinywatch_8cpp" local="yes">src/tinywatch.cpp</includedby>
+    <includedby refid="widget___wifi_8cpp" local="yes">src/tw_widgets/widget_Wifi.cpp</includedby>
+    <includedby refid="webserver_8cpp" local="yes">src/web/webserver.cpp</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>Arduino.h</label>
+      </node>
+      <node id="3">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/web/webserver.h</label>
+        <link refid="webserver_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>DNSServer.h</label>
+      </node>
+      <node id="9">
+        <label>ESPAsyncWebServer.h</label>
+      </node>
+      <node id="10">
+        <label>ESPmDNS.h</label>
+      </node>
+      <node id="11">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="7">
+        <label>WiFi.h</label>
+      </node>
+      <node id="4">
+        <label>initializer_list</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/tinywatch.cpp</label>
+        <link refid="tinywatch_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/tw_widgets/widget_Wifi.cpp</label>
+        <link refid="widget___wifi_8cpp"/>
+      </node>
+      <node id="4">
+        <label>src/web/webserver.cpp</label>
+        <link refid="webserver_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/web/webserver.h</label>
+        <link refid="webserver_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_web_server" prot="public">WebServer</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="webserver_8h_1a42e023f2152e493ce112d45863083153" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="class_web_server" kindref="compound">WebServer</ref></type>
+        <definition>WebServer web_server</definition>
+        <argsstring></argsstring>
+        <name>web_server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="29" column="18" bodyfile="src/web/webserver.cpp" bodystart="109" bodyend="-1" declfile="src/web/webserver.h" declline="29" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="wifi__common_8h" kindref="compound">wifi_common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Arduino.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;DNSServer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ESPAsyncWebServer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ESPmDNS.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;HTTPClient.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;WiFi.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_web_server" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_web_server" kindref="compound">WebServer</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_web_server_1ad053f4e1808a3c10c7522d0dbbbc031a" kindref="member">WebServer</ref>()<sp/>:<sp/><ref refid="class_web_server_1ade764d699c594cd1eb5c38556fb58937" kindref="member">web_server</ref>(80)<sp/>{}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_server_1aa11a807dd663199f91cc3571a22fc936" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_server_1a26b984084ea122ca20cf70324b44aca6" kindref="member">start_callback</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>success,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>&amp;response);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_server_1a09e0bc35886a3088dec9e459eb99092d" kindref="member">stop</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>restart);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_web_server_1a8513128c907be1e630d22dc3402d2b14" kindref="member">process</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_web_server_1ae4afb83030c87b83425f0ca3a6f49b72" kindref="member">is_running</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>String<sp/><ref refid="class_web_server_1af173220cfa6fb71452ff6fad8a1b5a45" kindref="member">processor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>&amp;var);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_web_server_1a7f258a6e30591809c0e14b844b2c9e9c" kindref="member">_running</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AsyncWebServer<sp/><ref refid="class_web_server_1ade764d699c594cd1eb5c38556fb58937" kindref="member">web_server</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DNSServer<sp/><ref refid="class_web_server_1a167caa34716b4c5b58f5e6e48107df77" kindref="member">dns_server</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_web_server" kindref="compound">WebServer</ref><sp/><ref refid="webserver_8h_1a42e023f2152e493ce112d45863083153" kindref="member">web_server</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/web/webserver.h"/>
+  </compounddef>
+</doxygen>

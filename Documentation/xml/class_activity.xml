@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_activity" kind="class" language="C++" prot="public">
+    <compoundname>Activity</compoundname>
+    <includes local="no">activity.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_activity___data" kindref="compound">Activity_Data</ref></type>
+        <definition>Activity_Data Activity::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>Activity::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="27" column="15" bodyfile="src/activity.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_activity_1acb1f94f911de9f67eea0d5251417188b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Activity::loaded</definition>
+        <argsstring></argsstring>
+        <name>loaded</name>
+        <qualifiedname>Activity::loaded</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="35" column="6" bodyfile="src/activity.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_activity_1afb1f89c6bbcd9be475e267615e8ab6fa" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *</type>
+        <definition>constexpr const char* Activity::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <qualifiedname>Activity::filename</qualifiedname>
+        <initializer>= &quot;/activity.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="41" column="29" bodyfile="src/activity.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_activity_1a218a8407a46e4170bb08c1ed97ba03db" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *</type>
+        <definition>constexpr const char* Activity::tmp_filename</definition>
+        <argsstring></argsstring>
+        <name>tmp_filename</name>
+        <qualifiedname>Activity::tmp_filename</qualifiedname>
+        <initializer>= &quot;/tmp_activity.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="42" column="29" bodyfile="src/activity.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_activity_1a8048049ce777a64219c3fa110aef72be" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Activity::max_time_between_saves</definition>
+        <argsstring></argsstring>
+        <name>max_time_between_saves</name>
+        <qualifiedname>Activity::max_time_between_saves</qualifiedname>
+        <initializer>= 300000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="44" column="15" bodyfile="src/activity.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_activity_1a996870b92eaf75e9e00cdaf244710782" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Activity::last_save_time</definition>
+        <argsstring></argsstring>
+        <name>last_save_time</name>
+        <qualifiedname>Activity::last_save_time</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="45" column="15" bodyfile="src/activity.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_activity_1a285ded5fb1bb6c7a9a4cc937e9d708e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Activity::load</definition>
+        <argsstring>()</argsstring>
+        <name>load</name>
+        <qualifiedname>Activity::load</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="29" column="6" bodyfile="src/activity.cpp" bodystart="9" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_activity_1ae9b6a836963290bb19c016ca07311fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Activity::save</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>save</name>
+        <qualifiedname>Activity::save</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="30" column="6" bodyfile="src/activity.cpp" bodystart="60" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_activity_1af1341ff0d7c81a078f784772e7ffdff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Activity::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>Activity::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="31" column="6" bodyfile="src/activity.cpp" bodystart="99" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_activity_1a04271bc7ffcf8a5b07e2743f8014d74a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Activity::track_steps</definition>
+        <argsstring>(uint32_t steps, uint8_t day, uint8_t month, uint16_t year)</argsstring>
+        <name>track_steps</name>
+        <qualifiedname>Activity::track_steps</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>steps</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/activity.h" line="33" column="6" bodyfile="src/activity.cpp" bodystart="111" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Activity</label>
+        <link refid="class_activity"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Activity_Data</label>
+        <link refid="struct_activity___data"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/activity.h" line="24" column="1" bodyfile="src/activity.h" bodystart="25" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_activity_1af1341ff0d7c81a078f784772e7ffdff1" prot="public" virt="non-virtual"><scope>Activity</scope><name>create</name></member>
+      <member refid="class_activity_1abe6acef25802882419d9c3ef18b5a4f2" prot="public" virt="non-virtual"><scope>Activity</scope><name>data</name></member>
+      <member refid="class_activity_1afb1f89c6bbcd9be475e267615e8ab6fa" prot="private" virt="non-virtual"><scope>Activity</scope><name>filename</name></member>
+      <member refid="class_activity_1a996870b92eaf75e9e00cdaf244710782" prot="private" virt="non-virtual"><scope>Activity</scope><name>last_save_time</name></member>
+      <member refid="class_activity_1a285ded5fb1bb6c7a9a4cc937e9d708e7" prot="public" virt="non-virtual"><scope>Activity</scope><name>load</name></member>
+      <member refid="class_activity_1acb1f94f911de9f67eea0d5251417188b" prot="public" virt="non-virtual"><scope>Activity</scope><name>loaded</name></member>
+      <member refid="class_activity_1a8048049ce777a64219c3fa110aef72be" prot="private" virt="non-virtual"><scope>Activity</scope><name>max_time_between_saves</name></member>
+      <member refid="class_activity_1ae9b6a836963290bb19c016ca07311fe6" prot="public" virt="non-virtual"><scope>Activity</scope><name>save</name></member>
+      <member refid="class_activity_1a218a8407a46e4170bb08c1ed97ba03db" prot="private" virt="non-virtual"><scope>Activity</scope><name>tmp_filename</name></member>
+      <member refid="class_activity_1a04271bc7ffcf8a5b07e2743f8014d74a" prot="public" virt="non-virtual"><scope>Activity</scope><name>track_steps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_settings" kind="class" language="C++" prot="public">
+    <compoundname>Settings</compoundname>
+    <includes local="no">settings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_config" kindref="compound">Config</ref></type>
+        <definition>Config Settings::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>Settings::config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="69" column="8" bodyfile="src/settings/settings.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a509f772f09ffc6fff7979da55a31a39e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref></type>
+        <definition>SettingsOptionBool Settings::setting_wifi_start</definition>
+        <argsstring></argsstring>
+        <name>setting_wifi_start</name>
+        <qualifiedname>Settings::setting_wifi_start</qualifiedname>
+        <initializer>{&amp;config.wifi_start}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="82" column="20" bodyfile="src/settings/settings.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1aa42da92c05be487651de3a57ba3a53b0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref></type>
+        <definition>SettingsOptionBool Settings::setting_time_24hour</definition>
+        <argsstring></argsstring>
+        <name>setting_time_24hour</name>
+        <qualifiedname>Settings::setting_time_24hour</qualifiedname>
+        <initializer>{&amp;config.time_24hour}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="83" column="20" bodyfile="src/settings/settings.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1ab8a0fdb8c98a2f7738995106b522f17d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref></type>
+        <definition>SettingsOptionBool Settings::setting_time_dateformat</definition>
+        <argsstring></argsstring>
+        <name>setting_time_dateformat</name>
+        <qualifiedname>Settings::setting_time_dateformat</qualifiedname>
+        <initializer>{&amp;config.time_dateformat}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="84" column="20" bodyfile="src/settings/settings.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1ae7292aa2bf29892b83474e794f4d8764" prot="public" static="no" mutable="no">
+        <type><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref></type>
+        <definition>SettingsOptionBool Settings::setting_left_handed</definition>
+        <argsstring></argsstring>
+        <name>setting_left_handed</name>
+        <qualifiedname>Settings::setting_left_handed</qualifiedname>
+        <initializer>{&amp;config.left_handed}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="85" column="20" bodyfile="src/settings/settings.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a1207215c27f2d0beb3b23115e0001463" prot="public" static="no" mutable="no">
+        <type><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref></type>
+        <definition>SettingsOptionBool Settings::setting_flipped</definition>
+        <argsstring></argsstring>
+        <name>setting_flipped</name>
+        <qualifiedname>Settings::setting_flipped</qualifiedname>
+        <initializer>{&amp;config.flipped}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="86" column="20" bodyfile="src/settings/settings.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a07f3193633d813269b3495255dc63125" prot="public" static="no" mutable="no">
+        <type><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref></type>
+        <definition>SettingsOptionBool Settings::setting_audio_ui</definition>
+        <argsstring></argsstring>
+        <name>setting_audio_ui</name>
+        <qualifiedname>Settings::setting_audio_ui</qualifiedname>
+        <initializer>{&amp;config.audio_ui}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="87" column="20" bodyfile="src/settings/settings.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a7b75bfb359b1533477accd5e65601f60" prot="public" static="no" mutable="no">
+        <type><ref refid="class_settings_option_bool" kindref="compound">SettingsOptionBool</ref></type>
+        <definition>SettingsOptionBool Settings::setting_audio_alarm</definition>
+        <argsstring></argsstring>
+        <name>setting_audio_alarm</name>
+        <qualifiedname>Settings::setting_audio_alarm</qualifiedname>
+        <initializer>{&amp;config.audio_alarm}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="88" column="20" bodyfile="src/settings/settings.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_settings_1adb8b7aff516eea8ae61ea171321ec857" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *</type>
+        <definition>constexpr const char* Settings::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <qualifiedname>Settings::filename</qualifiedname>
+        <initializer>= &quot;/settings.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="91" column="29" bodyfile="src/settings/settings.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a11318b2647ea7d36db2185fc652c2c8a" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *</type>
+        <definition>constexpr const char* Settings::tmp_filename</definition>
+        <argsstring></argsstring>
+        <name>tmp_filename</name>
+        <qualifiedname>Settings::tmp_filename</qualifiedname>
+        <initializer>= &quot;/tmp_settings.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="92" column="29" bodyfile="src/settings/settings.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *</type>
+        <definition>constexpr const char* Settings::log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <qualifiedname>Settings::log</qualifiedname>
+        <initializer>= &quot;/log.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="93" column="29" bodyfile="src/settings/settings.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a6b7deab2e703293098334c3bbc60537e" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *</type>
+        <definition>constexpr const char* Settings::backup_prefix</definition>
+        <argsstring></argsstring>
+        <name>backup_prefix</name>
+        <qualifiedname>Settings::backup_prefix</qualifiedname>
+        <initializer>= &quot;settings_back_&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="94" column="29" bodyfile="src/settings/settings.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1af893529f9727266e69ab3dd11de07eed" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Settings::max_backups</definition>
+        <argsstring></argsstring>
+        <name>max_backups</name>
+        <qualifiedname>Settings::max_backups</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="95" column="18" bodyfile="src/settings/settings.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_settings_1ae9cfa0afc12575661b57f107fca803e6" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Settings::max_time_between_saves</definition>
+        <argsstring></argsstring>
+        <name>max_time_between_saves</name>
+        <qualifiedname>Settings::max_time_between_saves</qualifiedname>
+        <initializer>= 60000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="98" column="15" bodyfile="src/settings/settings.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1a142b93e70d4701aec73d790d0636003c" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Settings::last_save_time</definition>
+        <argsstring></argsstring>
+        <name>last_save_time</name>
+        <qualifiedname>Settings::last_save_time</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="99" column="15" bodyfile="src/settings/settings.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" prot="private" static="no" mutable="no">
+        <type>Preferences</type>
+        <definition>Preferences Settings::nvs</definition>
+        <argsstring></argsstring>
+        <name>nvs</name>
+        <qualifiedname>Settings::nvs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="102" column="13" bodyfile="src/settings/settings.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_settings_1a06d1d58938c8fdc7a577e52f9ffda29d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Settings::load</definition>
+        <argsstring>()</argsstring>
+        <name>load</name>
+        <qualifiedname>Settings::load</qualifiedname>
+        <briefdescription>
+<para>Load the user settings from the user flash FS and deserialise them from JSON back into the <ref refid="struct_config" kindref="compound">Config</ref> struct. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="70" column="6" bodyfile="src/settings/settings.cpp" bodystart="83" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1a00dcb4d9f9a4f7deaee375a545947752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Settings::save</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>save</name>
+        <qualifiedname>Settings::save</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+<para>Serialise the cConfig struct into JSON and save to the user flash FS Only check for save every 5 mins, and then only save if the data has changed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>We only want to save data when it&apos;s changed because we dont want to wear out the Flash.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for the save regardless of time, but again, only if the data has changed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="71" column="6" bodyfile="src/settings/settings.cpp" bodystart="197" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1aa4e5b7dd1bc7037dae326078619852a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Settings::backup</definition>
+        <argsstring>()</argsstring>
+        <name>backup</name>
+        <qualifiedname>Settings::backup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="72" column="6" bodyfile="src/settings/settings.cpp" bodystart="147" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1aa65b7c45b1ba3a125a818224094d63d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Settings::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>Settings::create</qualifiedname>
+        <briefdescription>
+<para>Create a new set of save data, either because this is the very first save, or because the load failed due to FS corruption, or malformed JSON data that could not be deserialised. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Once created, the data is automatically saved to flash.</para>
+<para><simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="73" column="6" bodyfile="src/settings/settings.cpp" bodystart="261" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1a1a20fe3938eafa97da459177007ab050" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings::print_file</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_file</name>
+        <qualifiedname>Settings::print_file</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="74" column="6" bodyfile="src/settings/settings.cpp" bodystart="274" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1a3c276563c885a8a30ef340e6e9e6d979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Settings::has_wifi_creds</definition>
+        <argsstring>(void)</argsstring>
+        <name>has_wifi_creds</name>
+        <qualifiedname>Settings::has_wifi_creds</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Checks to see if there are WiFi credentials stores in the user settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true credentials are not empty strings </para>
+</simplesect>
+<simplesect kind="return"><para>false credentials are empty strings </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="75" column="6" bodyfile="src/settings/settings.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1a53c5758b55206fe6754ed044a50a41ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Settings::has_country_set</definition>
+        <argsstring>(void)</argsstring>
+        <name>has_country_set</name>
+        <qualifiedname>Settings::has_country_set</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="76" column="6" bodyfile="src/settings/settings.cpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1afe820637e10449ff29f61ab90f59cc2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings::update_wifi_credentials</definition>
+        <argsstring>(String ssid, String pass)</argsstring>
+        <name>update_wifi_credentials</name>
+        <qualifiedname>Settings::update_wifi_credentials</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>ssid</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>pass</declname>
+        </param>
+        <briefdescription>
+<para>Update the users WiFi credentials in the settings struct. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ssid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="77" column="6" bodyfile="src/settings/settings.cpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1a5ed3552ca49c29b917e5826c799b70d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String Settings::get_load_status</definition>
+        <argsstring>()</argsstring>
+        <name>get_load_status</name>
+        <qualifiedname>Settings::get_load_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="78" column="8" bodyfile="src/settings/settings.cpp" bodystart="57" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_1a00753c3834f8ac98173ed55b06d26477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String Settings::get_save_status</definition>
+        <argsstring>()</argsstring>
+        <name>get_save_status</name>
+        <qualifiedname>Settings::get_save_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="79" column="8" bodyfile="src/settings/settings.cpp" bodystart="67" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_settings_1afa3dbfe914fdc12c1f6419836b5294d1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long Settings::backupNumber</definition>
+        <argsstring>(const String)</argsstring>
+        <name>backupNumber</name>
+        <qualifiedname>Settings::backupNumber</qualifiedname>
+        <param>
+          <type>const String</type>
+          <defname>filename</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="96" column="13" bodyfile="src/settings/settings.cpp" bodystart="138" bodyend="144"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_settings_1a77482d4930cb4f700856c02ccc528785" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Settings::log_to_nvs</definition>
+        <argsstring>(const char *key, const char *log)</argsstring>
+        <name>log_to_nvs</name>
+        <qualifiedname>Settings::log_to_nvs</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings.h" line="101" column="6" bodyfile="src/settings/settings.cpp" bodystart="23" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Config</label>
+        <link refid="struct_config"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mqtt</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>battery</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>open_weather</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>custom_binary</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Config_battery</label>
+        <link refid="struct_config__battery"/>
+      </node>
+      <node id="6">
+        <label>Config_custom_binary</label>
+        <link refid="struct_config__custom__binary"/>
+      </node>
+      <node id="3">
+        <label>Config_mqtt</label>
+        <link refid="struct_config__mqtt"/>
+      </node>
+      <node id="5">
+        <label>Config_open_weather</label>
+        <link refid="struct_config__open__weather"/>
+      </node>
+      <node id="1">
+        <label>Settings</label>
+        <link refid="class_settings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>config</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>setting_audio_alarm</edgelabel>
+          <edgelabel>setting_audio_ui</edgelabel>
+          <edgelabel>setting_flipped</edgelabel>
+          <edgelabel>setting_left_handed</edgelabel>
+          <edgelabel>setting_time_24hour</edgelabel>
+          <edgelabel>setting_time_dateformat</edgelabel>
+          <edgelabel>setting_wifi_start</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>SettingsOptionBool</label>
+        <link refid="class_settings_option_bool"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/settings/settings.h" line="65" column="1" bodyfile="src/settings/settings.h" bodystart="66" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_settings_1aa4e5b7dd1bc7037dae326078619852a6" prot="public" virt="non-virtual"><scope>Settings</scope><name>backup</name></member>
+      <member refid="class_settings_1a6b7deab2e703293098334c3bbc60537e" prot="private" virt="non-virtual"><scope>Settings</scope><name>backup_prefix</name></member>
+      <member refid="class_settings_1afa3dbfe914fdc12c1f6419836b5294d1" prot="private" virt="non-virtual"><scope>Settings</scope><name>backupNumber</name></member>
+      <member refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" prot="public" virt="non-virtual"><scope>Settings</scope><name>config</name></member>
+      <member refid="class_settings_1aa65b7c45b1ba3a125a818224094d63d4" prot="public" virt="non-virtual"><scope>Settings</scope><name>create</name></member>
+      <member refid="class_settings_1adb8b7aff516eea8ae61ea171321ec857" prot="private" virt="non-virtual"><scope>Settings</scope><name>filename</name></member>
+      <member refid="class_settings_1a5ed3552ca49c29b917e5826c799b70d7" prot="public" virt="non-virtual"><scope>Settings</scope><name>get_load_status</name></member>
+      <member refid="class_settings_1a00753c3834f8ac98173ed55b06d26477" prot="public" virt="non-virtual"><scope>Settings</scope><name>get_save_status</name></member>
+      <member refid="class_settings_1a53c5758b55206fe6754ed044a50a41ee" prot="public" virt="non-virtual"><scope>Settings</scope><name>has_country_set</name></member>
+      <member refid="class_settings_1a3c276563c885a8a30ef340e6e9e6d979" prot="public" virt="non-virtual"><scope>Settings</scope><name>has_wifi_creds</name></member>
+      <member refid="class_settings_1a142b93e70d4701aec73d790d0636003c" prot="private" virt="non-virtual"><scope>Settings</scope><name>last_save_time</name></member>
+      <member refid="class_settings_1a06d1d58938c8fdc7a577e52f9ffda29d" prot="public" virt="non-virtual"><scope>Settings</scope><name>load</name></member>
+      <member refid="class_settings_1a02350e39c1cb382d74b6e2ae869b5e85" prot="private" virt="non-virtual"><scope>Settings</scope><name>log</name></member>
+      <member refid="class_settings_1a77482d4930cb4f700856c02ccc528785" prot="private" virt="non-virtual"><scope>Settings</scope><name>log_to_nvs</name></member>
+      <member refid="class_settings_1af893529f9727266e69ab3dd11de07eed" prot="private" virt="non-virtual"><scope>Settings</scope><name>max_backups</name></member>
+      <member refid="class_settings_1ae9cfa0afc12575661b57f107fca803e6" prot="private" virt="non-virtual"><scope>Settings</scope><name>max_time_between_saves</name></member>
+      <member refid="class_settings_1ab1656c5e0b8259976be7cfd2d720459d" prot="private" virt="non-virtual"><scope>Settings</scope><name>nvs</name></member>
+      <member refid="class_settings_1a1a20fe3938eafa97da459177007ab050" prot="public" virt="non-virtual"><scope>Settings</scope><name>print_file</name></member>
+      <member refid="class_settings_1a00dcb4d9f9a4f7deaee375a545947752" prot="public" virt="non-virtual"><scope>Settings</scope><name>save</name></member>
+      <member refid="class_settings_1a7b75bfb359b1533477accd5e65601f60" prot="public" virt="non-virtual"><scope>Settings</scope><name>setting_audio_alarm</name></member>
+      <member refid="class_settings_1a07f3193633d813269b3495255dc63125" prot="public" virt="non-virtual"><scope>Settings</scope><name>setting_audio_ui</name></member>
+      <member refid="class_settings_1a1207215c27f2d0beb3b23115e0001463" prot="public" virt="non-virtual"><scope>Settings</scope><name>setting_flipped</name></member>
+      <member refid="class_settings_1ae7292aa2bf29892b83474e794f4d8764" prot="public" virt="non-virtual"><scope>Settings</scope><name>setting_left_handed</name></member>
+      <member refid="class_settings_1aa42da92c05be487651de3a57ba3a53b0" prot="public" virt="non-virtual"><scope>Settings</scope><name>setting_time_24hour</name></member>
+      <member refid="class_settings_1ab8a0fdb8c98a2f7738995106b522f17d" prot="public" virt="non-virtual"><scope>Settings</scope><name>setting_time_dateformat</name></member>
+      <member refid="class_settings_1a509f772f09ffc6fff7979da55a31a39e" prot="public" virt="non-virtual"><scope>Settings</scope><name>setting_wifi_start</name></member>
+      <member refid="class_settings_1a11318b2647ea7d36db2185fc652c2c8a" prot="private" virt="non-virtual"><scope>Settings</scope><name>tmp_filename</name></member>
+      <member refid="class_settings_1afe820637e10449ff29f61ab90f59cc2f" prot="public" virt="non-virtual"><scope>Settings</scope><name>update_wifi_credentials</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

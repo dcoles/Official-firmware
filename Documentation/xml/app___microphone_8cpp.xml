@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="app___microphone_8cpp" kind="file" language="C++">
+    <compoundname>app_Microphone.cpp</compoundname>
+    <includes refid="app___microphone_8h" local="yes">tw_apps/app_Microphone.h</includes>
+    <includes refid="_roboto_mono___regular___all_8h" local="yes">fonts/RobotoMono_Regular_All.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="4">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>fonts/RobotoMono_Regular_All.h</label>
+        <link refid="_roboto_mono___regular___all_8h"/>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_apps/app_Microphone.cpp</label>
+        <link refid="app___microphone_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_apps/app_Microphone.h</label>
+        <link refid="app___microphone_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_apps/tw_app.h</label>
+        <link refid="tw__app_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="9">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="25">
+        <label>arduinoFFT.h</label>
+      </node>
+      <node id="7">
+        <label>cst816t.h</label>
+      </node>
+      <node id="26">
+        <label>driver/i2s.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="13">
+        <label>json.h</label>
+      </node>
+      <node id="14">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="24">
+        <label>map</label>
+      </node>
+      <node id="27">
+        <label>soc/i2s_reg.h</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="app___microphone_8cpp_1a056107b4411455f2d41f9bc59a8c5798" prot="public" static="no" mutable="no">
+        <type><ref refid="class_app_microphone" kindref="compound">AppMicrophone</ref></type>
+        <definition>AppMicrophone app_microphone</definition>
+        <argsstring></argsstring>
+        <name>app_microphone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Microphone.cpp" line="260" column="15" bodyfile="src/tw_apps/app_Microphone.cpp" bodystart="260" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="app___microphone_8h" kindref="compound">tw_apps/app_Microphone.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#include<sp/>&quot;fonts/RobotoMono_Light_All.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___regular___all_8h" kindref="compound">fonts/RobotoMono_Regular_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_microphone_1a2868dcbeec275ac0c25414d3f51af90d" kindref="member">AppMicrophone::setup</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" kindref="member">is_setup</ref>)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" kindref="member">is_setup</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>don&apos;t<sp/>mess<sp/>around<sp/>with<sp/>this</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i2s_config_t<sp/>i2s_config<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.mode<sp/>=<sp/>(i2s_mode_t)(I2S_MODE_MASTER<sp/>|<sp/>I2S_MODE_RX),</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.sample_rate<sp/>=<sp/><ref refid="app___microphone_8h_1a4b76a0c2859cfd819a343a780070ee2b" kindref="member">SAMPLE_RATE</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.bits_per_sample<sp/>=<sp/>I2S_BITS_PER_SAMPLE_32BIT,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.channel_format<sp/>=<sp/>I2S_CHANNEL_FMT_ONLY_LEFT,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.communication_format<sp/>=<sp/>I2S_COMM_FORMAT_STAND_I2S,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intr_alloc_flags<sp/>=<sp/>ESP_INTR_FLAG_LEVEL1,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.dma_buf_count<sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.dma_buf_len<sp/>=<sp/><ref refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kindref="member">BLOCK_SIZE</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.use_apll<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.tx_desc_auto_clear<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.fixed_mclk<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>don&apos;t<sp/>mess<sp/>around<sp/>with<sp/>this</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i2s_pin_config_t<sp/>i2s_mic_pins<sp/>=<sp/>{.bck_io_num<sp/>=<sp/><ref refid="app___microphone_8h_1a09af3618977e1dce2cf0c5e8c9bfac81" kindref="member">I2S_MIC_SERIAL_CLOCK</ref>,<sp/>.ws_io_num<sp/>=<sp/><ref refid="app___microphone_8h_1a5fa398b87b90a978e876b3c77fe33017" kindref="member">I2S_MIC_LEFT_RIGHT_CLOCK</ref>,<sp/>.data_out_num<sp/>=<sp/>I2S_PIN_NO_CHANGE,<sp/>.data_in_num<sp/>=<sp/><ref refid="app___microphone_8h_1a3be0b382b79b69929c12b827f1d0e250" kindref="member">I2S_MIC_SERIAL_DATA</ref>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Start<sp/>up<sp/>the<sp/>I2S<sp/>peripheral</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i2s_driver_install(I2S_NUM_0,<sp/>&amp;i2s_config,<sp/>0,<sp/>NULL);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i2s_set_pin(I2S_NUM_0,<sp/>&amp;i2s_mic_pins);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;setup<sp/>complete&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_microphone_1a3374361517cde1ec48c3066180fefd7e" kindref="member">AppMicrophone::pre_start</ref>()<sp/>{<sp/><ref refid="class_app_microphone_1a4cbae7b10fe94971f52a9100cbbdaca8" kindref="member">shutdown_timer</ref><sp/>=<sp/>millis();<sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_microphone_1a4f7c9b8e5e9ac7eacc8e9e228eddfd67" kindref="member">AppMicrophone::draw_icon</ref>(uint8_t<sp/>canvasid,<sp/>int16_t<sp/>_pos_x,<sp/>int16_t<sp/>_pos_y,<sp/>uint8_t<sp/>style_hint)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" kindref="member">is_icon_cached</ref>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" kindref="member">is_icon_cached</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.fillSprite(0);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.drawSmoothRoundRect(0,<sp/>0,<sp/>10,<sp/>6,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref>,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref>,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00,<sp/>0x00,<sp/>0x99),<sp/>0);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setTextDatum(4);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setFreeFont(RobotoMono_Regular[15]);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.drawString(</highlight><highlight class="stringliteral">&quot;M&quot;</highlight><highlight class="normal">,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref><sp/>/<sp/>2,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref><sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" kindref="member">icon_x</ref><sp/>=<sp/>_pos_x;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" kindref="member">icon_y</ref><sp/>=<sp/>_pos_y;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.pushToSprite(&amp;<ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>],<sp/>_pos_x,<sp/>_pos_y);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_microphone_1af062de6d4e4191d30579caa2cba9dd71" kindref="member">AppMicrophone::draw</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Override<sp/>the<sp/>CPU<sp/>settings<sp/>for<sp/>this<sp/>app</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>setCpuFrequencyMhz(160);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a2868dcbeec275ac0c25414d3f51af90d" kindref="member">setup</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Example<sp/>of<sp/>how<sp/>to<sp/>auto<sp/>shut<sp/>down<sp/>the<sp/>app<sp/>after<sp/>a<sp/>period<sp/>of<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>(millis()<sp/>-<sp/>shutdown_timer<sp/>&gt;<sp/>5000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>//<sp/>close<sp/>without<sp/>saving<sp/>settings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>close(false);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>return;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(force<sp/>||<sp/>millis()<sp/>-<sp/><ref refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" kindref="member">next_update</ref><sp/>&gt;<sp/><ref refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" kindref="member">update_period</ref>)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" kindref="member">next_update</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillSprite(TFT_BLACK);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" kindref="member">visual_state</ref><sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a1ae20553e83be4534241100eaa56c243" kindref="member">do_fft_calcs</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawLine(0,<sp/>140,<sp/>240,<sp/>140,<sp/>TFT_WHITE);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>0;<sp/>b<sp/>&lt;<sp/>8;<sp/>b++)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int8_t<sp/>bar<sp/>=<sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[b]<sp/>/<sp/>50;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bar<sp/>=<sp/>constrain(bar,<sp/>1,<sp/>100);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillRect(b<sp/>*<sp/>25<sp/>+<sp/>22,<sp/>40<sp/>+<sp/>(100<sp/>-<sp/>bar),<sp/>20,<sp/>bar,<sp/><ref refid="class_app_microphone_1a1de24a6e19e242fa256dba6205f4e514" kindref="member">colors</ref>[b]);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillRect(b<sp/>*<sp/>25<sp/>+<sp/>22,<sp/>144,<sp/>20,<sp/>bar,<sp/><ref refid="class_app_microphone_1aa65a29e46628f4c5c7617247c26faddb" kindref="member">colors_dark</ref>[b]);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" kindref="member">visual_state</ref><sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a1ae20553e83be4534241100eaa56c243" kindref="member">do_fft_calcs</ref>();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>0;<sp/>b<sp/>&lt;<sp/>8;<sp/>b++)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int8_t<sp/>bar<sp/>=<sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[b]<sp/>/<sp/>50;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>radius<sp/>=<sp/>12<sp/>*<sp/>(b<sp/>+<sp/>1)<sp/>+<sp/>4;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1ad4a051cab5730c70c4797534c9273032" kindref="member">fill_arc</ref>(<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>,<sp/>120,<sp/>140,<sp/>0,<sp/>constrain(bar,<sp/>1,<sp/>60),<sp/>radius,<sp/>radius,<sp/>8,<sp/><ref refid="class_app_microphone_1a1de24a6e19e242fa256dba6205f4e514" kindref="member">colors</ref>[b]);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" kindref="member">visual_state</ref><sp/>==<sp/>2)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1af21c9e10dd5f781358eb28606b32c4a3" kindref="member">do_waveform_calcs</ref>();</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/><ref refid="class_app_microphone_1a119f92e336de548a613df0d09316bb58" kindref="member">waveform_size</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>y1<sp/>=<sp/>map(<ref refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" kindref="member">waveform_data</ref>[i<sp/>-<sp/>1],<sp/>-32768,<sp/>32767,<sp/>10,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref><sp/>-<sp/>10);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>y2<sp/>=<sp/>map(<ref refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" kindref="member">waveform_data</ref>[i],<sp/>-32768,<sp/>32767,<sp/>10,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref><sp/>-<sp/>10);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Option<sp/>A</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>canvas[canvasid].drawLine(1,<sp/>display.height/2<sp/>,<sp/>display.width,<sp/>display.height/2,<sp/>RGB(0x77,0x00,0x00));<sp/>//<sp/>Graticule<sp/>(looks<sp/>a<sp/>bit<sp/>silly)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawLine((i<sp/>*<sp/>2),<sp/>y1,<sp/>(i<sp/>*<sp/>2),<sp/>y2,<sp/><ref refid="class_app_microphone_1a1de24a6e19e242fa256dba6205f4e514" kindref="member">colors</ref>[i<sp/>/<sp/>15]);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" kindref="member">visual_state</ref><sp/>==<sp/>3)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1af21c9e10dd5f781358eb28606b32c4a3" kindref="member">do_waveform_calcs</ref>();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/><ref refid="class_app_microphone_1a119f92e336de548a613df0d09316bb58" kindref="member">waveform_size</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Scale<sp/>the<sp/>Y<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>y1<sp/>=<sp/>map(<ref refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" kindref="member">waveform_data</ref>[i<sp/>-<sp/>1],<sp/>-32768,<sp/>32767,<sp/>10,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref><sp/>-<sp/>10);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>y2<sp/>=<sp/>map(<ref refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" kindref="member">waveform_data</ref>[i],<sp/>-32768,<sp/>32767,<sp/>10,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref><sp/>-<sp/>10);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Option<sp/>B</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint8_t<sp/>y_offset<sp/>=<sp/>0;<sp/>y_offset<sp/>&lt;<sp/>8;<sp/>y_offset++)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawLine((i<sp/>*<sp/>2),<sp/>(y1<sp/>-<sp/>40)<sp/>+<sp/>(10<sp/>*<sp/>y_offset),<sp/>(i<sp/>*<sp/>2),<sp/>(y2<sp/>-<sp/>40)<sp/>+<sp/>(10<sp/>*<sp/>y_offset),<sp/><ref refid="class_app_microphone_1a1de24a6e19e242fa256dba6205f4e514" kindref="member">colors</ref>[y_offset]);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].pushSprite(<ref refid="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" kindref="member">_x</ref>,<sp/><ref refid="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" kindref="member">_y</ref>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_app_microphone_1a7253960b96e01c8c0b08870f83825399" kindref="member">AppMicrophone::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" kindref="member">visual_state</ref>++;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" kindref="member">visual_state</ref><sp/>==<sp/>4)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a6ba1b1d1e6de1cfa313d5b03039e249a" kindref="member">visual_state</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_app_microphone_1a9588f633630342330507570cd10e685b" kindref="member">AppMicrophone::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_microphone_1a1ae20553e83be4534241100eaa56c243" kindref="member">AppMicrophone::do_fft_calcs</ref>()</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bytes_read<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>i2s_read(I2S_NUM_0,<sp/><ref refid="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" kindref="member">raw_samples</ref>,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int32_t)<sp/>*<sp/><ref refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kindref="member">BLOCK_SIZE</ref>,<sp/>&amp;bytes_read,<sp/>portMAX_DELAY);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samples_read<sp/>=<sp/>bytes_read<sp/>/<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int32_t);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint16_t<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kindref="member">BLOCK_SIZE</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" kindref="member">raw_samples</ref>[i]<sp/>=<sp/><ref refid="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" kindref="member">raw_samples</ref>[i]<sp/>/<sp/>10000;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>=<sp/><ref refid="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" kindref="member">raw_samples</ref>[i]<sp/>&lt;&lt;<sp/>2;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1ae5a03ca2a43e2dc92c2ea120310b51f1" kindref="member">vImag</ref>[i]<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//<sp/>Imaginary<sp/>part<sp/>must<sp/>be<sp/>zeroed<sp/>in<sp/>case<sp/>of<sp/>looping<sp/>to<sp/>avoid<sp/>wrong<sp/>calculations<sp/>and<sp/>overflows</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a089191cfbf8f22da5b22fcf8b581656b" kindref="member">FFT</ref>.Windowing(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>,<sp/><ref refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kindref="member">BLOCK_SIZE</ref>,<sp/>FFT_WIN_TYP_HAMMING,<sp/>FFT_FORWARD);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a089191cfbf8f22da5b22fcf8b581656b" kindref="member">FFT</ref>.Compute(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>,<sp/><ref refid="class_app_microphone_1ae5a03ca2a43e2dc92c2ea120310b51f1" kindref="member">vImag</ref>,<sp/><ref refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kindref="member">BLOCK_SIZE</ref>,<sp/>FFT_FORWARD);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a089191cfbf8f22da5b22fcf8b581656b" kindref="member">FFT</ref>.ComplexToMagnitude(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>,<sp/><ref refid="class_app_microphone_1ae5a03ca2a43e2dc92c2ea120310b51f1" kindref="member">vImag</ref>,<sp/><ref refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kindref="member">BLOCK_SIZE</ref>);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>bands</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>8;<sp/>i++)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Calculate<sp/>bands</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>2;<sp/>i<sp/>&lt;<sp/>(<ref refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kindref="member">BLOCK_SIZE</ref><sp/>/<sp/>2);<sp/>i++)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">//<sp/>Don&apos;t<sp/>use<sp/>sample<sp/>0<sp/>and<sp/>only<sp/>first<sp/>SAMPLES/2<sp/>are<sp/>usable.<sp/>Each<sp/>array<sp/>eleement<sp/>represents<sp/>a<sp/>frequency<sp/>and<sp/>its<sp/>value<sp/>the<sp/>amplitude.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>&gt;<sp/>2000)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">//<sp/>Add<sp/>a<sp/>crude<sp/>noise<sp/>filter,<sp/>10<sp/>x<sp/>amplitude<sp/>or<sp/>more</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&lt;=<sp/>3)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[0]<sp/>=<sp/>max(<ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[0],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>/<sp/><ref refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kindref="member">amplitude</ref>));<sp/></highlight><highlight class="comment">//<sp/>125Hz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;<sp/>4<sp/>&amp;&amp;<sp/>i<sp/>&lt;=<sp/>6)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[1]<sp/>=<sp/>max(<ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[1],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>/<sp/><ref refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kindref="member">amplitude</ref>));<sp/></highlight><highlight class="comment">//<sp/>250Hz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;<sp/>6<sp/>&amp;&amp;<sp/>i<sp/>&lt;=<sp/>8)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[2]<sp/>=<sp/>max(<ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[2],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>/<sp/><ref refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kindref="member">amplitude</ref>));<sp/></highlight><highlight class="comment">//<sp/>500Hz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;<sp/>8<sp/>&amp;&amp;<sp/>i<sp/>&lt;=<sp/>15)</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[3]<sp/>=<sp/>max(<ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[3],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>/<sp/><ref refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kindref="member">amplitude</ref>));<sp/></highlight><highlight class="comment">//<sp/>1000Hz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;<sp/>15<sp/>&amp;&amp;<sp/>i<sp/>&lt;=<sp/>30)</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[4]<sp/>=<sp/>max(<ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[4],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>/<sp/><ref refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kindref="member">amplitude</ref>));<sp/></highlight><highlight class="comment">//<sp/>2000Hz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;<sp/>30<sp/>&amp;&amp;<sp/>i<sp/>&lt;=<sp/>53)</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[5]<sp/>=<sp/>max(<ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[5],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>/<sp/><ref refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kindref="member">amplitude</ref>));<sp/></highlight><highlight class="comment">//<sp/>4000Hz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;<sp/>53<sp/>&amp;&amp;<sp/>i<sp/>&lt;=<sp/>140)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[6]<sp/>=<sp/>max(<ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[6],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>/<sp/><ref refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kindref="member">amplitude</ref>));<sp/></highlight><highlight class="comment">//<sp/>8000Hz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;<sp/>140)</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[7]<sp/>=<sp/>max(<ref refid="class_app_microphone_1aa0bd025d264e71a201f8d296331ca927" kindref="member">bands</ref>[7],<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="class_app_microphone_1a64e7081438a064c5f9a5525a5ec306ec" kindref="member">vReal</ref>[i]<sp/>/<sp/><ref refid="class_app_microphone_1a34296732c7ef9f157ffa284addc6f862" kindref="member">amplitude</ref>));<sp/></highlight><highlight class="comment">//<sp/>16000Hz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_microphone_1af21c9e10dd5f781358eb28606b32c4a3" kindref="member">AppMicrophone::do_waveform_calcs</ref>()</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bytes_read<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>i2s_read(I2S_NUM_0,<sp/><ref refid="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" kindref="member">raw_samples</ref>,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int32_t)<sp/>*<sp/><ref refid="app___microphone_8h_1ad51ded0bbd705f02f73fc60c0b721ced" kindref="member">BLOCK_SIZE</ref>,<sp/>&amp;bytes_read,<sp/>portMAX_DELAY);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_app_microphone_1a119f92e336de548a613df0d09316bb58" kindref="member">waveform_size</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>just<sp/>want<sp/>Amplitude,<sp/>so<sp/>this<sp/>should<sp/>be<sp/>sufficient</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>sample_data<sp/>=<sp/><ref refid="class_app_microphone_1a379b3892e37f9d0bec4bb37c115b8d26" kindref="member">raw_samples</ref>[i<sp/>+<sp/>2]<sp/>/<sp/>10000;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" kindref="member">waveform_data</ref>[i]<sp/>=<sp/>(sample_data)<sp/>&lt;&lt;<sp/>2;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Capture<sp/>the<sp/>end<sp/>waveform<sp/>state<sp/>so<sp/>it<sp/>can<sp/>be<sp/>repeated<sp/>at<sp/>the<sp/>start</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>of<sp/>the<sp/>next<sp/>refresh.<sp/>(Looks<sp/>neater)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" kindref="member">waveform_data</ref>[0]<sp/>=<sp/><ref refid="class_app_microphone_1ac2e9642935dcb3b81c6ad6496a20dfba" kindref="member">waveform_last</ref>;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_microphone_1ac2e9642935dcb3b81c6ad6496a20dfba" kindref="member">waveform_last</ref><sp/>=<sp/><ref refid="class_app_microphone_1a6f0ca94922f4b435b9bb3dc6c633b96a" kindref="member">waveform_data</ref>[<ref refid="class_app_microphone_1a119f92e336de548a613df0d09316bb58" kindref="member">waveform_size</ref><sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><ref refid="class_app_microphone" kindref="compound">AppMicrophone</ref><sp/><ref refid="app___microphone_8cpp_1a056107b4411455f2d41f9bc59a8c5798" kindref="member">app_microphone</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_apps/app_Microphone.cpp"/>
+  </compounddef>
+</doxygen>

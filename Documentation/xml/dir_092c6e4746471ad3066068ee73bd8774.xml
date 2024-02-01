@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_092c6e4746471ad3066068ee73bd8774" kind="dir">
+    <compoundname>src/tw_faces</compoundname>
+    <innerfile refid="face___app_list_8cpp">face_AppList.cpp</innerfile>
+    <innerfile refid="face___app_list_8h">face_AppList.h</innerfile>
+    <innerfile refid="face___battery_empty_8cpp">face_BatteryEmpty.cpp</innerfile>
+    <innerfile refid="face___battery_empty_8h">face_BatteryEmpty.h</innerfile>
+    <innerfile refid="face___boot_8cpp">face_Boot.cpp</innerfile>
+    <innerfile refid="face___boot_8h">face_Boot.h</innerfile>
+    <innerfile refid="face___empty_8cpp">face_Empty.cpp</innerfile>
+    <innerfile refid="face___empty_8h">face_Empty.h</innerfile>
+    <innerfile refid="face___i_m_u_8cpp">face_IMU.cpp</innerfile>
+    <innerfile refid="face___i_m_u_8h">face_IMU.h</innerfile>
+    <innerfile refid="face___notifications_8cpp">face_Notifications.cpp</innerfile>
+    <innerfile refid="face___notifications_8h">face_Notifications.h</innerfile>
+    <innerfile refid="face___settings_8cpp">face_Settings.cpp</innerfile>
+    <innerfile refid="face___settings_8h">face_Settings.h</innerfile>
+    <innerfile refid="face___system_8cpp">face_System.cpp</innerfile>
+    <innerfile refid="face___system_8h">face_System.h</innerfile>
+    <innerfile refid="face___watch___custom_binary_8cpp">face_Watch_CustomBinary.cpp</innerfile>
+    <innerfile refid="face___watch___custom_binary_8h">face_Watch_CustomBinary.h</innerfile>
+    <innerfile refid="face___watch___custom_windows_8cpp">face_Watch_CustomWindows.cpp</innerfile>
+    <innerfile refid="face___watch___custom_windows_8h">face_Watch_CustomWindows.h</innerfile>
+    <innerfile refid="face___watch___default_analog_8cpp">face_Watch_DefaultAnalog.cpp</innerfile>
+    <innerfile refid="face___watch___default_analog_8h">face_Watch_DefaultAnalog.h</innerfile>
+    <innerfile refid="face___watch___default_digital_8cpp">face_Watch_DefaultDigital.cpp</innerfile>
+    <innerfile refid="face___watch___default_digital_8h">face_Watch_DefaultDigital.h</innerfile>
+    <innerfile refid="face___watch_settings_8cpp">face_WatchSettings.cpp</innerfile>
+    <innerfile refid="face___watch_settings_8h">face_WatchSettings.h</innerfile>
+    <innerfile refid="tw__face_8cpp">tw_face.cpp</innerfile>
+    <innerfile refid="tw__face_8h">tw_face.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/tw_faces/"/>
+  </compounddef>
+</doxygen>

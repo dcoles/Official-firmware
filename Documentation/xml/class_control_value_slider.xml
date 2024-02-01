@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_control_value_slider" kind="class" language="C++" prot="public">
+    <compoundname>ControlValueSlider</compoundname>
+    <basecompoundref refid="classtw__control" prot="public" virt="non-virtual">tw_control</basecompoundref>
+    <includes local="no">control_ValueSlider.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_control_value_slider_1aa1d4fb144c558e9d6144dfdb9c6a2c1b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ControlValueSlider::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>ControlValueSlider::version</qualifiedname>
+        <initializer>= &quot;1.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="16" column="8" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a34ba92aa17f3d3c1f30fd6bbfd47c79e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ControlValueSlider::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <qualifiedname>ControlValueSlider::state</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="17" column="6" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1ad1c7bb345f0cf23bc053a3c4dac84b20" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ControlValueSlider::selected</definition>
+        <argsstring></argsstring>
+        <name>selected</name>
+        <qualifiedname>ControlValueSlider::selected</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="18" column="6" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a64437bb695125f9535bc6a80de2d6764" prot="private" static="no" mutable="no">
+        <type><ref refid="class_settings_option_int" kindref="compound">SettingsOptionInt</ref> *</type>
+        <definition>SettingsOptionInt* ControlValueSlider::setting_option</definition>
+        <argsstring></argsstring>
+        <name>setting_option</name>
+        <qualifiedname>ControlValueSlider::setting_option</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="20" column="19" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a9ca7c56f11875b441e56fc92c10246f1" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long ControlValueSlider::next_click_update</definition>
+        <argsstring></argsstring>
+        <name>next_click_update</name>
+        <qualifiedname>ControlValueSlider::next_click_update</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="22" column="15" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1ac4ebfe0e1d680d2f96afd0ac10f2fe38" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValueSlider::value_min</definition>
+        <argsstring></argsstring>
+        <name>value_min</name>
+        <qualifiedname>ControlValueSlider::value_min</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="24" column="5" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1ab8a515a976addf01c199630da7378e58" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValueSlider::value_max</definition>
+        <argsstring></argsstring>
+        <name>value_max</name>
+        <qualifiedname>ControlValueSlider::value_max</qualifiedname>
+        <initializer>= 31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="25" column="5" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1acc9a73215692563f94cdd096f9a0b9cd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValueSlider::value_step</definition>
+        <argsstring></argsstring>
+        <name>value_step</name>
+        <qualifiedname>ControlValueSlider::value_step</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="26" column="5" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValueSlider::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>ControlValueSlider::value</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="28" column="5" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a63264641ce2630ba2c55f0a789223ba5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValueSlider::val_width</definition>
+        <argsstring></argsstring>
+        <name>val_width</name>
+        <qualifiedname>ControlValueSlider::val_width</qualifiedname>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="30" column="5" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValueSlider::val_width_half</definition>
+        <argsstring></argsstring>
+        <name>val_width_half</name>
+        <qualifiedname>ControlValueSlider::val_width_half</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="31" column="5" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a2cc02d8d18efea067631682978a235a7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValueSlider::arrow_left_x</definition>
+        <argsstring></argsstring>
+        <name>arrow_left_x</name>
+        <qualifiedname>ControlValueSlider::arrow_left_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="32" column="5" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1aa30350ea8e4af70c5cdb4643a50e3b88" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValueSlider::arrow_right_x</definition>
+        <argsstring></argsstring>
+        <name>arrow_right_x</name>
+        <qualifiedname>ControlValueSlider::arrow_right_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="33" column="5" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a76615a1295cb9f70acc32a933d0454fd" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ControlValueSlider::gradient_bright</definition>
+        <argsstring></argsstring>
+        <name>gradient_bright</name>
+        <qualifiedname>ControlValueSlider::gradient_bright</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x33, 0x33, 0x33)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="35" column="10" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a1e60aaa9981f380b76cad205c0e60996" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ControlValueSlider::gradient_dark</definition>
+        <argsstring></argsstring>
+        <name>gradient_dark</name>
+        <qualifiedname>ControlValueSlider::gradient_dark</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x11, 0x11, 0x11)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="36" column="10" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1aca6487890f226cebf059e77b4274da91" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ControlValueSlider::col_selected</definition>
+        <argsstring></argsstring>
+        <name>col_selected</name>
+        <qualifiedname>ControlValueSlider::col_selected</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xaa, 0xaa, 0xaa)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="37" column="10" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_slider_1a32465ca311155d2b5b902a6e2c21707f" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ControlValueSlider::col_normal</definition>
+        <argsstring></argsstring>
+        <name>col_normal</name>
+        <qualifiedname>ControlValueSlider::col_normal</qualifiedname>
+        <initializer>= <ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x66, 0x66, 0x66)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="38" column="10" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_control_value_slider_1a590e97be9555ecb144e419459d09509f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlValueSlider::draw</definition>
+        <argsstring>(uint _canvasid)</argsstring>
+        <name>draw</name>
+        <qualifiedname>ControlValueSlider::draw</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>_canvasid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="7" column="6" bodyfile="src/tw_controls/control_ValueSlider.cpp" bodystart="6" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_slider_1a3159bdf73db50b13efab719486ff2a62" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ControlValueSlider::drag</definition>
+        <argsstring>(int16_t drag_x, int16_t drag_y)</argsstring>
+        <name>drag</name>
+        <qualifiedname>ControlValueSlider::drag</qualifiedname>
+        <reimplements refid="classtw__control_1a5801ddb432eba15482734b6d4e973d9f">drag</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>drag_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>drag_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="8" column="6" bodyfile="src/tw_controls/control_ValueSlider.cpp" bodystart="44" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_slider_1adae535346c324c99ca4352a1dd3cb15f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ControlValueSlider::drag_end</definition>
+        <argsstring>()</argsstring>
+        <name>drag_end</name>
+        <qualifiedname>ControlValueSlider::drag_end</qualifiedname>
+        <reimplements refid="classtw__control_1ae8aae1a8761fdcedd86371c27294c2a0">drag_end</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="9" column="6" bodyfile="src/tw_controls/control_ValueSlider.cpp" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_slider_1a4325374ff8b5856ad117a1407f4463d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ControlValueSlider::click</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>ControlValueSlider::click</qualifiedname>
+        <reimplements refid="classtw__control_1ab262e7a645b158adf967a5365a44cc1c">click</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="10" column="6" bodyfile="src/tw_controls/control_ValueSlider.cpp" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_slider_1ad06305c39ad2ef09200332997afd7fc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ControlValueSlider::click_double</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>ControlValueSlider::click_double</qualifiedname>
+        <reimplements refid="classtw__control_1aba09793680c70400242c8a7261c923a3">click_double</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="11" column="6" bodyfile="src/tw_controls/control_ValueSlider.cpp" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_slider_1aa6ec2012c0c3f7014a6650bbb57a6e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ControlValueSlider::click_long</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_long</name>
+        <qualifiedname>ControlValueSlider::click_long</qualifiedname>
+        <reimplements refid="classtw__control_1ad1bd8d58a154843ac26d86afbd1a02a0">click_long</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="12" column="6" bodyfile="src/tw_controls/control_ValueSlider.cpp" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_slider_1a3276fb6a4104e2e7f80717379ae6bd05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlValueSlider::set_data</definition>
+        <argsstring>(SettingsOptionInt *sett)</argsstring>
+        <name>set_data</name>
+        <qualifiedname>ControlValueSlider::set_data</qualifiedname>
+        <param>
+          <type><ref refid="class_settings_option_int" kindref="compound">SettingsOptionInt</ref> *</type>
+          <declname>sett</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_ValueSlider.h" line="13" column="6" bodyfile="src/tw_controls/control_ValueSlider.cpp" bodystart="4" bodyend="4"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ControlValueSlider</label>
+        <link refid="class_control_value_slider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ControlValueSlider</label>
+        <link refid="class_control_value_slider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>setting_option</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SettingsOptionInt</label>
+        <link refid="class_settings_option_int"/>
+      </node>
+      <node id="2">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_controls/control_ValueSlider.h" line="4" column="1" bodyfile="src/tw_controls/control_ValueSlider.h" bodystart="5" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>adjusted_pos_x</name></member>
+      <member refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>adjusted_pos_y</name></member>
+      <member refid="class_control_value_slider_1a2cc02d8d18efea067631682978a235a7" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>arrow_left_x</name></member>
+      <member refid="class_control_value_slider_1aa30350ea8e4af70c5cdb4643a50e3b88" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>arrow_right_x</name></member>
+      <member refid="classtw__control_1a14b56d61053455a8340fa0ef873f8438" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>bounds_check</name></member>
+      <member refid="classtw__control_1aa5866ceadd9ee0a7b62dab42eb0c4d26" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>CallbackFunction</name></member>
+      <member refid="classtw__control_1a9a0b0641f496916802cba6cf15a9ef28" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>callbackFunction</name></member>
+      <member refid="classtw__control_1a0cb2d4f0f7f62b27d0c8d25adbf62167" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>can_drag</name></member>
+      <member refid="classtw__control_1afe4fb6fb8beb34f76e98dcff6980ea75" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>can_scroll_x</name></member>
+      <member refid="classtw__control_1ad7666727e24e480111e12317df3e0db4" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>can_scroll_y</name></member>
+      <member refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>canvasid</name></member>
+      <member refid="class_control_value_slider_1a4325374ff8b5856ad117a1407f4463d7" prot="public" virt="virtual"><scope>ControlValueSlider</scope><name>click</name></member>
+      <member refid="class_control_value_slider_1ad06305c39ad2ef09200332997afd7fc8" prot="public" virt="virtual"><scope>ControlValueSlider</scope><name>click_double</name></member>
+      <member refid="class_control_value_slider_1aa6ec2012c0c3f7014a6650bbb57a6e69" prot="public" virt="virtual"><scope>ControlValueSlider</scope><name>click_long</name></member>
+      <member refid="class_control_value_slider_1a32465ca311155d2b5b902a6e2c21707f" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>col_normal</name></member>
+      <member refid="class_control_value_slider_1aca6487890f226cebf059e77b4274da91" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>col_selected</name></member>
+      <member refid="classtw__control_1a45b7cecc9b4d6be7885b00129cf71450" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>create</name></member>
+      <member refid="classtw__control_1a2bd5e84b349d3acd4332e691252e9a4e" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>create</name></member>
+      <member refid="classtw__control_1a92de6ce8244528f528b5b6a06f788702" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>create</name></member>
+      <member refid="class_control_value_slider_1a3159bdf73db50b13efab719486ff2a62" prot="public" virt="virtual"><scope>ControlValueSlider</scope><name>drag</name></member>
+      <member refid="class_control_value_slider_1adae535346c324c99ca4352a1dd3cb15f" prot="public" virt="virtual"><scope>ControlValueSlider</scope><name>drag_end</name></member>
+      <member refid="class_control_value_slider_1a590e97be9555ecb144e419459d09509f" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>draw</name></member>
+      <member refid="classtw__control_1a05335649c9426198c0d1a39cdd4d7480" prot="public" virt="non-virtual" ambiguityscope="tw_control::"><scope>ControlValueSlider</scope><name>draw</name></member>
+      <member refid="classtw__control_1aa30d2044da736112cb5af3c2e602085b" prot="public" virt="pure-virtual" ambiguityscope="tw_control::"><scope>ControlValueSlider</scope><name>draw</name></member>
+      <member refid="classtw__control_1ab5bda3919b1d4619d27a9451b0175b1a" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>draw_scroll</name></member>
+      <member refid="classtw__control_1a193f3b939571be166616862ef7eaf82c" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>get_height</name></member>
+      <member refid="classtw__control_1af5e22d745769f6ef9483e7a1671ce611" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>get_height_stacked</name></member>
+      <member refid="classtw__control_1a4d687b2b1bd72932e11099373cd13f2f" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>get_y_max</name></member>
+      <member refid="classtw__control_1af3ff3da8f6fe036da0a826d14fded5d8" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>get_y_min</name></member>
+      <member refid="class_control_value_slider_1a76615a1295cb9f70acc32a933d0454fd" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>gradient_bright</name></member>
+      <member refid="class_control_value_slider_1a1e60aaa9981f380b76cad205c0e60996" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>gradient_dark</name></member>
+      <member refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>height</name></member>
+      <member refid="classtw__control_1afb4e579aac10eb0681adea2afb85e1a2" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>name</name></member>
+      <member refid="class_control_value_slider_1a9ca7c56f11875b441e56fc92c10246f1" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>next_click_update</name></member>
+      <member refid="classtw__control_1a2bac811da9de1d6e647f6ecb802fd9f4" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>offset_x</name></member>
+      <member refid="classtw__control_1ab6049b218ec56da1cdaa11aecdace054" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>offset_y</name></member>
+      <member refid="classtw__control_1a7e3bf4abc01c2d219b9c4d2ae45fc1bc" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>option1</name></member>
+      <member refid="classtw__control_1a304039dc7cdb6e6a46283bc02398f31f" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>option2</name></member>
+      <member refid="classtw__control_1a0260033322fb08209ad94550f26a66ff" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>padding_x</name></member>
+      <member refid="classtw__control_1ad185794a64b94983b686c1c089c6892e" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>padding_y</name></member>
+      <member refid="classtw__control_1a30820a179da2c2be53f4adfc5475bd9a" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>parent</name></member>
+      <member refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>pos_x</name></member>
+      <member refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>pos_y</name></member>
+      <member refid="classtw__control_1a4d91050ea99b4c0ae51c2596b7b01d62" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>requires_redraw</name></member>
+      <member refid="classtw__control_1af5152d03c48c5121ef3517dd96e1c18b" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>scroll_x</name></member>
+      <member refid="classtw__control_1a4afe73b8ce0719545ae13a1b5166eae1" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>scroll_y</name></member>
+      <member refid="class_control_value_slider_1ad1c7bb345f0cf23bc053a3c4dac84b20" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>selected</name></member>
+      <member refid="classtw__control_1a86c62efb52d0bda09701025bc4c285d7" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>set_callback</name></member>
+      <member refid="class_control_value_slider_1a3276fb6a4104e2e7f80717379ae6bd05" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>set_data</name></member>
+      <member refid="classtw__control_1ac39cf6b57bc14fdba5745f0876aa1ec5" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>set_parent</name></member>
+      <member refid="classtw__control_1a3e0422bf5201e2664bf3f2beb20627da" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>set_scrollable</name></member>
+      <member refid="classtw__control_1a5d51159f31c6abfb9f6ad074bea39b17" prot="public" virt="non-virtual"><scope>ControlValueSlider</scope><name>set_values</name></member>
+      <member refid="class_control_value_slider_1a64437bb695125f9535bc6a80de2d6764" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>setting_option</name></member>
+      <member refid="class_control_value_slider_1a34ba92aa17f3d3c1f30fd6bbfd47c79e" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>state</name></member>
+      <member refid="class_control_value_slider_1a63264641ce2630ba2c55f0a789223ba5" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>val_width</name></member>
+      <member refid="class_control_value_slider_1a3291e929cd847f8f7ed0c3b6a15e35b6" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>val_width_half</name></member>
+      <member refid="class_control_value_slider_1a6dfa11a2d47b37d3933bfcdc8683449d" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>value</name></member>
+      <member refid="class_control_value_slider_1ab8a515a976addf01c199630da7378e58" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>value_max</name></member>
+      <member refid="class_control_value_slider_1ac4ebfe0e1d680d2f96afd0ac10f2fe38" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>value_min</name></member>
+      <member refid="class_control_value_slider_1acc9a73215692563f94cdd096f9a0b9cd" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>value_step</name></member>
+      <member refid="class_control_value_slider_1aa1d4fb144c558e9d6144dfdb9c6a2c1b" prot="private" virt="non-virtual"><scope>ControlValueSlider</scope><name>version</name></member>
+      <member refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" prot="protected" virt="non-virtual"><scope>ControlValueSlider</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

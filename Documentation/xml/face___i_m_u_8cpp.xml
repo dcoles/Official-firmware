@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="face___i_m_u_8cpp" kind="file" language="C++">
+    <compoundname>face_IMU.cpp</compoundname>
+    <includes refid="face___i_m_u_8h" local="yes">tw_faces/face_IMU.h</includes>
+    <includes refid="_clock___digits_8h" local="yes">fonts/Clock_Digits.h</includes>
+    <includes refid="_roboto_mono___regular___all_8h" local="yes">fonts/RobotoMono_Regular_All.h</includes>
+    <includes refid="imu_8h" local="yes">peripherals/imu.h</includes>
+    <incdepgraph>
+      <node id="32">
+        <label>Adafruit_MMC56x3.h</label>
+      </node>
+      <node id="6">
+        <label>Arduino.h</label>
+      </node>
+      <node id="5">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>fonts/Clock_Digits.h</label>
+        <link refid="_clock___digits_8h"/>
+      </node>
+      <node id="29">
+        <label>fonts/RobotoMono_Regular_All.h</label>
+        <link refid="_roboto_mono___regular___all_8h"/>
+      </node>
+      <node id="17">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>peripherals/imu.h</label>
+        <link refid="imu_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tw_apps/tw_app.h</label>
+        <link refid="tw__app_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_faces/face_IMU.cpp</label>
+        <link refid="face___i_m_u_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_faces/face_IMU.h</label>
+        <link refid="face___i_m_u_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_faces/tw_face.h</label>
+        <link refid="tw__face_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="16">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="10">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="31">
+        <label>SparkFun_BMI270_Arduino_Library.h</label>
+      </node>
+      <node id="23">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="24">
+        <label>Tween.h</label>
+      </node>
+      <node id="20">
+        <label>WiFi.h</label>
+      </node>
+      <node id="8">
+        <label>cst816t.h</label>
+      </node>
+      <node id="21">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="22">
+        <label>functional</label>
+      </node>
+      <node id="18">
+        <label>initializer_list</label>
+      </node>
+      <node id="14">
+        <label>json.h</label>
+      </node>
+      <node id="15">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="25">
+        <label>map</label>
+      </node>
+      <node id="19">
+        <label>stdint.h</label>
+      </node>
+      <node id="7">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="face___i_m_u_8cpp_1a79be06b354c16f3b19168f3217acb1bc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_face_i_m_u" kindref="compound">FaceIMU</ref></type>
+        <definition>FaceIMU face_imu</definition>
+        <argsstring></argsstring>
+        <name>face_imu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_IMU.cpp" line="104" column="9" bodyfile="src/tw_faces/face_IMU.cpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="face___i_m_u_8h" kindref="compound">tw_faces/face_IMU.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_clock___digits_8h" kindref="compound">fonts/Clock_Digits.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___regular___all_8h" kindref="compound">fonts/RobotoMono_Regular_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="imu_8h" kindref="compound">peripherals/imu.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_i_m_u_1a911fafdddeb315bf572c75f20b40e150" kindref="member">FaceIMU::setup</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" kindref="member">is_setup</ref>)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" kindref="member">is_setup</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>any<sp/>one<sp/>time<sp/>setup<sp/>code<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_i_m_u_1a67d7a6ed3a7012077f3f9e25ca4de503" kindref="member">FaceIMU::draw</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(force<sp/>||<sp/>millis()<sp/>-<sp/><ref refid="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" kindref="member">next_update</ref><sp/>&gt;<sp/><ref refid="classtw__face_1adf1eeb08a54b5e8a5f18677961d07f95" kindref="member">update_period</ref>)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_face_i_m_u_1a911fafdddeb315bf572c75f20b40e150" kindref="member">setup</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" kindref="member">next_update</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" kindref="member">is_dragging</ref><sp/>||<sp/>!<ref refid="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" kindref="member">is_cached</ref>)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" kindref="member">is_dragging</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" kindref="member">is_cached</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Regular[9]);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillSprite(<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x22,<sp/>0x22,<sp/>0x22));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextDatum(4);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;IMU<sp/>+<sp/>MAG&quot;</highlight><highlight class="normal">,<sp/>120,<sp/>40);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Regular[5]);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1a40bdeb6e5e40420be3a7a4eeb12c5f43" kindref="member">update</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_face_i_m_u_1a23fe449360e829d3ff5b52b4f99370b9" kindref="member">showingGyro</ref>)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(TFT_YELLOW);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;GYRO&quot;</highlight><highlight class="normal">,<sp/>55,<sp/>100);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(10,<sp/>120,<sp/>105,<sp/>38,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x55,<sp/>0x22,<sp/>0x22));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(10,<sp/>175,<sp/>105,<sp/>38,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x55,<sp/>0x22,<sp/>0x22));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(10,<sp/>230,<sp/>105,<sp/>38,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x55,<sp/>0x22,<sp/>0x22));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setCursor(15,<sp/>144);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].print(</highlight><highlight class="stringliteral">&quot;X<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1a20fc171f6bd1e04ce4df6d8c2739451d" kindref="member">get_gyro_x</ref>()));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setCursor(15,<sp/>199);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].print(</highlight><highlight class="stringliteral">&quot;Y<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1adee1902f0a38fc77a5bf578c547b364e" kindref="member">get_gyro_y</ref>()));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setCursor(15,<sp/>254);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].print(</highlight><highlight class="stringliteral">&quot;Z<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1a5904bfcc2f243be30aa406daa52ca7f7" kindref="member">get_gyro_z</ref>()));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(TFT_YELLOW);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;ACCEL&quot;</highlight><highlight class="normal">,<sp/>55,<sp/>100);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(10,<sp/>120,<sp/>105,<sp/>38,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x22,<sp/>0x22,<sp/>0x55));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(10,<sp/>175,<sp/>105,<sp/>38,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x22,<sp/>0x22,<sp/>0x55));</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(10,<sp/>230,<sp/>105,<sp/>38,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x22,<sp/>0x22,<sp/>0x55));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setCursor(15,<sp/>144);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].print(</highlight><highlight class="stringliteral">&quot;X<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1afe377e5424d4d78c445e17e7fbfd34da" kindref="member">get_accel_x</ref>()));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setCursor(15,<sp/>199);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].print(</highlight><highlight class="stringliteral">&quot;Y<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1aacb32471da72093df4a9a5a1d5961ec9" kindref="member">get_accel_y</ref>()));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setCursor(15,<sp/>254);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].print(</highlight><highlight class="stringliteral">&quot;Z<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1aff081c959c1543d7f98c4a78b24689e8" kindref="member">get_accel_z</ref>()));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(TFT_YELLOW);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;PITCH&quot;</highlight><highlight class="normal">,<sp/>185,<sp/>80);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;ROLL&quot;</highlight><highlight class="normal">,<sp/>185,<sp/>150);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;YAW&quot;</highlight><highlight class="normal">,<sp/>185,<sp/>220);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(135,<sp/>95,<sp/>100,<sp/>40,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x44,<sp/>0x44,<sp/>0x44));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(135,<sp/>165,<sp/>100,<sp/>40,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x44,<sp/>0x44,<sp/>0x44));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRoundRect(135,<sp/>235,<sp/>100,<sp/>40,<sp/>8,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x44,<sp/>0x44,<sp/>0x44));</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawNumber(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1acc55327d10a0bd87b1942b2d30295af9" kindref="member">get_pitch</ref>(),<sp/>185,<sp/>115);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawNumber(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1a35abf4c589abb5f162cb6578a90848b6" kindref="member">get_roll</ref>(),<sp/>185,<sp/>185);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawNumber(<ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1ad98004c7e643ff5378a1082e3cc01d79" kindref="member">get_yaw</ref>(),<sp/>185,<sp/>255);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>0;<sp/>w<sp/>&lt;<sp/><ref refid="classtw__face_1a4c4bf1f0010ed676c9cea26a446610a4" kindref="member">widgets</ref>.size();<sp/>w++)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face_1a4c4bf1f0010ed676c9cea26a446610a4" kindref="member">widgets</ref>[w]-&gt;draw(<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].pushSprite(<ref refid="classtw__face_1aa0407f1353c697853c4ded0769c9bd7d" kindref="member">_x</ref>,<sp/><ref refid="classtw__face_1ad842e61841906d628e1f276954c0b8b6" kindref="member">_y</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_i_m_u_1a010d376890d27a0da87871b0ce6ab93a" kindref="member">FaceIMU::click</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_face_i_m_u_1a23fe449360e829d3ff5b52b4f99370b9" kindref="member">showingGyro</ref><sp/>=<sp/>!<ref refid="class_face_i_m_u_1a23fe449360e829d3ff5b52b4f99370b9" kindref="member">showingGyro</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_i_m_u_1a53cc45c5af76291390be6176583ea1e8" kindref="member">FaceIMU::click_double</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_i_m_u_1a1c1c660cf96ecdb1199d841f75455434" kindref="member">FaceIMU::click_long</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><ref refid="class_face_i_m_u" kindref="compound">FaceIMU</ref><sp/><ref refid="face___i_m_u_8cpp_1a79be06b354c16f3b19168f3217acb1bc" kindref="member">face_imu</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_faces/face_IMU.cpp"/>
+  </compounddef>
+</doxygen>

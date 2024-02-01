@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_i_m_u" kind="class" language="C++" prot="public">
+    <compoundname>IMU</compoundname>
+    <includes local="no">imu.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_i_m_u_1a9f825d0380ac215cd54beb9986814923" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool IMU::imu_preinit_ok</definition>
+        <argsstring></argsstring>
+        <name>imu_preinit_ok</name>
+        <qualifiedname>IMU::imu_preinit_ok</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="43" column="6" bodyfile="src/peripherals/imu.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1a74cc5c0e52872c8c3b747b4eb1bf0300" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool IMU::imu_ready</definition>
+        <argsstring></argsstring>
+        <name>imu_ready</name>
+        <qualifiedname>IMU::imu_ready</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="44" column="6" bodyfile="src/peripherals/imu.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1aa47dfb8aea00c0540ab9421d3ed9e669" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool IMU::mag_ready</definition>
+        <argsstring></argsstring>
+        <name>mag_ready</name>
+        <qualifiedname>IMU::mag_ready</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="45" column="6" bodyfile="src/peripherals/imu.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_i_m_u_1a9978571d9ee2924c14a697cf014cd33c" prot="private" static="no" mutable="no">
+        <type>BMI270</type>
+        <definition>BMI270 IMU::imu</definition>
+        <argsstring></argsstring>
+        <name>imu</name>
+        <qualifiedname>IMU::imu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="48" column="8" bodyfile="src/peripherals/imu.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1aff58b784a845ca84d577c3105d06f87b" prot="private" static="no" mutable="no">
+        <type>Adafruit_MMC5603</type>
+        <definition>Adafruit_MMC5603 IMU::mag</definition>
+        <argsstring></argsstring>
+        <name>mag</name>
+        <qualifiedname>IMU::mag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="49" column="18" bodyfile="src/peripherals/imu.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1ab9e85b331f528c45f076db30a7b8dffc" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t IMU::i2cAddress</definition>
+        <argsstring></argsstring>
+        <name>i2cAddress</name>
+        <qualifiedname>IMU::i2cAddress</qualifiedname>
+        <initializer>= BMI2_I2C_PRIM_ADDR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="50" column="9" bodyfile="src/peripherals/imu.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1a2159cb60e427650470753b956112fcc6" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long IMU::next_imu_read</definition>
+        <argsstring></argsstring>
+        <name>next_imu_read</name>
+        <qualifiedname>IMU::next_imu_read</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="52" column="15" bodyfile="src/peripherals/imu.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1ab50afec43e72f704287abeca057d1d97" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IMU::prev_yaw_read</definition>
+        <argsstring></argsstring>
+        <name>prev_yaw_read</name>
+        <qualifiedname>IMU::prev_yaw_read</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="53" column="7" bodyfile="src/peripherals/imu.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1abf1b0887e2f886ba2954037dba7ced47" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IMU::curr_yaw_read</definition>
+        <argsstring></argsstring>
+        <name>curr_yaw_read</name>
+        <qualifiedname>IMU::curr_yaw_read</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="54" column="7" bodyfile="src/peripherals/imu.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1a719b7715914aad9c086d3c61476038df" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float IMU::hacky_yaw</definition>
+        <argsstring></argsstring>
+        <name>hacky_yaw</name>
+        <qualifiedname>IMU::hacky_yaw</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="55" column="7" bodyfile="src/peripherals/imu.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1ac15b1cbc934321067f1d4306312c9990" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t IMU::step_count</definition>
+        <argsstring></argsstring>
+        <name>step_count</name>
+        <qualifiedname>IMU::step_count</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="57" column="10" bodyfile="src/peripherals/imu.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1a2b21e9b83326b62a4b1b8a0ae92cfc50" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t IMU::movement_activity</definition>
+        <argsstring></argsstring>
+        <name>movement_activity</name>
+        <qualifiedname>IMU::movement_activity</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="58" column="9" bodyfile="src/peripherals/imu.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1a6b426e8f4e6364d948a94848edc056a6" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float IMU::hard_iron[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>hard_iron</name>
+        <qualifiedname>IMU::hard_iron</qualifiedname>
+        <initializer>= {17.77, -30.08, 16.21}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="62" column="13" bodyfile="src/peripherals/imu.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1a388b51b2e42ba587cb6f23a39633b404" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float IMU::soft_iron[3][3]</definition>
+        <argsstring>[3][3]</argsstring>
+        <name>soft_iron</name>
+        <qualifiedname>IMU::soft_iron</qualifiedname>
+        <initializer>= {{1.003, 0.008, -0.001}, {0.008, 1.004, 0.000}, {-0.001, -0.000, 0.994}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="65" column="13" bodyfile="src/peripherals/imu.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_m_u_1ac3d0e91d37f0eb267bde18df5826148a" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float IMU::mag_decl</definition>
+        <argsstring></argsstring>
+        <name>mag_decl</name>
+        <qualifiedname>IMU::mag_decl</qualifiedname>
+        <initializer>= -1.233</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="67" column="13" bodyfile="src/peripherals/imu.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_m_u_1ac226749c0c5ddbc8fa2e7ffe8d9839cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::preinit</definition>
+        <argsstring>(bool woke_from_sleep)</argsstring>
+        <name>preinit</name>
+        <qualifiedname>IMU::preinit</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>woke_from_sleep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="12" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="9" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a3850c006b37efdf08652063673f3b27f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <qualifiedname>IMU::init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="13" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="22" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a40bdeb6e5e40420be3a7a4eeb12c5f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <qualifiedname>IMU::update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="14" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="298" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1afe377e5424d4d78c445e17e7fbfd34da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_accel_x</definition>
+        <argsstring>()</argsstring>
+        <name>get_accel_x</name>
+        <qualifiedname>IMU::get_accel_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="15" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="304" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1aacb32471da72093df4a9a5a1d5961ec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_accel_y</definition>
+        <argsstring>()</argsstring>
+        <name>get_accel_y</name>
+        <qualifiedname>IMU::get_accel_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="16" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="312" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1aff081c959c1543d7f98c4a78b24689e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_accel_z</definition>
+        <argsstring>()</argsstring>
+        <name>get_accel_z</name>
+        <qualifiedname>IMU::get_accel_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="17" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="320" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a20fc171f6bd1e04ce4df6d8c2739451d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_gyro_x</definition>
+        <argsstring>()</argsstring>
+        <name>get_gyro_x</name>
+        <qualifiedname>IMU::get_gyro_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="18" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="328" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1adee1902f0a38fc77a5bf578c547b364e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_gyro_y</definition>
+        <argsstring>()</argsstring>
+        <name>get_gyro_y</name>
+        <qualifiedname>IMU::get_gyro_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="19" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="336" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a5904bfcc2f243be30aa406daa52ca7f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_gyro_z</definition>
+        <argsstring>()</argsstring>
+        <name>get_gyro_z</name>
+        <qualifiedname>IMU::get_gyro_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="20" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="344" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1acc55327d10a0bd87b1942b2d30295af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_pitch</definition>
+        <argsstring>()</argsstring>
+        <name>get_pitch</name>
+        <qualifiedname>IMU::get_pitch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="21" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="352" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a35abf4c589abb5f162cb6578a90848b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_roll</definition>
+        <argsstring>()</argsstring>
+        <name>get_roll</name>
+        <qualifiedname>IMU::get_roll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="22" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="361" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1ad98004c7e643ff5378a1082e3cc01d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IMU::get_yaw</definition>
+        <argsstring>()</argsstring>
+        <name>get_yaw</name>
+        <qualifiedname>IMU::get_yaw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="23" column="7" bodyfile="src/peripherals/imu.cpp" bodystart="369" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1aad28c34e8c92393814a5b318ce2400b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IMU::is_looking_at_face</definition>
+        <argsstring>()</argsstring>
+        <name>is_looking_at_face</name>
+        <qualifiedname>IMU::is_looking_at_face</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="24" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="412" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a8284b0593f749a491fd90b51d6602d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::set_hibernate</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>set_hibernate</name>
+        <qualifiedname>IMU::set_hibernate</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="26" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="135" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a3868cd48b48ab679cb3e913c35ce0c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::setup_step_counter</definition>
+        <argsstring>()</argsstring>
+        <name>setup_step_counter</name>
+        <qualifiedname>IMU::setup_step_counter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="29" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="72" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a1846a3443df8d20cc689062b3faa0597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::process_steps</definition>
+        <argsstring>()</argsstring>
+        <name>process_steps</name>
+        <qualifiedname>IMU::process_steps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="30" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1ad0f158e76f7f630650468a7d00f61545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::process_steps</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>process_steps</name>
+        <qualifiedname>IMU::process_steps</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="31" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="157" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a849695cd7ed8d5739aa8faeb356bd080" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t IMU::get_steps</definition>
+        <argsstring>(uint8_t day, uint8_t month, uint16_t year)</argsstring>
+        <name>get_steps</name>
+        <qualifiedname>IMU::get_steps</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="32" column="10" bodyfile="src/peripherals/imu.cpp" bodystart="231" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1af4d71d4922328d0dc0562eb7708f79b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t IMU::get_movement_activity_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_movement_activity_id</name>
+        <qualifiedname>IMU::get_movement_activity_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="33" column="9" bodyfile="src/peripherals/imu.cpp" bodystart="250" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a84727fe4d55b62e92ae77f83c9cf5322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String IMU::get_movement_activity</definition>
+        <argsstring>()</argsstring>
+        <name>get_movement_activity</name>
+        <qualifiedname>IMU::get_movement_activity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="34" column="8" bodyfile="src/peripherals/imu.cpp" bodystart="263" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a0f65224a444493d77866a10e4a605931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::setup_wake_gesture</definition>
+        <argsstring>()</argsstring>
+        <name>setup_wake_gesture</name>
+        <qualifiedname>IMU::setup_wake_gesture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="37" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="103" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_m_u_1a9fe304262319330cf05dafa40d580520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::process_wrist_gestures</definition>
+        <argsstring>()</argsstring>
+        <name>process_wrist_gestures</name>
+        <qualifiedname>IMU::process_wrist_gestures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="40" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="293" bodyend="296"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_i_m_u_1a1316f25b98d8df78dcb7247c31d63aa2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IMU::persist_step_count</definition>
+        <argsstring>()</argsstring>
+        <name>persist_step_count</name>
+        <qualifiedname>IMU::persist_step_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/imu.h" line="69" column="6" bodyfile="src/peripherals/imu.cpp" bodystart="424" bodyend="436"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/peripherals/imu.h" line="9" column="1" bodyfile="src/peripherals/imu.h" bodystart="10" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_i_m_u_1abf1b0887e2f886ba2954037dba7ced47" prot="private" virt="non-virtual"><scope>IMU</scope><name>curr_yaw_read</name></member>
+      <member refid="class_i_m_u_1afe377e5424d4d78c445e17e7fbfd34da" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_accel_x</name></member>
+      <member refid="class_i_m_u_1aacb32471da72093df4a9a5a1d5961ec9" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_accel_y</name></member>
+      <member refid="class_i_m_u_1aff081c959c1543d7f98c4a78b24689e8" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_accel_z</name></member>
+      <member refid="class_i_m_u_1a20fc171f6bd1e04ce4df6d8c2739451d" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_gyro_x</name></member>
+      <member refid="class_i_m_u_1adee1902f0a38fc77a5bf578c547b364e" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_gyro_y</name></member>
+      <member refid="class_i_m_u_1a5904bfcc2f243be30aa406daa52ca7f7" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_gyro_z</name></member>
+      <member refid="class_i_m_u_1a84727fe4d55b62e92ae77f83c9cf5322" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_movement_activity</name></member>
+      <member refid="class_i_m_u_1af4d71d4922328d0dc0562eb7708f79b3" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_movement_activity_id</name></member>
+      <member refid="class_i_m_u_1acc55327d10a0bd87b1942b2d30295af9" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_pitch</name></member>
+      <member refid="class_i_m_u_1a35abf4c589abb5f162cb6578a90848b6" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_roll</name></member>
+      <member refid="class_i_m_u_1a849695cd7ed8d5739aa8faeb356bd080" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_steps</name></member>
+      <member refid="class_i_m_u_1ad98004c7e643ff5378a1082e3cc01d79" prot="public" virt="non-virtual"><scope>IMU</scope><name>get_yaw</name></member>
+      <member refid="class_i_m_u_1a719b7715914aad9c086d3c61476038df" prot="private" virt="non-virtual"><scope>IMU</scope><name>hacky_yaw</name></member>
+      <member refid="class_i_m_u_1a6b426e8f4e6364d948a94848edc056a6" prot="private" virt="non-virtual"><scope>IMU</scope><name>hard_iron</name></member>
+      <member refid="class_i_m_u_1ab9e85b331f528c45f076db30a7b8dffc" prot="private" virt="non-virtual"><scope>IMU</scope><name>i2cAddress</name></member>
+      <member refid="class_i_m_u_1a9978571d9ee2924c14a697cf014cd33c" prot="private" virt="non-virtual"><scope>IMU</scope><name>imu</name></member>
+      <member refid="class_i_m_u_1a9f825d0380ac215cd54beb9986814923" prot="public" virt="non-virtual"><scope>IMU</scope><name>imu_preinit_ok</name></member>
+      <member refid="class_i_m_u_1a74cc5c0e52872c8c3b747b4eb1bf0300" prot="public" virt="non-virtual"><scope>IMU</scope><name>imu_ready</name></member>
+      <member refid="class_i_m_u_1a3850c006b37efdf08652063673f3b27f" prot="public" virt="non-virtual"><scope>IMU</scope><name>init</name></member>
+      <member refid="class_i_m_u_1aad28c34e8c92393814a5b318ce2400b6" prot="public" virt="non-virtual"><scope>IMU</scope><name>is_looking_at_face</name></member>
+      <member refid="class_i_m_u_1aff58b784a845ca84d577c3105d06f87b" prot="private" virt="non-virtual"><scope>IMU</scope><name>mag</name></member>
+      <member refid="class_i_m_u_1ac3d0e91d37f0eb267bde18df5826148a" prot="private" virt="non-virtual"><scope>IMU</scope><name>mag_decl</name></member>
+      <member refid="class_i_m_u_1aa47dfb8aea00c0540ab9421d3ed9e669" prot="public" virt="non-virtual"><scope>IMU</scope><name>mag_ready</name></member>
+      <member refid="class_i_m_u_1a2b21e9b83326b62a4b1b8a0ae92cfc50" prot="private" virt="non-virtual"><scope>IMU</scope><name>movement_activity</name></member>
+      <member refid="class_i_m_u_1a2159cb60e427650470753b956112fcc6" prot="private" virt="non-virtual"><scope>IMU</scope><name>next_imu_read</name></member>
+      <member refid="class_i_m_u_1a1316f25b98d8df78dcb7247c31d63aa2" prot="private" virt="non-virtual"><scope>IMU</scope><name>persist_step_count</name></member>
+      <member refid="class_i_m_u_1ac226749c0c5ddbc8fa2e7ffe8d9839cf" prot="public" virt="non-virtual"><scope>IMU</scope><name>preinit</name></member>
+      <member refid="class_i_m_u_1ab50afec43e72f704287abeca057d1d97" prot="private" virt="non-virtual"><scope>IMU</scope><name>prev_yaw_read</name></member>
+      <member refid="class_i_m_u_1a1846a3443df8d20cc689062b3faa0597" prot="public" virt="non-virtual"><scope>IMU</scope><name>process_steps</name></member>
+      <member refid="class_i_m_u_1ad0f158e76f7f630650468a7d00f61545" prot="public" virt="non-virtual"><scope>IMU</scope><name>process_steps</name></member>
+      <member refid="class_i_m_u_1a9fe304262319330cf05dafa40d580520" prot="public" virt="non-virtual"><scope>IMU</scope><name>process_wrist_gestures</name></member>
+      <member refid="class_i_m_u_1a8284b0593f749a491fd90b51d6602d88" prot="public" virt="non-virtual"><scope>IMU</scope><name>set_hibernate</name></member>
+      <member refid="class_i_m_u_1a3868cd48b48ab679cb3e913c35ce0c2f" prot="public" virt="non-virtual"><scope>IMU</scope><name>setup_step_counter</name></member>
+      <member refid="class_i_m_u_1a0f65224a444493d77866a10e4a605931" prot="public" virt="non-virtual"><scope>IMU</scope><name>setup_wake_gesture</name></member>
+      <member refid="class_i_m_u_1a388b51b2e42ba587cb6f23a39633b404" prot="private" virt="non-virtual"><scope>IMU</scope><name>soft_iron</name></member>
+      <member refid="class_i_m_u_1ac15b1cbc934321067f1d4306312c9990" prot="private" virt="non-virtual"><scope>IMU</scope><name>step_count</name></member>
+      <member refid="class_i_m_u_1a40bdeb6e5e40420be3a7a4eeb12c5f43" prot="public" virt="non-virtual"><scope>IMU</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

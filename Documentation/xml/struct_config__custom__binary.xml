@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_config__custom__binary" kind="struct" language="C++" prot="public">
+    <compoundname>Config_custom_binary</compoundname>
+    <includes local="no">settings_extra.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Config_custom_binary::binary_clockcolour</definition>
+        <argsstring></argsstring>
+        <name>binary_clockcolour</name>
+        <qualifiedname>Config_custom_binary::binary_clockcolour</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="58" column="9" bodyfile="src/settings/settings_extra.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__custom__binary_1a4bbec4837d68af7ac1626d325cebbf5c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Config_custom_binary::binary_clockstyle</definition>
+        <argsstring></argsstring>
+        <name>binary_clockstyle</name>
+        <qualifiedname>Config_custom_binary::binary_clockstyle</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="59" column="9" bodyfile="src/settings/settings_extra.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="class_settings" kindref="compound">Settings</ref> struct for Binary clock face Added by <ulink url="https://github.com/optoisolated">https://github.com/optoisolated</ulink>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/settings/settings_extra.h" line="56" column="1" bodyfile="src/settings/settings_extra.h" bodystart="57" bodyend="60"/>
+    <listofallmembers>
+      <member refid="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" prot="public" virt="non-virtual"><scope>Config_custom_binary</scope><name>binary_clockcolour</name></member>
+      <member refid="struct_config__custom__binary_1a4bbec4837d68af7ac1626d325cebbf5c" prot="public" virt="non-virtual"><scope>Config_custom_binary</scope><name>binary_clockstyle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

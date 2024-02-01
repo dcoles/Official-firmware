@@ -1,0 +1,669 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classtw__app" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tw_app</compoundname>
+    <derivedcompoundref refid="class_app_compass" prot="public" virt="non-virtual">AppCompass</derivedcompoundref>
+    <derivedcompoundref refid="class_app_empty" prot="public" virt="non-virtual">AppEmpty</derivedcompoundref>
+    <derivedcompoundref refid="class_app_microphone" prot="public" virt="non-virtual">AppMicrophone</derivedcompoundref>
+    <includes local="no">tw_app.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtw__app_1a7739cca09259b216fbb2ff8b39136208" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String tw_app::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>tw_app::name</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="24" column="8" bodyfile="src/tw_apps/tw_app.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classtw__app_1af0a4b68423257bdeaa3c8ea77635a48f" prot="protected" static="no" mutable="no">
+        <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+        <definition>tw_face* tw_app::owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <qualifiedname>tw_app::owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="27" column="9" bodyfile="src/tw_apps/tw_app.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_app::is_setup</definition>
+        <argsstring></argsstring>
+        <name>is_setup</name>
+        <qualifiedname>tw_app::is_setup</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="29" column="6" bodyfile="src/tw_apps/tw_app.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t tw_app::canvasid</definition>
+        <argsstring></argsstring>
+        <name>canvasid</name>
+        <qualifiedname>tw_app::canvasid</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="30" column="9" bodyfile="src/tw_apps/tw_app.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a77f9e65c0d5514ea4ed8f0a00e2b2db9" prot="protected" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t tw_app::required_cpu_speed</definition>
+        <argsstring></argsstring>
+        <name>required_cpu_speed</name>
+        <qualifiedname>tw_app::required_cpu_speed</qualifiedname>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="31" column="9" bodyfile="src/tw_apps/tw_app.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1aa07118d07746e3e1934402de8cde8d24" prot="protected" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t tw_app::update_period</definition>
+        <argsstring></argsstring>
+        <name>update_period</name>
+        <qualifiedname>tw_app::update_period</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="32" column="10" bodyfile="src/tw_apps/tw_app.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1adaa96e5a8335845033644191ce29ef19" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long tw_app::next_update</definition>
+        <argsstring></argsstring>
+        <name>next_update</name>
+        <qualifiedname>tw_app::next_update</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="33" column="15" bodyfile="src/tw_apps/tw_app.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_app::_x</definition>
+        <argsstring></argsstring>
+        <name>_x</name>
+        <qualifiedname>tw_app::_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="34" column="9" bodyfile="src/tw_apps/tw_app.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_app::_y</definition>
+        <argsstring></argsstring>
+        <name>_y</name>
+        <qualifiedname>tw_app::_y</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="35" column="9" bodyfile="src/tw_apps/tw_app.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" prot="protected" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t tw_app::icon_width</definition>
+        <argsstring></argsstring>
+        <name>icon_width</name>
+        <qualifiedname>tw_app::icon_width</qualifiedname>
+        <initializer>= 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="38" column="8" bodyfile="src/tw_apps/tw_app.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a7a8e55b2e1ee1d910b50b0688ae9369b" prot="protected" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t tw_app::icon_height</definition>
+        <argsstring></argsstring>
+        <name>icon_height</name>
+        <qualifiedname>tw_app::icon_height</qualifiedname>
+        <initializer>= 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="39" column="8" bodyfile="src/tw_apps/tw_app.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a0420db062c3ce2b734c04e756af310f7" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_app::icon_x</definition>
+        <argsstring></argsstring>
+        <name>icon_x</name>
+        <qualifiedname>tw_app::icon_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="40" column="9" bodyfile="src/tw_apps/tw_app.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" prot="protected" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t tw_app::icon_y</definition>
+        <argsstring></argsstring>
+        <name>icon_y</name>
+        <qualifiedname>tw_app::icon_y</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="41" column="9" bodyfile="src/tw_apps/tw_app.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tw_app::is_icon_cached</definition>
+        <argsstring></argsstring>
+        <name>is_icon_cached</name>
+        <qualifiedname>tw_app::is_icon_cached</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="43" column="6" bodyfile="src/tw_apps/tw_app.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtw__app_1a610cfa88a6b424609aee2246bce71722" prot="protected" static="no" mutable="no">
+        <type>TFT_eSprite</type>
+        <definition>TFT_eSprite tw_app::icon_sprite</definition>
+        <argsstring></argsstring>
+        <name>icon_sprite</name>
+        <qualifiedname>tw_app::icon_sprite</qualifiedname>
+        <initializer>= TFT_eSprite(&amp;<ref refid="display_8cpp_1ac5d2dc3534f30f704fd7529ad0f89ff1" kindref="member">tft</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="44" column="13" bodyfile="src/tw_apps/tw_app.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtw__app_1a415b5f5015e2f10ea3c1e627d58d289f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tw_app::tw_app</definition>
+        <argsstring>()</argsstring>
+        <name>tw_app</name>
+        <qualifiedname>tw_app::tw_app</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="9" column="1" bodyfile="src/tw_apps/tw_app.h" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1a59f9dd493e97a436ee39365427dd389b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tw_app::~tw_app</definition>
+        <argsstring>()</argsstring>
+        <name>~tw_app</name>
+        <qualifiedname>tw_app::~tw_app</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="10" column="1" bodyfile="src/tw_apps/tw_app.h" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_app::add</definition>
+        <argsstring>(String _name, uint16_t _update_period, uint32_t req_cpu_speed)</argsstring>
+        <name>add</name>
+        <qualifiedname>tw_app::add</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>_update_period</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>req_cpu_speed</declname>
+        </param>
+        <briefdescription>
+<para>Setup the app and add it to a MAP of all apps. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_update_period</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>req_cpu_speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="12" column="6" bodyfile="src/tw_apps/tw_app.cpp" bodystart="17" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1aa8977866b6bc2829b4be921fdbf8d016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_app::add</definition>
+        <argsstring>(String _name, uint _update_period)</argsstring>
+        <name>add</name>
+        <qualifiedname>tw_app::add</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>_name</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_update_period</declname>
+        </param>
+        <briefdescription>
+<para>Quick override for Add above. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_update_period</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="13" column="6" bodyfile="src/tw_apps/tw_app.cpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1a49c377582445587b4127d6497bde2a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tw_app::click_icon</definition>
+        <argsstring>(int16_t click_pos_x, int16_t click_pos_y)</argsstring>
+        <name>click_icon</name>
+        <qualifiedname>tw_app::click_icon</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+<para>Check if we have clicked on an app icon. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Needs to have better bounds checking with padding.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>click_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>click_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="14" column="6" bodyfile="src/tw_apps/tw_app.cpp" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1a5cf0211251f14dd57c0f575c4ac2ec04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_app::set_canvas</definition>
+        <argsstring>(uint _canvasid)</argsstring>
+        <name>set_canvas</name>
+        <qualifiedname>tw_app::set_canvas</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>_canvasid</declname>
+        </param>
+        <briefdescription>
+<para>Set the canvas ID for the app to draw into. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_canvasid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="15" column="6" bodyfile="src/tw_apps/tw_app.cpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1ab1914aae31b736e21441c926a7045854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tw_app::close</definition>
+        <argsstring>(bool save)</argsstring>
+        <name>close</name>
+        <qualifiedname>tw_app::close</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>save</declname>
+        </param>
+        <briefdescription>
+<para>Close the app and go back to the app list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>save</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>save settings on exit </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="16" column="6" bodyfile="src/tw_apps/tw_app.cpp" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1a9210babf07943910c5324c71d0cb4575" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tw_app::pre_start</definition>
+        <argsstring>()=0</argsstring>
+        <name>pre_start</name>
+        <qualifiedname>tw_app::pre_start</qualifiedname>
+        <reimplementedby refid="class_app_compass_1a986e77e6e2d11ce4e1e749a214562680">pre_start</reimplementedby>
+        <reimplementedby refid="class_app_empty_1a457272582856a552e875e79b213be20b">pre_start</reimplementedby>
+        <reimplementedby refid="class_app_microphone_1a3374361517cde1ec48c3066180fefd7e">pre_start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="18" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1aac3219a95c9f0b26a6f4226ba2bc9bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tw_app::draw</definition>
+        <argsstring>(bool force)=0</argsstring>
+        <name>draw</name>
+        <qualifiedname>tw_app::draw</qualifiedname>
+        <reimplementedby refid="class_app_compass_1a94e74af29d8ebcc9d7de0879ed94e540">draw</reimplementedby>
+        <reimplementedby refid="class_app_empty_1ae82c686f34050752af522a5b2c40b71b">draw</reimplementedby>
+        <reimplementedby refid="class_app_microphone_1af062de6d4e4191d30579caa2cba9dd71">draw</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="19" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1af52944199ec0fcedf5a0d10dd2b3cda3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tw_app::draw_icon</definition>
+        <argsstring>(uint8_t canvasid, int16_t _pos_x, int16_t _pos_y, uint8_t style_hint)=0</argsstring>
+        <name>draw_icon</name>
+        <qualifiedname>tw_app::draw_icon</qualifiedname>
+        <reimplementedby refid="class_app_compass_1ab6a82cec74937c780c78d978891de9da">draw_icon</reimplementedby>
+        <reimplementedby refid="class_app_empty_1a0ad807e098b4082aa29b91cfb7571347">draw_icon</reimplementedby>
+        <reimplementedby refid="class_app_microphone_1a4f7c9b8e5e9ac7eacc8e9e228eddfd67">draw_icon</reimplementedby>
+        <param>
+          <type>uint8_t</type>
+          <declname>canvasid</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>_pos_y</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>style_hint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="20" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1aff74b36c204aa2c2064478c3aaff7b85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tw_app::click</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>tw_app::click</qualifiedname>
+        <reimplementedby refid="class_app_empty_1ad0e5eaa6c5a50cff1420acc4be1cb5ce">click</reimplementedby>
+        <reimplementedby refid="class_app_microphone_1a7253960b96e01c8c0b08870f83825399">click</reimplementedby>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="21" column="14" bodyfile="src/tw_apps/tw_app.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtw__app_1a0ab331b94d4ebfc9210030292e7d36ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tw_app::click_double</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>tw_app::click_double</qualifiedname>
+        <reimplementedby refid="class_app_empty_1a3069554f19d2fa85bb23b4e1fef5d61c">click_double</reimplementedby>
+        <reimplementedby refid="class_app_microphone_1a9588f633630342330507570cd10e685b">click_double</reimplementedby>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/tw_app.h" line="22" column="14" bodyfile="src/tw_apps/tw_app.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AppCompass</label>
+        <link refid="class_app_compass"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AppEmpty</label>
+        <link refid="class_app_empty"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AppMicrophone</label>
+        <link refid="class_app_microphone"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tw_app</label>
+        <link refid="classtw__app"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tw_app</label>
+        <link refid="classtw__app"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_apps/tw_app.h" line="6" column="1" bodyfile="src/tw_apps/tw_app.h" bodystart="7" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>_x</name></member>
+      <member refid="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>_y</name></member>
+      <member refid="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" prot="public" virt="non-virtual"><scope>tw_app</scope><name>add</name></member>
+      <member refid="classtw__app_1aa8977866b6bc2829b4be921fdbf8d016" prot="public" virt="non-virtual"><scope>tw_app</scope><name>add</name></member>
+      <member refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>canvasid</name></member>
+      <member refid="classtw__app_1aff74b36c204aa2c2064478c3aaff7b85" prot="public" virt="virtual"><scope>tw_app</scope><name>click</name></member>
+      <member refid="classtw__app_1a0ab331b94d4ebfc9210030292e7d36ec" prot="public" virt="virtual"><scope>tw_app</scope><name>click_double</name></member>
+      <member refid="classtw__app_1a49c377582445587b4127d6497bde2a3b" prot="public" virt="non-virtual"><scope>tw_app</scope><name>click_icon</name></member>
+      <member refid="classtw__app_1ab1914aae31b736e21441c926a7045854" prot="public" virt="non-virtual"><scope>tw_app</scope><name>close</name></member>
+      <member refid="classtw__app_1aac3219a95c9f0b26a6f4226ba2bc9bc2" prot="public" virt="pure-virtual"><scope>tw_app</scope><name>draw</name></member>
+      <member refid="classtw__app_1af52944199ec0fcedf5a0d10dd2b3cda3" prot="public" virt="pure-virtual"><scope>tw_app</scope><name>draw_icon</name></member>
+      <member refid="classtw__app_1a7a8e55b2e1ee1d910b50b0688ae9369b" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>icon_height</name></member>
+      <member refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>icon_sprite</name></member>
+      <member refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>icon_width</name></member>
+      <member refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>icon_x</name></member>
+      <member refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>icon_y</name></member>
+      <member refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>is_icon_cached</name></member>
+      <member refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>is_setup</name></member>
+      <member refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" prot="public" virt="non-virtual"><scope>tw_app</scope><name>name</name></member>
+      <member refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>next_update</name></member>
+      <member refid="classtw__app_1af0a4b68423257bdeaa3c8ea77635a48f" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>owner</name></member>
+      <member refid="classtw__app_1a9210babf07943910c5324c71d0cb4575" prot="public" virt="pure-virtual"><scope>tw_app</scope><name>pre_start</name></member>
+      <member refid="classtw__app_1a77f9e65c0d5514ea4ed8f0a00e2b2db9" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>required_cpu_speed</name></member>
+      <member refid="classtw__app_1a5cf0211251f14dd57c0f575c4ac2ec04" prot="public" virt="non-virtual"><scope>tw_app</scope><name>set_canvas</name></member>
+      <member refid="classtw__app_1a415b5f5015e2f10ea3c1e627d58d289f" prot="public" virt="non-virtual"><scope>tw_app</scope><name>tw_app</name></member>
+      <member refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" prot="protected" virt="non-virtual"><scope>tw_app</scope><name>update_period</name></member>
+      <member refid="classtw__app_1a59f9dd493e97a436ee39365427dd389b" prot="public" virt="non-virtual"><scope>tw_app</scope><name>~tw_app</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

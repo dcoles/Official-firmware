@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_d9ca98df1069deae613c3f937250f331" kind="dir">
+    <compoundname>src/settings</compoundname>
+    <innerfile refid="settings_8cpp">settings.cpp</innerfile>
+    <innerfile refid="settings_8h">settings.h</innerfile>
+    <innerfile refid="settings__extra_8h">settings_extra.h</innerfile>
+    <innerfile refid="settings_option_8cpp">settingsOption.cpp</innerfile>
+    <innerfile refid="settings_option_8h">settingsOption.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/settings/"/>
+  </compounddef>
+</doxygen>

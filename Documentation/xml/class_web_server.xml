@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_web_server" kind="class" language="C++" prot="public">
+    <compoundname>WebServer</compoundname>
+    <includes local="no">webserver.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_web_server_1a7f258a6e30591809c0e14b844b2c9e9c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WebServer::_running</definition>
+        <argsstring></argsstring>
+        <name>_running</name>
+        <qualifiedname>WebServer::_running</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="24" column="6" bodyfile="src/web/webserver.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_server_1ade764d699c594cd1eb5c38556fb58937" prot="private" static="no" mutable="no">
+        <type>AsyncWebServer</type>
+        <definition>AsyncWebServer WebServer::web_server</definition>
+        <argsstring></argsstring>
+        <name>web_server</name>
+        <qualifiedname>WebServer::web_server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="25" column="16" bodyfile="src/web/webserver.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_web_server_1a167caa34716b4c5b58f5e6e48107df77" prot="private" static="no" mutable="no">
+        <type>DNSServer</type>
+        <definition>DNSServer WebServer::dns_server</definition>
+        <argsstring></argsstring>
+        <name>dns_server</name>
+        <qualifiedname>WebServer::dns_server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="26" column="11" bodyfile="src/web/webserver.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_web_server_1ad053f4e1808a3c10c7522d0dbbbc031a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WebServer::WebServer</definition>
+        <argsstring>()</argsstring>
+        <name>WebServer</name>
+        <qualifiedname>WebServer::WebServer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="13" column="1" bodyfile="src/web/webserver.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_server_1aa11a807dd663199f91cc3571a22fc936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WebServer::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <qualifiedname>WebServer::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="15" column="6" bodyfile="src/web/webserver.cpp" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_server_1a26b984084ea122ca20cf70324b44aca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WebServer::start_callback</definition>
+        <argsstring>(bool success, const String &amp;response)</argsstring>
+        <name>start_callback</name>
+        <qualifiedname>WebServer::start_callback</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="16" column="6" bodyfile="src/web/webserver.cpp" bodystart="55" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_server_1a09e0bc35886a3088dec9e459eb99092d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WebServer::stop</definition>
+        <argsstring>(bool restart)</argsstring>
+        <name>stop</name>
+        <qualifiedname>WebServer::stop</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>restart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="17" column="6" bodyfile="src/web/webserver.cpp" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_server_1a8513128c907be1e630d22dc3402d2b14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WebServer::process</definition>
+        <argsstring>()</argsstring>
+        <name>process</name>
+        <qualifiedname>WebServer::process</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="18" column="6" bodyfile="src/web/webserver.cpp" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_server_1ae4afb83030c87b83425f0ca3a6f49b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WebServer::is_running</definition>
+        <argsstring>()</argsstring>
+        <name>is_running</name>
+        <qualifiedname>WebServer::is_running</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="19" column="6" bodyfile="src/web/webserver.cpp" bodystart="107" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_web_server_1af173220cfa6fb71452ff6fad8a1b5a45" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String WebServer::processor</definition>
+        <argsstring>(const String &amp;var)</argsstring>
+        <name>processor</name>
+        <qualifiedname>WebServer::processor</qualifiedname>
+        <param>
+          <type>const String &amp;</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/webserver.h" line="21" column="15" bodyfile="src/web/webserver.cpp" bodystart="8" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/web/webserver.h" line="9" column="1" bodyfile="src/web/webserver.h" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_web_server_1a7f258a6e30591809c0e14b844b2c9e9c" prot="private" virt="non-virtual"><scope>WebServer</scope><name>_running</name></member>
+      <member refid="class_web_server_1a167caa34716b4c5b58f5e6e48107df77" prot="private" virt="non-virtual"><scope>WebServer</scope><name>dns_server</name></member>
+      <member refid="class_web_server_1ae4afb83030c87b83425f0ca3a6f49b72" prot="public" virt="non-virtual"><scope>WebServer</scope><name>is_running</name></member>
+      <member refid="class_web_server_1a8513128c907be1e630d22dc3402d2b14" prot="public" virt="non-virtual"><scope>WebServer</scope><name>process</name></member>
+      <member refid="class_web_server_1af173220cfa6fb71452ff6fad8a1b5a45" prot="public" virt="non-virtual"><scope>WebServer</scope><name>processor</name></member>
+      <member refid="class_web_server_1aa11a807dd663199f91cc3571a22fc936" prot="public" virt="non-virtual"><scope>WebServer</scope><name>start</name></member>
+      <member refid="class_web_server_1a26b984084ea122ca20cf70324b44aca6" prot="public" virt="non-virtual"><scope>WebServer</scope><name>start_callback</name></member>
+      <member refid="class_web_server_1a09e0bc35886a3088dec9e459eb99092d" prot="public" virt="non-virtual"><scope>WebServer</scope><name>stop</name></member>
+      <member refid="class_web_server_1ade764d699c594cd1eb5c38556fb58937" prot="private" virt="non-virtual"><scope>WebServer</scope><name>web_server</name></member>
+      <member refid="class_web_server_1ad053f4e1808a3c10c7522d0dbbbc031a" prot="public" virt="non-virtual"><scope>WebServer</scope><name>WebServer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structconnect__responder" kind="struct" language="C++" prot="public">
+    <compoundname>connect_responder</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structconnect__responder_1adfdd2220dead0500808a007cddc78fd1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wifi_setup" kindref="compound">WifiSetup</ref> *</type>
+        <definition>WifiSetup* connect_responder::server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <qualifiedname>connect_responder::server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="69" column="11" bodyfile="src/web/wifi_setup.cpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structconnect__responder_1adc6ac61bb4b28990514ff154305163b9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool connect_responder::waiting</definition>
+        <argsstring></argsstring>
+        <name>waiting</name>
+        <qualifiedname>connect_responder::waiting</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="70" column="6" bodyfile="src/web/wifi_setup.cpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structconnect__responder_1aa5e3494c5e22af88802300117142113b" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long connect_responder::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>connect_responder::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="71" column="15" bodyfile="src/web/wifi_setup.cpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structconnect__responder_1a95c331a06e3e1ce748e7f94db1a5b485" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string connect_responder::response</definition>
+        <argsstring></argsstring>
+        <name>response</name>
+        <qualifiedname>connect_responder::response</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="73" column="13" bodyfile="src/web/wifi_setup.cpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structconnect__responder_1aebe289d57f760f0495ad623da0878eda" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int connect_responder::timeout</definition>
+        <argsstring></argsstring>
+        <name>timeout</name>
+        <qualifiedname>connect_responder::timeout</qualifiedname>
+        <initializer>= 15000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="72" column="18" bodyfile="src/web/wifi_setup.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structconnect__responder_1ae32e5865fd50346c7a21e7cdba02756a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>connect_responder::connect_responder</definition>
+        <argsstring>(WifiSetup *server)</argsstring>
+        <name>connect_responder</name>
+        <qualifiedname>connect_responder::connect_responder</qualifiedname>
+        <param>
+          <type><ref refid="class_wifi_setup" kindref="compound">WifiSetup</ref> *</type>
+          <declname>server</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="75" column="1" bodyfile="src/web/wifi_setup.cpp" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="structconnect__responder_1a29a9853b45020abce49d6ec4fb4e939c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t connect_responder::operator()</definition>
+        <argsstring>(uint8_t *buffer, size_t maxLen, size_t index)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>connect_responder::operator()</qualifiedname>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>maxLen</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="77" column="8" bodyfile="src/web/wifi_setup.cpp" bodystart="77" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>WifiSetup</label>
+        <link refid="class_wifi_setup"/>
+      </node>
+      <node id="1">
+        <label>connect_responder</label>
+        <link refid="structconnect__responder"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>server</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/web/wifi_setup.cpp" line="67" column="1" bodyfile="src/web/wifi_setup.cpp" bodystart="68" bodyend="108"/>
+    <listofallmembers>
+      <member refid="structconnect__responder_1ae32e5865fd50346c7a21e7cdba02756a" prot="public" virt="non-virtual"><scope>connect_responder</scope><name>connect_responder</name></member>
+      <member refid="structconnect__responder_1a29a9853b45020abce49d6ec4fb4e939c" prot="public" virt="non-virtual"><scope>connect_responder</scope><name>operator()</name></member>
+      <member refid="structconnect__responder_1a95c331a06e3e1ce748e7f94db1a5b485" prot="public" virt="non-virtual"><scope>connect_responder</scope><name>response</name></member>
+      <member refid="structconnect__responder_1adfdd2220dead0500808a007cddc78fd1" prot="public" virt="non-virtual"><scope>connect_responder</scope><name>server</name></member>
+      <member refid="structconnect__responder_1aa5e3494c5e22af88802300117142113b" prot="public" virt="non-virtual"><scope>connect_responder</scope><name>start</name></member>
+      <member refid="structconnect__responder_1aebe289d57f760f0495ad623da0878eda" prot="public" virt="non-virtual"><scope>connect_responder</scope><name>timeout</name></member>
+      <member refid="structconnect__responder_1adc6ac61bb4b28990514ff154305163b9" prot="public" virt="non-virtual"><scope>connect_responder</scope><name>waiting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

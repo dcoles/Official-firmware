@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="app___empty_8cpp" kind="file" language="C++">
+    <compoundname>app_Empty.cpp</compoundname>
+    <includes refid="app___empty_8h" local="yes">tw_apps/app_Empty.h</includes>
+    <includes refid="_roboto_mono___regular___all_8h" local="yes">fonts/RobotoMono_Regular_All.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="4">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>fonts/RobotoMono_Regular_All.h</label>
+        <link refid="_roboto_mono___regular___all_8h"/>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_apps/app_Empty.cpp</label>
+        <link refid="app___empty_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_apps/app_Empty.h</label>
+        <link refid="app___empty_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_apps/tw_app.h</label>
+        <link refid="tw__app_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="9">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="7">
+        <label>cst816t.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="13">
+        <label>json.h</label>
+      </node>
+      <node id="14">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="24">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="app___empty_8cpp_1ac6e5e0cc4dba4b282b5d7a4a66c365d5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_app_empty" kindref="compound">AppEmpty</ref></type>
+        <definition>AppEmpty app_empty</definition>
+        <argsstring></argsstring>
+        <name>app_empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Empty.cpp" line="120" column="10" bodyfile="src/tw_apps/app_Empty.cpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="app___empty_8h" kindref="compound">tw_apps/app_Empty.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#include<sp/>&quot;fonts/RobotoMono_Light_All.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___regular___all_8h" kindref="compound">fonts/RobotoMono_Regular_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_empty_1a915aa7a6d8ce45995c5630403b872445" kindref="member">AppEmpty::setup</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" kindref="member">is_setup</ref>)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" kindref="member">is_setup</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_empty_1a457272582856a552e875e79b213be20b" kindref="member">AppEmpty::pre_start</ref>()<sp/>{<sp/><ref refid="class_app_empty_1ad60115aef664ea2566e0c15e007a2681" kindref="member">shutdown_timer</ref><sp/>=<sp/>millis();<sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_empty_1a0ad807e098b4082aa29b91cfb7571347" kindref="member">AppEmpty::draw_icon</ref>(uint8_t<sp/>canvasid,<sp/>int16_t<sp/>_pos_x,<sp/>int16_t<sp/>_pos_y,<sp/>uint8_t<sp/>style_hint)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" kindref="member">is_icon_cached</ref>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" kindref="member">is_icon_cached</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.fillSprite(0);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.drawSmoothRoundRect(0,<sp/>0,<sp/>10,<sp/>6,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref>,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref>,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xCC,<sp/>0xAA,<sp/>0x77),<sp/>0);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setTextDatum(4);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setFreeFont(RobotoMono_Regular[15]);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.drawString(</highlight><highlight class="stringliteral">&quot;Hi&quot;</highlight><highlight class="normal">,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref><sp/>/<sp/>2,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref><sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" kindref="member">icon_x</ref><sp/>=<sp/>_pos_x;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" kindref="member">icon_y</ref><sp/>=<sp/>_pos_y;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.pushToSprite(&amp;<ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>],<sp/>_pos_x,<sp/>_pos_y);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_empty_1ae82c686f34050752af522a5b2c40b71b" kindref="member">AppEmpty::draw</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Override<sp/>the<sp/>CPU<sp/>settings<sp/>for<sp/>this<sp/>app<sp/>(if<sp/>needed)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>setCpuFrequencyMhz(160);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_empty_1a915aa7a6d8ce45995c5630403b872445" kindref="member">setup</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Example<sp/>of<sp/>how<sp/>to<sp/>auto<sp/>shut<sp/>down<sp/>the<sp/>app<sp/>after<sp/>a<sp/>period<sp/>of<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>(millis()<sp/>-<sp/>shutdown_timer<sp/>&gt;<sp/>5000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>//<sp/>close<sp/>without<sp/>saving<sp/>settings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>close(false);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>return;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(force<sp/>||<sp/>millis()<sp/>-<sp/><ref refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" kindref="member">next_update</ref><sp/>&gt;<sp/><ref refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" kindref="member">update_period</ref>)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" kindref="member">next_update</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillSprite(TFT_BLACK);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Start<sp/>Custom<sp/>App<sp/>Code</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillSprite(TFT_BLACK);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].setTextDatum(MC_DATUM);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Regular[15]);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].setTextColor(TFT_GREEN);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;Hello,<sp/>World&quot;</highlight><highlight class="normal">,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1af33ee9b7afad5327be79b09128374e1f" kindref="member">center_x</ref>,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a351b3d7c13b5affef336430dc9267214" kindref="member">center_y</ref>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>End<sp/>Custom<sp/>App<sp/>Code</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].pushSprite(<ref refid="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" kindref="member">_x</ref>,<sp/><ref refid="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" kindref="member">_y</ref>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_app_empty_1ad0e5eaa6c5a50cff1420acc4be1cb5ce" kindref="member">AppEmpty::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_app_empty_1a3069554f19d2fa85bb23b4e1fef5d61c" kindref="member">AppEmpty::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><ref refid="class_app_empty" kindref="compound">AppEmpty</ref><sp/><ref refid="app___empty_8cpp_1ac6e5e0cc4dba4b282b5d7a4a66c365d5" kindref="member">app_empty</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_apps/app_Empty.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="rtc_8cpp" kind="file" language="C++">
+    <compoundname>rtc.cpp</compoundname>
+    <includes refid="rtc_8h" local="yes">rtc.h</includes>
+    <includes local="yes">esp32s3/rom/rtc.h</includes>
+    <includes refid="logging_8h" local="yes">utilities/logging.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>src/peripherals/rtc.cpp</label>
+        <link refid="rtc_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="3">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="4">
+        <label>esp32s3/rom/rtc.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rtc_8cpp_1aeab314524096f5423acf1fe3905b2acf" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool interruptTriggered</definition>
+        <argsstring></argsstring>
+        <name>interruptTriggered</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.cpp" line="5" column="6" bodyfile="src/peripherals/rtc.cpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rtc_8cpp_1a6bd950625db0f240acc63a9cb41873f6" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* ntpServer</definition>
+        <argsstring></argsstring>
+        <name>ntpServer</name>
+        <initializer>= &quot;pool.ntp.org&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.cpp" line="6" column="12" bodyfile="src/peripherals/rtc.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rtc_8cpp_1abcb4cacf52bf654a9d5adbbde8893b0d" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String days[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>days</name>
+        <initializer>= {&quot;SUN&quot;, &quot;MON&quot;, &quot;TUE&quot;, &quot;WED&quot;, &quot;THU&quot;, &quot;FRI&quot;, &quot;SAT&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.cpp" line="8" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="variable" id="rtc_8cpp_1a1950b74d251f4d30c82a0a0efef490ef" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String months[12]</definition>
+        <argsstring>[12]</argsstring>
+        <name>months</name>
+        <initializer>= {&quot;JAN&quot;, &quot;FEB&quot;, &quot;MAR&quot;, &quot;APR&quot;, &quot;MAY&quot;, &quot;JUN&quot;, &quot;JUL&quot;, &quot;AUG&quot;, &quot;SEP&quot;, &quot;OCT&quot;, &quot;NOV&quot;, &quot;DEC&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.cpp" line="9" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="variable" id="rtc_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_r_t_c" kindref="compound">RTC</ref></type>
+        <definition>RTC rtc</definition>
+        <argsstring></argsstring>
+        <name>rtc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.cpp" line="193" column="5" bodyfile="src/peripherals/rtc.cpp" bodystart="193" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="rtc_8cpp_1a6a111b83a9cd857fcdf09e1726a0fbba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rtcInterrupt</definition>
+        <argsstring>()</argsstring>
+        <name>rtcInterrupt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.cpp" line="143" column="6" bodyfile="src/peripherals/rtc.cpp" bodystart="143" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rtc_8h" kindref="compound">rtc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;esp32s3/rom/rtc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logging_8h" kindref="compound">utilities/logging.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="rtc_8cpp_1aeab314524096f5423acf1fe3905b2acf" kindref="member">interruptTriggered</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="rtc_8cpp_1a6bd950625db0f240acc63a9cb41873f6" kindref="member">ntpServer</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;pool.ntp.org&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">String<sp/><ref refid="rtc_8cpp_1abcb4cacf52bf654a9d5adbbde8893b0d" kindref="member">days</ref>[7]<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;SUN&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;MON&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;TUE&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;WED&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;THU&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FRI&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;SAT&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">String<sp/><ref refid="rtc_8cpp_1a1950b74d251f4d30c82a0a0efef490ef" kindref="member">months</ref>[12]<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;JAN&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FEB&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;MAR&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;APR&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;MAY&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;JUN&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;JUL&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;AUG&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;SEP&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;OCT&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;NOV&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;DEC&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1a57ecd4dca8ffc8d3ea9d95a3598d6945" kindref="member">RTC::init</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.begin()<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>detect<sp/>RV-3028-C7!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;RV-3028-C7<sp/>connected!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1acbde1a4dbc26c6066fa3fb1f7a358032" kindref="member">enabled</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rtc_8cpp_1aeab314524096f5423acf1fe3905b2acf" kindref="member">interruptTriggered</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>pinMode(RTC_INT,<sp/>INPUT_PULLUP);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>attachInterrupt(digitalPinToInterrupt(RTC_INT),<sp/>rtcInterrupt,<sp/>FALLING);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a548196e3f9cdf99fd05a46cc521846f6" kindref="member">requiresNTP</ref><sp/>=<sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_YEAR)<sp/>&lt;<sp/>23;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1ad29394472da8253f087b68c7a06a054f" kindref="member">RTC::set_time_from_NTP</ref>(int16_t<sp/>utc_offset)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_r_t_c_1acbde1a4dbc26c6066fa3fb1f7a358032" kindref="member">enabled</ref>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>time_error<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(utc_offset<sp/>!=<sp/>999)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configTime(utc_offset<sp/>*<sp/>3600,<sp/>0,<sp/><ref refid="rtc_8cpp_1a6bd950625db0f240acc63a9cb41873f6" kindref="member">ntpServer</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delay(100);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">tm<sp/>timeinfo;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!getLocalTime(&amp;timeinfo))</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_println(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>obtain<sp/>time&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time_error<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.setDateTimeFromTM(timeinfo);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time_error<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(time_error)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Hard-coded<sp/>for<sp/>time<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.setDateTimeFromISO8601(</highlight><highlight class="stringliteral">&quot;1900-01-01T00:00:00&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Writes<sp/>the<sp/>new<sp/>date<sp/>time<sp/>to<sp/>RTC,<sp/>good<sp/>or<sp/>bad</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.synchronize();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!time_error;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1ac05ae8a75f785cc467b6917d6ca41a7d" kindref="member">RTC::set_hourly_alarm</ref>(uint<sp/>minutes)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a3b631fed4fcb2f02e36f63b3aad53027" kindref="member">setup_interrupt</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.setHourlyAlarm(</highlight><highlight class="comment">/*minute=*/</highlight><highlight class="normal">minutes);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.enableInterrupt(INTERRUPT_ALARM);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">String<sp/><ref refid="class_r_t_c_1ab07e45af9b2786d5d7ed3c50cfdc0358" kindref="member">RTC::get_hours_string</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>padded,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is24hour)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hour<sp/>=<sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_HOUR);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!is24hour<sp/>&amp;&amp;<sp/>hour<sp/>&gt;<sp/>12)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hour<sp/>-=<sp/>12;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>txt<sp/>=<sp/>String(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_HOUR));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(padded<sp/>&amp;&amp;<sp/>hour<sp/>&lt;<sp/>10)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/>+<sp/>String(hour);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>String(hour);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">String<sp/><ref refid="class_r_t_c_1abb44b79caae249fd3fc274120b455feb" kindref="member">RTC::get_mins_string</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>padded)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>txt<sp/>=<sp/>String(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_MINUTE));</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(padded<sp/>&amp;&amp;<sp/>txt.length()<sp/>&lt;<sp/>2)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/>+<sp/>txt;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>txt;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">String<sp/><ref refid="class_r_t_c_1a7ea88772146ac42e471064856c2cd545" kindref="member">RTC::get_secs_string</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>padded)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>txt<sp/>=<sp/>String(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_SECOND));</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(padded<sp/>&amp;&amp;<sp/>txt.length()<sp/>&lt;<sp/>2)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/>+<sp/>txt;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>txt;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">String<sp/><ref refid="class_r_t_c_1a624d6291e36c1399ebddbf44d31221f1" kindref="member">RTC::get_time_string</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>padded,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is24hour)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>txt<sp/>=<sp/><ref refid="class_r_t_c_1ab07e45af9b2786d5d7ed3c50cfdc0358" kindref="member">get_hours_string</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>is24hour);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>txt<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>txt<sp/>+=<sp/><ref refid="class_r_t_c_1abb44b79caae249fd3fc274120b455feb" kindref="member">get_mins_string</ref>(padded);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>txt;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1a584f6a61e435f518e2950206592cda44" kindref="member">RTC::get_hours</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_HOUR));<sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1a8f6e476c8f5ccdacbc69da6db5092070" kindref="member">RTC::get_mins</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_MINUTE));<sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1aee92322b67dd488e3fe77d1045e53d3d" kindref="member">RTC::get_seconds</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_SECOND));<sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">uint16_t<sp/><ref refid="class_r_t_c_1a01e24dae34233cf35a5d0c6d8ab52009" kindref="member">RTC::get_day</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_DAY_OF_MONTH));<sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">uint16_t<sp/><ref refid="class_r_t_c_1ad46b4ccf682c4fc57af1cde874a1dc60" kindref="member">RTC::get_month</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_MONTH));<sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">uint16_t<sp/><ref refid="class_r_t_c_1ae8f63503b20d8504e4a4fd2669bcfb27" kindref="member">RTC::get_year</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((uint16_t)<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_YEAR)<sp/>+<sp/>2000);<sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1ac9a7cab8de2329400ba4f6f13588fca9" kindref="member">RTC::get_step_date</ref>(uint16_t<sp/>&amp;day,<sp/>uint16_t<sp/>&amp;month,<sp/>uint16_t<sp/>&amp;year)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_r_t_c_1aea8434a3279d7440a97fb643dc438507" kindref="member">next_rtc_read</ref><sp/>==<sp/>0<sp/>||<sp/>millis()<sp/>-<sp/><ref refid="class_r_t_c_1aea8434a3279d7440a97fb643dc438507" kindref="member">next_rtc_read</ref><sp/>&gt;<sp/>5000)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1aea8434a3279d7440a97fb643dc438507" kindref="member">next_rtc_read</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1aaf78123b7124b89372f133212553e8dc" kindref="member">cached_day</ref><sp/>=<sp/><ref refid="class_r_t_c_1a01e24dae34233cf35a5d0c6d8ab52009" kindref="member">get_day</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1ae308c53de31d457194a04abad1c70073" kindref="member">cached_month</ref><sp/>=<sp/><ref refid="class_r_t_c_1ad46b4ccf682c4fc57af1cde874a1dc60" kindref="member">get_month</ref>();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a3f6a206e98022fdc8dcbe3d74a90482f" kindref="member">cached_year</ref><sp/>=<sp/><ref refid="class_r_t_c_1ae8f63503b20d8504e4a4fd2669bcfb27" kindref="member">get_year</ref>();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>day<sp/>=<sp/><ref refid="class_r_t_c_1aaf78123b7124b89372f133212553e8dc" kindref="member">cached_day</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>month<sp/>=<sp/><ref refid="class_r_t_c_1ae308c53de31d457194a04abad1c70073" kindref="member">cached_month</ref>;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>year<sp/>=<sp/><ref refid="class_r_t_c_1a3f6a206e98022fdc8dcbe3d74a90482f" kindref="member">cached_year</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="rtc_8cpp_1a6a111b83a9cd857fcdf09e1726a0fbba" kindref="member">rtcInterrupt</ref>()<sp/>{<sp/><ref refid="rtc_8cpp_1aeab314524096f5423acf1fe3905b2acf" kindref="member">interruptTriggered</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1a3b631fed4fcb2f02e36f63b3aad53027" kindref="member">RTC::setup_interrupt</ref>()</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rtc_8cpp_1aeab314524096f5423acf1fe3905b2acf" kindref="member">interruptTriggered</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>attachInterrupt(digitalPinToInterrupt(<ref refid="class_r_t_c_1ab0b4e674c18c508d4d07a7e2452cc051" kindref="member">interruptPin</ref>),<sp/><ref refid="rtc_8cpp_1a6a111b83a9cd857fcdf09e1726a0fbba" kindref="member">rtcInterrupt</ref>,<sp/>FALLING);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal">String<sp/><ref refid="class_r_t_c_1ac94a3b01f03d3907fb98eba11836d98c" kindref="member">RTC::get_day_date</ref>()</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>raw<sp/>=<sp/><ref refid="rtc_8cpp_1abcb4cacf52bf654a9d5adbbde8893b0d" kindref="member">days</ref>[<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_DAY_OF_WEEK)];</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>raw<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>raw<sp/>+=<sp/><ref refid="rtc_8cpp_1a1950b74d251f4d30c82a0a0efef490ef" kindref="member">months</ref>[<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_MONTH)<sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>raw<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>raw<sp/>+=<sp/>String(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_DAY_OF_MONTH));</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>raw<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>raw<sp/>+=<sp/>String(2000<sp/>+<sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_YEAR));</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Mon<sp/>Oct<sp/>30<sp/>2023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>raw;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">String<sp/><ref refid="class_r_t_c_1a4f16eb2b1c0846c618e16dff369b3184" kindref="member">RTC::get_day_of_week</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="rtc_8cpp_1abcb4cacf52bf654a9d5adbbde8893b0d" kindref="member">days</ref>[<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_DAY_OF_WEEK)];<sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">String<sp/><ref refid="class_r_t_c_1a4b6f95a607c60c63309826d2fd4db019" kindref="member">RTC::get_month_date</ref>()</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>raw<sp/>=<sp/><ref refid="rtc_8cpp_1a1950b74d251f4d30c82a0a0efef490ef" kindref="member">months</ref>[<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_MONTH)<sp/>-<sp/>1].substring(0,<sp/>3);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>raw<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>raw<sp/>+=<sp/>String(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.getCurrentDateTimeComponent(DATETIME_DAY_OF_MONTH));</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>raw;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_r_t_c_1a6f545dc205dc7efda261842c752eabb1" kindref="member">RTC::check_interrupt</ref>()</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="rtc_8cpp_1aeab314524096f5423acf1fe3905b2acf" kindref="member">interruptTriggered</ref>)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rtc_8cpp_1aeab314524096f5423acf1fe3905b2acf" kindref="member">interruptTriggered</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.isInterruptDetected(INTERRUPT_ALARM))</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info_print(</highlight><highlight class="stringliteral">&quot;Alarm:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>info_println(getTime());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" kindref="member">rtc</ref>.clearInterrupt(INTERRUPT_ALARM);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><ref refid="class_r_t_c" kindref="compound">RTC</ref><sp/><ref refid="rtc_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kindref="member">rtc</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/peripherals/rtc.cpp"/>
+  </compounddef>
+</doxygen>

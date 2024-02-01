@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_f9dfd35b172a0e2036ace76497fb239b" kind="dir">
+    <compoundname>D:/workspace/tinywatch-s3/official-firmware/Documentation</compoundname>
+    <innerdir refid="dir_8754a0b74411b33d5cca1a47e4d2c1f1">D:/workspace/tinywatch-s3/official-firmware/Documentation/extra</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/tinywatch-s3/official-firmware/Documentation/"/>
+  </compounddef>
+</doxygen>

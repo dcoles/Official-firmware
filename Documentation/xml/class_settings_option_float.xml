@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_settings_option_float" kind="class" language="C++" prot="public">
+    <compoundname>SettingsOptionFloat</compoundname>
+    <includes local="no">settingsOption.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_settings_option_float_1a9906c196d0f0c784de2f20aec5069d53" prot="private" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* SettingsOptionFloat::setting_ref</definition>
+        <argsstring></argsstring>
+        <name>setting_ref</name>
+        <qualifiedname>SettingsOptionFloat::setting_ref</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="32" column="7" bodyfile="src/settings/settingsOption.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_option_float_1a63b06734dd59750beec7c626b37ca81f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SettingsOptionFloat::value_min</definition>
+        <argsstring></argsstring>
+        <name>value_min</name>
+        <qualifiedname>SettingsOptionFloat::value_min</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="33" column="7" bodyfile="src/settings/settingsOption.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_option_float_1a3615787f57683af0cae8a37e9d53732c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SettingsOptionFloat::value_max</definition>
+        <argsstring></argsstring>
+        <name>value_max</name>
+        <qualifiedname>SettingsOptionFloat::value_max</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="34" column="7" bodyfile="src/settings/settingsOption.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_option_float_1a60895aa021d3aabd6c3b867acfccd3d8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SettingsOptionFloat::value_step</definition>
+        <argsstring></argsstring>
+        <name>value_step</name>
+        <qualifiedname>SettingsOptionFloat::value_step</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="35" column="7" bodyfile="src/settings/settingsOption.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_option_float_1aed22e85c2b830151def34a87055dd357" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SettingsOptionFloat::value_wrap</definition>
+        <argsstring></argsstring>
+        <name>value_wrap</name>
+        <qualifiedname>SettingsOptionFloat::value_wrap</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="36" column="6" bodyfile="src/settings/settingsOption.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_settings_option_float_1aaccf73bbfcdd996088fe6e0679b2d807" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SettingsOptionFloat::SettingsOptionFloat</definition>
+        <argsstring>(float *val, float val_min, float val_max, float val_step, bool wrap)</argsstring>
+        <name>SettingsOptionFloat</name>
+        <qualifiedname>SettingsOptionFloat::SettingsOptionFloat</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val_min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val_max</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val_step</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wrap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="26" column="1" bodyfile="src/settings/settingsOption.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_option_float_1ac45866017f12bfce12d4f5f89679b166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SettingsOptionFloat::change</definition>
+        <argsstring>(int dir)</argsstring>
+        <name>change</name>
+        <qualifiedname>SettingsOptionFloat::change</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="27" column="7" bodyfile="src/settings/settingsOption.cpp" bodystart="43" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_option_float_1a708c3a3312e6bb09594b762893af4928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SettingsOptionFloat::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>SettingsOptionFloat::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="28" column="7" bodyfile="src/settings/settingsOption.cpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_option_float_1a9db8d2321a1a2b509d5afc1f70f6338f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String SettingsOptionFloat::get_str</definition>
+        <argsstring>()</argsstring>
+        <name>get_str</name>
+        <qualifiedname>SettingsOptionFloat::get_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settingsOption.h" line="29" column="8" bodyfile="src/settings/settingsOption.cpp" bodystart="67" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/settings/settingsOption.h" line="23" column="1" bodyfile="src/settings/settingsOption.h" bodystart="24" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_settings_option_float_1ac45866017f12bfce12d4f5f89679b166" prot="public" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>change</name></member>
+      <member refid="class_settings_option_float_1a708c3a3312e6bb09594b762893af4928" prot="public" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>get</name></member>
+      <member refid="class_settings_option_float_1a9db8d2321a1a2b509d5afc1f70f6338f" prot="public" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>get_str</name></member>
+      <member refid="class_settings_option_float_1a9906c196d0f0c784de2f20aec5069d53" prot="private" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>setting_ref</name></member>
+      <member refid="class_settings_option_float_1aaccf73bbfcdd996088fe6e0679b2d807" prot="public" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>SettingsOptionFloat</name></member>
+      <member refid="class_settings_option_float_1a3615787f57683af0cae8a37e9d53732c" prot="private" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>value_max</name></member>
+      <member refid="class_settings_option_float_1a63b06734dd59750beec7c626b37ca81f" prot="private" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>value_min</name></member>
+      <member refid="class_settings_option_float_1a60895aa021d3aabd6c3b867acfccd3d8" prot="private" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>value_step</name></member>
+      <member refid="class_settings_option_float_1aed22e85c2b830151def34a87055dd357" prot="private" virt="non-virtual"><scope>SettingsOptionFloat</scope><name>value_wrap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

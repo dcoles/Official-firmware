@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="app___compass_8cpp" kind="file" language="C++">
+    <compoundname>app_Compass.cpp</compoundname>
+    <includes refid="app___compass_8h" local="yes">tw_apps/app_Compass.h</includes>
+    <includes refid="_clock___digits_8h" local="yes">fonts/Clock_Digits.h</includes>
+    <includes refid="_roboto_mono___regular___all_8h" local="yes">fonts/RobotoMono_Regular_All.h</includes>
+    <includes refid="imu_8h" local="yes">peripherals/imu.h</includes>
+    <incdepgraph>
+      <node id="29">
+        <label>Adafruit_MMC56x3.h</label>
+      </node>
+      <node id="5">
+        <label>Arduino.h</label>
+      </node>
+      <node id="4">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>fonts/Clock_Digits.h</label>
+        <link refid="_clock___digits_8h"/>
+      </node>
+      <node id="26">
+        <label>fonts/RobotoMono_Regular_All.h</label>
+        <link refid="_roboto_mono___regular___all_8h"/>
+      </node>
+      <node id="16">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>peripherals/imu.h</label>
+        <link refid="imu_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_apps/app_Compass.cpp</label>
+        <link refid="app___compass_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_apps/app_Compass.h</label>
+        <link refid="app___compass_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_apps/tw_app.h</label>
+        <link refid="tw__app_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="15">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="9">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="28">
+        <label>SparkFun_BMI270_Arduino_Library.h</label>
+      </node>
+      <node id="22">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="23">
+        <label>Tween.h</label>
+      </node>
+      <node id="19">
+        <label>WiFi.h</label>
+      </node>
+      <node id="7">
+        <label>cst816t.h</label>
+      </node>
+      <node id="20">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>initializer_list</label>
+      </node>
+      <node id="13">
+        <label>json.h</label>
+      </node>
+      <node id="14">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="24">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="app___compass_8cpp_1ac5a945020d3528355cda82d383676736" prot="public" static="no">
+        <name>RAD2DEG</name>
+        <initializer>0.0174532925</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.cpp" line="7" column="9" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="app___compass_8cpp_1a850b2f07a67b73890889e63fb8a49fda" prot="public" static="no">
+        <name>BACKGROUND</name>
+        <initializer>TFT_BLACK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.cpp" line="8" column="9" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="app___compass_8cpp_1aacf822f91191651baaa6647fee73f81a" prot="public" static="no">
+        <name>NEEDLE_L</name>
+        <initializer>84 / 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.cpp" line="81" column="9"/>
+      </memberdef>
+      <memberdef kind="define" id="app___compass_8cpp_1abc2184e8291e243870bd2173d185317b" prot="public" static="no">
+        <name>NEEDLE_W</name>
+        <initializer>12 / 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.cpp" line="82" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="app___compass_8cpp_1ac124251a3e24bc9963bd6414d1a403be" prot="public" static="no" mutable="no">
+        <type><ref refid="class_app_compass" kindref="compound">AppCompass</ref></type>
+        <definition>AppCompass app_compass</definition>
+        <argsstring></argsstring>
+        <name>app_compass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.cpp" line="122" column="12" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="app___compass_8h" kindref="compound">tw_apps/app_Compass.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_clock___digits_8h" kindref="compound">fonts/Clock_Digits.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___regular___all_8h" kindref="compound">fonts/RobotoMono_Regular_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="imu_8h" kindref="compound">peripherals/imu.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RAD2DEG<sp/>0.0174532925</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BACKGROUND<sp/>TFT_BLACK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_compass_1a47f01e5086ac3471288e7c14dded2e66" kindref="member">AppCompass::setup</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" kindref="member">is_setup</ref>)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" kindref="member">is_setup</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>any<sp/>one<sp/>time<sp/>setup<sp/>code<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_compass_1a986e77e6e2d11ce4e1e749a214562680" kindref="member">AppCompass::pre_start</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_compass_1ab6a82cec74937c780c78d978891de9da" kindref="member">AppCompass::draw_icon</ref>(uint8_t<sp/>canvasid,<sp/>int16_t<sp/>_pos_x,<sp/>int16_t<sp/>_pos_y,<sp/>uint8_t<sp/>style_hint)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" kindref="member">is_icon_cached</ref>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" kindref="member">is_icon_cached</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.fillSprite(0);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.drawSmoothRoundRect(0,<sp/>0,<sp/>10,<sp/>6,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref>,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref>,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xdd,<sp/>0xa6,<sp/>0x00),<sp/>0);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setTextDatum(4);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setFreeFont(RobotoMono_Regular[15]);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.drawSmoothCircle(<ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref><sp/>/<sp/>2,<sp/><ref refid="classtw__app_1a7a8e55b2e1ee1d910b50b0688ae9369b" kindref="member">icon_height</ref><sp/>/<sp/>2,<sp/>20,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xff,<sp/>0xc9,<sp/>0x00),<sp/>0);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.drawString(</highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref><sp/>/<sp/>2,<sp/><ref refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" kindref="member">icon_width</ref><sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" kindref="member">icon_x</ref><sp/>=<sp/>_pos_x;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" kindref="member">icon_y</ref><sp/>=<sp/>_pos_y;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" kindref="member">icon_sprite</ref>.pushToSprite(&amp;<ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>],<sp/>_pos_x,<sp/>_pos_y);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_compass_1a94e74af29d8ebcc9d7de0879ed94e540" kindref="member">AppCompass::draw</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(force<sp/>||<sp/>millis()<sp/>-<sp/><ref refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" kindref="member">next_update</ref><sp/>&gt;<sp/><ref refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" kindref="member">update_period</ref>)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_compass_1a47f01e5086ac3471288e7c14dded2e66" kindref="member">setup</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" kindref="member">next_update</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_compass_1a3579e2c96a5534b151af35752ac09292" kindref="member">angle</ref><sp/>=<sp/><ref refid="imu_8cpp_1a047a89b0208974c18d5c49656240616a" kindref="member">imu</ref>.<ref refid="class_i_m_u_1ad98004c7e643ff5378a1082e3cc01d79" kindref="member">get_yaw</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_app_compass_1a2e1ec53ba887b0340f2441318e2979cf" kindref="member">drawCompass</ref>(120,<sp/>140,<sp/><ref refid="class_app_compass_1a3579e2c96a5534b151af35752ac09292" kindref="member">angle</ref>);<sp/></highlight><highlight class="comment">//<sp/>Draw<sp/>centre<sp/>of<sp/>compass<sp/>at<sp/>120,140</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].pushSprite(<ref refid="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" kindref="member">_x</ref>,<sp/><ref refid="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" kindref="member">_y</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_app_compass_1aca45e38f1e7de29a360fb9e808b9eee5" kindref="member">AppCompass::click</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_app_compass_1a2caecbd31379d637afd67fa94dc4ef08" kindref="member">AppCompass::click_double</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_compass_1a2e1ec53ba887b0340f2441318e2979cf" kindref="member">AppCompass::drawCompass</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>angle)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Regular[12]);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TFT_TRANSPARENT<sp/>is<sp/>a<sp/>special<sp/>colour<sp/>with<sp/>reversible<sp/>8/16<sp/>bit<sp/>coding</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>allows<sp/>it<sp/>to<sp/>be<sp/>used<sp/>in<sp/>both<sp/>8<sp/>and<sp/>16<sp/>bit<sp/>colour<sp/>sprites.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillSprite(TFT_TRANSPARENT);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NEEDLE_L<sp/>84<sp/>/<sp/>2<sp/></highlight><highlight class="comment">//<sp/>Needle<sp/>length<sp/>is<sp/>84,<sp/>we<sp/>want<sp/>radius<sp/>which<sp/>is<sp/>42</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NEEDLE_W<sp/>12<sp/>/<sp/>2<sp/></highlight><highlight class="comment">//<sp/>Needle<sp/>width<sp/>is<sp/>12,<sp/>radius<sp/>is<sp/>then<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Draw<sp/>the<sp/>old<sp/>needle<sp/>position<sp/>in<sp/>the<sp/>screen<sp/>background<sp/>colour<sp/>so</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>it<sp/>gets<sp/>erased<sp/>on<sp/>the<sp/>TFT<sp/>when<sp/>the<sp/>sprite<sp/>is<sp/>drawn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillTriangle(<ref refid="class_app_compass_1add6bdfd3ca76572b9f8f7cd63523435c" kindref="member">lx1</ref>,<sp/><ref refid="class_app_compass_1a46e7bec61bb18264ee0f0e0a46cbcb94" kindref="member">ly1</ref>,<sp/><ref refid="class_app_compass_1acf693bb08c96c50bc5e6c485a901913f" kindref="member">lx3</ref>,<sp/><ref refid="class_app_compass_1ac2f01327ea643802c00a290cfdbc4400" kindref="member">ly3</ref>,<sp/><ref refid="class_app_compass_1a1d731948d14c66a8cd2ae213584f75cc" kindref="member">lx4</ref>,<sp/><ref refid="class_app_compass_1ac10924ad46dfb33364fdbccf167b47a0" kindref="member">ly4</ref>,<sp/><ref refid="app___compass_8cpp_1a850b2f07a67b73890889e63fb8a49fda" kindref="member">BACKGROUND</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillTriangle(<ref refid="class_app_compass_1a4bad571b5878a5202c2ec074e449f425" kindref="member">lx2</ref>,<sp/><ref refid="class_app_compass_1a76dc1f19c3bf4468c528e5f3c1d9bfa9" kindref="member">ly2</ref>,<sp/><ref refid="class_app_compass_1acf693bb08c96c50bc5e6c485a901913f" kindref="member">lx3</ref>,<sp/><ref refid="class_app_compass_1ac2f01327ea643802c00a290cfdbc4400" kindref="member">ly3</ref>,<sp/><ref refid="class_app_compass_1a1d731948d14c66a8cd2ae213584f75cc" kindref="member">lx4</ref>,<sp/><ref refid="class_app_compass_1ac10924ad46dfb33364fdbccf167b47a0" kindref="member">ly4</ref>,<sp/><ref refid="app___compass_8cpp_1a850b2f07a67b73890889e63fb8a49fda" kindref="member">BACKGROUND</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>text<sp/>coordinate<sp/>datum<sp/>to<sp/>middle<sp/>centre</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].setTextDatum(MC_DATUM);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;N&quot;</highlight><highlight class="normal">,<sp/>120,<sp/>140<sp/>-<sp/>42,<sp/>2);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;E&quot;</highlight><highlight class="normal">,<sp/>120<sp/>+<sp/>42,<sp/>140,<sp/>2);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;S&quot;</highlight><highlight class="normal">,<sp/>120,<sp/>140<sp/>+<sp/>42,<sp/>2);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawString(</highlight><highlight class="stringliteral">&quot;W&quot;</highlight><highlight class="normal">,<sp/>120<sp/>-<sp/>42,<sp/>140,<sp/>2);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].drawCircle(120,<sp/>140,<sp/>30,<sp/>TFT_DARKGREY);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_compass_1ad22a2ab973d0fc837d085828f21d5018" kindref="member">getCoord</ref>(x,<sp/>y,<sp/>&amp;<ref refid="class_app_compass_1add6bdfd3ca76572b9f8f7cd63523435c" kindref="member">lx1</ref>,<sp/>&amp;<ref refid="class_app_compass_1a46e7bec61bb18264ee0f0e0a46cbcb94" kindref="member">ly1</ref>,<sp/><ref refid="app___compass_8cpp_1aacf822f91191651baaa6647fee73f81a" kindref="member">NEEDLE_L</ref>,<sp/><ref refid="class_app_compass_1a3579e2c96a5534b151af35752ac09292" kindref="member">angle</ref>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_compass_1ad22a2ab973d0fc837d085828f21d5018" kindref="member">getCoord</ref>(x,<sp/>y,<sp/>&amp;<ref refid="class_app_compass_1a4bad571b5878a5202c2ec074e449f425" kindref="member">lx2</ref>,<sp/>&amp;<ref refid="class_app_compass_1a76dc1f19c3bf4468c528e5f3c1d9bfa9" kindref="member">ly2</ref>,<sp/><ref refid="app___compass_8cpp_1aacf822f91191651baaa6647fee73f81a" kindref="member">NEEDLE_L</ref>,<sp/><ref refid="class_app_compass_1a3579e2c96a5534b151af35752ac09292" kindref="member">angle</ref><sp/>+<sp/>180);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_compass_1ad22a2ab973d0fc837d085828f21d5018" kindref="member">getCoord</ref>(x,<sp/>y,<sp/>&amp;<ref refid="class_app_compass_1acf693bb08c96c50bc5e6c485a901913f" kindref="member">lx3</ref>,<sp/>&amp;<ref refid="class_app_compass_1ac2f01327ea643802c00a290cfdbc4400" kindref="member">ly3</ref>,<sp/><ref refid="app___compass_8cpp_1abc2184e8291e243870bd2173d185317b" kindref="member">NEEDLE_W</ref>,<sp/><ref refid="class_app_compass_1a3579e2c96a5534b151af35752ac09292" kindref="member">angle</ref><sp/>+<sp/>90);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_app_compass_1ad22a2ab973d0fc837d085828f21d5018" kindref="member">getCoord</ref>(x,<sp/>y,<sp/>&amp;<ref refid="class_app_compass_1a1d731948d14c66a8cd2ae213584f75cc" kindref="member">lx4</ref>,<sp/>&amp;<ref refid="class_app_compass_1ac10924ad46dfb33364fdbccf167b47a0" kindref="member">ly4</ref>,<sp/><ref refid="app___compass_8cpp_1abc2184e8291e243870bd2173d185317b" kindref="member">NEEDLE_W</ref>,<sp/><ref refid="class_app_compass_1a3579e2c96a5534b151af35752ac09292" kindref="member">angle</ref><sp/>-<sp/>90);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillTriangle(<ref refid="class_app_compass_1add6bdfd3ca76572b9f8f7cd63523435c" kindref="member">lx1</ref>,<sp/><ref refid="class_app_compass_1a46e7bec61bb18264ee0f0e0a46cbcb94" kindref="member">ly1</ref>,<sp/><ref refid="class_app_compass_1acf693bb08c96c50bc5e6c485a901913f" kindref="member">lx3</ref>,<sp/><ref refid="class_app_compass_1ac2f01327ea643802c00a290cfdbc4400" kindref="member">ly3</ref>,<sp/><ref refid="class_app_compass_1a1d731948d14c66a8cd2ae213584f75cc" kindref="member">lx4</ref>,<sp/><ref refid="class_app_compass_1ac10924ad46dfb33364fdbccf167b47a0" kindref="member">ly4</ref>,<sp/>TFT_RED);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillTriangle(<ref refid="class_app_compass_1a4bad571b5878a5202c2ec074e449f425" kindref="member">lx2</ref>,<sp/><ref refid="class_app_compass_1a76dc1f19c3bf4468c528e5f3c1d9bfa9" kindref="member">ly2</ref>,<sp/><ref refid="class_app_compass_1acf693bb08c96c50bc5e6c485a901913f" kindref="member">lx3</ref>,<sp/><ref refid="class_app_compass_1ac2f01327ea643802c00a290cfdbc4400" kindref="member">ly3</ref>,<sp/><ref refid="class_app_compass_1a1d731948d14c66a8cd2ae213584f75cc" kindref="member">lx4</ref>,<sp/><ref refid="class_app_compass_1ac10924ad46dfb33364fdbccf167b47a0" kindref="member">ly4</ref>,<sp/>TFT_LIGHTGREY);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillCircle(120,<sp/>140,<sp/>3,<sp/>TFT_DARKGREY);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" kindref="member">canvasid</ref>].fillCircle(120,<sp/>140,<sp/>2,<sp/>TFT_LIGHTGREY);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>coordinates<sp/>of<sp/>end<sp/>of<sp/>a<sp/>vector,<sp/>centre<sp/>at<sp/>x,y,<sp/>length<sp/>r,<sp/>angle<sp/>a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Coordinates<sp/>are<sp/>returned<sp/>to<sp/>caller<sp/>via<sp/>the<sp/>xp<sp/>and<sp/>yp<sp/>pointers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_app_compass_1ad22a2ab973d0fc837d085828f21d5018" kindref="member">AppCompass::getCoord</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*xp,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*yp,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sx1<sp/>=<sp/>cos((a<sp/>-<sp/>90)<sp/>*<sp/><ref refid="app___compass_8cpp_1ac5a945020d3528355cda82d383676736" kindref="member">RAD2DEG</ref>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sy1<sp/>=<sp/>sin((a<sp/>-<sp/>90)<sp/>*<sp/><ref refid="app___compass_8cpp_1ac5a945020d3528355cda82d383676736" kindref="member">RAD2DEG</ref>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>*xp<sp/>=<sp/>sx1<sp/>*<sp/>r<sp/>+<sp/>x;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>*yp<sp/>=<sp/>sy1<sp/>*<sp/>r<sp/>+<sp/>y;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><ref refid="class_app_compass" kindref="compound">AppCompass</ref><sp/><ref refid="app___compass_8cpp_1ac124251a3e24bc9963bd6414d1a403be" kindref="member">app_compass</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_apps/app_Compass.cpp"/>
+  </compounddef>
+</doxygen>

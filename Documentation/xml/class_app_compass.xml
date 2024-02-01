@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_app_compass" kind="class" language="C++" prot="public">
+    <compoundname>AppCompass</compoundname>
+    <basecompoundref refid="classtw__app" prot="public" virt="non-virtual">tw_app</basecompoundref>
+    <includes local="no">app_Compass.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_app_compass_1afae2708d6497676bdf04ba1736f7442f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String AppCompass::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>AppCompass::version</qualifiedname>
+        <initializer>= &quot;1.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="19" column="8" bodyfile="src/tw_apps/app_Compass.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1aad2e7c1b13d59ac39288af21a442f78d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AppCompass::showingGyro</definition>
+        <argsstring></argsstring>
+        <name>showingGyro</name>
+        <qualifiedname>AppCompass::showingGyro</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="20" column="6" bodyfile="src/tw_apps/app_Compass.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1a7805a042dfb6c4567e16bec7d47c5249" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <qualifiedname>AppCompass::number</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="22" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1a3579e2c96a5534b151af35752ac09292" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <qualifiedname>AppCompass::angle</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="23" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1add6bdfd3ca76572b9f8f7cd63523435c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::lx1</definition>
+        <argsstring></argsstring>
+        <name>lx1</name>
+        <qualifiedname>AppCompass::lx1</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="25" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1a46e7bec61bb18264ee0f0e0a46cbcb94" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::ly1</definition>
+        <argsstring></argsstring>
+        <name>ly1</name>
+        <qualifiedname>AppCompass::ly1</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="26" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1a4bad571b5878a5202c2ec074e449f425" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::lx2</definition>
+        <argsstring></argsstring>
+        <name>lx2</name>
+        <qualifiedname>AppCompass::lx2</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="27" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1a76dc1f19c3bf4468c528e5f3c1d9bfa9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::ly2</definition>
+        <argsstring></argsstring>
+        <name>ly2</name>
+        <qualifiedname>AppCompass::ly2</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="28" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1acf693bb08c96c50bc5e6c485a901913f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::lx3</definition>
+        <argsstring></argsstring>
+        <name>lx3</name>
+        <qualifiedname>AppCompass::lx3</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="29" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1ac2f01327ea643802c00a290cfdbc4400" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::ly3</definition>
+        <argsstring></argsstring>
+        <name>ly3</name>
+        <qualifiedname>AppCompass::ly3</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="30" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1a1d731948d14c66a8cd2ae213584f75cc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::lx4</definition>
+        <argsstring></argsstring>
+        <name>lx4</name>
+        <qualifiedname>AppCompass::lx4</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="31" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1ac10924ad46dfb33364fdbccf167b47a0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AppCompass::ly4</definition>
+        <argsstring></argsstring>
+        <name>ly4</name>
+        <qualifiedname>AppCompass::ly4</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="32" column="5" bodyfile="src/tw_apps/app_Compass.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1afa453ff125e1bbaa290f361e7b906d72" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t AppCompass::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>AppCompass::n</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="35" column="10" bodyfile="src/tw_apps/app_Compass.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_compass_1ad36e7d5b3194f5bf77b0b416f0b61283" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t AppCompass::dt</definition>
+        <argsstring></argsstring>
+        <name>dt</name>
+        <qualifiedname>AppCompass::dt</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="36" column="10" bodyfile="src/tw_apps/app_Compass.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_compass_1a47f01e5086ac3471288e7c14dded2e66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppCompass::setup</definition>
+        <argsstring>(void)</argsstring>
+        <name>setup</name>
+        <qualifiedname>AppCompass::setup</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="8" column="6" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="10" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_compass_1a986e77e6e2d11ce4e1e749a214562680" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppCompass::pre_start</definition>
+        <argsstring>(void)</argsstring>
+        <name>pre_start</name>
+        <qualifiedname>AppCompass::pre_start</qualifiedname>
+        <reimplements refid="classtw__app_1a9210babf07943910c5324c71d0cb4575">pre_start</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Put anything in here that you want to have run every time the app is opened. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is not the same as <ref refid="class_app_compass_1a47f01e5086ac3471288e7c14dded2e66" kindref="member">setup()</ref> above that only ever gets called the first time the app opens </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="9" column="6" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_compass_1a94e74af29d8ebcc9d7de0879ed94e540" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppCompass::draw</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>draw</name>
+        <qualifiedname>AppCompass::draw</qualifiedname>
+        <reimplements refid="classtw__app_1aac3219a95c9f0b26a6f4226ba2bc9bc2">draw</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="10" column="6" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="55" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_compass_1ab6a82cec74937c780c78d978891de9da" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AppCompass::draw_icon</definition>
+        <argsstring>(uint8_t canvasid, int16_t _pos_x, int16_t _pos_y, uint8_t style_hint)</argsstring>
+        <name>draw_icon</name>
+        <qualifiedname>AppCompass::draw_icon</qualifiedname>
+        <reimplements refid="classtw__app_1af52944199ec0fcedf5a0d10dd2b3cda3">draw_icon</reimplements>
+        <param>
+          <type>uint8_t</type>
+          <declname>canvasid</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>_pos_y</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>style_hint</declname>
+        </param>
+        <briefdescription>
+<para>Draw the icon that gets shown on the app menu face. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Icons are 64x64 with rounded corners as per the code below, but the inner content can be anything that represents the app well <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>canvasid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_pos_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_pos_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style_hint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="11" column="6" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="36" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_compass_1aca45e38f1e7de29a360fb9e808b9eee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AppCompass::click</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>AppCompass::click</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="12" column="6" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_compass_1a2caecbd31379d637afd67fa94dc4ef08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AppCompass::click_double</definition>
+        <argsstring>(int16_t pos_x, int16_t pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>AppCompass::click_double</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="13" column="6" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_compass_1a2e1ec53ba887b0340f2441318e2979cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppCompass::drawCompass</definition>
+        <argsstring>(int x, int y, int angle)</argsstring>
+        <name>drawCompass</name>
+        <qualifiedname>AppCompass::drawCompass</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="15" column="6" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="73" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_compass_1ad22a2ab973d0fc837d085828f21d5018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppCompass::getCoord</definition>
+        <argsstring>(int x, int y, int *xp, int *yp, int r, int a)</argsstring>
+        <name>getCoord</name>
+        <qualifiedname>AppCompass::getCoord</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>xp</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>yp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_apps/app_Compass.h" line="16" column="6" bodyfile="src/tw_apps/app_Compass.cpp" bodystart="114" bodyend="120"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AppCompass</label>
+        <link refid="class_app_compass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_app</label>
+        <link refid="classtw__app"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AppCompass</label>
+        <link refid="class_app_compass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_app</label>
+        <link refid="classtw__app"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_apps/app_Compass.h" line="5" column="1" bodyfile="src/tw_apps/app_Compass.h" bodystart="6" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classtw__app_1a2c1072e1d5aa038c2dd891990b449a8d" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>_x</name></member>
+      <member refid="classtw__app_1a3ba23a451ef3ce076e6bee0254dbea09" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>_y</name></member>
+      <member refid="classtw__app_1a653426b29da9daca3f0117c07d9e81ff" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>add</name></member>
+      <member refid="classtw__app_1aa8977866b6bc2829b4be921fdbf8d016" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>add</name></member>
+      <member refid="class_app_compass_1a3579e2c96a5534b151af35752ac09292" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>angle</name></member>
+      <member refid="classtw__app_1a04c670bd2957f5fa24a97d6ae06f9831" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>canvasid</name></member>
+      <member refid="class_app_compass_1aca45e38f1e7de29a360fb9e808b9eee5" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>click</name></member>
+      <member refid="classtw__app_1aff74b36c204aa2c2064478c3aaff7b85" prot="public" virt="virtual" ambiguityscope="tw_app::"><scope>AppCompass</scope><name>click</name></member>
+      <member refid="class_app_compass_1a2caecbd31379d637afd67fa94dc4ef08" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>click_double</name></member>
+      <member refid="classtw__app_1a0ab331b94d4ebfc9210030292e7d36ec" prot="public" virt="virtual" ambiguityscope="tw_app::"><scope>AppCompass</scope><name>click_double</name></member>
+      <member refid="classtw__app_1a49c377582445587b4127d6497bde2a3b" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>click_icon</name></member>
+      <member refid="classtw__app_1ab1914aae31b736e21441c926a7045854" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>close</name></member>
+      <member refid="class_app_compass_1a94e74af29d8ebcc9d7de0879ed94e540" prot="public" virt="virtual"><scope>AppCompass</scope><name>draw</name></member>
+      <member refid="class_app_compass_1ab6a82cec74937c780c78d978891de9da" prot="public" virt="virtual"><scope>AppCompass</scope><name>draw_icon</name></member>
+      <member refid="class_app_compass_1a2e1ec53ba887b0340f2441318e2979cf" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>drawCompass</name></member>
+      <member refid="class_app_compass_1ad36e7d5b3194f5bf77b0b416f0b61283" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>dt</name></member>
+      <member refid="class_app_compass_1ad22a2ab973d0fc837d085828f21d5018" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>getCoord</name></member>
+      <member refid="classtw__app_1a7a8e55b2e1ee1d910b50b0688ae9369b" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>icon_height</name></member>
+      <member refid="classtw__app_1a610cfa88a6b424609aee2246bce71722" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>icon_sprite</name></member>
+      <member refid="classtw__app_1a744f8f26a35592c7f6ef55e359b7de4a" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>icon_width</name></member>
+      <member refid="classtw__app_1a0420db062c3ce2b734c04e756af310f7" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>icon_x</name></member>
+      <member refid="classtw__app_1a36a33ffd747bd60dee2d9416dfdfa91a" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>icon_y</name></member>
+      <member refid="classtw__app_1abfb6376cac0c80d6a0e2e654fc6224e0" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>is_icon_cached</name></member>
+      <member refid="classtw__app_1a1f05f0bec0d05ada029834780b4ff186" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>is_setup</name></member>
+      <member refid="class_app_compass_1add6bdfd3ca76572b9f8f7cd63523435c" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>lx1</name></member>
+      <member refid="class_app_compass_1a4bad571b5878a5202c2ec074e449f425" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>lx2</name></member>
+      <member refid="class_app_compass_1acf693bb08c96c50bc5e6c485a901913f" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>lx3</name></member>
+      <member refid="class_app_compass_1a1d731948d14c66a8cd2ae213584f75cc" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>lx4</name></member>
+      <member refid="class_app_compass_1a46e7bec61bb18264ee0f0e0a46cbcb94" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>ly1</name></member>
+      <member refid="class_app_compass_1a76dc1f19c3bf4468c528e5f3c1d9bfa9" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>ly2</name></member>
+      <member refid="class_app_compass_1ac2f01327ea643802c00a290cfdbc4400" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>ly3</name></member>
+      <member refid="class_app_compass_1ac10924ad46dfb33364fdbccf167b47a0" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>ly4</name></member>
+      <member refid="class_app_compass_1afa453ff125e1bbaa290f361e7b906d72" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>n</name></member>
+      <member refid="classtw__app_1a7739cca09259b216fbb2ff8b39136208" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>name</name></member>
+      <member refid="classtw__app_1adaa96e5a8335845033644191ce29ef19" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>next_update</name></member>
+      <member refid="class_app_compass_1a7805a042dfb6c4567e16bec7d47c5249" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>number</name></member>
+      <member refid="classtw__app_1af0a4b68423257bdeaa3c8ea77635a48f" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>owner</name></member>
+      <member refid="class_app_compass_1a986e77e6e2d11ce4e1e749a214562680" prot="public" virt="virtual"><scope>AppCompass</scope><name>pre_start</name></member>
+      <member refid="classtw__app_1a77f9e65c0d5514ea4ed8f0a00e2b2db9" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>required_cpu_speed</name></member>
+      <member refid="classtw__app_1a5cf0211251f14dd57c0f575c4ac2ec04" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>set_canvas</name></member>
+      <member refid="class_app_compass_1a47f01e5086ac3471288e7c14dded2e66" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>setup</name></member>
+      <member refid="class_app_compass_1aad2e7c1b13d59ac39288af21a442f78d" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>showingGyro</name></member>
+      <member refid="classtw__app_1a415b5f5015e2f10ea3c1e627d58d289f" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>tw_app</name></member>
+      <member refid="classtw__app_1aa07118d07746e3e1934402de8cde8d24" prot="protected" virt="non-virtual"><scope>AppCompass</scope><name>update_period</name></member>
+      <member refid="class_app_compass_1afae2708d6497676bdf04ba1736f7442f" prot="private" virt="non-virtual"><scope>AppCompass</scope><name>version</name></member>
+      <member refid="classtw__app_1a59f9dd493e97a436ee39365427dd389b" prot="public" virt="non-virtual"><scope>AppCompass</scope><name>~tw_app</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

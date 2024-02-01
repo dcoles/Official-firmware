@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_widget_message" kind="class" language="C++" prot="public">
+    <compoundname>WidgetMessage</compoundname>
+    <basecompoundref refid="classtw__widget" prot="public" virt="non-virtual">tw_widget</basecompoundref>
+    <includes local="no">widget_Message.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_widget_message_1a4726a908b0c3dcb43966da0e4965f7c8" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WidgetMessage::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>WidgetMessage::version</qualifiedname>
+        <initializer>= &quot;1.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_Message.h" line="12" column="8" bodyfile="src/tw_widgets/widget_Message.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_widget_message_1aeb493fa7c92b41633381989ce2b0142f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WidgetMessage::draw</definition>
+        <argsstring>(uint canvasid, uint8_t style_hint=0)</argsstring>
+        <name>draw</name>
+        <qualifiedname>WidgetMessage::draw</qualifiedname>
+        <reimplements refid="classtw__widget_1a6baf7012213ea3023cc8fc676fb538cf">draw</reimplements>
+        <param>
+          <type>uint</type>
+          <declname>canvasid</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>style_hint</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_Message.h" line="6" column="6" bodyfile="src/tw_widgets/widget_Message.cpp" bodystart="3" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_message_1acae652149cef16725e9b003b6a1deeda" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool WidgetMessage::click</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>WidgetMessage::click</qualifiedname>
+        <reimplements refid="classtw__widget_1ac07d4aa7d44f1afaabde5d61977bc734">click</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_Message.h" line="7" column="6" bodyfile="src/tw_widgets/widget_Message.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_message_1a27de06859d2973d8887bbeb8746c2904" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool WidgetMessage::click_double</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>WidgetMessage::click_double</qualifiedname>
+        <reimplements refid="classtw__widget_1ad2f4b8cad406bd95f59afd04765a19d3">click_double</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_Message.h" line="8" column="6" bodyfile="src/tw_widgets/widget_Message.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_widget_message_1a6d6128f9fcec35b9c377b56b785eea48" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool WidgetMessage::click_long</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_long</name>
+        <qualifiedname>WidgetMessage::click_long</qualifiedname>
+        <reimplements refid="classtw__widget_1a0bf4f570d9129b9953fd8df0d6110957">click_long</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_widgets/widget_Message.h" line="9" column="6" bodyfile="src/tw_widgets/widget_Message.cpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WidgetMessage</label>
+        <link refid="class_widget_message"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widget</label>
+        <link refid="classtw__widget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WidgetMessage</label>
+        <link refid="class_widget_message"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_widget</label>
+        <link refid="classtw__widget"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_widgets/widget_Message.h" line="3" column="1" bodyfile="src/tw_widgets/widget_Message.h" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classtw__widget_1a9a5b5f3d971b21e223650b3db33ce53d" prot="public" virt="non-virtual"><scope>WidgetMessage</scope><name>bounds_check</name></member>
+      <member refid="classtw__widget_1abbf0c6ed88dbcbde466da308fe25280a" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>bounds_x</name></member>
+      <member refid="classtw__widget_1a7b3ace09f0b78e703cee368ff9333145" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>bounds_y</name></member>
+      <member refid="class_widget_message_1acae652149cef16725e9b003b6a1deeda" prot="public" virt="virtual"><scope>WidgetMessage</scope><name>click</name></member>
+      <member refid="class_widget_message_1a27de06859d2973d8887bbeb8746c2904" prot="public" virt="virtual"><scope>WidgetMessage</scope><name>click_double</name></member>
+      <member refid="class_widget_message_1a6d6128f9fcec35b9c377b56b785eea48" prot="public" virt="virtual"><scope>WidgetMessage</scope><name>click_long</name></member>
+      <member refid="classtw__widget_1aa8ed9e767718aaf10d38f707c81b1baa" prot="public" virt="non-virtual"><scope>WidgetMessage</scope><name>create</name></member>
+      <member refid="class_widget_message_1aeb493fa7c92b41633381989ce2b0142f" prot="public" virt="virtual"><scope>WidgetMessage</scope><name>draw</name></member>
+      <member refid="classtw__widget_1a26a1faf7b703bdb1aa569dc93f4d2e62" prot="public" virt="non-virtual" ambiguityscope="tw_widget::"><scope>WidgetMessage</scope><name>draw</name></member>
+      <member refid="classtw__widget_1af517be976fc16074e1ae9e2f102fa348" prot="public" virt="non-virtual"><scope>WidgetMessage</scope><name>get_height</name></member>
+      <member refid="classtw__widget_1a5d58c8d469f14fdc97055d1b24e45f16" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>height</name></member>
+      <member refid="classtw__widget_1a2cc08490e648fb07fce3320b5e30bf32" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>name</name></member>
+      <member refid="classtw__widget_1a0b44159d4ebb7cf2a6f83fa18f21d938" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>next_update</name></member>
+      <member refid="classtw__widget_1a1454f31ce925dfb7dd41f427edb808c3" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>padding_x</name></member>
+      <member refid="classtw__widget_1ad5dececcf61d7adea87112a54b055669" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>padding_y</name></member>
+      <member refid="classtw__widget_1a0c7106059fe14a973221930864a87301" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>parent</name></member>
+      <member refid="classtw__widget_1abc9d3e116d91d3b3fb5915bc19f71e2f" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>pos_x</name></member>
+      <member refid="classtw__widget_1ac68f9af893c84d235ca5e1e7a923b983" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>pos_y</name></member>
+      <member refid="classtw__widget_1a93fcf490206680ba5b8ad20134686856" prot="public" virt="non-virtual"><scope>WidgetMessage</scope><name>set_parent</name></member>
+      <member refid="classtw__widget_1a9256a8106c4e5c2f3a79df688399a1b2" prot="public" virt="non-virtual"><scope>WidgetMessage</scope><name>tw_widget</name></member>
+      <member refid="classtw__widget_1ad3d35433170c80cadb47dc5c4d400a54" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>update_period</name></member>
+      <member refid="class_widget_message_1a4726a908b0c3dcb43966da0e4965f7c8" prot="private" virt="non-virtual"><scope>WidgetMessage</scope><name>version</name></member>
+      <member refid="classtw__widget_1a4a28c961d32d69444b5108e1e6ba405c" prot="protected" virt="non-virtual"><scope>WidgetMessage</scope><name>width</name></member>
+      <member refid="classtw__widget_1a6a7ee578fc7245c7f1c13c5d14f34613" prot="public" virt="non-virtual"><scope>WidgetMessage</scope><name>~tw_widget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

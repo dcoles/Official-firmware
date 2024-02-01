@@ -1,0 +1,791 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_display" kind="class" language="C++" prot="public">
+    <compoundname>Display</compoundname>
+    <includes local="no">display.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_display_1aa6e23b0987a3eb4e719e3ef7d4c03ba4" prot="public" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t Display::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>Display::width</qualifiedname>
+        <initializer>= 240</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="72" column="16" bodyfile="src/display.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a202b766060c68a78b77dfad3a843853a" prot="public" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t Display::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>Display::height</qualifiedname>
+        <initializer>= 280</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="73" column="16" bodyfile="src/display.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1af33ee9b7afad5327be79b09128374e1f" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t Display::center_x</definition>
+        <argsstring></argsstring>
+        <name>center_x</name>
+        <qualifiedname>Display::center_x</qualifiedname>
+        <initializer>= 120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="74" column="15" bodyfile="src/display.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a351b3d7c13b5affef336430dc9267214" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t Display::center_y</definition>
+        <argsstring></argsstring>
+        <name>center_y</name>
+        <qualifiedname>Display::center_y</qualifiedname>
+        <initializer>= 140</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="75" column="15" bodyfile="src/display.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_display_1aa3261624bc8cd73d34d81ea385f04750" prot="private" static="no" mutable="no">
+        <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+        <definition>tw_face* Display::current_face</definition>
+        <argsstring></argsstring>
+        <name>current_face</name>
+        <qualifiedname>Display::current_face</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="78" column="9" bodyfile="src/display.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a22cd8fe366166d6b509d6abcd85b4e38" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Display::showing_loading_icon</definition>
+        <argsstring></argsstring>
+        <name>showing_loading_icon</name>
+        <qualifiedname>Display::showing_loading_icon</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="80" column="6" bodyfile="src/display.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a448408d6156e28b5ff72e7e1acee9f13" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t Display::loading_screen_rotation</definition>
+        <argsstring></argsstring>
+        <name>loading_screen_rotation</name>
+        <qualifiedname>Display::loading_screen_rotation</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="81" column="10" bodyfile="src/display.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a3941c647918f2d5265717fc6feab567a" prot="private" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t Display::backlight_settings_vbus[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>backlight_settings_vbus</name>
+        <qualifiedname>Display::backlight_settings_vbus</qualifiedname>
+        <initializer>= {200, 150, 100, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="83" column="15" bodyfile="src/display.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a595a7c6ec647390bd24ff8901d5d1640" prot="private" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t Display::backlight_settings_vbat[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>backlight_settings_vbat</name>
+        <qualifiedname>Display::backlight_settings_vbat</qualifiedname>
+        <initializer>= {200, 100, 50, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="84" column="15" bodyfile="src/display.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1ad61fa2f4c36cc779ba19615781fb429f" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Display::next_loading_rotation</definition>
+        <argsstring></argsstring>
+        <name>next_loading_rotation</name>
+        <qualifiedname>Display::next_loading_rotation</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="85" column="15" bodyfile="src/display.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a6750a83619ceebd90eddde941ff80cef" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Display::last_backlight</definition>
+        <argsstring></argsstring>
+        <name>last_backlight</name>
+        <qualifiedname>Display::last_backlight</qualifiedname>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="88" column="9" bodyfile="src/display.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a12d67c53beb8071d173920ac951c66db" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Display::backlight_level</definition>
+        <argsstring></argsstring>
+        <name>backlight_level</name>
+        <qualifiedname>Display::backlight_level</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="89" column="9" bodyfile="src/display.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1a1d98b673935a1137bb4065d07928b01f" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Display::backlight_current_val</definition>
+        <argsstring></argsstring>
+        <name>backlight_current_val</name>
+        <qualifiedname>Display::backlight_current_val</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="90" column="9" bodyfile="src/display.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1ab23340c6c8da8d6cfc875a63d6040deb" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Display::backlight_target_val</definition>
+        <argsstring></argsstring>
+        <name>backlight_target_val</name>
+        <qualifiedname>Display::backlight_target_val</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="91" column="9" bodyfile="src/display.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_display_1acd0170143d5ade9302ace985e8ea135a" prot="private" static="no" mutable="no">
+        <type><ref refid="display_8h_1ac7066778400fb6bbc6ba0437606c606f" kindref="member">display_states</ref></type>
+        <definition>display_states Display::current_display_state</definition>
+        <argsstring></argsstring>
+        <name>current_display_state</name>
+        <qualifiedname>Display::current_display_state</qualifiedname>
+        <initializer>= <ref refid="display_8h_1ac7066778400fb6bbc6ba0437606c606fa50d1448013c6f17125caee18aa418af7" kindref="member">NORMAL</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="93" column="16" bodyfile="src/display.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_display_1a480b145aebc205f9bb3e8b14873408e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::init_screen</definition>
+        <argsstring>()</argsstring>
+        <name>init_screen</name>
+        <qualifiedname>Display::init_screen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="43" column="6" bodyfile="src/display.cpp" bodystart="101" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1aac7b4e5817e0ee8190edc18de719a63e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::createFaces</definition>
+        <argsstring>(bool sleeping)</argsstring>
+        <name>createFaces</name>
+        <qualifiedname>Display::createFaces</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>sleeping</declname>
+          <defname>was_sleeping</defname>
+        </param>
+        <briefdescription>
+<para>This is the entry point that creates all of the faces and widgets and controls, and hooks them all together. All face to face navigation is also setup here. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This also shows the watch boot face on startup, if the watch is booting from power up, otherwise, the clock wil be shows through a fast path is the watch is waking from sleep.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>was_sleeping</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="44" column="6" bodyfile="src/display.cpp" bodystart="231" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1ad48af0dc1afec2a5ef4f4a006c51d0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::set_backlight</definition>
+        <argsstring>(int level)</argsstring>
+        <name>set_backlight</name>
+        <qualifiedname>Display::set_backlight</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="45" column="6" bodyfile="src/display.cpp" bodystart="604" bodyend="611"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1aee0f9cec1e725d521aa8f22700032143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::update_current_face</definition>
+        <argsstring>()</argsstring>
+        <name>update_current_face</name>
+        <qualifiedname>Display::update_current_face</qualifiedname>
+        <briefdescription>
+<para>Tell the current face being shown to draw itself. Respects the update rate of the face by passing in false in the draw(false) method on the face. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="46" column="6" bodyfile="src/display.cpp" bodystart="400" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a49cf030cfdcea4c5bfd7171017c34787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::process_touch</definition>
+        <argsstring>()</argsstring>
+        <name>process_touch</name>
+        <qualifiedname>Display::process_touch</qualifiedname>
+        <briefdescription>
+<para>Process the touch input from the user and coordinates clicks, dbl clicks, long presses, dragging, scrolling, widgets and controls. It&apos;s quite complex. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="47" column="6" bodyfile="src/display.cpp" bodystart="412" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a6ffb70aaa2581e3c27d3b83c2953d8f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Display::get_backlight_period</definition>
+        <argsstring>()</argsstring>
+        <name>get_backlight_period</name>
+        <qualifiedname>Display::get_backlight_period</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="48" column="6" bodyfile="src/display.cpp" bodystart="598" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a6f014bba189b45fafe45481d09217365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::set_display_state</definition>
+        <argsstring>(display_states state, String message)</argsstring>
+        <name>set_display_state</name>
+        <qualifiedname>Display::set_display_state</qualifiedname>
+        <param>
+          <type><ref refid="display_8h_1ac7066778400fb6bbc6ba0437606c606f" kindref="member">display_states</ref></type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="49" column="6" bodyfile="src/display.cpp" bodystart="184" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a254008efd4b1d7e0866e633484ca0a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::show_loading_icon</definition>
+        <argsstring>()</argsstring>
+        <name>show_loading_icon</name>
+        <qualifiedname>Display::show_loading_icon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="50" column="6" bodyfile="src/display.cpp" bodystart="199" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a1b19b352b32f4bca0ad1830df9126f4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::show_watch_from_boot</definition>
+        <argsstring>()</argsstring>
+        <name>show_watch_from_boot</name>
+        <qualifiedname>Display::show_watch_from_boot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="51" column="6" bodyfile="src/display.cpp" bodystart="212" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1ac49cfd43decf1f706021c5c272c7921c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::force_save</definition>
+        <argsstring>()</argsstring>
+        <name>force_save</name>
+        <qualifiedname>Display::force_save</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="52" column="6" bodyfile="src/display.cpp" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1ab1640ce70b9a02569be3b55d79f49bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::update_boot_face</definition>
+        <argsstring>(wifi_states status)</argsstring>
+        <name>update_boot_face</name>
+        <qualifiedname>Display::update_boot_face</qualifiedname>
+        <param>
+          <type><ref refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221" kindref="member">wifi_states</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="53" column="6" bodyfile="src/display.cpp" bodystart="389" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1afd9e13e082264906930ddb4a5336310a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Display::adjust_backlight</definition>
+        <argsstring>()</argsstring>
+        <name>adjust_backlight</name>
+        <qualifiedname>Display::adjust_backlight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="54" column="6" bodyfile="src/display.cpp" bodystart="613" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a1f816e384298b259336037b19d11e6ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::kill_backlight_task</definition>
+        <argsstring>()</argsstring>
+        <name>kill_backlight_task</name>
+        <qualifiedname>Display::kill_backlight_task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="55" column="6" bodyfile="src/display.cpp" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a939450804c1c202b72e7315fe36014fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t Display::get_current_backlight_val</definition>
+        <argsstring>()</argsstring>
+        <name>get_current_backlight_val</name>
+        <qualifiedname>Display::get_current_backlight_val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="56" column="9" bodyfile="src/display.cpp" bodystart="635" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1aa9d8dbdcf00d4a3d3d20a1c0921f0cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::add_clock_face</definition>
+        <argsstring>(tw_face *face)</argsstring>
+        <name>add_clock_face</name>
+        <qualifiedname>Display::add_clock_face</qualifiedname>
+        <param>
+          <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+          <declname>face</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="58" column="6" bodyfile="src/display.cpp" bodystart="133" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a26781a764df27fb57439de75b65c6cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::cycle_clock_face</definition>
+        <argsstring>()</argsstring>
+        <name>cycle_clock_face</name>
+        <qualifiedname>Display::cycle_clock_face</qualifiedname>
+        <briefdescription>
+<para>Cycle the clock face number we are displaying. This is called by double tapping the current clock face being shown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="59" column="6" bodyfile="src/display.cpp" bodystart="168" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a854fd1d6738d9ddebce9381466057afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::set_current_face</definition>
+        <argsstring>(tw_face *face)</argsstring>
+        <name>set_current_face</name>
+        <qualifiedname>Display::set_current_face</qualifiedname>
+        <param>
+          <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+          <declname>face</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="61" column="6" bodyfile="src/display.cpp" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a63e06d9bc52ff6c8e83f15ae9c271316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtw__face" kindref="compound">tw_face</ref> *</type>
+        <definition>tw_face * Display::set_current_clock_face</definition>
+        <argsstring>(bool should_draw)</argsstring>
+        <name>set_current_clock_face</name>
+        <qualifiedname>Display::set_current_clock_face</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>should_draw</declname>
+        </param>
+        <briefdescription>
+<para>Before we switch the current clock face to a new clock face, we need to copy over the current clock faces navigation to the new face. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>should_draw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tw_face* </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="62" column="9" bodyfile="src/display.cpp" bodystart="147" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a37787e248595d7d21724e14bf2718889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::show_low_battery</definition>
+        <argsstring>()</argsstring>
+        <name>show_low_battery</name>
+        <qualifiedname>Display::show_low_battery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="63" column="6" bodyfile="src/display.cpp" bodystart="402" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1a806acc6b576d79de9acfaabcd4ef2da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="display_8h_1ac7066778400fb6bbc6ba0437606c606f" kindref="member">display_states</ref></type>
+        <definition>display_states Display::get_current_display_state</definition>
+        <argsstring>()</argsstring>
+        <name>get_current_display_state</name>
+        <qualifiedname>Display::get_current_display_state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="65" column="16" bodyfile="src/display.cpp" bodystart="637" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="class_display_1ad4a051cab5730c70c4797534c9273032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::fill_arc</definition>
+        <argsstring>(uint8_t canvasid, int x, int y, int start_angle, int seg_count, int rx, int ry, int w, unsigned int colour)</argsstring>
+        <name>fill_arc</name>
+        <qualifiedname>Display::fill_arc</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>canvasid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_angle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seg_count</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+<para>Old Fill Arc code from TFT_eSPI creator to draw non smoothed arcs. TFT_eSPI now has smooth arc drawing routines built in, but the microphone face still uses this method as it&apos;s faster. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>canvasid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>start_angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seg_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>colour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="70" column="6" bodyfile="src/display.cpp" bodystart="686" bodyend="721"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_display_1ae9d889373d1f1d45155cae19cb2770a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Display::update_rotation</definition>
+        <argsstring>()</argsstring>
+        <name>update_rotation</name>
+        <qualifiedname>Display::update_rotation</qualifiedname>
+        <briefdescription>
+<para>Adjust the rotation of the TFT based on the flipped user setting. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/display.h" line="67" column="13" bodyfile="src/display.cpp" bodystart="182" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Display</label>
+        <link refid="class_display"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>current_face</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/display.h" line="40" column="1" bodyfile="src/display.h" bodystart="41" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_display_1aa9d8dbdcf00d4a3d3d20a1c0921f0cd6" prot="public" virt="non-virtual"><scope>Display</scope><name>add_clock_face</name></member>
+      <member refid="class_display_1afd9e13e082264906930ddb4a5336310a" prot="public" virt="non-virtual"><scope>Display</scope><name>adjust_backlight</name></member>
+      <member refid="class_display_1a1d98b673935a1137bb4065d07928b01f" prot="private" virt="non-virtual"><scope>Display</scope><name>backlight_current_val</name></member>
+      <member refid="class_display_1a12d67c53beb8071d173920ac951c66db" prot="private" virt="non-virtual"><scope>Display</scope><name>backlight_level</name></member>
+      <member refid="class_display_1a595a7c6ec647390bd24ff8901d5d1640" prot="private" virt="non-virtual"><scope>Display</scope><name>backlight_settings_vbat</name></member>
+      <member refid="class_display_1a3941c647918f2d5265717fc6feab567a" prot="private" virt="non-virtual"><scope>Display</scope><name>backlight_settings_vbus</name></member>
+      <member refid="class_display_1ab23340c6c8da8d6cfc875a63d6040deb" prot="private" virt="non-virtual"><scope>Display</scope><name>backlight_target_val</name></member>
+      <member refid="class_display_1af33ee9b7afad5327be79b09128374e1f" prot="public" virt="non-virtual"><scope>Display</scope><name>center_x</name></member>
+      <member refid="class_display_1a351b3d7c13b5affef336430dc9267214" prot="public" virt="non-virtual"><scope>Display</scope><name>center_y</name></member>
+      <member refid="class_display_1aac7b4e5817e0ee8190edc18de719a63e" prot="public" virt="non-virtual"><scope>Display</scope><name>createFaces</name></member>
+      <member refid="class_display_1acd0170143d5ade9302ace985e8ea135a" prot="private" virt="non-virtual"><scope>Display</scope><name>current_display_state</name></member>
+      <member refid="class_display_1aa3261624bc8cd73d34d81ea385f04750" prot="private" virt="non-virtual"><scope>Display</scope><name>current_face</name></member>
+      <member refid="class_display_1a26781a764df27fb57439de75b65c6cc8" prot="public" virt="non-virtual"><scope>Display</scope><name>cycle_clock_face</name></member>
+      <member refid="class_display_1ad4a051cab5730c70c4797534c9273032" prot="public" virt="non-virtual"><scope>Display</scope><name>fill_arc</name></member>
+      <member refid="class_display_1ac49cfd43decf1f706021c5c272c7921c" prot="public" virt="non-virtual"><scope>Display</scope><name>force_save</name></member>
+      <member refid="class_display_1a6ffb70aaa2581e3c27d3b83c2953d8f5" prot="public" virt="non-virtual"><scope>Display</scope><name>get_backlight_period</name></member>
+      <member refid="class_display_1a939450804c1c202b72e7315fe36014fa" prot="public" virt="non-virtual"><scope>Display</scope><name>get_current_backlight_val</name></member>
+      <member refid="class_display_1a806acc6b576d79de9acfaabcd4ef2da7" prot="public" virt="non-virtual"><scope>Display</scope><name>get_current_display_state</name></member>
+      <member refid="class_display_1a202b766060c68a78b77dfad3a843853a" prot="public" virt="non-virtual"><scope>Display</scope><name>height</name></member>
+      <member refid="class_display_1a480b145aebc205f9bb3e8b14873408e4" prot="public" virt="non-virtual"><scope>Display</scope><name>init_screen</name></member>
+      <member refid="class_display_1a1f816e384298b259336037b19d11e6ff" prot="public" virt="non-virtual"><scope>Display</scope><name>kill_backlight_task</name></member>
+      <member refid="class_display_1a6750a83619ceebd90eddde941ff80cef" prot="private" virt="non-virtual"><scope>Display</scope><name>last_backlight</name></member>
+      <member refid="class_display_1a448408d6156e28b5ff72e7e1acee9f13" prot="private" virt="non-virtual"><scope>Display</scope><name>loading_screen_rotation</name></member>
+      <member refid="class_display_1ad61fa2f4c36cc779ba19615781fb429f" prot="private" virt="non-virtual"><scope>Display</scope><name>next_loading_rotation</name></member>
+      <member refid="class_display_1a49cf030cfdcea4c5bfd7171017c34787" prot="public" virt="non-virtual"><scope>Display</scope><name>process_touch</name></member>
+      <member refid="class_display_1ad48af0dc1afec2a5ef4f4a006c51d0b8" prot="public" virt="non-virtual"><scope>Display</scope><name>set_backlight</name></member>
+      <member refid="class_display_1a63e06d9bc52ff6c8e83f15ae9c271316" prot="public" virt="non-virtual"><scope>Display</scope><name>set_current_clock_face</name></member>
+      <member refid="class_display_1a854fd1d6738d9ddebce9381466057afd" prot="public" virt="non-virtual"><scope>Display</scope><name>set_current_face</name></member>
+      <member refid="class_display_1a6f014bba189b45fafe45481d09217365" prot="public" virt="non-virtual"><scope>Display</scope><name>set_display_state</name></member>
+      <member refid="class_display_1a254008efd4b1d7e0866e633484ca0a13" prot="public" virt="non-virtual"><scope>Display</scope><name>show_loading_icon</name></member>
+      <member refid="class_display_1a37787e248595d7d21724e14bf2718889" prot="public" virt="non-virtual"><scope>Display</scope><name>show_low_battery</name></member>
+      <member refid="class_display_1a1b19b352b32f4bca0ad1830df9126f4d" prot="public" virt="non-virtual"><scope>Display</scope><name>show_watch_from_boot</name></member>
+      <member refid="class_display_1a22cd8fe366166d6b509d6abcd85b4e38" prot="private" virt="non-virtual"><scope>Display</scope><name>showing_loading_icon</name></member>
+      <member refid="class_display_1ab1640ce70b9a02569be3b55d79f49bea" prot="public" virt="non-virtual"><scope>Display</scope><name>update_boot_face</name></member>
+      <member refid="class_display_1aee0f9cec1e725d521aa8f22700032143" prot="public" virt="non-virtual"><scope>Display</scope><name>update_current_face</name></member>
+      <member refid="class_display_1ae9d889373d1f1d45155cae19cb2770a9" prot="public" virt="non-virtual"><scope>Display</scope><name>update_rotation</name></member>
+      <member refid="class_display_1aa6e23b0987a3eb4e719e3ef7d4c03ba4" prot="public" virt="non-virtual"><scope>Display</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

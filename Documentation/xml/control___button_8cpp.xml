@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="control___button_8cpp" kind="file" language="C++">
+    <compoundname>control_Button.cpp</compoundname>
+    <includes refid="control___button_8h" local="yes">tw_controls/control_Button.h</includes>
+    <includes refid="_roboto_mono___light___all_8h" local="yes">fonts/RobotoMono_Light_All.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>Arduino.h</label>
+      </node>
+      <node id="8">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>fonts/RobotoMono_Light_All.h</label>
+        <link refid="_roboto_mono___light___all_8h"/>
+      </node>
+      <node id="17">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_controls/control_Button.cpp</label>
+        <link refid="control___button_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_controls/control_Button.h</label>
+        <link refid="control___button_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="16">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="12">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="23">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="24">
+        <label>Tween.h</label>
+      </node>
+      <node id="20">
+        <label>WiFi.h</label>
+      </node>
+      <node id="10">
+        <label>cst816t.h</label>
+      </node>
+      <node id="21">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="22">
+        <label>functional</label>
+      </node>
+      <node id="18">
+        <label>initializer_list</label>
+      </node>
+      <node id="5">
+        <label>json.h</label>
+      </node>
+      <node id="15">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="19">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="control___button_8h" kindref="compound">tw_controls/control_Button.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___light___all_8h" kindref="compound">fonts/RobotoMono_Light_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_button_1ad17a7a29d3928f0ae80d4b1589d01a54" kindref="member">ControlButton::draw</ref>(uint8_t<sp/>canvasid)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>=<sp/><ref refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" kindref="member">pos_x</ref><sp/>+<sp/><ref refid="classtw__control_1a2bac811da9de1d6e647f6ecb802fd9f4" kindref="member">offset_x</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>=<sp/><ref refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" kindref="member">pos_y</ref><sp/>+<sp/><ref refid="classtw__control_1ab6049b218ec56da1cdaa11aecdace054" kindref="member">offset_y</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].fillRoundRect(<ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref>,<sp/><ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref>,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref>,<sp/>4,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x44,<sp/>0x44,<sp/>0x44));</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawRoundRect(<ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref>,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref>,<sp/><ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref>,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref>,<sp/>4,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x66,<sp/>0x66,<sp/>0x66));</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Light[7]);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].setTextDatum(4);<sp/></highlight><highlight class="comment">//<sp/>Middle,<sp/>Center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawString(<ref refid="classtw__control_1afb4e579aac10eb0681adea2afb85e1a2" kindref="member">name</ref>,<sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>+<sp/>(<ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref><sp/>/<sp/>2)<sp/>-<sp/>1,<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>+<sp/>(<ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>/<sp/>2)<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_button_1ae0a6a5d52ab0a23ee201eb96be6b7e0c" kindref="member">ControlButton::drag</ref>(int16_t<sp/>drag_x,<sp/>int16_t<sp/>drag_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_control_button_1a934b4bd4b7d587a1f83f0aea34371f09" kindref="member">ControlButton::drag_end</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_button_1a33fc7d608f3e0d61867285fc17de42a1" kindref="member">ControlButton::click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__control_1a14b56d61053455a8340fa0ef873f8438" kindref="member">bounds_check</ref>(click_pos_x,<sp/>click_pos_y))</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawRoundRect(<ref refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" kindref="member">pos_y</ref>,<sp/><ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref>,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref>,<sp/>4,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xff,<sp/>0xff,<sp/>0xff));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].pushSprite(0,<sp/>0);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>].drawRoundRect(<ref refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" kindref="member">pos_x</ref>,<sp/><ref refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" kindref="member">pos_y</ref>,<sp/><ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref>,<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref>,<sp/>4,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x66,<sp/>0x66,<sp/>0x66));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__control_1a9a0b0641f496916802cba6cf15a9ef28" kindref="member">callbackFunction</ref><sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__control_1a9a0b0641f496916802cba6cf15a9ef28" kindref="member">callbackFunction</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_button_1a6258e11dafb069484d530696c9c1e05c" kindref="member">ControlButton::click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_control_button_1a60f4115d6fb8bfe26a2ab390d9e6d5cc" kindref="member">ControlButton::click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_controls/control_Button.cpp"/>
+  </compounddef>
+</doxygen>

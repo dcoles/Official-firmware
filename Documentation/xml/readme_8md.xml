@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="readme_8md" kind="file" language="Markdown">
+    <compoundname>readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Welcome<sp/><sp/><sp/>{#mainpage}</highlight></codeline>
+<codeline><highlight class="normal">Welcome<sp/>to<sp/>the<sp/>documentation<sp/>for<sp/>the<sp/>source<sp/>code<sp/>of<sp/>the<sp/>TinyWATCH<sp/>S3<sp/>project.<sp/>This<sp/>guide<sp/>provides<sp/>insights<sp/>into<sp/>the<sp/>intricacies<sp/>of<sp/>the<sp/>firmware<sp/>that<sp/>powers<sp/>the<sp/>TinyWATCH<sp/>S3,<sp/>offering<sp/>a<sp/>deeper<sp/>understanding<sp/>of<sp/>the<sp/>functionalities<sp/>and<sp/>inner<sp/>workings<sp/>of<sp/>the<sp/>smartwatch.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>documentation<sp/>serves<sp/>as<sp/>a<sp/>resource<sp/>for<sp/>developers,<sp/>contributors,<sp/>and<sp/>enthusiasts<sp/>who<sp/>aim<sp/>to<sp/>explore,<sp/>understand,<sp/>and<sp/>potentially<sp/>contribute<sp/>to<sp/>the<sp/>firmware<sp/>development<sp/>of<sp/>the<sp/>TinyWATCH<sp/>S3<sp/>project.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>documentation<sp/>is<sp/>a<sp/>work<sp/>in<sp/>progress,<sp/>and<sp/>the<sp/>firmware<sp/>is<sp/>in<sp/>a<sp/>constant<sp/>state<sp/>of<sp/>change<sp/>as<sp/>existing<sp/>features<sp/>are<sp/>refined<sp/>or<sp/>re-written,<sp/>new<sp/>features<sp/>are<sp/>added<sp/>and<sp/>well,<sp/>some<sp/>features<sp/>get<sp/>removed.<sp/><sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Project<sp/>Overview</highlight></codeline>
+<codeline><highlight class="normal">TinyWATCH<sp/>S3<sp/>is<sp/>an<sp/>ESP32-S3<sp/>based<sp/>open<sp/>source<sp/>watch/wearable<sp/>project<sp/>designed<sp/>by<sp/>Unexpected<sp/>Maker<sp/>that<sp/>delivers<sp/>a<sp/>hardware<sp/>and<sp/>software<sp/>platform<sp/>to<sp/>either<sp/>build<sp/>upon,<sp/>or<sp/>to<sp/>alter<sp/>to<sp/>suit<sp/>a<sp/>myriad<sp/>of<sp/>cases.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>hardware<sp/>packs<sp/>in<sp/>a<sp/>lot<sp/>of<sp/>features,<sp/>including<sp/>a<sp/>vibrant<sp/>capacitive<sp/>touchscreen<sp/>display,<sp/>an<sp/>I2S<sp/>MEMS<sp/>Microphone,<sp/>6<sp/>Axis<sp/>IMU,<sp/>3<sp/>Axis<sp/>magnetometer,<sp/>on-board<sp/>buzzer,<sp/>battery<sp/>charging,<sp/>I2C<sp/>fuel<sp/>gauge,<sp/>secondary<sp/>SPI<sp/>Flash<sp/>for<sp/>persistent<sp/>user<sp/>data<sp/>plus<sp/>WiFi<sp/>and<sp/>BLE<sp/>connectivity.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>State<sp/>Of<sp/>The<sp/>Project</highlight></codeline>
+<codeline><highlight class="normal">I<sp/>was<sp/>hoping<sp/>to<sp/>have<sp/>this<sp/>firmware<sp/>further<sp/>along<sp/>than<sp/>what<sp/>it<sp/>is<sp/>now<sp/>before<sp/>I<sp/>opened<sp/>it<sp/>up<sp/>to<sp/>the<sp/>community,<sp/>but<sp/>it&apos;s<sp/>where<sp/>it&apos;s<sp/>at<sp/>and<sp/>it&apos;s<sp/>time<sp/>to<sp/>let<sp/>it<sp/>out...<sp/>I&apos;m<sp/>not<sp/>nervous<sp/>at<sp/>all,<sp/>really.<sp/>maybe.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">There<sp/>are<sp/>some<sp/>obvious<sp/>missing<sp/>large<sp/>ticket<sp/>items,<sp/>like<sp/>WiFi<sp/>web<sp/>server-based<sp/>user<sp/>settings,<sp/>and/or<sp/>BLE<sp/>connectivity,<sp/>and<sp/>some<sp/>of<sp/>the<sp/>peripherals<sp/>are<sp/>not<sp/>fully<sp/>fleshed<sp/>out<sp/>or<sp/>are<sp/>not<sp/>working<sp/>properly<sp/>-<sp/>looking<sp/>at<sp/>you<sp/>Mr<sp/>Magnetometer!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Some<sp/>of<sp/>the<sp/>code<sp/>is<sp/>more<sp/>complex<sp/>than<sp/>I<sp/>like<sp/>and<sp/>naughtily<sp/>shares<sp/>state/functionality<sp/>across<sp/>classes,<sp/>like<sp/>the<sp/>face<sp/>swiping<sp/>and<sp/>navigation<sp/>system,<sp/>but<sp/>it<sp/>does<sp/>work<sp/>well.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Documentation</highlight></codeline>
+<codeline><highlight class="normal">Not<sp/>all<sp/>of<sp/>the<sp/>code<sp/>is<sp/>documented<sp/>right<sp/>now,<sp/>but<sp/>it<sp/>has<sp/>started,<sp/>and<sp/>this<sp/>Doxygen<sp/>system<sp/>will<sp/>be<sp/>the<sp/>base<sp/>for<sp/>all<sp/>future<sp/>docs.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Contributing<sp/>To<sp/>The<sp/>Project</highlight></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>would<sp/>like<sp/>to<sp/>contribute<sp/>to<sp/>the<sp/>firmware<sp/>(I<sp/>hope<sp/>many<sp/>of<sp/>you<sp/>will),<sp/>please<sp/>fork<sp/>the<sp/>project<sp/>and<sp/>have<sp/>at<sp/>it.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">I<sp/>have<sp/>created<sp/>a<sp/>dedicated<sp/>area<sp/>on<sp/>my<sp/>[Discord<sp/>Server](https://discord.gg/ZUfpFUTbda)<sp/>for<sp/>firmware-related<sp/>discussions,<sp/>for<sp/>those<sp/>contributing.<sp/>Please<sp/>let<sp/>me<sp/>know<sp/>what<sp/>your<sp/>Discord<sp/>username<sp/>is<sp/>once<sp/>you&apos;ve<sp/>joined<sp/>my<sp/>server,<sp/>and<sp/>I&apos;ll<sp/>add<sp/>you<sp/>to<sp/>the<sp/>channel.</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/tinywatch-s3/official-firmware/Documentation/extra/readme.md"/>
+  </compounddef>
+</doxygen>

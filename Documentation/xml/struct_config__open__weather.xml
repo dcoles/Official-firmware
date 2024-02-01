@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_config__open__weather" kind="struct" language="C++" prot="public">
+    <compoundname>Config_open_weather</compoundname>
+    <includes local="no">settings_extra.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_config__open__weather_1a826f186975c7c30c21384fa40d47cfa8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Config_open_weather::poll_frequency</definition>
+        <argsstring></argsstring>
+        <name>poll_frequency</name>
+        <qualifiedname>Config_open_weather::poll_frequency</qualifiedname>
+        <initializer>= 180000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="48" column="10" bodyfile="src/settings/settings_extra.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__open__weather_1a536c1b0f4c62ed18e6d37f5952cad434" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config_open_weather::api_key</definition>
+        <argsstring></argsstring>
+        <name>api_key</name>
+        <qualifiedname>Config_open_weather::api_key</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="49" column="8" bodyfile="src/settings/settings_extra.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="class_settings" kindref="compound">Settings</ref> struct for open weather widget. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/settings/settings_extra.h" line="46" column="1" bodyfile="src/settings/settings_extra.h" bodystart="47" bodyend="50"/>
+    <listofallmembers>
+      <member refid="struct_config__open__weather_1a536c1b0f4c62ed18e6d37f5952cad434" prot="public" virt="non-virtual"><scope>Config_open_weather</scope><name>api_key</name></member>
+      <member refid="struct_config__open__weather_1a826f186975c7c30c21384fa40d47cfa8" prot="public" virt="non-virtual"><scope>Config_open_weather</scope><name>poll_frequency</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

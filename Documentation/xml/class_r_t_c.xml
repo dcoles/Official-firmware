@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_r_t_c" kind="class" language="C++" prot="public">
+    <compoundname>RTC</compoundname>
+    <includes local="no">rtc.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_r_t_c_1a949f751e5b73c834880a00ffec40cedf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_t_t___time" kindref="compound">TT_Time</ref></type>
+        <definition>TT_Time RTC::time_components</definition>
+        <argsstring></argsstring>
+        <name>time_components</name>
+        <qualifiedname>RTC::time_components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="39" column="9" bodyfile="src/peripherals/rtc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" prot="public" static="no" mutable="no">
+        <type>RV3028C7</type>
+        <definition>RV3028C7 RTC::rtc</definition>
+        <argsstring></argsstring>
+        <name>rtc</name>
+        <qualifiedname>RTC::rtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="40" column="10" bodyfile="src/peripherals/rtc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_r_t_c_1a548196e3f9cdf99fd05a46cc521846f6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RTC::requiresNTP</definition>
+        <argsstring></argsstring>
+        <name>requiresNTP</name>
+        <qualifiedname>RTC::requiresNTP</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="42" column="6" bodyfile="src/peripherals/rtc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_r_t_c_1acbde1a4dbc26c6066fa3fb1f7a358032" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RTC::enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <qualifiedname>RTC::enabled</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="45" column="6" bodyfile="src/peripherals/rtc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_r_t_c_1ab0b4e674c18c508d4d07a7e2452cc051" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t RTC::interruptPin</definition>
+        <argsstring></argsstring>
+        <name>interruptPin</name>
+        <qualifiedname>RTC::interruptPin</qualifiedname>
+        <initializer>= 33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="47" column="9" bodyfile="src/peripherals/rtc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_r_t_c_1aea8434a3279d7440a97fb643dc438507" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long RTC::next_rtc_read</definition>
+        <argsstring></argsstring>
+        <name>next_rtc_read</name>
+        <qualifiedname>RTC::next_rtc_read</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="48" column="15" bodyfile="src/peripherals/rtc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_r_t_c_1aaf78123b7124b89372f133212553e8dc" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t RTC::cached_day</definition>
+        <argsstring></argsstring>
+        <name>cached_day</name>
+        <qualifiedname>RTC::cached_day</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="49" column="10" bodyfile="src/peripherals/rtc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_r_t_c_1ae308c53de31d457194a04abad1c70073" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t RTC::cached_month</definition>
+        <argsstring></argsstring>
+        <name>cached_month</name>
+        <qualifiedname>RTC::cached_month</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="50" column="10" bodyfile="src/peripherals/rtc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_r_t_c_1a3f6a206e98022fdc8dcbe3d74a90482f" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t RTC::cached_year</definition>
+        <argsstring></argsstring>
+        <name>cached_year</name>
+        <qualifiedname>RTC::cached_year</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="51" column="10" bodyfile="src/peripherals/rtc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_r_t_c_1a57ecd4dca8ffc8d3ea9d95a3598d6945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RTC::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <qualifiedname>RTC::init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="16" column="6" bodyfile="src/peripherals/rtc.cpp" bodystart="11" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a3b631fed4fcb2f02e36f63b3aad53027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTC::setup_interrupt</definition>
+        <argsstring>()</argsstring>
+        <name>setup_interrupt</name>
+        <qualifiedname>RTC::setup_interrupt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="17" column="6" bodyfile="src/peripherals/rtc.cpp" bodystart="145" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a6f545dc205dc7efda261842c752eabb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RTC::check_interrupt</definition>
+        <argsstring>()</argsstring>
+        <name>check_interrupt</name>
+        <qualifiedname>RTC::check_interrupt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="18" column="6" bodyfile="src/peripherals/rtc.cpp" bodystart="175" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1ad29394472da8253f087b68c7a06a054f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RTC::set_time_from_NTP</definition>
+        <argsstring>(int16_t utc_offset)</argsstring>
+        <name>set_time_from_NTP</name>
+        <qualifiedname>RTC::set_time_from_NTP</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>utc_offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="19" column="6" bodyfile="src/peripherals/rtc.cpp" bodystart="33" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1ac05ae8a75f785cc467b6917d6ca41a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTC::set_hourly_alarm</definition>
+        <argsstring>(uint minutes)</argsstring>
+        <name>set_hourly_alarm</name>
+        <qualifiedname>RTC::set_hourly_alarm</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>minutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="20" column="6" bodyfile="src/peripherals/rtc.cpp" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1ab07e45af9b2786d5d7ed3c50cfdc0358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String RTC::get_hours_string</definition>
+        <argsstring>(bool padded, bool is24hour)</argsstring>
+        <name>get_hours_string</name>
+        <qualifiedname>RTC::get_hours_string</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>padded</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is24hour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="22" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="79" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1abb44b79caae249fd3fc274120b455feb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String RTC::get_mins_string</definition>
+        <argsstring>(bool padded)</argsstring>
+        <name>get_mins_string</name>
+        <qualifiedname>RTC::get_mins_string</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>padded</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="23" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a7ea88772146ac42e471064856c2cd545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String RTC::get_secs_string</definition>
+        <argsstring>(bool padded)</argsstring>
+        <name>get_secs_string</name>
+        <qualifiedname>RTC::get_secs_string</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>padded</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="24" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1ac94a3b01f03d3907fb98eba11836d98c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String RTC::get_day_date</definition>
+        <argsstring>()</argsstring>
+        <name>get_day_date</name>
+        <qualifiedname>RTC::get_day_date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="25" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="151" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a4f16eb2b1c0846c618e16dff369b3184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String RTC::get_day_of_week</definition>
+        <argsstring>()</argsstring>
+        <name>get_day_of_week</name>
+        <qualifiedname>RTC::get_day_of_week</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="26" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a4b6f95a607c60c63309826d2fd4db019" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String RTC::get_month_date</definition>
+        <argsstring>()</argsstring>
+        <name>get_month_date</name>
+        <qualifiedname>RTC::get_month_date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="27" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="167" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a624d6291e36c1399ebddbf44d31221f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String RTC::get_time_string</definition>
+        <argsstring>(bool padded, bool is24hour)</argsstring>
+        <name>get_time_string</name>
+        <qualifiedname>RTC::get_time_string</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>padded</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is24hour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="28" column="8" bodyfile="src/peripherals/rtc.cpp" bodystart="107" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a584f6a61e435f518e2950206592cda44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int RTC::get_hours</definition>
+        <argsstring>()</argsstring>
+        <name>get_hours</name>
+        <qualifiedname>RTC::get_hours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="29" column="5" bodyfile="src/peripherals/rtc.cpp" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a8f6e476c8f5ccdacbc69da6db5092070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int RTC::get_mins</definition>
+        <argsstring>()</argsstring>
+        <name>get_mins</name>
+        <qualifiedname>RTC::get_mins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="30" column="5" bodyfile="src/peripherals/rtc.cpp" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1aee92322b67dd488e3fe77d1045e53d3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int RTC::get_seconds</definition>
+        <argsstring>()</argsstring>
+        <name>get_seconds</name>
+        <qualifiedname>RTC::get_seconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="31" column="5" bodyfile="src/peripherals/rtc.cpp" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1a01e24dae34233cf35a5d0c6d8ab52009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t RTC::get_day</definition>
+        <argsstring>()</argsstring>
+        <name>get_day</name>
+        <qualifiedname>RTC::get_day</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="33" column="10" bodyfile="src/peripherals/rtc.cpp" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1ad46b4ccf682c4fc57af1cde874a1dc60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t RTC::get_month</definition>
+        <argsstring>()</argsstring>
+        <name>get_month</name>
+        <qualifiedname>RTC::get_month</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="34" column="10" bodyfile="src/peripherals/rtc.cpp" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1ae8f63503b20d8504e4a4fd2669bcfb27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t RTC::get_year</definition>
+        <argsstring>()</argsstring>
+        <name>get_year</name>
+        <qualifiedname>RTC::get_year</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="35" column="10" bodyfile="src/peripherals/rtc.cpp" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_t_c_1ac9a7cab8de2329400ba4f6f13588fca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTC::get_step_date</definition>
+        <argsstring>(uint16_t &amp;day, uint16_t &amp;month, uint16_t &amp;year)</argsstring>
+        <name>get_step_date</name>
+        <qualifiedname>RTC::get_step_date</qualifiedname>
+        <param>
+          <type>uint16_t &amp;</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>uint16_t &amp;</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>uint16_t &amp;</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/peripherals/rtc.h" line="37" column="6" bodyfile="src/peripherals/rtc.cpp" bodystart="128" bodyend="141"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>RTC</label>
+        <link refid="class_r_t_c"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>time_components</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TT_Time</label>
+        <link refid="struct_t_t___time"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/peripherals/rtc.h" line="13" column="1" bodyfile="src/peripherals/rtc.h" bodystart="14" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_r_t_c_1aaf78123b7124b89372f133212553e8dc" prot="private" virt="non-virtual"><scope>RTC</scope><name>cached_day</name></member>
+      <member refid="class_r_t_c_1ae308c53de31d457194a04abad1c70073" prot="private" virt="non-virtual"><scope>RTC</scope><name>cached_month</name></member>
+      <member refid="class_r_t_c_1a3f6a206e98022fdc8dcbe3d74a90482f" prot="private" virt="non-virtual"><scope>RTC</scope><name>cached_year</name></member>
+      <member refid="class_r_t_c_1a6f545dc205dc7efda261842c752eabb1" prot="public" virt="non-virtual"><scope>RTC</scope><name>check_interrupt</name></member>
+      <member refid="class_r_t_c_1acbde1a4dbc26c6066fa3fb1f7a358032" prot="private" virt="non-virtual"><scope>RTC</scope><name>enabled</name></member>
+      <member refid="class_r_t_c_1a01e24dae34233cf35a5d0c6d8ab52009" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_day</name></member>
+      <member refid="class_r_t_c_1ac94a3b01f03d3907fb98eba11836d98c" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_day_date</name></member>
+      <member refid="class_r_t_c_1a4f16eb2b1c0846c618e16dff369b3184" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_day_of_week</name></member>
+      <member refid="class_r_t_c_1a584f6a61e435f518e2950206592cda44" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_hours</name></member>
+      <member refid="class_r_t_c_1ab07e45af9b2786d5d7ed3c50cfdc0358" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_hours_string</name></member>
+      <member refid="class_r_t_c_1a8f6e476c8f5ccdacbc69da6db5092070" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_mins</name></member>
+      <member refid="class_r_t_c_1abb44b79caae249fd3fc274120b455feb" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_mins_string</name></member>
+      <member refid="class_r_t_c_1ad46b4ccf682c4fc57af1cde874a1dc60" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_month</name></member>
+      <member refid="class_r_t_c_1a4b6f95a607c60c63309826d2fd4db019" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_month_date</name></member>
+      <member refid="class_r_t_c_1aee92322b67dd488e3fe77d1045e53d3d" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_seconds</name></member>
+      <member refid="class_r_t_c_1a7ea88772146ac42e471064856c2cd545" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_secs_string</name></member>
+      <member refid="class_r_t_c_1ac9a7cab8de2329400ba4f6f13588fca9" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_step_date</name></member>
+      <member refid="class_r_t_c_1a624d6291e36c1399ebddbf44d31221f1" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_time_string</name></member>
+      <member refid="class_r_t_c_1ae8f63503b20d8504e4a4fd2669bcfb27" prot="public" virt="non-virtual"><scope>RTC</scope><name>get_year</name></member>
+      <member refid="class_r_t_c_1a57ecd4dca8ffc8d3ea9d95a3598d6945" prot="public" virt="non-virtual"><scope>RTC</scope><name>init</name></member>
+      <member refid="class_r_t_c_1ab0b4e674c18c508d4d07a7e2452cc051" prot="private" virt="non-virtual"><scope>RTC</scope><name>interruptPin</name></member>
+      <member refid="class_r_t_c_1aea8434a3279d7440a97fb643dc438507" prot="private" virt="non-virtual"><scope>RTC</scope><name>next_rtc_read</name></member>
+      <member refid="class_r_t_c_1a548196e3f9cdf99fd05a46cc521846f6" prot="public" virt="non-virtual"><scope>RTC</scope><name>requiresNTP</name></member>
+      <member refid="class_r_t_c_1a62b80bcaf5160cf4574f52f2d47f1aff" prot="public" virt="non-virtual"><scope>RTC</scope><name>rtc</name></member>
+      <member refid="class_r_t_c_1ac05ae8a75f785cc467b6917d6ca41a7d" prot="public" virt="non-virtual"><scope>RTC</scope><name>set_hourly_alarm</name></member>
+      <member refid="class_r_t_c_1ad29394472da8253f087b68c7a06a054f" prot="public" virt="non-virtual"><scope>RTC</scope><name>set_time_from_NTP</name></member>
+      <member refid="class_r_t_c_1a3b631fed4fcb2f02e36f63b3aad53027" prot="public" virt="non-virtual"><scope>RTC</scope><name>setup_interrupt</name></member>
+      <member refid="class_r_t_c_1a949f751e5b73c834880a00ffec40cedf" prot="public" virt="non-virtual"><scope>RTC</scope><name>time_components</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

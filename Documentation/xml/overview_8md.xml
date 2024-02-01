@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="overview_8md" kind="file" language="Markdown">
+    <compoundname>overview.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Overview</highlight></codeline>
+<codeline><highlight class="normal">Welcome<sp/>to<sp/>the<sp/>documentation<sp/>for<sp/>the<sp/>source<sp/>code<sp/>of<sp/>the<sp/>TinyWATCH<sp/>S3<sp/>project.<sp/>This<sp/>guide<sp/>provides<sp/>insights<sp/>into<sp/>the<sp/>intricacies<sp/>of<sp/>the<sp/>firmware<sp/>that<sp/>powers<sp/>the<sp/>TinyWATCH<sp/>S3,<sp/>offering<sp/>a<sp/>deeper<sp/>understanding<sp/>of<sp/>the<sp/>functionalities<sp/>and<sp/>inner<sp/>workings<sp/>of<sp/>the<sp/>smartwatch.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Contents</highlight></codeline>
+<codeline><highlight class="normal">Class<sp/>Documentation:<sp/>Detailed<sp/>breakdowns<sp/>of<sp/>the<sp/>key<sp/>classes<sp/>within<sp/>the<sp/>firmware,<sp/>including<sp/>their<sp/>members,<sp/>methods,<sp/>and<sp/>purposes.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>main<sp/>entry<sp/>point<sp/>and<sp/>runtime<sp/>loop<sp/>of<sp/>the<sp/>firmware<sp/>lives<sp/>in<sp/>[tinywatch.cpp](@ref<sp/>tinywatch.cpp).<sp/>This<sp/>is<sp/>where<sp/>the<sp/>`Arduino<sp/>setup()<sp/>and<sp/>loop()`<sp/>functions<sp/>live.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Main<sp/>display<sp/>and<sp/>touch<sp/>interaction<sp/>code<sp/>lives<sp/>in<sp/>[display.cpp](@ref<sp/>display.cpp)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Faces</highlight></codeline>
+<codeline><highlight class="normal">[TW<sp/>Faces](@ref<sp/>tw_face.cpp)<sp/>are<sp/>where<sp/>you<sp/>build<sp/>your<sp/>content<sp/>for<sp/>TinyWATCH.<sp/>You<sp/>can<sp/>display<sp/>anything<sp/>you<sp/>like<sp/>using<sp/>the<sp/>`draw()`<sp/>method,<sp/>as<sp/>well<sp/>as<sp/>assign<sp/>Widgets<sp/>and<sp/>Controls<sp/>to<sp/>any<sp/>face<sp/>you<sp/>create.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Faces<sp/>can<sp/>be<sp/>setup<sp/>to<sp/>br<sp/>navigated<sp/>to<sp/>each<sp/>other,<sp/>via<sp/>swiping<sp/>up,<sp/>down,<sp/>left<sp/>and<sp/>right.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Widgets</highlight></codeline>
+<codeline><highlight class="normal">[TW<sp/>Widgets](@ref<sp/>tw_widget.cpp)<sp/>are<sp/>self<sp/>contained<sp/>little<sp/>&quot;interactive<sp/>apps&quot;<sp/>can<sp/>run<sp/>logic,<sp/>or<sp/>connectivity<sp/>tasks<sp/>and<sp/>show<sp/>specific<sp/>info.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">They<sp/>are<sp/>designed<sp/>to<sp/>be<sp/>reusable,<sp/>so<sp/>can<sp/>be<sp/>placed<sp/>on<sp/>one<sp/>or<sp/>more<sp/>faces.<sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Controls</highlight></codeline>
+<codeline><highlight class="normal">[TW<sp/>Controls](@ref<sp/>tw_control.cpp)<sp/>are<sp/>UI<sp/>elements<sp/>like<sp/>buttons,<sp/>toggles,<sp/>value<sp/>sliders<sp/>etc.</highlight></codeline>
+<codeline><highlight class="normal">They<sp/>can<sp/>be<sp/>placed<sp/>on<sp/>FACES<sp/>and<sp/>can<sp/>also<sp/>be<sp/>bound<sp/>to<sp/>user<sp/>settings<sp/>using<sp/>the<sp/>[SettingsOption](@ref<sp/>settingsOption.cpp)<sp/>classes.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Peripherals</highlight></codeline>
+<codeline><highlight class="normal">Classes<sp/>for<sp/>the<sp/>onboard<sp/>peripherals<sp/>are<sp/>provided<sp/>as<sp/>convenient<sp/>ways<sp/>to<sp/>talk<sp/>to<sp/>each<sp/>peripheral<sp/>library/driver.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[RTC](@ref<sp/>rtc.cpp)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[IMU<sp/>+<sp/>MAG](@ref<sp/>imu.cpp)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[Battery](@ref<sp/>battery.cpp)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[Buzzer](@ref<sp/>buzzer.cpp)</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>WiFi</highlight></codeline>
+<codeline><highlight class="normal">WiFi<sp/>access<sp/>setup<sp/>lives<sp/>in<sp/>the<sp/>[wifi_setup](@ref<sp/>wifi_setup.cpp)<sp/>class<sp/>and<sp/>general<sp/>communication<sp/>lives<sp/>in<sp/>the<sp/>[wifi_controller](@ref<sp/>wifi_controller.cpp)<sp/>class.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>User<sp/>Settings</highlight></codeline>
+<codeline><highlight class="normal">User<sp/>Settings<sp/>are<sp/>managed<sp/>in<sp/>the<sp/>[settings](@ref<sp/>settings.cpp)<sp/>class.<sp/>They<sp/>are<sp/>loaded<sp/>and<sp/>saved<sp/>in<sp/>the<sp/>secondary<sp/>user<sp/>Flash<sp/>IC.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Coding<sp/>Style</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>source<sp/>code<sp/>uses<sp/>`TABS`<sp/>and<sp/>all<sp/>method<sp/>and<sp/>variable<sp/>names<sp/>use<sp/>`snake_case`<sp/>-<sp/>Please<sp/>respect<sp/>that<sp/>for<sp/>any<sp/>contributions<sp/>you<sp/>may<sp/>make<sp/>for<sp/>the<sp/>project.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Open<sp/>Source<sp/>License</highlight></codeline>
+<codeline><highlight class="normal">This<sp/>source<sp/>code<sp/>is<sp/>released<sp/>under<sp/>the<sp/>GPL<sp/>3.0<sp/>license.<sp/>Please<sp/>read<sp/>the<sp/>license<sp/>to<sp/>understand<sp/>your<sp/>obligations<sp/>if<sp/>you<sp/>wish<sp/>to<sp/>use<sp/>this<sp/>code<sp/>ibn<sp/>you<sp/>own<sp/>projects,<sp/>or<sp/>contribute<sp/>back<sp/>to<sp/>the<sp/>project.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Getting<sp/>Started</highlight></codeline>
+<codeline><highlight class="normal">Whether<sp/>you<sp/>are<sp/>a<sp/>developer<sp/>looking<sp/>to<sp/>extend<sp/>the<sp/>functionality<sp/>of<sp/>the<sp/>smartwatch<sp/>or<sp/>a<sp/>user<sp/>curious<sp/>about<sp/>the<sp/>technology<sp/>behind<sp/>the<sp/>device,<sp/>this<sp/>documentation<sp/>is<sp/>your<sp/>gateway<sp/>to<sp/>unlocking<sp/>the<sp/>full<sp/>potential<sp/>of<sp/>the<sp/>firmware.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Let&apos;s<sp/>embark<sp/>on<sp/>this<sp/>journey<sp/>of<sp/>exploration<sp/>and<sp/>innovation<sp/>as<sp/>we<sp/>delve<sp/>into<sp/>the<sp/>heart<sp/>of<sp/>the<sp/>TinyWATCH<sp/>S3<sp/>firmware.</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/tinywatch-s3/official-firmware/Documentation/extra/overview.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_ae9e8bba4ad487255291a988ba8d3d6d" kind="dir">
+    <compoundname>src/tw_apps</compoundname>
+    <innerfile refid="app___compass_8cpp">app_Compass.cpp</innerfile>
+    <innerfile refid="app___compass_8h">app_Compass.h</innerfile>
+    <innerfile refid="app___empty_8cpp">app_Empty.cpp</innerfile>
+    <innerfile refid="app___empty_8h">app_Empty.h</innerfile>
+    <innerfile refid="app___microphone_8cpp">app_Microphone.cpp</innerfile>
+    <innerfile refid="app___microphone_8h">app_Microphone.h</innerfile>
+    <innerfile refid="tw__app_8cpp">tw_app.cpp</innerfile>
+    <innerfile refid="tw__app_8h">tw_app.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/tw_apps/"/>
+  </compounddef>
+</doxygen>

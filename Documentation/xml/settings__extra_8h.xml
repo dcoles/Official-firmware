@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="settings__extra_8h" kind="file" language="C++">
+    <compoundname>settings_extra.h</compoundname>
+    <includes local="yes">Arduino.h</includes>
+    <includedby refid="settings_8h" local="yes">src/settings/settings.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>src/settings/settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>src/display.cpp</label>
+        <link refid="display_8cpp"/>
+      </node>
+      <node id="4">
+        <label>src/peripherals/battery.cpp</label>
+        <link refid="battery_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/peripherals/buzzer.cpp</label>
+        <link refid="buzzer_8cpp"/>
+      </node>
+      <node id="6">
+        <label>src/settings/settings.cpp</label>
+        <link refid="settings_8cpp"/>
+      </node>
+      <node id="2">
+        <label>src/settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/settings/settingsOption.cpp</label>
+        <link refid="settings_option_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/settings/settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>src/tinywatch.cpp</label>
+        <link refid="tinywatch_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/tw_apps/tw_app.cpp</label>
+        <link refid="tw__app_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/tw_faces/face_Boot.cpp</label>
+        <link refid="face___boot_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/tw_faces/face_Watch_CustomBinary.cpp</label>
+        <link refid="face___watch___custom_binary_8cpp"/>
+      </node>
+      <node id="12">
+        <label>src/tw_faces/face_Watch_CustomWindows.cpp</label>
+        <link refid="face___watch___custom_windows_8cpp"/>
+      </node>
+      <node id="13">
+        <label>src/tw_faces/face_Watch_DefaultAnalog.cpp</label>
+        <link refid="face___watch___default_analog_8cpp"/>
+      </node>
+      <node id="14">
+        <label>src/tw_faces/face_Watch_DefaultDigital.cpp</label>
+        <link refid="face___watch___default_digital_8cpp"/>
+      </node>
+      <node id="15">
+        <label>src/tw_widgets/widget_ActivityRing.cpp</label>
+        <link refid="widget___activity_ring_8cpp"/>
+      </node>
+      <node id="16">
+        <label>src/tw_widgets/widget_OpenWeather.cpp</label>
+        <link refid="widget___open_weather_8cpp"/>
+      </node>
+      <node id="17">
+        <label>src/web/webserver.cpp</label>
+        <link refid="webserver_8cpp"/>
+      </node>
+      <node id="18">
+        <label>src/web/wifi_controller.cpp</label>
+        <link refid="wifi__controller_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_config__mqtt" prot="public">Config_mqtt</innerclass>
+    <innerclass refid="struct_config__battery" prot="public">Config_battery</innerclass>
+    <innerclass refid="struct_config__open__weather" prot="public">Config_open_weather</innerclass>
+    <innerclass refid="struct_config__custom__binary" prot="public">Config_custom_binary</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Arduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_config__mqtt" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_config__mqtt" kindref="compound">Config_mqtt</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_config__mqtt_1aa5e019f121091decbcc1a2dde4812746" kindref="member">enabled</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config__mqtt_1a484429eebf95c1327b9721cbdb54c5f3" kindref="member">broker_ip</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_config__mqtt_1ad0c41a7187544734111b4f7a69c43ca1" kindref="member">broker_port</ref><sp/>=<sp/>1883;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config__mqtt_1a55567c71e966a889409bfde1316fad33" kindref="member">username</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config__mqtt_1a18b51efe683e422cf540ca6ff5c88cb1" kindref="member">password</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config__mqtt_1a041eb4589daa385e497875357289c6b0" kindref="member">device_name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;TinyWATCH&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config__mqtt_1a236e6351d75e096abff3f2f39ec58311" kindref="member">topic</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;tinywatch&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="struct_config__battery" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_config__battery" kindref="compound">Config_battery</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Fuel<sp/>Gauge/Battery</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>be<sp/>used<sp/>to<sp/>adjust<sp/>what<sp/>100%<sp/>is<sp/>on<sp/>your<sp/>battery</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>be<sp/>needed<sp/>because<sp/>the<sp/>PMIC<sp/>will<sp/>stop<sp/>charging<sp/>the<sp/>battery<sp/>before<sp/>it<sp/>gets<sp/>to<sp/>4.2V,<sp/>usually<sp/>around<sp/>4.1V,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>So<sp/>the<sp/>fuel<sp/>gauge<sp/>will<sp/>never<sp/>actually<sp/>get<sp/>to<sp/>a<sp/>100%<sp/>state.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>I&apos;m<sp/>not<sp/>sure<sp/>how<sp/>to<sp/>solve<sp/>this<sp/>othe<sp/>than<sp/>allow<sp/>users<sp/>to<sp/>set<sp/>an<sp/>offset<sp/>that<sp/>visually<sp/>shows<sp/>full/no<sp/>charging<sp/>at<sp/>100%</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_config__battery_1acac7fc228f2297e9a021e1f48e4af561" kindref="member">perc_offset</ref><sp/>=<sp/>7.0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>User<sp/>settable<sp/>%<sp/>to<sp/>trigger<sp/>fuel<sp/>gauge<sp/>wake<sp/>from<sp/>sleep<sp/>trigger.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>only<sp/>be<sp/>between<sp/>1%<sp/>and<sp/>32%</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="struct_config__battery_1adac3adaef450ed845278e67195c8958e" kindref="member">low_perc</ref><sp/>=<sp/>25;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>User<sp/>settable<sp/>V<sp/>to<sp/>trigger<sp/>fuel<sp/>gauge<sp/>wake<sp/>from<sp/>sleep<sp/>trigger.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_config__battery_1acae9c3e64244795684f07e19ff4fdafa" kindref="member">low_volt_warn</ref><sp/>=<sp/>3.5;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>User<sp/>settable<sp/>V<sp/>to<sp/>trigger<sp/>power<sp/>cutoff<sp/>to<sp/>the<sp/>watch<sp/>power<sp/>switch.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_config__battery_1ae24941bd9fde2d9a92db501c65b21504" kindref="member">low_volt_cutoff</ref><sp/>=<sp/>3.2;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="struct_config__open__weather" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_config__open__weather" kindref="compound">Config_open_weather</ref></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="struct_config__open__weather_1a826f186975c7c30c21384fa40d47cfa8" kindref="member">poll_frequency</ref><sp/>=<sp/>180000;<sp/></highlight><highlight class="comment">//<sp/>Open<sp/>Weather<sp/>poll<sp/>interval<sp/>-<sp/>30mins.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="struct_config__open__weather_1a536c1b0f4c62ed18e6d37f5952cad434" kindref="member">api_key</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>API<sp/>key<sp/>for<sp/>Open<sp/>Weather</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="struct_config__custom__binary" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_config__custom__binary" kindref="compound">Config_custom_binary</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" kindref="member">binary_clockcolour</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="struct_config__custom__binary_1a4bbec4837d68af7ac1626d325cebbf5c" kindref="member">binary_clockstyle</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/settings/settings_extra.h"/>
+  </compounddef>
+</doxygen>

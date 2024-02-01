@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_control_value" kind="class" language="C++" prot="public">
+    <compoundname>ControlValue</compoundname>
+    <basecompoundref refid="classtw__control" prot="public" virt="non-virtual">tw_control</basecompoundref>
+    <includes local="no">control_Value.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_control_value_1a6a9d6c462fa669a33481b2b8231cc3b4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_settings_option_int" kindref="compound">SettingsOptionInt</ref> *</type>
+        <definition>SettingsOptionInt* ControlValue::setting_option</definition>
+        <argsstring></argsstring>
+        <name>setting_option</name>
+        <qualifiedname>ControlValue::setting_option</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="20" column="19" bodyfile="src/tw_controls/control_Value.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a5522a0edb5d66030c33c9c5e6d11bff0" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ControlValue::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>ControlValue::version</qualifiedname>
+        <initializer>= &quot;1.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="22" column="8" bodyfile="src/tw_controls/control_Value.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a441871d15a2722e38ad4796a0f3e1f85" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ControlValue::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <qualifiedname>ControlValue::state</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="23" column="6" bodyfile="src/tw_controls/control_Value.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a7b22c89c109db132408104d5021abeed" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long ControlValue::next_click_update</definition>
+        <argsstring></argsstring>
+        <name>next_click_update</name>
+        <qualifiedname>ControlValue::next_click_update</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="25" column="15" bodyfile="src/tw_controls/control_Value.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a3c478a27edd11b5a01f80d666d7e8f3b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValue::value_min</definition>
+        <argsstring></argsstring>
+        <name>value_min</name>
+        <qualifiedname>ControlValue::value_min</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="27" column="5" bodyfile="src/tw_controls/control_Value.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a0653213aa209bda5be65d06c618e5118" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValue::value_max</definition>
+        <argsstring></argsstring>
+        <name>value_max</name>
+        <qualifiedname>ControlValue::value_max</qualifiedname>
+        <initializer>= 31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="28" column="5" bodyfile="src/tw_controls/control_Value.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a05fd9df6679353c6abb6e68ace6ce36a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValue::value_inc</definition>
+        <argsstring></argsstring>
+        <name>value_inc</name>
+        <qualifiedname>ControlValue::value_inc</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="29" column="5" bodyfile="src/tw_controls/control_Value.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a5b362f06f0d628fb14f8f9c9a91e31f3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValue::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>ControlValue::value</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="31" column="5" bodyfile="src/tw_controls/control_Value.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a88a7773c15e38ee579a91cd98037cd56" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValue::val_width</definition>
+        <argsstring></argsstring>
+        <name>val_width</name>
+        <qualifiedname>ControlValue::val_width</qualifiedname>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="33" column="5" bodyfile="src/tw_controls/control_Value.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a285ff8a9096bc9474409b0d775ef1e8e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValue::val_width_half</definition>
+        <argsstring></argsstring>
+        <name>val_width_half</name>
+        <qualifiedname>ControlValue::val_width_half</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="34" column="5" bodyfile="src/tw_controls/control_Value.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a7461d2ae9a4a2c256aa25b6c01213d34" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValue::button_left_x</definition>
+        <argsstring></argsstring>
+        <name>button_left_x</name>
+        <qualifiedname>ControlValue::button_left_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="35" column="5" bodyfile="src/tw_controls/control_Value.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_control_value_1a7011ec210f9bab16102727bfac8273ae" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ControlValue::button_right_x</definition>
+        <argsstring></argsstring>
+        <name>button_right_x</name>
+        <qualifiedname>ControlValue::button_right_x</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="36" column="5" bodyfile="src/tw_controls/control_Value.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_control_value_1a2c7b77efe14792108a53a8444737282f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlValue::draw</definition>
+        <argsstring>(uint _canvasid)</argsstring>
+        <name>draw</name>
+        <qualifiedname>ControlValue::draw</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>_canvasid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="7" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="6" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_1a9a8817134a5e17aafc0417e1233787ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ControlValue::drag</definition>
+        <argsstring>(int16_t drag_x, int16_t drag_y)</argsstring>
+        <name>drag</name>
+        <qualifiedname>ControlValue::drag</qualifiedname>
+        <reimplements refid="classtw__control_1a5801ddb432eba15482734b6d4e973d9f">drag</reimplements>
+        <param>
+          <type>int16_t</type>
+          <declname>drag_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>drag_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="8" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_1ac8c5bdecbf97591ad2b58b3c17085c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ControlValue::drag_end</definition>
+        <argsstring>()</argsstring>
+        <name>drag_end</name>
+        <qualifiedname>ControlValue::drag_end</qualifiedname>
+        <reimplements refid="classtw__control_1ae8aae1a8761fdcedd86371c27294c2a0">drag_end</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="9" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_1abd7df71b2b4fe288f15f06cde5f42fb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ControlValue::click</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click</name>
+        <qualifiedname>ControlValue::click</qualifiedname>
+        <reimplements refid="classtw__control_1ab262e7a645b158adf967a5365a44cc1c">click</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="10" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="47" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_1abd6f11e27ba572621ed02d16d5ecf60b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ControlValue::click_double</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_double</name>
+        <qualifiedname>ControlValue::click_double</qualifiedname>
+        <reimplements refid="classtw__control_1aba09793680c70400242c8a7261c923a3">click_double</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="11" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_1a0096d5ca69136fd0646fbbee4b595e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ControlValue::click_long</definition>
+        <argsstring>(uint16_t click_pos_x, uint16_t click_pos_y)</argsstring>
+        <name>click_long</name>
+        <qualifiedname>ControlValue::click_long</qualifiedname>
+        <reimplements refid="classtw__control_1ad1bd8d58a154843ac26d86afbd1a02a0">click_long</reimplements>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="12" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_1a8806f29a07aa2d4cb1bed11d0f3805fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ControlValue::buttons_check_left</definition>
+        <argsstring>(int16_t click_pos_x, int16_t click_pos_y)</argsstring>
+        <name>buttons_check_left</name>
+        <qualifiedname>ControlValue::buttons_check_left</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="14" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="103" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_1a590e71ccab9317d5872107f30120d351" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ControlValue::buttons_check_right</definition>
+        <argsstring>(int16_t click_pos_x, int16_t click_pos_y)</argsstring>
+        <name>buttons_check_right</name>
+        <qualifiedname>ControlValue::buttons_check_right</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_x</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>click_pos_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="15" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="124" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_control_value_1a940324467f588ce3ff7d735128ebd7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ControlValue::set_data</definition>
+        <argsstring>(SettingsOptionInt *sett)</argsstring>
+        <name>set_data</name>
+        <qualifiedname>ControlValue::set_data</qualifiedname>
+        <param>
+          <type><ref refid="class_settings_option_int" kindref="compound">SettingsOptionInt</ref> *</type>
+          <declname>sett</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/control_Value.h" line="17" column="6" bodyfile="src/tw_controls/control_Value.cpp" bodystart="4" bodyend="4"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ControlValue</label>
+        <link refid="class_control_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ControlValue</label>
+        <link refid="class_control_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>setting_option</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SettingsOptionInt</label>
+        <link refid="class_settings_option_int"/>
+      </node>
+      <node id="2">
+        <label>tw_control</label>
+        <link refid="classtw__control"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_face</label>
+        <link refid="classtw__face"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>navigation</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>selectedControl</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tw_controls/control_Value.h" line="4" column="1" bodyfile="src/tw_controls/control_Value.h" bodystart="5" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>adjusted_pos_x</name></member>
+      <member refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>adjusted_pos_y</name></member>
+      <member refid="classtw__control_1a14b56d61053455a8340fa0ef873f8438" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>bounds_check</name></member>
+      <member refid="class_control_value_1a7461d2ae9a4a2c256aa25b6c01213d34" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>button_left_x</name></member>
+      <member refid="class_control_value_1a7011ec210f9bab16102727bfac8273ae" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>button_right_x</name></member>
+      <member refid="class_control_value_1a8806f29a07aa2d4cb1bed11d0f3805fe" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>buttons_check_left</name></member>
+      <member refid="class_control_value_1a590e71ccab9317d5872107f30120d351" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>buttons_check_right</name></member>
+      <member refid="classtw__control_1aa5866ceadd9ee0a7b62dab42eb0c4d26" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>CallbackFunction</name></member>
+      <member refid="classtw__control_1a9a0b0641f496916802cba6cf15a9ef28" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>callbackFunction</name></member>
+      <member refid="classtw__control_1a0cb2d4f0f7f62b27d0c8d25adbf62167" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>can_drag</name></member>
+      <member refid="classtw__control_1afe4fb6fb8beb34f76e98dcff6980ea75" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>can_scroll_x</name></member>
+      <member refid="classtw__control_1ad7666727e24e480111e12317df3e0db4" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>can_scroll_y</name></member>
+      <member refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>canvasid</name></member>
+      <member refid="class_control_value_1abd7df71b2b4fe288f15f06cde5f42fb9" prot="public" virt="virtual"><scope>ControlValue</scope><name>click</name></member>
+      <member refid="class_control_value_1abd6f11e27ba572621ed02d16d5ecf60b" prot="public" virt="virtual"><scope>ControlValue</scope><name>click_double</name></member>
+      <member refid="class_control_value_1a0096d5ca69136fd0646fbbee4b595e90" prot="public" virt="virtual"><scope>ControlValue</scope><name>click_long</name></member>
+      <member refid="classtw__control_1a45b7cecc9b4d6be7885b00129cf71450" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>create</name></member>
+      <member refid="classtw__control_1a2bd5e84b349d3acd4332e691252e9a4e" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>create</name></member>
+      <member refid="classtw__control_1a92de6ce8244528f528b5b6a06f788702" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>create</name></member>
+      <member refid="class_control_value_1a9a8817134a5e17aafc0417e1233787ea" prot="public" virt="virtual"><scope>ControlValue</scope><name>drag</name></member>
+      <member refid="class_control_value_1ac8c5bdecbf97591ad2b58b3c17085c60" prot="public" virt="virtual"><scope>ControlValue</scope><name>drag_end</name></member>
+      <member refid="class_control_value_1a2c7b77efe14792108a53a8444737282f" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>draw</name></member>
+      <member refid="classtw__control_1a05335649c9426198c0d1a39cdd4d7480" prot="public" virt="non-virtual" ambiguityscope="tw_control::"><scope>ControlValue</scope><name>draw</name></member>
+      <member refid="classtw__control_1aa30d2044da736112cb5af3c2e602085b" prot="public" virt="pure-virtual" ambiguityscope="tw_control::"><scope>ControlValue</scope><name>draw</name></member>
+      <member refid="classtw__control_1ab5bda3919b1d4619d27a9451b0175b1a" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>draw_scroll</name></member>
+      <member refid="classtw__control_1a193f3b939571be166616862ef7eaf82c" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>get_height</name></member>
+      <member refid="classtw__control_1af5e22d745769f6ef9483e7a1671ce611" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>get_height_stacked</name></member>
+      <member refid="classtw__control_1a4d687b2b1bd72932e11099373cd13f2f" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>get_y_max</name></member>
+      <member refid="classtw__control_1af3ff3da8f6fe036da0a826d14fded5d8" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>get_y_min</name></member>
+      <member refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>height</name></member>
+      <member refid="classtw__control_1afb4e579aac10eb0681adea2afb85e1a2" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>name</name></member>
+      <member refid="class_control_value_1a7b22c89c109db132408104d5021abeed" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>next_click_update</name></member>
+      <member refid="classtw__control_1a2bac811da9de1d6e647f6ecb802fd9f4" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>offset_x</name></member>
+      <member refid="classtw__control_1ab6049b218ec56da1cdaa11aecdace054" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>offset_y</name></member>
+      <member refid="classtw__control_1a7e3bf4abc01c2d219b9c4d2ae45fc1bc" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>option1</name></member>
+      <member refid="classtw__control_1a304039dc7cdb6e6a46283bc02398f31f" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>option2</name></member>
+      <member refid="classtw__control_1a0260033322fb08209ad94550f26a66ff" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>padding_x</name></member>
+      <member refid="classtw__control_1ad185794a64b94983b686c1c089c6892e" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>padding_y</name></member>
+      <member refid="classtw__control_1a30820a179da2c2be53f4adfc5475bd9a" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>parent</name></member>
+      <member refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>pos_x</name></member>
+      <member refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>pos_y</name></member>
+      <member refid="classtw__control_1a4d91050ea99b4c0ae51c2596b7b01d62" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>requires_redraw</name></member>
+      <member refid="classtw__control_1af5152d03c48c5121ef3517dd96e1c18b" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>scroll_x</name></member>
+      <member refid="classtw__control_1a4afe73b8ce0719545ae13a1b5166eae1" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>scroll_y</name></member>
+      <member refid="classtw__control_1a86c62efb52d0bda09701025bc4c285d7" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>set_callback</name></member>
+      <member refid="class_control_value_1a940324467f588ce3ff7d735128ebd7d0" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>set_data</name></member>
+      <member refid="classtw__control_1ac39cf6b57bc14fdba5745f0876aa1ec5" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>set_parent</name></member>
+      <member refid="classtw__control_1a3e0422bf5201e2664bf3f2beb20627da" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>set_scrollable</name></member>
+      <member refid="classtw__control_1a5d51159f31c6abfb9f6ad074bea39b17" prot="public" virt="non-virtual"><scope>ControlValue</scope><name>set_values</name></member>
+      <member refid="class_control_value_1a6a9d6c462fa669a33481b2b8231cc3b4" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>setting_option</name></member>
+      <member refid="class_control_value_1a441871d15a2722e38ad4796a0f3e1f85" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>state</name></member>
+      <member refid="class_control_value_1a88a7773c15e38ee579a91cd98037cd56" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>val_width</name></member>
+      <member refid="class_control_value_1a285ff8a9096bc9474409b0d775ef1e8e" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>val_width_half</name></member>
+      <member refid="class_control_value_1a5b362f06f0d628fb14f8f9c9a91e31f3" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>value</name></member>
+      <member refid="class_control_value_1a05fd9df6679353c6abb6e68ace6ce36a" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>value_inc</name></member>
+      <member refid="class_control_value_1a0653213aa209bda5be65d06c618e5118" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>value_max</name></member>
+      <member refid="class_control_value_1a3c478a27edd11b5a01f80d666d7e8f3b" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>value_min</name></member>
+      <member refid="class_control_value_1a5522a0edb5d66030c33c9c5e6d11bff0" prot="private" virt="non-virtual"><scope>ControlValue</scope><name>version</name></member>
+      <member refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" prot="protected" virt="non-virtual"><scope>ControlValue</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

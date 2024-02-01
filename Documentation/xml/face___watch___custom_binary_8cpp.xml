@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="face___watch___custom_binary_8cpp" kind="file" language="C++">
+    <compoundname>face_Watch_CustomBinary.cpp</compoundname>
+    <includes refid="face___watch___custom_binary_8h" local="yes">tw_faces/face_Watch_CustomBinary.h</includes>
+    <includes refid="bitmaps__general_8h" local="yes">bitmaps/bitmaps_general.h</includes>
+    <includes refid="_clock___digits_8h" local="yes">fonts/Clock_Digits.h</includes>
+    <includes refid="_roboto_mono___regular___all_8h" local="yes">fonts/RobotoMono_Regular_All.h</includes>
+    <includes refid="battery_8h" local="yes">peripherals/battery.h</includes>
+    <includes refid="imu_8h" local="yes">peripherals/imu.h</includes>
+    <includes refid="settings_8h" local="yes">settings/settings.h</includes>
+    <includes refid="tinywatch_8h" local="yes">tinywatch.h</includes>
+    <incdepgraph>
+      <node id="35">
+        <label>Adafruit_MMC56x3.h</label>
+      </node>
+      <node id="6">
+        <label>Arduino.h</label>
+      </node>
+      <node id="28">
+        <label>bitmaps/bitmaps_general.h</label>
+        <link refid="bitmaps__general_8h"/>
+      </node>
+      <node id="5">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>fonts/Clock_Digits.h</label>
+        <link refid="_clock___digits_8h"/>
+      </node>
+      <node id="30">
+        <label>fonts/RobotoMono_Regular_All.h</label>
+        <link refid="_roboto_mono___regular___all_8h"/>
+      </node>
+      <node id="31">
+        <label>peripherals/battery.h</label>
+        <link refid="battery_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>peripherals/imu.h</label>
+        <link refid="imu_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>settings/settings.h</label>
+        <link refid="settings_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>settings/settingsOption.h</label>
+        <link refid="settings_option_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>settings_extra.h</label>
+        <link refid="settings__extra_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>tinywatch.h</label>
+        <link refid="tinywatch_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tw_apps/tw_app.h</label>
+        <link refid="tw__app_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_faces/face_Watch_CustomBinary.cpp</label>
+        <link refid="face___watch___custom_binary_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tw_faces/face_Watch_CustomBinary.h</label>
+        <link refid="face___watch___custom_binary_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tw_faces/tw_face.h</label>
+        <link refid="tw__face_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>tw_widgets/tw_widget.h</label>
+        <link refid="tw__widget_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="16">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="39">
+        <label>Preferences.h</label>
+      </node>
+      <node id="10">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="34">
+        <label>SparkFun_BMI270_Arduino_Library.h</label>
+      </node>
+      <node id="32">
+        <label>SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library.h</label>
+      </node>
+      <node id="23">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="24">
+        <label>Tween.h</label>
+      </node>
+      <node id="20">
+        <label>WiFi.h</label>
+      </node>
+      <node id="8">
+        <label>cst816t.h</label>
+      </node>
+      <node id="21">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="22">
+        <label>functional</label>
+      </node>
+      <node id="18">
+        <label>initializer_list</label>
+      </node>
+      <node id="14">
+        <label>json.h</label>
+      </node>
+      <node id="15">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="25">
+        <label>map</label>
+      </node>
+      <node id="19">
+        <label>stdint.h</label>
+      </node>
+      <node id="7">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="face___watch___custom_binary_8cpp_1acfb538057421fdf26bb300673f24b443" prot="public" static="no" mutable="no">
+        <type><ref refid="class_face_watch___custom_binary" kindref="compound">FaceWatch_CustomBinary</ref></type>
+        <definition>FaceWatch_CustomBinary face_watch_custom_binary</definition>
+        <argsstring></argsstring>
+        <name>face_watch_custom_binary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_faces/face_Watch_CustomBinary.cpp" line="166" column="24" bodyfile="src/tw_faces/face_Watch_CustomBinary.cpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="face___watch___custom_binary_8h" kindref="compound">tw_faces/face_Watch_CustomBinary.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bitmaps__general_8h" kindref="compound">bitmaps/bitmaps_general.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_clock___digits_8h" kindref="compound">fonts/Clock_Digits.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_roboto_mono___regular___all_8h" kindref="compound">fonts/RobotoMono_Regular_All.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="battery_8h" kindref="compound">peripherals/battery.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="imu_8h" kindref="compound">peripherals/imu.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="settings_8h" kindref="compound">settings/settings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tinywatch_8h" kindref="compound">tinywatch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_binary_1afc50a8ddb8202f21237cd46fe24b4673" kindref="member">FaceWatch_CustomBinary::setup</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" kindref="member">is_setup</ref>)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face_1aec1ed832785650e404c7b5dd37c2a016" kindref="member">is_setup</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_binary_1aee537cc94752e2dd8c5e9ae764e1b967" kindref="member">FaceWatch_CustomBinary::draw</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(force<sp/>||<sp/>millis()<sp/>-<sp/><ref refid="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" kindref="member">next_update</ref><sp/>&gt;<sp/><ref refid="classtw__face_1adf1eeb08a54b5e8a5f18677961d07f95" kindref="member">update_period</ref>)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_face_watch___custom_binary_1afc50a8ddb8202f21237cd46fe24b4673" kindref="member">setup</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face_1a42e779c0ae9c09253dda9cad2bfd7509" kindref="member">next_update</ref><sp/>=<sp/>millis();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" kindref="member">is_dragging</ref><sp/>||<sp/>!<ref refid="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" kindref="member">is_cached</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" kindref="member">is_dragging</ref>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face_1aaf4db7d3b1123560eaa2ddb227ab48c3" kindref="member">is_cached</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Blank<sp/>the<sp/>display</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillSprite(<ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00,<sp/>0x0,<sp/>0x0));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(TFT_WHITE);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>secs<sp/>=<sp/><ref refid="imu_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kindref="member">rtc</ref>.<ref refid="class_r_t_c_1aee92322b67dd488e3fe77d1045e53d3d" kindref="member">get_seconds</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Only<sp/>fetch<sp/>the<sp/>mins,<sp/>hrs,<sp/>and<sp/>date<sp/>once<sp/>a<sp/>minute.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Also<sp/>do<sp/>it<sp/>for<sp/>first<sp/>run<sp/>(year<sp/>cant<sp/>be<sp/>0,<sp/>or<sp/>2000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(secs<sp/>==<sp/>0<sp/>||<sp/><ref refid="class_face_watch___custom_binary_1a846285ff4f800bc473700d4836e4c029" kindref="member">year</ref><sp/>==<sp/>0<sp/>||<sp/><ref refid="class_face_watch___custom_binary_1a846285ff4f800bc473700d4836e4c029" kindref="member">year</ref><sp/>==<sp/>2000)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_face_watch___custom_binary_1ab1a37ac5a58c6a54bedd66465abc3826" kindref="member">mins</ref><sp/>=<sp/><ref refid="imu_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kindref="member">rtc</ref>.<ref refid="class_r_t_c_1a8f6e476c8f5ccdacbc69da6db5092070" kindref="member">get_mins</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_face_watch___custom_binary_1aa10123c0c9a404c385e88d131f11df40" kindref="member">hours</ref><sp/>=<sp/><ref refid="imu_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kindref="member">rtc</ref>.<ref refid="class_r_t_c_1a584f6a61e435f518e2950206592cda44" kindref="member">get_hours</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_face_watch___custom_binary_1aff87a4af52e3f0bcda444b3feda8a963" kindref="member">day</ref><sp/>=<sp/><ref refid="imu_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kindref="member">rtc</ref>.<ref refid="class_r_t_c_1a01e24dae34233cf35a5d0c6d8ab52009" kindref="member">get_day</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_face_watch___custom_binary_1a477efcf8fbea5ea2158c188161cec971" kindref="member">month</ref><sp/>=<sp/><ref refid="imu_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kindref="member">rtc</ref>.<ref refid="class_r_t_c_1ad46b4ccf682c4fc57af1cde874a1dc60" kindref="member">get_month</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_face_watch___custom_binary_1a846285ff4f800bc473700d4836e4c029" kindref="member">year</ref><sp/>=<sp/><ref refid="imu_8cpp_1afa7e240c7456eaf5ef27ee8be3a23bd4" kindref="member">rtc</ref>.<ref refid="class_r_t_c_1ae8f63503b20d8504e4a4fd2669bcfb27" kindref="member">get_year</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Offset<sp/>the<sp/>Date<sp/>for<sp/>single/multiple<sp/>digits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_face_watch___custom_binary_1aff87a4af52e3f0bcda444b3feda8a963" kindref="member">day</ref><sp/>&gt;<sp/>9)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_face_watch___custom_binary_1a0d030108b5363bfe44cf0ade82c6b377" kindref="member">day_offset</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>posmul<sp/>=<sp/>32;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>x_space<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>y_space<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>digit_xoffset<sp/>=<sp/>14;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>digit_yoffset<sp/>=<sp/>16;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x_offset<sp/>=<sp/>(<ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1aa6e23b0987a3eb4e719e3ef7d4c03ba4" kindref="member">width</ref><sp/>-<sp/>(6<sp/>*<sp/>(posmul<sp/>+<sp/>x_space)))<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y_offset<sp/>=<sp/>176;<sp/></highlight><highlight class="comment">//<sp/>i<sp/>cant<sp/>for<sp/>the<sp/>life<sp/>of<sp/>me<sp/>figure<sp/>out<sp/>how<sp/>to<sp/>fix<sp/>this!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>Colours</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>on_color<sp/>=<sp/><ref refid="class_face_watch___custom_binary_1ab0343b414a9013af86303c99478aae4e" kindref="member">on_colors</ref>[<ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>.<ref refid="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" kindref="member">binary_clockcolour</ref>];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>off_color<sp/>=<sp/><ref refid="class_face_watch___custom_binary_1a7b318fa4fce81fa5610baaa957143d6a" kindref="member">off_colors</ref>[<ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>.<ref refid="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" kindref="member">binary_clockcolour</ref>];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>bdr_color<sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x0A,<sp/>0x0A,<sp/>0x0A);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>tim_color<sp/>=<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0xff,<sp/>0xff,<sp/>0xff);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int8_t<sp/>clock_style<sp/>=<sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>.<ref refid="struct_config__custom__binary_1a4bbec4837d68af7ac1626d325cebbf5c" kindref="member">binary_clockstyle</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>box_positions[6]<sp/>=<sp/>{5,<sp/>4,<sp/>3,<sp/>2,<sp/>1,<sp/>0};<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Start<sp/>with<sp/>seconds,<sp/>then<sp/>minutes,<sp/>then<sp/>hours</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>box_counts[6]<sp/>=<sp/>{4,<sp/>3,<sp/>4,<sp/>3,<sp/>4,<sp/>2};<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Not<sp/>all<sp/>columns<sp/>need<sp/>4<sp/>boxes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>digit_num[6]<sp/>=<sp/>{secs<sp/>%<sp/>10,<sp/>secs<sp/>/<sp/>10,<sp/><ref refid="class_face_watch___custom_binary_1ab1a37ac5a58c6a54bedd66465abc3826" kindref="member">mins</ref><sp/>%<sp/>10,<sp/><ref refid="class_face_watch___custom_binary_1ab1a37ac5a58c6a54bedd66465abc3826" kindref="member">mins</ref><sp/>/<sp/>10,<sp/><ref refid="class_face_watch___custom_binary_1aa10123c0c9a404c385e88d131f11df40" kindref="member">hours</ref><sp/>%<sp/>10,<sp/><ref refid="class_face_watch___custom_binary_1aa10123c0c9a404c385e88d131f11df40" kindref="member">hours</ref><sp/>/<sp/>10};<sp/></highlight><highlight class="comment">//<sp/>this<sp/>returns<sp/>the<sp/>individual<sp/>digit<sp/>for<sp/>each<sp/>column</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>half_posmul<sp/>=<sp/>posmul<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>digit<sp/>=<sp/>0;<sp/>digit<sp/>&lt;<sp/>6;<sp/>++digit)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xOffset<sp/>=<sp/>x_offset<sp/>+<sp/>(posmul<sp/>*<sp/>box_positions[digit])<sp/>+<sp/>(x_space<sp/>*<sp/>box_positions[digit]);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>box_y<sp/>=<sp/>0;<sp/>box_y<sp/>&lt;<sp/>box_counts[digit];<sp/>++box_y)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>(is_onoff(,<sp/>))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((digit_num[digit]<sp/>&amp;<sp/>(1<sp/>&lt;&lt;<sp/>box_y))<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(clock_style<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRect(xOffset,<sp/>y_offset<sp/>-<sp/>(box_y<sp/>*<sp/>(posmul<sp/>+<sp/>y_space)),<sp/>posmul,<sp/>posmul,<sp/>on_color);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillSmoothCircle(xOffset<sp/>+<sp/>(half_posmul),<sp/>y_offset<sp/>-<sp/>(box_y<sp/>*<sp/>(posmul<sp/>+<sp/>y_space))<sp/>+<sp/>(half_posmul),<sp/>half_posmul,<sp/>on_color);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(clock_style<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillRect(xOffset,<sp/>y_offset<sp/>-<sp/>(box_y<sp/>*<sp/>(posmul<sp/>+<sp/>y_space)),<sp/>posmul,<sp/>posmul,<sp/>off_color);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].fillSmoothCircle(xOffset<sp/>+<sp/>(half_posmul),<sp/>y_offset<sp/>-<sp/>(box_y<sp/>*<sp/>(posmul<sp/>+<sp/>y_space))<sp/>+<sp/>(half_posmul),<sp/>half_posmul,<sp/>off_color);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_face_watch___custom_binary_1a8a7f16b493648191b7c760ab4458b5e8" kindref="member">show_borders</ref>)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(clock_style<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawRect(xOffset,<sp/>y_offset<sp/>-<sp/>(box_y<sp/>*<sp/>(posmul<sp/>+<sp/>y_space)),<sp/>posmul,<sp/>posmul,<sp/>bdr_color);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawCircle(xOffset<sp/>+<sp/>(half_posmul),<sp/>y_offset<sp/>-<sp/>(box_y<sp/>*<sp/>(posmul<sp/>+<sp/>y_space))<sp/>+<sp/>(half_posmul),<sp/>half_posmul,<sp/>bdr_color);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>text<sp/>colour<sp/>to<sp/>make<sp/>it<sp/>readable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>digit_backcolor[6]<sp/>=<sp/>{off_color,<sp/>off_color,<sp/>off_color,<sp/>off_color,<sp/>off_color,<sp/>off_color};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>6;<sp/>++i)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((digit_num[i]<sp/>&amp;<sp/>(1<sp/>&lt;&lt;<sp/>0))<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>digit_backcolor[i]<sp/>=<sp/>on_color;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Show<sp/>time<sp/>in<sp/>bottom<sp/>boxes<sp/>for<sp/>convenience</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setFreeFont(Clock_Digit_7SEG[0]);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>6;<sp/>++i)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(tim_color,<sp/>digit_backcolor[i]);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(String(digit_num[i]),<sp/>x_offset<sp/>+<sp/>(posmul<sp/>*<sp/>box_positions[i])<sp/>+<sp/>(x_space<sp/>*<sp/>box_positions[i])<sp/>+<sp/>digit_xoffset,<sp/>y_offset<sp/>-<sp/>(0<sp/>*<sp/>(posmul<sp/>+<sp/>y_space))<sp/>+<sp/>digit_yoffset);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Show<sp/>date<sp/>below<sp/>the<sp/>clock</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setFreeFont(Clock_Digit_7SEG[2]);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(tim_color,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00,<sp/>0x00,<sp/>0x00));</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(String(<ref refid="class_face_watch___custom_binary_1aff87a4af52e3f0bcda444b3feda8a963" kindref="member">day</ref>),<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1af33ee9b7afad5327be79b09128374e1f" kindref="member">center_x</ref><sp/>-<sp/><ref refid="class_face_watch___custom_binary_1a0d030108b5363bfe44cf0ade82c6b377" kindref="member">day_offset</ref>,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref><sp/>-<sp/>35);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Display<sp/>Year<sp/>and<sp/>Month</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setFreeFont(RobotoMono_Regular[16]);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].setTextColor(tim_color,<sp/><ref refid="display_8h_1a95882ac388a30de06881dbd1f66d2c62" kindref="member">RGB</ref>(0x00,<sp/>0x00,<sp/>0x00));</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(String(<ref refid="class_face_watch___custom_binary_1a846285ff4f800bc473700d4836e4c029" kindref="member">year</ref>),<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1af33ee9b7afad5327be79b09128374e1f" kindref="member">center_x</ref><sp/>+<sp/>72,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref><sp/>-<sp/>50);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].drawString(<ref refid="class_face_watch___custom_binary_1a66d99a4f4dccea64616abb4396e0ac20" kindref="member">months</ref>[<ref refid="class_face_watch___custom_binary_1a477efcf8fbea5ea2158c188161cec971" kindref="member">month</ref><sp/>-<sp/>1],<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1af33ee9b7afad5327be79b09128374e1f" kindref="member">center_x</ref><sp/>+<sp/>64,<sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a202b766060c68a78b77dfad3a843853a" kindref="member">height</ref><sp/>-<sp/>25);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face_1ae7d8400d64f7d59c6e1e9b7eaee12643" kindref="member">draw_children</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>0,<sp/>abs(1<sp/>-<sp/>clock_style));</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[<ref refid="classtw__face_1a2d6d1c8c3cf3cf1deb42bad6e2d01cb3" kindref="member">canvasid</ref>].pushSprite(<ref refid="classtw__face_1aa0407f1353c697853c4ded0769c9bd7d" kindref="member">_x</ref>,<sp/><ref refid="classtw__face_1ad842e61841906d628e1f276954c0b8b6" kindref="member">_y</ref>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_binary_1a83011dee6fcaeac45699d095c71a701d" kindref="member">FaceWatch_CustomBinary::click</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Cycle<sp/>through<sp/>the<sp/>colour<sp/>pallette,<sp/>after<sp/>one<sp/>full<sp/>cycle,<sp/>switch<sp/>the<sp/>style<sp/>(square/circle)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>.<ref refid="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" kindref="member">binary_clockcolour</ref>++;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>.<ref refid="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" kindref="member">binary_clockcolour</ref><sp/>&gt;=<sp/>3)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>.<ref refid="struct_config__custom__binary_1a4bbec4837d68af7ac1626d325cebbf5c" kindref="member">binary_clockstyle</ref><sp/>=<sp/>!(<ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>.<ref refid="struct_config__custom__binary_1a4bbec4837d68af7ac1626d325cebbf5c" kindref="member">binary_clockstyle</ref>);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="settings_8cpp_1a19276c778f3034b94881cf1f8614dbb2" kindref="member">settings</ref>.<ref refid="class_settings_1a4ca1d960902db935f5a7ec3db599b53c" kindref="member">config</ref>.<ref refid="struct_config_1ad695ac00b4880f31dd061497c64c4fad" kindref="member">custom_binary</ref>.<ref refid="struct_config__custom__binary_1a41eb259c3bdcc2e170b130ac02fa58f5" kindref="member">binary_clockcolour</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_face_watch___custom_binary_1aee537cc94752e2dd8c5e9ae764e1b967" kindref="member">draw</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_binary_1a18f381fbf88de28a97a5a374b30b8cbd" kindref="member">FaceWatch_CustomBinary::click_double</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="display_8cpp_1aa5083e8fab8ddaf62944949e251663bb" kindref="member">display</ref>.<ref refid="class_display_1a26781a764df27fb57439de75b65c6cc8" kindref="member">cycle_clock_face</ref>();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtw__face_1a1473b4ffe942ac8fc7351679f1a07908" kindref="member">is_dragging</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>draw(true);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_face_watch___custom_binary_1a2d71f1bb2517c600c6d17822bf264417" kindref="member">FaceWatch_CustomBinary::click_long</ref>(int16_t<sp/>pos_x,<sp/>int16_t<sp/>pos_y)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>info_println(&quot;LOOOONG!&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>Add<sp/>display<sp/>of<sp/>watch<sp/>specific<sp/>settings<sp/>here<sp/>when<sp/>the<sp/>user<sp/>long<sp/>presses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><ref refid="class_face_watch___custom_binary" kindref="compound">FaceWatch_CustomBinary</ref><sp/><ref refid="face___watch___custom_binary_8cpp_1acfb538057421fdf26bb300673f24b443" kindref="member">face_watch_custom_binary</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_faces/face_Watch_CustomBinary.cpp"/>
+  </compounddef>
+</doxygen>

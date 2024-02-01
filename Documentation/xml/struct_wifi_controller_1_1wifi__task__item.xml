@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_wifi_controller_1_1wifi__task__item" kind="struct" language="C++" prot="private">
+    <compoundname>WifiController::wifi_task_item</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_wifi_controller_1_1wifi__task__item_1acb013fefced5abc20069fb7a93a971dd" prot="public" static="no" mutable="no">
+        <type>String *</type>
+        <definition>String* WifiController::wifi_task_item::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <qualifiedname>WifiController::wifi_task_item::url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="42" column="8" bodyfile="src/web/wifi_controller.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_wifi_controller_1_1wifi__task__item_1a92ebc73207eb3af87048770f31252698" prot="public" static="no" mutable="no">
+        <type><ref refid="wifi__controller_8h_1ad2bfbde3284b4cbc134036a94997f70b" kindref="member">_CALLBACK</ref></type>
+        <definition>_CALLBACK WifiController::wifi_task_item::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>WifiController::wifi_task_item::callback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="43" column="11" bodyfile="src/web/wifi_controller.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/web/wifi_controller.h" line="40" column="1" bodyfile="src/web/wifi_controller.h" bodystart="41" bodyend="44"/>
+    <listofallmembers>
+      <member refid="struct_wifi_controller_1_1wifi__task__item_1a92ebc73207eb3af87048770f31252698" prot="public" virt="non-virtual"><scope>WifiController::wifi_task_item</scope><name>callback</name></member>
+      <member refid="struct_wifi_controller_1_1wifi__task__item_1acb013fefced5abc20069fb7a93a971dd" prot="public" virt="non-virtual"><scope>WifiController::wifi_task_item</scope><name>url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

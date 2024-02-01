@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="tw__control_8h" kind="file" language="C++">
+    <compoundname>tw_control.h</compoundname>
+    <includes refid="display_8h" local="yes">display.h</includes>
+    <includedby refid="control___button_8h" local="yes">src/tw_controls/control_Button.h</includedby>
+    <includedby refid="control___label_8h" local="yes">src/tw_controls/control_Label.h</includedby>
+    <includedby refid="control___toggle_8h" local="yes">src/tw_controls/control_Toggle.h</includedby>
+    <includedby refid="control___value_8h" local="yes">src/tw_controls/control_Value.h</includedby>
+    <includedby refid="control___value_slider_8h" local="yes">src/tw_controls/control_ValueSlider.h</includedby>
+    <includedby refid="tw__control_8cpp" local="yes">src/tw_controls/tw_control.cpp</includedby>
+    <includedby refid="tw__face_8h" local="yes">src/tw_faces/tw_face.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>Arduino.h</label>
+      </node>
+      <node id="2">
+        <label>display.h</label>
+        <link refid="display_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>peripherals/buzzer.h</label>
+        <link refid="buzzer_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>peripherals/rtc.h</label>
+        <link refid="rtc_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>utilities/logging.h</label>
+        <link refid="logging_8h"/>
+      </node>
+      <node id="13">
+        <label>wifi_common.h</label>
+        <link refid="wifi__common_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>web/wifi_controller.h</label>
+        <link refid="wifi__controller_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>HTTPClient.h</label>
+      </node>
+      <node id="7">
+        <label>RV3028C7.h</label>
+      </node>
+      <node id="20">
+        <label>TFT_eSPI.h</label>
+      </node>
+      <node id="21">
+        <label>Tween.h</label>
+      </node>
+      <node id="17">
+        <label>WiFi.h</label>
+      </node>
+      <node id="5">
+        <label>cst816t.h</label>
+      </node>
+      <node id="18">
+        <label>freertos/queue.h</label>
+      </node>
+      <node id="19">
+        <label>functional</label>
+      </node>
+      <node id="15">
+        <label>initializer_list</label>
+      </node>
+      <node id="11">
+        <label>json.h</label>
+      </node>
+      <node id="12">
+        <label>json_conversions.h</label>
+      </node>
+      <node id="16">
+        <label>stdint.h</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>src/display.cpp</label>
+        <link refid="display_8cpp"/>
+      </node>
+      <node id="27">
+        <label>src/tinywatch.cpp</label>
+        <link refid="tinywatch_8cpp"/>
+      </node>
+      <node id="16">
+        <label>src/tw_apps/tw_app.cpp</label>
+        <link refid="tw__app_8cpp"/>
+      </node>
+      <node id="4">
+        <label>src/tw_controls/control_Button.cpp</label>
+        <link refid="control___button_8cpp"/>
+      </node>
+      <node id="2">
+        <label>src/tw_controls/control_Button.h</label>
+        <link refid="control___button_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/tw_controls/control_Label.cpp</label>
+        <link refid="control___label_8cpp"/>
+      </node>
+      <node id="5">
+        <label>src/tw_controls/control_Label.h</label>
+        <link refid="control___label_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>src/tw_controls/control_Toggle.cpp</label>
+        <link refid="control___toggle_8cpp"/>
+      </node>
+      <node id="7">
+        <label>src/tw_controls/control_Toggle.h</label>
+        <link refid="control___toggle_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>src/tw_controls/control_Value.cpp</label>
+        <link refid="control___value_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/tw_controls/control_Value.h</label>
+        <link refid="control___value_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>src/tw_controls/control_ValueSlider.cpp</label>
+        <link refid="control___value_slider_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/tw_controls/control_ValueSlider.h</label>
+        <link refid="control___value_slider_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>src/tw_controls/tw_control.cpp</label>
+        <link refid="tw__control_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/tw_controls/tw_control.h</label>
+        <link refid="tw__control_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>src/tw_faces/face_AppList.cpp</label>
+        <link refid="face___app_list_8cpp"/>
+      </node>
+      <node id="15">
+        <label>src/tw_faces/face_AppList.h</label>
+        <link refid="face___app_list_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>src/tw_faces/face_BatteryEmpty.cpp</label>
+        <link refid="face___battery_empty_8cpp"/>
+      </node>
+      <node id="18">
+        <label>src/tw_faces/face_BatteryEmpty.h</label>
+        <link refid="face___battery_empty_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>src/tw_faces/face_Boot.cpp</label>
+        <link refid="face___boot_8cpp"/>
+      </node>
+      <node id="20">
+        <label>src/tw_faces/face_Boot.h</label>
+        <link refid="face___boot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>src/tw_faces/face_Empty.cpp</label>
+        <link refid="face___empty_8cpp"/>
+      </node>
+      <node id="22">
+        <label>src/tw_faces/face_Empty.h</label>
+        <link refid="face___empty_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>src/tw_faces/face_IMU.cpp</label>
+        <link refid="face___i_m_u_8cpp"/>
+      </node>
+      <node id="24">
+        <label>src/tw_faces/face_IMU.h</label>
+        <link refid="face___i_m_u_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>src/tw_faces/face_Notifications.cpp</label>
+        <link refid="face___notifications_8cpp"/>
+      </node>
+      <node id="26">
+        <label>src/tw_faces/face_Notifications.h</label>
+        <link refid="face___notifications_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>src/tw_faces/face_Settings.cpp</label>
+        <link refid="face___settings_8cpp"/>
+      </node>
+      <node id="29">
+        <label>src/tw_faces/face_Settings.h</label>
+        <link refid="face___settings_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>src/tw_faces/face_System.cpp</label>
+        <link refid="face___system_8cpp"/>
+      </node>
+      <node id="31">
+        <label>src/tw_faces/face_System.h</label>
+        <link refid="face___system_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>src/tw_faces/face_WatchSettings.cpp</label>
+        <link refid="face___watch_settings_8cpp"/>
+      </node>
+      <node id="33">
+        <label>src/tw_faces/face_WatchSettings.h</label>
+        <link refid="face___watch_settings_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>src/tw_faces/face_Watch_CustomBinary.cpp</label>
+        <link refid="face___watch___custom_binary_8cpp"/>
+      </node>
+      <node id="35">
+        <label>src/tw_faces/face_Watch_CustomBinary.h</label>
+        <link refid="face___watch___custom_binary_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>src/tw_faces/face_Watch_CustomWindows.cpp</label>
+        <link refid="face___watch___custom_windows_8cpp"/>
+      </node>
+      <node id="37">
+        <label>src/tw_faces/face_Watch_CustomWindows.h</label>
+        <link refid="face___watch___custom_windows_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>src/tw_faces/face_Watch_DefaultAnalog.cpp</label>
+        <link refid="face___watch___default_analog_8cpp"/>
+      </node>
+      <node id="39">
+        <label>src/tw_faces/face_Watch_DefaultAnalog.h</label>
+        <link refid="face___watch___default_analog_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>src/tw_faces/face_Watch_DefaultDigital.cpp</label>
+        <link refid="face___watch___default_digital_8cpp"/>
+      </node>
+      <node id="41">
+        <label>src/tw_faces/face_Watch_DefaultDigital.h</label>
+        <link refid="face___watch___default_digital_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>src/tw_faces/tw_face.cpp</label>
+        <link refid="tw__face_8cpp"/>
+      </node>
+      <node id="14">
+        <label>src/tw_faces/tw_face.h</label>
+        <link refid="tw__face_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classtw__control" prot="public">tw_control</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="tw__control_8h_1ac5d2dc3534f30f704fd7529ad0f89ff1" prot="public" static="no" extern="yes" mutable="no">
+        <type>TFT_eSPI</type>
+        <definition>TFT_eSPI tft</definition>
+        <argsstring></argsstring>
+        <name>tft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/tw_control.h" line="5" column="17" bodyfile="src/display.cpp" bodystart="76" bodyend="-1" declfile="src/tw_controls/tw_control.h" declline="5" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="tw__control_8h_1ace9174c9ba98b11c902a8888832df739" prot="public" static="no" extern="yes" mutable="no">
+        <type>TFT_eSprite</type>
+        <definition>TFT_eSprite canvas[]</definition>
+        <argsstring>[]</argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tw_controls/tw_control.h" line="6" column="20" bodyfile="src/display.cpp" bodystart="77" bodyend="77" declfile="src/tw_controls/tw_control.h" declline="6" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="display_8h" kindref="compound">display.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TFT_eSPI<sp/><ref refid="tw__control_8h_1ac5d2dc3534f30f704fd7529ad0f89ff1" kindref="member">tft</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TFT_eSprite<sp/><ref refid="tw__control_8h_1ace9174c9ba98b11c902a8888832df739" kindref="member">canvas</ref>[];</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtw__face" kindref="compound">tw_face</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classtw__control" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtw__control" kindref="compound">tw_control</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classtw__control_1aa5866ceadd9ee0a7b62dab42eb0c4d26" kindref="member">CallbackFunction</ref><sp/>=<sp/>void<sp/>(*)();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a45b7cecc9b4d6be7885b00129cf71450" kindref="member">create</ref>(String<sp/>_name,<sp/>String<sp/>_option1,<sp/>String<sp/>_option2,<sp/>uint<sp/>_pos_x,<sp/>uint<sp/>_pos_y,<sp/>uint<sp/>_width,<sp/>uint<sp/>_height);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a45b7cecc9b4d6be7885b00129cf71450" kindref="member">create</ref>(String<sp/>_name,<sp/>uint<sp/>_pos_x,<sp/>uint<sp/>_pos_y,<sp/>uint<sp/>_width,<sp/>uint<sp/>_height);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a45b7cecc9b4d6be7885b00129cf71450" kindref="member">create</ref>(String<sp/>_name,<sp/>uint<sp/>_pos_x,<sp/>uint<sp/>_pos_y);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a86c62efb52d0bda09701025bc4c285d7" kindref="member">set_callback</ref>(<ref refid="classtw__control_1aa5866ceadd9ee0a7b62dab42eb0c4d26" kindref="member">CallbackFunction</ref><sp/>callback);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a5d51159f31c6abfb9f6ad074bea39b17" kindref="member">set_values</ref>(String<sp/>_option1,<sp/>String<sp/>_option2);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1ac39cf6b57bc14fdba5745f0876aa1ec5" kindref="member">set_parent</ref>(<ref refid="classtw__face" kindref="compound">tw_face</ref><sp/>*_parent);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a14b56d61053455a8340fa0ef873f8438" kindref="member">bounds_check</ref>(int16_t<sp/>click_pos_x,<sp/>int16_t<sp/>click_pos_y);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classtw__control_1a193f3b939571be166616862ef7eaf82c" kindref="member">get_height</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classtw__control_1af5e22d745769f6ef9483e7a1671ce611" kindref="member">get_height_stacked</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="classtw__control_1af3ff3da8f6fe036da0a826d14fded5d8" kindref="member">get_y_min</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="classtw__control_1a4d687b2b1bd72932e11099373cd13f2f" kindref="member">get_y_max</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a05335649c9426198c0d1a39cdd4d7480" kindref="member">draw</ref>(uint<sp/><ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>,<sp/>uint<sp/>_pos_x,<sp/>uint<sp/>_pos_y);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1ab5bda3919b1d4619d27a9451b0175b1a" kindref="member">draw_scroll</ref>(uint<sp/><ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>,<sp/>uint16_t<sp/><ref refid="classtw__control_1a2bac811da9de1d6e647f6ecb802fd9f4" kindref="member">offset_x</ref>,<sp/>uint16_t<sp/><ref refid="classtw__control_1ab6049b218ec56da1cdaa11aecdace054" kindref="member">offset_y</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a3e0422bf5201e2664bf3f2beb20627da" kindref="member">set_scrollable</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1af5152d03c48c5121ef3517dd96e1c18b" kindref="member">scroll_x</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a4afe73b8ce0719545ae13a1b5166eae1" kindref="member">scroll_y</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a0cb2d4f0f7f62b27d0c8d25adbf62167" kindref="member">can_drag</ref>(int16_t<sp/>click_pos_x,<sp/>int16_t<sp/>click_pos_y);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Virtual<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a05335649c9426198c0d1a39cdd4d7480" kindref="member">draw</ref>(uint8_t<sp/><ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a5801ddb432eba15482734b6d4e973d9f" kindref="member">drag</ref>(int16_t<sp/>drag_x,<sp/>int16_t<sp/>drag_y)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1ae8aae1a8761fdcedd86371c27294c2a0" kindref="member">drag_end</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1ab262e7a645b158adf967a5365a44cc1c" kindref="member">click</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1aba09793680c70400242c8a7261c923a3" kindref="member">click_double</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1ad1bd8d58a154843ac26d86afbd1a02a0" kindref="member">click_long</ref>(uint16_t<sp/>click_pos_x,<sp/>uint16_t<sp/>click_pos_y)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classtw__control_1afb4e579aac10eb0681adea2afb85e1a2" kindref="member">name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__face" kindref="compound">tw_face</ref><sp/>*<ref refid="classtw__control_1a30820a179da2c2be53f4adfc5475bd9a" kindref="member">parent</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TFT_eSprite<sp/>my_sprite<sp/>=<sp/>TFT_eSprite(&amp;tft);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtw__control_1aa5866ceadd9ee0a7b62dab42eb0c4d26" kindref="member">CallbackFunction</ref><sp/><ref refid="classtw__control_1a9a0b0641f496916802cba6cf15a9ef28" kindref="member">callbackFunction</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classtw__control_1a41871f50ad83775e6e0aa9735ff087f0" kindref="member">value</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classtw__control_1a7e3bf4abc01c2d219b9c4d2ae45fc1bc" kindref="member">option1</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classtw__control_1a304039dc7cdb6e6a46283bc02398f31f" kindref="member">option2</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classtw__control_1a8e30add1d313d3debd64dbe6fbf24bbe" kindref="member">canvasid</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__control_1ab8763edae3ea1cbaa438d86180b16292" kindref="member">width</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__control_1aa956a65e35e7c37c996e3241c578242e" kindref="member">height</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__control_1afc0c1d7868750017f1f8e8cdddcd78ae" kindref="member">pos_x</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__control_1af1b9483190dca055ce37a28df43b3e4a" kindref="member">pos_y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__control_1a0260033322fb08209ad94550f26a66ff" kindref="member">padding_x</ref><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__control_1ad185794a64b94983b686c1c089c6892e" kindref="member">padding_y</ref><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1a4d91050ea99b4c0ae51c2596b7b01d62" kindref="member">requires_redraw</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1afe4fb6fb8beb34f76e98dcff6980ea75" kindref="member">can_scroll_x</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtw__control_1ad7666727e24e480111e12317df3e0db4" kindref="member">can_scroll_y</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__control_1af5152d03c48c5121ef3517dd96e1c18b" kindref="member">scroll_x</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classtw__control_1a4afe73b8ce0719545ae13a1b5166eae1" kindref="member">scroll_y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="classtw__control_1a2bac811da9de1d6e647f6ecb802fd9f4" kindref="member">offset_x</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="classtw__control_1ab6049b218ec56da1cdaa11aecdace054" kindref="member">offset_y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="classtw__control_1af5167536ebe22c59a18fe5d0f51f5f19" kindref="member">adjusted_pos_x</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/><ref refid="classtw__control_1a31fdedb63ecbcf5dac266e7262e5c5ae" kindref="member">adjusted_pos_y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/tw_controls/tw_control.h"/>
+  </compounddef>
+</doxygen>

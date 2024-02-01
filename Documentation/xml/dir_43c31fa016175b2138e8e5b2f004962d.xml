@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_43c31fa016175b2138e8e5b2f004962d" kind="dir">
+    <compoundname>src/bitmaps</compoundname>
+    <innerfile refid="bitmaps__general_8h">bitmaps_general.h</innerfile>
+    <innerfile refid="bitmaps__ow_8h">bitmaps_ow.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/bitmaps/"/>
+  </compounddef>
+</doxygen>

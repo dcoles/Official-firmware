@@ -7,7 +7,7 @@ var searchData=
   ['password_4',['password',['../struct_config__mqtt.html#a18b51efe683e422cf540ca6ff5c88cb1',1,'Config_mqtt']]],
   ['perc_5foffset_5',['perc_offset',['../struct_config__battery.html#acac7fc228f2297e9a021e1f48e4af561',1,'Config_battery']]],
   ['perform_5fwifi_5frequest_6',['perform_wifi_request',['../class_wifi_controller.html#a1e12f839fca953bc23867273119d69a1',1,'WifiController']]],
-  ['peripherals_7',['Peripherals',['../md__2_users_2seon_2_dropbox_2_unexpected_01_maker_2_repositories_2tinywatchs3-org_2_official-fir68989a01c190abd1f2e3ba74e11948a4.html#autotoc_md5',1,'']]],
+  ['peripherals_7',['Peripherals',['../md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview.html#autotoc_md5',1,'']]],
   ['persist_5fstep_5fcount_8',['persist_step_count',['../class_i_m_u.html#a1316f25b98d8df78dcb7247c31d63aa2',1,'IMU']]],
   ['poll_5ffrequency_9',['poll_frequency',['../struct_config__open__weather.html#a826f186975c7c30c21384fa40d47cfa8',1,'Config_open_weather']]],
   ['pop_5fmessage_10',['pop_message',['../class_face_notifications.html#a26b1b8a9a8787d201a7137538f15ac42',1,'FaceNotifications']]],

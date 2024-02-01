@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview" kind="page">
+    <compoundname>md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview</compoundname>
+    <title>Overview</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md0"/>Welcome to the documentation for the source code of the <ref refid="class_tiny_w_a_t_c_h" kindref="compound">TinyWATCH</ref> S3 project. This guide provides insights into the intricacies of the firmware that powers the <ref refid="class_tiny_w_a_t_c_h" kindref="compound">TinyWATCH</ref> S3, offering a deeper understanding of the functionalities and inner workings of the smartwatch.</para>
+<sect1 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md1">
+<title>Contents</title><para>Class Documentation: Detailed breakdowns of the key classes within the firmware, including their members, methods, and purposes.</para>
+<para>The main entry point and runtime loop of the firmware lives in <ref refid="tinywatch_8cpp" kindref="compound">tinywatch.cpp</ref>. This is where the <computeroutput>Arduino <ref refid="tinywatch_8cpp_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup()</ref> and <ref refid="tinywatch_8cpp_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop()</ref></computeroutput> functions live.</para>
+<para>Main display and touch interaction code lives in <ref refid="display_8cpp" kindref="compound">display.cpp</ref></para>
+<sect2 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md2">
+<title>Faces</title><para><ref refid="tw__face_8cpp" kindref="compound">TW Faces</ref> are where you build your content for <ref refid="class_tiny_w_a_t_c_h" kindref="compound">TinyWATCH</ref>. You can display anything you like using the <computeroutput>draw()</computeroutput> method, as well as assign Widgets and Controls to any face you create.</para>
+<para>Faces can be setup to br navigated to each other, via swiping up, down, left and right.</para>
+</sect2>
+<sect2 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md3">
+<title>Widgets</title><para><ref refid="tw__widget_8cpp" kindref="compound">TW Widgets</ref> are self contained little &quot;interactive apps&quot; can run logic, or connectivity tasks and show specific info.</para>
+<para>They are designed to be reusable, so can be placed on one or more faces. <linebreak/>
+</para>
+</sect2>
+<sect2 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md4">
+<title>Controls</title><para><ref refid="tw__control_8cpp" kindref="compound">TW Controls</ref> are UI elements like buttons, toggles, value sliders etc. They can be placed on FACES and can also be bound to user settings using the <ref refid="settings_option_8cpp" kindref="compound">SettingsOption</ref> classes.</para>
+</sect2>
+<sect2 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md5">
+<title>Peripherals</title><para>Classes for the onboard peripherals are provided as convenient ways to talk to each peripheral library/driver.</para>
+<para><ref refid="rtc_8cpp" kindref="compound">RTC</ref></para>
+<para><ref refid="imu_8cpp" kindref="compound">IMU + MAG</ref></para>
+<para><ref refid="battery_8cpp" kindref="compound">Battery</ref></para>
+<para><ref refid="buzzer_8cpp" kindref="compound">Buzzer</ref></para>
+</sect2>
+<sect2 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md6">
+<title>WiFi</title><para>WiFi access setup lives in the <ref refid="wifi__setup_8cpp" kindref="compound">wifi_setup</ref> class and general communication lives in the <ref refid="wifi__controller_8cpp" kindref="compound">wifi_controller</ref> class.</para>
+</sect2>
+<sect2 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md7">
+<title>User Settings</title><para>User <ref refid="class_settings" kindref="compound">Settings</ref> are managed in the <ref refid="settings_8cpp" kindref="compound">settings</ref> class. They are loaded and saved in the secondary user Flash IC.</para>
+</sect2>
+</sect1>
+<sect1 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md8">
+<title>Coding Style</title><para>The source code uses <computeroutput>TABS</computeroutput> and all method and variable names use <computeroutput>snake_case</computeroutput> - Please respect that for any contributions you may make for the project.</para>
+</sect1>
+<sect1 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md9">
+<title>Open Source License</title><para>This source code is released under the GPL 3.0 license. Please read the license to understand your obligations if you wish to use this code ibn you own projects, or contribute back to the project.</para>
+</sect1>
+<sect1 id="md__d_1_2workspace_2tinywatch-s3_2official-firmware_2_documentation_2extra_2overview_1autotoc_md10">
+<title>Getting Started</title><para>Whether you are a developer looking to extend the functionality of the smartwatch or a user curious about the technology behind the device, this documentation is your gateway to unlocking the full potential of the firmware.</para>
+<para>Let&apos;s embark on this journey of exploration and innovation as we delve into the heart of the <ref refid="class_tiny_w_a_t_c_h" kindref="compound">TinyWATCH</ref> S3 firmware. </para>
+</sect1>
+    </detaileddescription>
+    <location file="D:/workspace/tinywatch-s3/official-firmware/Documentation/extra/overview.md"/>
+  </compounddef>
+</doxygen>

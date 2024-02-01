@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_wifi_controller" kind="class" language="C++" prot="public">
+    <compoundname>WifiController</compoundname>
+    <includes local="no">wifi_controller.h</includes>
+    <innerclass refid="struct_wifi_controller_1_1wifi__callback__item" prot="private">WifiController::wifi_callback_item</innerclass>
+    <innerclass refid="struct_wifi_controller_1_1wifi__task__item" prot="private">WifiController::wifi_task_item</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_wifi_controller_1adfcce8908d07132425e3fa158a46b1c4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WifiController::wifi_blocks_display</definition>
+        <argsstring></argsstring>
+        <name>wifi_blocks_display</name>
+        <qualifiedname>WifiController::wifi_blocks_display</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="30" column="6" bodyfile="src/web/wifi_controller.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_controller_1aaefbe3ceb5290e5f1646e5facf8e6a71" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WifiController::wifi_prevent_disconnect</definition>
+        <argsstring></argsstring>
+        <name>wifi_prevent_disconnect</name>
+        <qualifiedname>WifiController::wifi_prevent_disconnect</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="31" column="6" bodyfile="src/web/wifi_controller.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_wifi_controller_1aa3238d9661f8e518b7b716605146b277" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String WifiController::user_config_json</definition>
+        <argsstring></argsstring>
+        <name>user_config_json</name>
+        <qualifiedname>WifiController::user_config_json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="34" column="8" bodyfile="src/web/wifi_controller.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_controller_1a8907cec93ee17a880096a1a0abaf70ee" prot="private" static="no" mutable="no">
+        <type><ref refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221" kindref="member">wifi_states</ref></type>
+        <definition>wifi_states WifiController::current_state</definition>
+        <argsstring></argsstring>
+        <name>current_state</name>
+        <qualifiedname>WifiController::current_state</qualifiedname>
+        <initializer>= <ref refid="wifi__common_8h_1a23bd682c361f8af2ffb20903672bc221aee429d2b18e984f9be3d8a35ab58f77f" kindref="member">BOOT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="35" column="13" bodyfile="src/web/wifi_controller.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_controller_1a55ff4a772ec6033ca9ca6d7ec284f464" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WifiController::wifi_busy</definition>
+        <argsstring></argsstring>
+        <name>wifi_busy</name>
+        <qualifiedname>WifiController::wifi_busy</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="36" column="6" bodyfile="src/web/wifi_controller.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_controller_1adc81e32e09ec1a626fecbb51801ed7d1" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long WifiController::next_wifi_loop</definition>
+        <argsstring></argsstring>
+        <name>next_wifi_loop</name>
+        <qualifiedname>WifiController::next_wifi_loop</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="37" column="15" bodyfile="src/web/wifi_controller.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_controller_1aba115525a8e8010d9fadb4767c0258fd" prot="private" static="no" mutable="no">
+        <type>TaskHandle_t</type>
+        <definition>TaskHandle_t WifiController::wifi_task_handler</definition>
+        <argsstring></argsstring>
+        <name>wifi_task_handler</name>
+        <qualifiedname>WifiController::wifi_task_handler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="54" column="14" bodyfile="src/web/wifi_controller.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_controller_1aaacdbf59f53cb40005b3f2ab809e4a3d" prot="private" static="no" mutable="no">
+        <type>QueueHandle_t</type>
+        <definition>QueueHandle_t WifiController::wifi_task_queue</definition>
+        <argsstring></argsstring>
+        <name>wifi_task_queue</name>
+        <qualifiedname>WifiController::wifi_task_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="55" column="15" bodyfile="src/web/wifi_controller.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wifi_controller_1aca2bd15ab73f5804072f45a0072b0f40" prot="private" static="no" mutable="no">
+        <type>QueueHandle_t</type>
+        <definition>QueueHandle_t WifiController::wifi_callback_queue</definition>
+        <argsstring></argsstring>
+        <name>wifi_callback_queue</name>
+        <qualifiedname>WifiController::wifi_callback_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="56" column="15" bodyfile="src/web/wifi_controller.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_wifi_controller_1a9fbf445feca9a6544515b01b71229c90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WifiController::WifiController</definition>
+        <argsstring>()</argsstring>
+        <name>WifiController</name>
+        <qualifiedname>WifiController::WifiController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="15" column="1" bodyfile="src/web/wifi_controller.cpp" bodystart="15" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1a831cde5d91b281d45028c1269f910edd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WifiController::connect</definition>
+        <argsstring>()</argsstring>
+        <name>connect</name>
+        <qualifiedname>WifiController::connect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="17" column="6" bodyfile="src/web/wifi_controller.cpp" bodystart="44" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1ae7301a8fcbc41ba7e790b8b746e5a3fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiController::disconnect</definition>
+        <argsstring>(bool force)</argsstring>
+        <name>disconnect</name>
+        <qualifiedname>WifiController::disconnect</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="18" column="6" bodyfile="src/web/wifi_controller.cpp" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1aada0337953ca0d29dacfbc9428c53148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WifiController::is_busy</definition>
+        <argsstring>()</argsstring>
+        <name>is_busy</name>
+        <qualifiedname>WifiController::is_busy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="19" column="6" bodyfile="src/web/wifi_controller.cpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1a118e8af594d2047fdf4f129a5f1d6e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiController::kill_controller_task</definition>
+        <argsstring>()</argsstring>
+        <name>kill_controller_task</name>
+        <qualifiedname>WifiController::kill_controller_task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="20" column="6" bodyfile="src/web/wifi_controller.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1a96e90cd040f666d43f0d551fe924d4c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WifiController::is_connected</definition>
+        <argsstring>()</argsstring>
+        <name>is_connected</name>
+        <qualifiedname>WifiController::is_connected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="21" column="6" bodyfile="src/web/wifi_controller.cpp" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1a1e12f839fca953bc23867273119d69a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiController::perform_wifi_request</definition>
+        <argsstring>(const String &amp;url, _CALLBACK callback)</argsstring>
+        <name>perform_wifi_request</name>
+        <qualifiedname>WifiController::perform_wifi_request</qualifiedname>
+        <param>
+          <type>const String &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type><ref refid="wifi__controller_8h_1ad2bfbde3284b4cbc134036a94997f70b" kindref="member">_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="24" column="6" bodyfile="src/web/wifi_controller.cpp" bodystart="143" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1aaa9c13a60adf61b89f4b76c04a552ff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiController::add_to_queue</definition>
+        <argsstring>(const String &amp;url, _CALLBACK callback)</argsstring>
+        <name>add_to_queue</name>
+        <qualifiedname>WifiController::add_to_queue</qualifiedname>
+        <param>
+          <type>const String &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type><ref refid="wifi__controller_8h_1ad2bfbde3284b4cbc134036a94997f70b" kindref="member">_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="25" column="6" bodyfile="src/web/wifi_controller.cpp" bodystart="190" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1a3bb9053e0aa89406a3ebf44ab6339b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiController::loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <qualifiedname>WifiController::loop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="26" column="6" bodyfile="src/web/wifi_controller.cpp" bodystart="91" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wifi_controller_1af9430908d6e95f9f0747c1527c35f798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String WifiController::http_request</definition>
+        <argsstring>(const String &amp;url)</argsstring>
+        <name>http_request</name>
+        <qualifiedname>WifiController::http_request</qualifiedname>
+        <param>
+          <type>const String &amp;</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="28" column="8" bodyfile="src/web/wifi_controller.cpp" bodystart="106" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_wifi_controller_1a8e44acf12223458b79b474952f0aff48" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WifiController::wifi_task</definition>
+        <argsstring>(void *pvParameters)</argsstring>
+        <name>wifi_task</name>
+        <qualifiedname>WifiController::wifi_task</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pvParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_controller.h" line="58" column="13" bodyfile="src/web/wifi_controller.cpp" bodystart="161" bodyend="187"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/web/wifi_controller.h" line="12" column="1" bodyfile="src/web/wifi_controller.h" bodystart="13" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_wifi_controller_1aaa9c13a60adf61b89f4b76c04a552ff4" prot="public" virt="non-virtual"><scope>WifiController</scope><name>add_to_queue</name></member>
+      <member refid="class_wifi_controller_1a831cde5d91b281d45028c1269f910edd" prot="public" virt="non-virtual"><scope>WifiController</scope><name>connect</name></member>
+      <member refid="class_wifi_controller_1a8907cec93ee17a880096a1a0abaf70ee" prot="private" virt="non-virtual"><scope>WifiController</scope><name>current_state</name></member>
+      <member refid="class_wifi_controller_1ae7301a8fcbc41ba7e790b8b746e5a3fb" prot="public" virt="non-virtual"><scope>WifiController</scope><name>disconnect</name></member>
+      <member refid="class_wifi_controller_1af9430908d6e95f9f0747c1527c35f798" prot="public" virt="non-virtual"><scope>WifiController</scope><name>http_request</name></member>
+      <member refid="class_wifi_controller_1aada0337953ca0d29dacfbc9428c53148" prot="public" virt="non-virtual"><scope>WifiController</scope><name>is_busy</name></member>
+      <member refid="class_wifi_controller_1a96e90cd040f666d43f0d551fe924d4c1" prot="public" virt="non-virtual"><scope>WifiController</scope><name>is_connected</name></member>
+      <member refid="class_wifi_controller_1a118e8af594d2047fdf4f129a5f1d6e8a" prot="public" virt="non-virtual"><scope>WifiController</scope><name>kill_controller_task</name></member>
+      <member refid="class_wifi_controller_1a3bb9053e0aa89406a3ebf44ab6339b75" prot="public" virt="non-virtual"><scope>WifiController</scope><name>loop</name></member>
+      <member refid="class_wifi_controller_1adc81e32e09ec1a626fecbb51801ed7d1" prot="private" virt="non-virtual"><scope>WifiController</scope><name>next_wifi_loop</name></member>
+      <member refid="class_wifi_controller_1a1e12f839fca953bc23867273119d69a1" prot="public" virt="non-virtual"><scope>WifiController</scope><name>perform_wifi_request</name></member>
+      <member refid="class_wifi_controller_1aa3238d9661f8e518b7b716605146b277" prot="private" virt="non-virtual"><scope>WifiController</scope><name>user_config_json</name></member>
+      <member refid="class_wifi_controller_1adfcce8908d07132425e3fa158a46b1c4" prot="public" virt="non-virtual"><scope>WifiController</scope><name>wifi_blocks_display</name></member>
+      <member refid="class_wifi_controller_1a55ff4a772ec6033ca9ca6d7ec284f464" prot="private" virt="non-virtual"><scope>WifiController</scope><name>wifi_busy</name></member>
+      <member refid="class_wifi_controller_1aca2bd15ab73f5804072f45a0072b0f40" prot="private" virt="non-virtual"><scope>WifiController</scope><name>wifi_callback_queue</name></member>
+      <member refid="class_wifi_controller_1aaefbe3ceb5290e5f1646e5facf8e6a71" prot="public" virt="non-virtual"><scope>WifiController</scope><name>wifi_prevent_disconnect</name></member>
+      <member refid="class_wifi_controller_1a8e44acf12223458b79b474952f0aff48" prot="private" virt="non-virtual"><scope>WifiController</scope><name>wifi_task</name></member>
+      <member refid="class_wifi_controller_1aba115525a8e8010d9fadb4767c0258fd" prot="private" virt="non-virtual"><scope>WifiController</scope><name>wifi_task_handler</name></member>
+      <member refid="class_wifi_controller_1aaacdbf59f53cb40005b3f2ab809e4a3d" prot="private" virt="non-virtual"><scope>WifiController</scope><name>wifi_task_queue</name></member>
+      <member refid="class_wifi_controller_1a9fbf445feca9a6544515b01b71229c90" prot="public" virt="non-virtual"><scope>WifiController</scope><name>WifiController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

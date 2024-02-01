@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_config__mqtt" kind="struct" language="C++" prot="public">
+    <compoundname>Config_mqtt</compoundname>
+    <includes local="no">settings_extra.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_config__mqtt_1aa5e019f121091decbcc1a2dde4812746" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config_mqtt::enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <qualifiedname>Config_mqtt::enabled</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="14" column="6" bodyfile="src/settings/settings_extra.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__mqtt_1a484429eebf95c1327b9721cbdb54c5f3" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config_mqtt::broker_ip</definition>
+        <argsstring></argsstring>
+        <name>broker_ip</name>
+        <qualifiedname>Config_mqtt::broker_ip</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="15" column="8" bodyfile="src/settings/settings_extra.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__mqtt_1ad0c41a7187544734111b4f7a69c43ca1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Config_mqtt::broker_port</definition>
+        <argsstring></argsstring>
+        <name>broker_port</name>
+        <qualifiedname>Config_mqtt::broker_port</qualifiedname>
+        <initializer>= 1883</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="16" column="5" bodyfile="src/settings/settings_extra.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__mqtt_1a55567c71e966a889409bfde1316fad33" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config_mqtt::username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <qualifiedname>Config_mqtt::username</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="17" column="8" bodyfile="src/settings/settings_extra.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__mqtt_1a18b51efe683e422cf540ca6ff5c88cb1" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config_mqtt::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <qualifiedname>Config_mqtt::password</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="18" column="8" bodyfile="src/settings/settings_extra.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__mqtt_1a041eb4589daa385e497875357289c6b0" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config_mqtt::device_name</definition>
+        <argsstring></argsstring>
+        <name>device_name</name>
+        <qualifiedname>Config_mqtt::device_name</qualifiedname>
+        <initializer>= &quot;TinyWATCH&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="19" column="8" bodyfile="src/settings/settings_extra.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config__mqtt_1a236e6351d75e096abff3f2f39ec58311" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Config_mqtt::topic</definition>
+        <argsstring></argsstring>
+        <name>topic</name>
+        <qualifiedname>Config_mqtt::topic</qualifiedname>
+        <initializer>= &quot;tinywatch&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/settings/settings_extra.h" line="20" column="8" bodyfile="src/settings/settings_extra.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Extra settings structs go in here and are then added to the main struct in <ref refid="settings_8h" kindref="compound">settings.h</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_settings" kindref="compound">Settings</ref> struct for MQTT </para>
+    </detaileddescription>
+    <location file="src/settings/settings_extra.h" line="12" column="1" bodyfile="src/settings/settings_extra.h" bodystart="13" bodyend="21"/>
+    <listofallmembers>
+      <member refid="struct_config__mqtt_1a484429eebf95c1327b9721cbdb54c5f3" prot="public" virt="non-virtual"><scope>Config_mqtt</scope><name>broker_ip</name></member>
+      <member refid="struct_config__mqtt_1ad0c41a7187544734111b4f7a69c43ca1" prot="public" virt="non-virtual"><scope>Config_mqtt</scope><name>broker_port</name></member>
+      <member refid="struct_config__mqtt_1a041eb4589daa385e497875357289c6b0" prot="public" virt="non-virtual"><scope>Config_mqtt</scope><name>device_name</name></member>
+      <member refid="struct_config__mqtt_1aa5e019f121091decbcc1a2dde4812746" prot="public" virt="non-virtual"><scope>Config_mqtt</scope><name>enabled</name></member>
+      <member refid="struct_config__mqtt_1a18b51efe683e422cf540ca6ff5c88cb1" prot="public" virt="non-virtual"><scope>Config_mqtt</scope><name>password</name></member>
+      <member refid="struct_config__mqtt_1a236e6351d75e096abff3f2f39ec58311" prot="public" virt="non-virtual"><scope>Config_mqtt</scope><name>topic</name></member>
+      <member refid="struct_config__mqtt_1a55567c71e966a889409bfde1316fad33" prot="public" virt="non-virtual"><scope>Config_mqtt</scope><name>username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

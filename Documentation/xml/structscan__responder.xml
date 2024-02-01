@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structscan__responder" kind="struct" language="C++" prot="public">
+    <compoundname>scan_responder</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structscan__responder_1ab39852ca93449396e041f57250463680" prot="public" static="no" mutable="no">
+        <type><ref refid="class_wifi_setup" kindref="compound">WifiSetup</ref> *</type>
+        <definition>WifiSetup* scan_responder::server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <qualifiedname>scan_responder::server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="25" column="11" bodyfile="src/web/wifi_setup.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structscan__responder_1af111328493eb0fe0dbd8fdb1f6122748" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool scan_responder::waiting</definition>
+        <argsstring></argsstring>
+        <name>waiting</name>
+        <qualifiedname>scan_responder::waiting</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="26" column="6" bodyfile="src/web/wifi_setup.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structscan__responder_1a12b7d946d0e54184ee45c5705389712e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string scan_responder::response</definition>
+        <argsstring></argsstring>
+        <name>response</name>
+        <qualifiedname>scan_responder::response</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="27" column="13" bodyfile="src/web/wifi_setup.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structscan__responder_1a38368e48da33a6204bf726f94fa498e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>scan_responder::scan_responder</definition>
+        <argsstring>(WifiSetup *server)</argsstring>
+        <name>scan_responder</name>
+        <qualifiedname>scan_responder::scan_responder</qualifiedname>
+        <param>
+          <type><ref refid="class_wifi_setup" kindref="compound">WifiSetup</ref> *</type>
+          <declname>server</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="29" column="1" bodyfile="src/web/wifi_setup.cpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="structscan__responder_1a10a15f2660b7af41f899919b22b9650f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t scan_responder::operator()</definition>
+        <argsstring>(uint8_t *buffer, size_t maxLen, size_t index)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>scan_responder::operator()</qualifiedname>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>maxLen</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/web/wifi_setup.cpp" line="31" column="8" bodyfile="src/web/wifi_setup.cpp" bodystart="31" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>WifiSetup</label>
+        <link refid="class_wifi_setup"/>
+      </node>
+      <node id="1">
+        <label>scan_responder</label>
+        <link refid="structscan__responder"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>server</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/web/wifi_setup.cpp" line="23" column="1" bodyfile="src/web/wifi_setup.cpp" bodystart="24" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structscan__responder_1a10a15f2660b7af41f899919b22b9650f" prot="public" virt="non-virtual"><scope>scan_responder</scope><name>operator()</name></member>
+      <member refid="structscan__responder_1a12b7d946d0e54184ee45c5705389712e" prot="public" virt="non-virtual"><scope>scan_responder</scope><name>response</name></member>
+      <member refid="structscan__responder_1a38368e48da33a6204bf726f94fa498e7" prot="public" virt="non-virtual"><scope>scan_responder</scope><name>scan_responder</name></member>
+      <member refid="structscan__responder_1ab39852ca93449396e041f57250463680" prot="public" virt="non-virtual"><scope>scan_responder</scope><name>server</name></member>
+      <member refid="structscan__responder_1af111328493eb0fe0dbd8fdb1f6122748" prot="public" virt="non-virtual"><scope>scan_responder</scope><name>waiting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
